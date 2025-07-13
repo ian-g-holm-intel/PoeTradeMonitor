@@ -1,0 +1,10 @@
+obj/
+bin/
+.vs/
+packages/
+*.DotSettings
+.idea*
+PoeTradeMonitor.sln.iml
+*.orig
+*.user
+PoeHelper/

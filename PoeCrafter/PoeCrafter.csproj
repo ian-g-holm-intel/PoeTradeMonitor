@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\PoeHudWrapper\PoeHudWrapper.csproj" />
+    <ProjectReference Include="..\PoeLib\PoeLib.csproj" />
+    <ProjectReference Include="..\PrivateExileApi\GameOffsets\GameOffsets.csproj" />
+    <ProjectReference Include="..\TradeBotLib\TradeBotLib.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="InputSimulatorStandard" Version="1.0.0" />
+    <PackageReference Include="LiquidState" Version="8.2.0" />
+    <PackageReference Include="log4net" Version="2.0.17" />
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="8.0.0" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="2.1.9" />
+  </ItemGroup>
+  
+</Project>

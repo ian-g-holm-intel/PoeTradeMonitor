@@ -1,0 +1,23 @@
+﻿syntax = "proto3";
+import "Proto/ItemTradeRequest.proto";
+
+package PoeTradeMonitorProto;
+
+service TradeBot {
+  rpc QueueTrade (QueueTradeRequest) returns (QueueTradeReply) {}
+  rpc GetTradeStatus (GetTradeStatusRequest) returns (GetTradeStatusReply) {}
+}
+
+message QueueTradeRequest {
+  ItemTradeRequest tradeRequest = 1;
+}
+
+message QueueTradeReply {
+}
+
+message GetTradeStatusRequest {
+}
+
+message GetTradeStatusReply {
+  bool executingTrade = 1;
+}

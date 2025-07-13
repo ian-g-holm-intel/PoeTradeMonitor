@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Remove="Proto\Callback.proto" />
+    <None Remove="Proto\ItemTradeRequest.proto" />
+    <None Remove="Proto\PartyManager.proto" />
+    <None Remove="Proto\PoeProxy.proto" />
+    <None Remove="Proto\TradeBot.proto" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="DeepCloner" Version="0.10.4" />
+    <PackageReference Include="Google.Protobuf" Version="3.29.2" />
+    <PackageReference Include="Grpc.Core.Api" Version="2.67.0" />
+    <PackageReference Include="Grpc.Net.Client" Version="2.67.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.68.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
+    <PackageReference Include="Nito.AsyncEx" Version="5.1.2" />
+    <PackageReference Include="PushoverNET.Standard" Version="1.1.0" />
+    <PackageReference Include="RateLimiter" Version="2.2.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\SpeedTest.Net\SpeedTest.Net.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Protobuf Include="Proto\ItemTradeRequest.proto" GrpcServices="None" />
+    <Protobuf Include="Proto\Callback.proto" />
+    <Protobuf Include="Proto\PartyManager.proto" />
+    <Protobuf Include="Proto\PoeProxy.proto" />
+    <Protobuf Include="Proto\TradeBot.proto" />
+  </ItemGroup>
+  
+</Project>

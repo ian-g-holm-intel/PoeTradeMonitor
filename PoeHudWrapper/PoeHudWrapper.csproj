@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0-windows</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<LangVersion>latest</LangVersion>
+		<PlatformTarget>x64</PlatformTarget>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DebugType>full</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="Element\**" />
+		<EmbeddedResource Remove="Element\**" />
+		<None Remove="Element\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="SixLabors.ImageSharp" Version="2.1.9" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\PoeLib\PoeLib.csproj" />
+		<ProjectReference Include="..\PrivateExileApi\ExileApi\Core\Core.csproj" />
+		<ProjectReference Include="..\PrivateExileApi\GameOffsets\GameOffsets.csproj" />
+	</ItemGroup>
+
+</Project>

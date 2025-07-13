@@ -1,0 +1,79 @@
+﻿syntax = "proto3";
+import "Proto/ItemTradeRequest.proto";
+
+package PoeTradeMonitorProto;
+
+service PoeProxy {
+  rpc SendMessage (SendMessageRequest) returns (SendMessageReply) {}
+  rpc AntiAFK (AntiAFKRequest) returns (AntiAFKReply) {}
+  rpc CheckPartyInvite (CheckPartyInviteRequest) returns (CheckPartyInviteReply) {}
+  rpc AddCharacterMessage (AddCharacterMessageRequest) returns (AddCharacterMessageReply) {}
+  rpc SendPushNotification (SendPushNotificationRequest) returns (SendPushNotificationReply) {}
+  rpc AddTradeRequest (AddTradeRequestRequest) returns (AddTradeRequestReply) {}
+  rpc SetAutoReply (SetAutoReplyRequest) returns (SetAutoReplyReply) {}
+}
+
+message SendMessageRequest {
+  string message = 1;
+}
+
+message SendMessageReply {
+}
+
+message AntiAFKRequest {
+}
+
+message AntiAFKReply {
+}
+
+message CheckPartyInviteRequest {
+  int32 timeout = 1;
+  string accountName = 2;
+}
+
+message CheckPartyInviteReply {
+  bool inviteReceived = 1;
+}
+
+message AddCharacterMessageRequest {
+  CharacterMessage message = 1;
+}
+
+message AddCharacterMessageReply {
+}
+
+message CharacterMessage {
+	string character = 1;
+	string message = 2;
+	int64 timestamp = 3;
+	bytes id = 4;
+	MessageSource source = 5;
+	enum MessageSource {
+		Player = 0;
+        Me = 1;
+	}
+}
+
+message SendPushNotificationRequest {
+  string title = 1;
+  string subtitle = 2;
+  string body = 3;
+  string sound = 4;
+}
+
+message SendPushNotificationReply {
+}
+
+message AddTradeRequestRequest {
+  ItemTradeRequest tradeRequest = 1;
+}
+
+message AddTradeRequestReply {
+}
+
+message SetAutoReplyRequest {
+  bool enabled = 1;
+}
+
+message SetAutoReplyReply {
+}

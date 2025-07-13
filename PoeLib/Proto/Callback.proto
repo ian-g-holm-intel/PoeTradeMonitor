@@ -1,0 +1,18 @@
+﻿syntax = "proto3";
+import "google/protobuf/empty.proto";
+
+package PoeTradeMonitorProto;
+
+service Callback {
+  rpc JoinedParty (JoinedPartyRequest) returns (google.protobuf.Empty) {}
+  rpc CompletedTrade (CompletedTradeRequest) returns (google.protobuf.Empty) {}
+}
+
+message JoinedPartyRequest {
+  string account = 1;
+  string characterName = 2;
+}
+
+message CompletedTradeRequest {
+	string account = 1;
+}

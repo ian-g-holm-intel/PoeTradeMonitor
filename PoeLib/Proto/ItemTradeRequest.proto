@@ -1,0 +1,71 @@
+﻿syntax = "proto3";
+package PoeTradeMonitorProto;
+
+message ItemTradeRequest {
+	string characterName = 1;
+	string accountName = 2;
+	Item Item = 3;
+	Price Price = 4;
+	int64 timestamp = 5;
+	double divineRate = 6;
+}
+
+message Price {
+	repeated Currency currencies = 1;
+	int32 chaosToDivineRatio = 2;
+}
+
+message Currency {
+	int32 type = 1;
+	double amount = 2;
+}
+
+message Item {
+	string name = 1;
+	int32 itemLevel = 2;
+	int32 stackSize = 3;
+	string baseType = 4;
+	bool corrupted = 5;
+	bool shaper = 6;
+	bool elder = 7;
+	bool veiled = 8;
+	repeated Socket sockets = 9;
+	repeated string implicitMods = 10;
+	repeated string explicitMods = 11;
+	Rarity rarity = 12;
+	string descrText = 13;
+	enum Rarity {
+		Normal = 0;
+        Magic = 1;
+        Rare = 2;
+        Unique = 3;
+        Gem = 4;
+        Currency = 5;
+        DivinationCard = 6;
+        QuestItem = 7;
+        Prophecy = 8;
+        Relic = 9;
+        Any = 10;
+	}
+}
+
+message Property {
+	string name = 1;
+	string value = 2;
+	int32 displayMode = 3;
+}
+
+message Socket {
+	int32 group = 1;
+	string type = 2;
+	SocketColor color = 3;
+	enum SocketColor
+	{
+		B = 0;
+        G = 1;
+        R = 2;
+        W = 3;
+        DV = 4;
+        A = 5;
+	}
+}

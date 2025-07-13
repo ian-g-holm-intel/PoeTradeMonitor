@@ -1,0 +1,3 @@
+[submodule "PrivateExileApi"]
+	path = PrivateExileApi
+	url = https://github.com/Macaddict42/PrivateExileApi.git

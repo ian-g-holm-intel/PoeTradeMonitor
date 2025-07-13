@@ -1,0 +1,38 @@
+2021-11-20 00:30:48.818 [Debug] (Microsoft.Extensions.Hosting.Internal.Host) Hosting starting
+2021-11-20 00:30:49.201 [Warning] (Microsoft.AspNetCore.Server.Kestrel) Overriding address(es) '"https://localhost:5001/, http://localhost:5000/"'. Binding to endpoints defined in "UseKestrel()" instead.
+2021-11-20 00:30:49.240 [Information] (Microsoft.Hosting.Lifetime) Now listening on: "http://127.0.0.1:5003"
+2021-11-20 00:30:49.245 [Debug] (Microsoft.AspNetCore.Hosting.Diagnostics) Loaded hosting startup assembly "PoeTradeMonitor.Service"
+2021-11-20 00:30:49.246 [Information] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2021-11-20 00:30:49.247 [Information] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2021-11-20 00:30:49.249 [Information] (Microsoft.Hosting.Lifetime) Content root path: "C:\Users\dxbyd\Documents\PoeTradeMonitor\PoeTradeMonitor.Service"
+2021-11-20 00:30:49.250 [Debug] (Microsoft.Extensions.Hosting.Internal.Host) Hosting started
+2021-11-20 00:31:25.840 [Information] (Microsoft.Hosting.Lifetime) Application is shutting down...
+2021-11-20 00:31:25.841 [Debug] (Microsoft.Extensions.Hosting.Internal.Host) Hosting stopping
+2021-11-20 00:31:25.875 [Debug] (Microsoft.Extensions.Hosting.Internal.Host) Hosting stopped
+2021-11-20 00:31:59.536 [Debug] (Microsoft.Extensions.Hosting.Internal.Host) Hosting starting
+2021-11-20 00:31:59.740 [Warning] (Microsoft.AspNetCore.Server.Kestrel) Overriding address(es) '"https://localhost:5001/, http://localhost:5000/"'. Binding to endpoints defined in "UseKestrel()" instead.
+2021-11-20 00:31:59.773 [Information] (Microsoft.Hosting.Lifetime) Now listening on: "http://127.0.0.1:5003"
+2021-11-20 00:31:59.774 [Debug] (Microsoft.AspNetCore.Hosting.Diagnostics) Loaded hosting startup assembly "PoeTradeMonitor.Service"
+2021-11-20 00:31:59.775 [Information] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2021-11-20 00:31:59.775 [Information] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2021-11-20 00:31:59.776 [Information] (Microsoft.Hosting.Lifetime) Content root path: "C:\Users\dxbyd\Documents\PoeTradeMonitor\PoeTradeMonitor.Service"
+2021-11-20 00:31:59.776 [Debug] (Microsoft.Extensions.Hosting.Internal.Host) Hosting started
+2021-11-20 00:34:22.406 [Information] (Microsoft.Hosting.Lifetime) Application is shutting down...
+2021-11-20 00:34:22.407 [Debug] (Microsoft.Extensions.Hosting.Internal.Host) Hosting stopping
+2021-11-20 00:34:22.435 [Debug] (Microsoft.Extensions.Hosting.Internal.Host) Hosting stopped
+2021-11-20 00:34:28.117 [Debug] (Microsoft.Extensions.Hosting.Internal.Host) Hosting starting
+2021-11-20 00:34:28.386 [Debug] (Microsoft.Extensions.Hosting.Internal.Host) Hosting started
+2021-11-20 00:34:44.874 [Debug] (Microsoft.Extensions.Hosting.Internal.Host) Hosting stopping
+2021-11-20 00:34:44.910 [Debug] (Microsoft.Extensions.Hosting.Internal.Host) Hosting stopped
+2021-11-20 00:35:06.694 [Debug] (Microsoft.Extensions.Hosting.Internal.Host) Hosting starting
+2021-11-20 00:35:06.940 [Debug] (Microsoft.Extensions.Hosting.Internal.Host) Hosting started
+2021-11-20 00:35:15.555 [Debug] (Microsoft.Extensions.Hosting.Internal.Host) Hosting stopping
+2021-11-20 00:35:15.588 [Debug] (Microsoft.Extensions.Hosting.Internal.Host) Hosting stopped
+2021-11-20 00:37:53.133 [Debug] (Microsoft.Extensions.Hosting.Internal.Host) Hosting starting
+2021-11-20 00:37:54.459 [Debug] (Microsoft.Extensions.Hosting.Internal.Host) Hosting started
+2021-11-20 00:38:09.384 [Debug] (Microsoft.Extensions.Hosting.Internal.Host) Hosting starting
+2021-11-20 00:39:21.994 [Debug] (Microsoft.Extensions.Hosting.Internal.Host) Hosting starting
+2021-11-20 00:39:22.885 [Information] (PoeTradeMonitor.PoeHudWrapper.GameWrapper) GameWrapper Initialized
+2021-11-20 00:39:22.986 [Debug] (Microsoft.Extensions.Hosting.Internal.Host) Hosting started
+2021-11-20 00:39:34.657 [Debug] (Microsoft.Extensions.Hosting.Internal.Host) Hosting stopping
+2021-11-20 00:39:34.691 [Debug] (Microsoft.Extensions.Hosting.Internal.Host) Hosting stopped
