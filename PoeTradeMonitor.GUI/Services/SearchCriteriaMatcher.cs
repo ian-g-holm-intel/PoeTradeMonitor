@@ -33,6 +33,11 @@ public class SearchCriteriaMatcher : ISearchCriteriaMatcher
                 return false;
         }
 
+        if (searchGuiItem.IsPlusOneCorruption && (item.Properties == null || !item.Properties.Where(p => p.Values != null).SelectMany(p => p.Values!).Select(property => property.Value).Contains("+1 Level from Corruption")))
+        {
+            return false;
+        }
+
         return true;
     }
 }

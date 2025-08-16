@@ -1,5 +1,5 @@
-﻿using ExileCore.PoEMemory.Components;
-using ExileCore.PoEMemory.MemoryObjects;
+﻿using ExileCore2.PoEMemory.Components;
+using ExileCore2.PoEMemory.MemoryObjects;
 using PoeHudWrapper;
 using PoeLib.Common;
 
@@ -32,10 +32,6 @@ public class PriceValidator : IPriceValidator
         var expectedItemName = tradeRequest.Item.Name;
         var actualName = itemName;
         var actualBaseType = poeHud.GetBaseType(item);
-        if(actualBaseType == "Imprinted Bestiary Orb")
-        {
-            return true;
-        }
 
         if (!expectedItemName.Equals(actualName.Replace("’", "'"), StringComparison.OrdinalIgnoreCase))
         {
@@ -43,12 +39,22 @@ public class PriceValidator : IPriceValidator
             return false;
         }
 
-        var expectedNumLinks = tradeRequest.Item.MaxLinks;
-        var actualNumLinks = item.GetNumberLinks();
-        if (actualNumLinks != expectedNumLinks)
+        var expectedItemLevel = tradeRequest.Item.GemLevel > 0 ? tradeRequest.Item.GemLevel : tradeRequest.Item.ItemLevel;
+        var actualItemLevel = item.GetItemLevel();
+        if (tooltipLines.Contains("<augmented>{+1 Level from Corruption}"))
+            actualItemLevel++;
+        if (expectedItemLevel != 0 && expectedItemLevel != actualItemLevel)
         {
-            log.LogInformation($"Number of links doesn't match: Expected - {expectedNumLinks}, Actual - {actualNumLinks}");
-            throw new AttemptedScamException(tradeRequest.Item.Name);
+            log.LogInformation($"Item level does not match: Expected - {expectedItemLevel}, Actual - {actualItemLevel}");
+            return false;
+        }
+
+        var expectedQuality = tradeRequest.Item.Quality;
+        var actualQuality = item.GetQuality();
+        if (expectedQuality != 0 && expectedQuality != actualQuality)
+        {
+            log.LogInformation($"Item quality does not match: Expected - {expectedQuality}, Actual - {actualQuality}");
+            return false;
         }
 
         var expectedNumSockets = tradeRequest.Item.Sockets?.Count ?? 0;
@@ -66,9 +72,8 @@ public class PriceValidator : IPriceValidator
             log.LogInformation($"Corruption doesn't match: Expected - {expectedCorruption}, Actual - {actualCorruption}");
             return false;
         }
-
         var className = poeHud.GetClassName(item);
-        if (className != "StackableCurrency" && className != "DivinationCard" && className != "Support Skill Gem")
+        if (className != "StackableCurrency" && className != "Support Skill Gem" && className != "Uncut Skill Gem" && className != "Active Skill Gem")
         {
             var expectedBaseType = tradeRequest.Item.BaseType;
             if (!expectedBaseType.Contains(actualBaseType))

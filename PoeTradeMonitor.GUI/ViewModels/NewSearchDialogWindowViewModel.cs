@@ -42,6 +42,7 @@ public partial class NewSearchDialogWindowViewModel : ObservableObject
         IsEditing = true;
         IsDivineOrbs = searchItem.OfferPrice.CurrencyType == TradeCurrencyType.Divine;
         Amount = searchItem.OfferPrice.Amount;
+		IsPlusOneCorruption = searchItem.IsPlusOneCorruption;
     }
 
     public SearchGuiItem Item => new SearchGuiItem(ItemName)
@@ -54,7 +55,8 @@ public partial class NewSearchDialogWindowViewModel : ObservableObject
             CurrencyType = IsDivineOrbs ? TradeCurrencyType.Divine : Constants.BaseCurrencyType,
             Amount = Amount,
             IsRelative = string.IsNullOrEmpty(SearchID)
-        }
+        },
+        IsPlusOneCorruption = IsPlusOneCorruption
     };
 
     public string[] AffixList { get; set; }
@@ -73,6 +75,9 @@ public partial class NewSearchDialogWindowViewModel : ObservableObject
 
     [ObservableProperty]
     private bool searchEnabled;
+
+    [ObservableProperty]
+    private bool isPlusOneCorruption;
 
     [ObservableProperty]
     [NotifyPropertyChangedFor(nameof(IsBaseCurrency))]

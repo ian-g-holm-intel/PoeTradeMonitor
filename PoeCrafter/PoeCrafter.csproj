@@ -15,7 +15,7 @@
 		<ProjectReference Include="..\PoeLib\PoeLib.csproj" />
 		<ProjectReference Include="..\PoeTrade.Contracts\PoeTrade.Contracts.csproj" />
 		<ProjectReference Include="..\PoeTradeMonitor.Service\PoeTradeMonitor.Service.csproj" />
-		<ProjectReference Include="..\PrivateExileApi\GameOffsets\GameOffsets.csproj" />
+		<ProjectReference Include="..\ExileCore2\GameOffsets\GameOffsets2.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>

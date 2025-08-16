@@ -1,4 +1,4 @@
-﻿using ExileCore;
+﻿using ExileCore2;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace PoeHudWrapper;

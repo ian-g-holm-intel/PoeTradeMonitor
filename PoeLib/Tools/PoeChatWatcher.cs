@@ -26,8 +26,8 @@ public interface IPoeChatWatcher : IHostedService
 /// </summary>
 public class PoeChatWatcher : IPoeChatWatcher
 {
-    private const string standaloneLogPath = @"C:\Program Files (x86)\Grinding Gear Games\Path of Exile\logs\Client.txt";
-    private const string steamLogPath = @"C:\Program Files (x86)\Steam\steamapps\common\Path of Exile\logs\Client.txt";
+    private const string standaloneLogPath = @"C:\Program Files (x86)\Grinding Gear Games\Path of Exile 2\logs\Client.txt";
+    private const string steamLogPath = @"C:\Program Files (x86)\Steam\steamapps\common\Path of Exile 2\logs\Client.txt";
 
     private readonly ILogger<PoeChatWatcher> log;
     private readonly IMessageParser messageParser;

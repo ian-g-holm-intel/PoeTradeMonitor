@@ -1,10 +1,10 @@
-﻿using ExileCore.PoEMemory;
-using ExileCore.PoEMemory.FilesInMemory;
-using ExileCore.PoEMemory.MemoryObjects;
-using ExileCore.PoEMemory.Models;
-using ExileCore.Shared.Enums;
-using ExileCore.Shared.Helpers;
-using SharpDX;
+﻿using ExileCore2.PoEMemory;
+using ExileCore2.PoEMemory.FilesInMemory;
+using ExileCore2.PoEMemory.MemoryObjects;
+using ExileCore2.PoEMemory.Models;
+using ExileCore2.Shared.Enums;
+using ExileCore2.Shared.Helpers;
+using System.Drawing;
 
 namespace PoeHudWrapper.MemoryObjects;
 

@@ -1,8 +1,9 @@
 ﻿using Grpc.Core;
-using PoeLib.Tools;
 using PoeLib.Common;
 using PoeLib.Extensions;
 using PoeLib.Proto;
+using PoeLib.Tools;
+using PoeTrade.Contracts;
 
 namespace PoeTradeMonitor.Service.Services;
 
@@ -18,6 +19,7 @@ public class TradeBotService : PoeLib.Proto.TradeBot.TradeBotBase
     private readonly IChatMessageCache messageCache;
     private readonly INotificationClient notificationClient;
     private readonly IPoeChatWatcher chatWatcher;
+    private readonly IStashCurrencyCache stashCurrencyCache;
 
     /// <summary>
     /// Initializes a new instance of the <see cref="TradeBotService"/> class.
@@ -28,7 +30,7 @@ public class TradeBotService : PoeLib.Proto.TradeBot.TradeBotBase
     /// <param name="messageCache">Message cache for character messages.</param>
     /// <param name="notificationClient">Client for sending push notifications.</param>
     /// <param name="chatWatcher">Chat watcher for monitoring game chat.</param>
-    public TradeBotService(ILogger<TradeBotService> log, ITradeBot tradeBot, ITradeCommands tradeCommands, IChatMessageCache messageCache, INotificationClient notificationClient, IPoeChatWatcher chatWatcher)
+    public TradeBotService(ILogger<TradeBotService> log, ITradeBot tradeBot, ITradeCommands tradeCommands, IChatMessageCache messageCache, INotificationClient notificationClient, IPoeChatWatcher chatWatcher, IStashCurrencyCache stashCurrencyCache)
     {
         this.log = log;
         this.tradeBot = tradeBot;
@@ -36,6 +38,7 @@ public class TradeBotService : PoeLib.Proto.TradeBot.TradeBotBase
         this.messageCache = messageCache;
         this.notificationClient = notificationClient;
         this.chatWatcher = chatWatcher;
+        this.stashCurrencyCache = stashCurrencyCache;
     }
 
     /// <summary>
@@ -75,6 +78,34 @@ public class TradeBotService : PoeLib.Proto.TradeBot.TradeBotBase
         await notificationClient.SendPushNotification("Message", message.Character, message.Message);
         messageCache.AddMessage(message);
         return new AddCharacterMessageReply();
+    }
+
+    /// <summary>
+    /// Gets the currency information from the currency stash.
+    /// </summary>
+    /// <param name="request">The currency request.</param>
+    /// <param name="context">The gRPC server call context.</param>
+    /// <returns>A response containing currency amounts and types indexed by currency ID.</returns>
+    public override Task<GetCurrencyResponse> GetCurrency(GetCurrencyRequest request, ServerCallContext context)
+    {
+        var cachedCurrencies = stashCurrencyCache.GetCurrency();
+
+        var response = new GetCurrencyResponse();
+        foreach (var kvp in cachedCurrencies)
+        {
+            response.Currencies[(int)kvp.Key] = new PoeTrade.Contracts.Proto.CurrencyInfo
+            {
+                Amount = Convert.ToDouble(kvp.Value.Amount)
+            };
+
+            var currencyString = TradeCurrencyTypeConverter.GetStringValue(kvp.Value.Type);
+            if (!string.IsNullOrEmpty(currencyString))
+            {
+                response.Currencies[(int)kvp.Key].Type = currencyString;
+            }
+        }
+
+        return Task.FromResult(response);
     }
 
     /// <summary>

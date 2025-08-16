@@ -44,12 +44,12 @@ public abstract class CrafterBase : ICrafter
 
     protected int GetNumberOfPrefixes()
     {
-        return GetCraftingMods().Count(mod => mod.AffixType == ExileCore.Shared.Enums.ModType.Prefix);
+        return GetCraftingMods().Count(mod => mod.AffixType == ExileCore2.Shared.Enums.ModType.Prefix);
     }
 
     protected int GetNumberOfSuffixes()
     {
-        return GetCraftingMods().Count(mod => mod.AffixType == ExileCore.Shared.Enums.ModType.Suffix);
+        return GetCraftingMods().Count(mod => mod.AffixType == ExileCore2.Shared.Enums.ModType.Suffix);
     }
 
     protected int GetNumberOfAffixes()
@@ -179,7 +179,7 @@ public abstract class CrafterBase : ICrafter
         }
 
         var modString = "";
-        foreach (var mod in mods.Where(x => x.AffixType == ExileCore.Shared.Enums.ModType.Prefix || x.AffixType == ExileCore.Shared.Enums.ModType.Suffix))
+        foreach (var mod in mods.Where(x => x.AffixType == ExileCore2.Shared.Enums.ModType.Prefix || x.AffixType == ExileCore2.Shared.Enums.ModType.Suffix))
         {
             modString += mod.AffixText;
             for (int i = 0; i < mod.Record.StatNames.Length; i++)
@@ -196,7 +196,7 @@ public abstract class CrafterBase : ICrafter
     {
         var mods = GetEssenceCraftingMods();
         var modString = "";
-        foreach (var mod in mods.Where(x => x.AffixType == ExileCore.Shared.Enums.ModType.Prefix || x.AffixType == ExileCore.Shared.Enums.ModType.Suffix))
+        foreach (var mod in mods.Where(x => x.AffixType == ExileCore2.Shared.Enums.ModType.Prefix || x.AffixType == ExileCore2.Shared.Enums.ModType.Suffix))
         {
             modString += mod.AffixText;
             for (int i = 0; i < mod.Record.StatNames.Length; i++)

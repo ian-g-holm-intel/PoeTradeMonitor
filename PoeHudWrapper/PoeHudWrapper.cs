@@ -1,11 +1,11 @@
-﻿using ExileCore;
-using ExileCore.PoEMemory;
-using ExileCore.PoEMemory.Components;
-using ExileCore.PoEMemory.Elements;
-using ExileCore.PoEMemory.Elements.InventoryElements;
-using ExileCore.PoEMemory.MemoryObjects;
-using ExileCore.Shared;
-using ExileCore.Shared.Enums;
+﻿using ExileCore2;
+using ExileCore2.PoEMemory;
+using ExileCore2.PoEMemory.Components;
+using ExileCore2.PoEMemory.Elements;
+using ExileCore2.PoEMemory.Elements.InventoryElements;
+using ExileCore2.PoEMemory.MemoryObjects;
+using ExileCore2.Shared;
+using ExileCore2.Shared.Enums;
 using Microsoft.Extensions.Logging;
 using PoeHudWrapper.MemoryObjects;
 using PoeLib.Common;
@@ -40,6 +40,7 @@ public interface IPoeHudWrapper
     bool IsLoading { get; }
     bool ItemOnCursor { get; }
     int Latency { get; }
+    string PartyLeaderName { get; }
     string[] PartyMemberNames { get; }
     List<PartyElementPlayerElement> PartyMembers { get; }
     Point PartyTabLocation { get; }
@@ -56,6 +57,8 @@ public interface IPoeHudWrapper
     bool StashOpen { get; }
     PoeTrade.Contracts.CurrencyInfo[] TheirTradeCurrency { get; }
     IList<NormalInventoryItem> TheirTradeItems { get; }
+    IList<NormalInventoryItem> TheirSellItems { get; }
+    IList<NormalInventoryItem> TheirSellItemsHideout { get; }
     InvitesPanelItem[] PartyInvites { get; }
     InvitesPanelItem[] TradeInvites { get; }
     bool TradeWindowOpen { get; }
@@ -74,14 +77,6 @@ public interface IPoeHudWrapper
     IEnumerable<CurrencyStack> GetStashCurrencyOfType(PoeTrade.Contracts.TradeCurrencyType currencyType);
     int GetStashIndex(string stashName);
     bool IsInventorySelected(Point point);
-    bool IsItemBeast(Entity entity);
-    bool IsItemCurrency(Entity entity);
-    bool IsItemEssence(Entity entity);
-    bool IsItemFossil(Entity entity);
-    bool IsItemFragment(Entity entity);
-    bool IsItemMap(Entity entity);
-    bool IsItemResonator(Entity entity);
-    bool IsItemUniqueRing(Entity entity);
     bool PlayerInParty(string name = "");
     bool PlayerInZone(string characterName);
     Task<bool> SwitchToTab(string stashName);
@@ -128,6 +123,7 @@ public class PoeHudWrapper : IPoeHudWrapper
     #endregion
 
     #region Party
+    public string PartyLeaderName => core.GameController.IngameState.ServerData.PartyLeaderName;
     public string[] PartyMemberNames => PartyElement.Information.Keys.ToArray();
     public List<PartyElementPlayerElement> PartyMembers => PartyElement.PlayerElements;
     public string GetPartyMemberZone(string characterName) => PartyElement.PlayerElements.SingleOrDefault(e => e.PlayerName.Equals(characterName))?.ZoneName ?? string.Empty;
@@ -148,12 +144,10 @@ public class PoeHudWrapper : IPoeHudWrapper
 
     public bool PlayerInParty(string name = "")
     {
-        if (!PartyMemberNames.Any())
-            return false;
-        else if (string.IsNullOrEmpty(name))
-            return true;
+        if (string.IsNullOrEmpty(name))
+            return !string.IsNullOrEmpty(core.GameController.IngameState.ServerData.PartyLeaderName);
         else
-            return PartyMemberNames.Any(partyMember => partyMember == name);
+            return PartyMemberNames.Contains(name);
     }
     #endregion
 
@@ -249,8 +243,8 @@ public class PoeHudWrapper : IPoeHudWrapper
             if (StashElement.VisibleStash == null || StashElement.VisibleStash.ChildCount == 0)
                 return Enumerable.Empty<Element>();
 
-            return StashElement.VisibleStash.GetChildAtIndex(1).Children.Where(slot => slot.ChildCount == 2) // GeneralCurrency
-                    .Concat(StashElement.VisibleStash.Children.Skip(4).Where(slot => slot.ChildCount == 2)); // MiscCurrency
+            return StashElement.VisibleStash.GetChildAtIndex(1).Children.Where(slot => slot.ChildCount == 3) // GeneralCurrency
+                    .Concat(StashElement.VisibleStash.Children.Skip(6).Where(slot => slot.ChildCount == 3)); // MiscCurrency
         }
     }
 
@@ -271,7 +265,7 @@ public class PoeHudWrapper : IPoeHudWrapper
         var currencyTypes = (PoeTrade.Contracts.TradeCurrencyType[])Enum.GetValues(typeof(PoeTrade.Contracts.TradeCurrencyType));
         foreach (var element in StashCurrencyElements)
         {
-            var item = element.GetChildAtIndex(1).AsObject<NormalInventoryItem>();
+            var item = element.GetChildAtIndex(2).AsObject<NormalInventoryItem>();
             if (!item.IsValid || item?.Item == null || !item.Item.IsValid)
             {
                 if (!force)
@@ -338,13 +332,14 @@ public class PoeHudWrapper : IPoeHudWrapper
                 if (currency.Count != 0)
                     currency = new List<CurrencyStack>();
 
-                var inventory = InventoryElement[InventoryIndex.PlayerInventory].ServerInventory;
-                if (inventory == null || !inventory.InventorySlotItems.Any())
+                var inventory = InventoryElement[InventoryIndex.PlayerInventory];
+                var serverInventory = inventory.ServerInventory;
+                if (serverInventory == null || !serverInventory.InventorySlotItems.Any())
                     return currency;
 
                 try
                 {
-                    foreach (var inventorySlotItem in inventory.InventorySlotItems)
+                    foreach (var inventorySlotItem in serverInventory.InventorySlotItems)
                     {
                         if (inventorySlotItem?.Item == null || !inventorySlotItem.Item.IsValid)
                         {
@@ -358,7 +353,7 @@ public class PoeHudWrapper : IPoeHudWrapper
                         if (currencyType != PoeTrade.Contracts.TradeCurrencyType.Unknown)
                         {
                             var currencyStack = new CurrencyStack(currencyType, inventorySlotItem.GetCenter()) { Amount = item == null || !item.HasComponent<Stack>() ? 0 : item.GetComponent<Stack>().Size };
-                            currencyStack.Slot = new Point(Convert.ToInt32(inventorySlotItem.Location.InventoryPositionNum.X), Convert.ToInt32(inventorySlotItem.Location.InventoryPositionNum.Y));
+                            currencyStack.Slot = new Point(Convert.ToInt32(inventorySlotItem.Location.InventoryPosition.X), Convert.ToInt32(inventorySlotItem.Location.InventoryPosition.Y));
                             currency.Add(currencyStack);
                         }
                     }
@@ -377,6 +372,10 @@ public class PoeHudWrapper : IPoeHudWrapper
     }
 
     public IList<NormalInventoryItem> TheirTradeItems => TradeElement.OtherOffer;
+
+    public IList<NormalInventoryItem> TheirSellItems => SellElement.OtherOffer;
+
+    public IList<NormalInventoryItem> TheirSellItemsHideout => SellElementHideout.OtherOffer;
 
     public PoeTrade.Contracts.CurrencyInfo[] TheirTradeCurrency
     {
@@ -409,7 +408,7 @@ public class PoeHudWrapper : IPoeHudWrapper
             if (inventorySlotItems == null)
                 return new List<ServerInventory.InventSlotItem>();
 
-            return inventorySlotItems.OrderBy(i => i.InventoryPositionNum.X).ThenBy(j => j.InventoryPositionNum.Y).ToList();
+            return inventorySlotItems.OrderBy(i => i.InventoryPosition.X).ThenBy(j => j.InventoryPosition.Y).ToList();
         }
     }
 
@@ -417,7 +416,7 @@ public class PoeHudWrapper : IPoeHudWrapper
     {
         var inventorySlotItems = core.GameController.IngameState.IngameUi.InventoryPanel[InventoryIndex.PlayerInventory].ServerInventory.InventorySlotItems;
         var visibleInventoryItems = core.GameController.IngameState.IngameUi.InventoryPanel[InventoryIndex.PlayerInventory].VisibleInventoryItems;
-        var itemEntity = inventorySlotItems.SingleOrDefault(i => i.Location.InventoryPositionNum.X == point.X && i.Location.InventoryPositionNum.Y == point.Y)?.Item;
+        var itemEntity = inventorySlotItems.SingleOrDefault(i => i.Location.InventoryPosition.X == point.X && i.Location.InventoryPosition.Y == point.Y)?.Item;
         var item = visibleInventoryItems?.SingleOrDefault(i => i?.Entity?.Address != null && itemEntity != null && i.Entity.Address == itemEntity.Address);
         return item != null && !item.IsSaturated;
     }
@@ -604,6 +603,7 @@ public class PoeHudWrapper : IPoeHudWrapper
         if (!item.IsValid) return "";
 
         var baseType = GetBaseType(item);
+
         var mods = item.GetComponent<Mods>();
         if (mods == null)
             return GetBaseType(item);
@@ -626,80 +626,6 @@ public class PoeHudWrapper : IPoeHudWrapper
         }
 
         return name;
-    }
-
-    public bool IsItemCurrency(Entity entity)
-    {
-        var baseItemType = core.GameController.Game.Files.BaseItemTypes.Translate(entity.Path);
-        if (baseItemType == null || baseItemType.BaseName == null || baseItemType.ClassName == null)
-            return false;
-
-        return baseItemType.ClassName == "StackableCurrency" && !baseItemType.BaseName.Contains("Fossil") && !baseItemType.BaseName.Contains("Essence") && !baseItemType.BaseName.Contains("Prophecy") && !baseItemType.BaseName.Contains("Imprinted Bestiary Orb");
-    }
-
-    public bool IsItemUniqueRing(Entity entity)
-    {
-        var baseItemType = core.GameController.Game.Files.BaseItemTypes.Translate(entity.Path);
-        var itemMods = entity.GetComponent<ExileCore.PoEMemory.Components.Mods>();
-        if (itemMods == null)
-            return false;
-
-        return itemMods.ItemRarity == ItemRarity.Unique && baseItemType.ClassName == "Ring";
-    }
-
-    public bool IsItemMap(Entity entity)
-    {
-        var baseItemType = core.GameController.Game.Files.BaseItemTypes.Translate(entity.Path);
-        var itemMods = entity.GetComponent<ExileCore.PoEMemory.Components.Mods>();
-        if (itemMods == null)
-            return false;
-
-        return baseItemType.ClassName == "Map";
-    }
-
-    public bool IsItemBeast(Entity entity)
-    {
-        var baseType = entity.GetComponent<Base>();
-        if (baseType == null)
-            return false;
-
-        return baseType.Name == "Imprinted Bestiary Orb";
-    }
-
-    public bool IsItemFossil(Entity entity)
-    {
-        var baseItemType = core.GameController.Game.Files.BaseItemTypes.Translate(entity.Path);
-        if (baseItemType == null || baseItemType.BaseName == null || baseItemType.ClassName == null)
-            return false;
-
-        return baseItemType.ClassName == "StackableCurrency" && baseItemType.BaseName.Contains("Fossil") && !baseItemType.BaseName.Contains("Essence") && !baseItemType.BaseName.Contains("Prophecy");
-    }
-
-    public bool IsItemEssence(Entity entity)
-    {
-        var baseItemType = core.GameController.Game.Files.BaseItemTypes.Translate(entity.Path);
-        if (baseItemType == null || baseItemType.BaseName == null || baseItemType.ClassName == null)
-            return false;
-
-        return baseItemType.ClassName == "StackableCurrency" && !baseItemType.BaseName.Contains("Fossil") && baseItemType.BaseName.Contains("Essence") && !baseItemType.BaseName.Contains("Prophecy");
-    }
-
-    public bool IsItemFragment(Entity entity)
-    {
-        var baseItemType = core.GameController.Game.Files.BaseItemTypes.Translate(entity.Path);
-        if (baseItemType == null || baseItemType.BaseName == null || baseItemType.ClassName == null)
-            return false;
-
-        return baseItemType.ClassName == "MapFragment" && !baseItemType.BaseName.Contains("Pure Breachstone");
-    }
-
-    public bool IsItemResonator(Entity entity)
-    {
-        var baseItemType = core.GameController.Game.Files.BaseItemTypes.Translate(entity.Path);
-        if (baseItemType == null || baseItemType.BaseName == null || baseItemType.ClassName == null)
-            return false;
-
-        return baseItemType.ClassName == "DelveStackableSocketableCurrency" && baseItemType.BaseName.Contains("Resonator");
     }
     #endregion
 
@@ -763,6 +689,10 @@ public class PoeHudWrapper : IPoeHudWrapper
     #region Elements
     private TradeWindow TradeElement => core.GameController.IngameState.IngameUi.TradeWindow;
 
+    private SellWindow SellElement => core.GameController.IngameState.IngameUi.SellWindow;
+
+    private SellWindowHideout SellElementHideout => core.GameController.IngameState.IngameUi.SellWindowHideout;
+
     private StashElement StashElement => core.GameController.IngameState.IngameUi.StashElement;
 
     private SocialElement SocialElement => core.GameController.IngameState.IngameUi.SocialPanel;
@@ -781,7 +711,7 @@ public class PoeHudWrapper : IPoeHudWrapper
     #region Helpers
     private Point GetEntityLocation(Entity entity)
     {
-        var vector = core.GameController.IngameState.Camera.WorldToScreen(entity.PosNum);
+        var vector = core.GameController.IngameState.Camera.WorldToScreen(entity.Pos);
         return new Point(Convert.ToInt32(vector.X), Convert.ToInt32(vector.Y));
     }
     #endregion

@@ -1,17 +1,19 @@
-﻿using PoeHudWrapper;
+﻿using ExileCore2;
+using ExileCore2.PoEMemory;
+using ExileCore2.PoEMemory.Components;
+using ExileCore2.PoEMemory.Elements;
+using ExileCore2.PoEMemory.Elements.InventoryElements;
+using ExileCore2.PoEMemory.MemoryObjects;
+using ExileCore2.Shared.Enums;
+using ExileCore2.Shared.Helpers;
+using GameOffsets2.Native;
+using Microsoft.Extensions.DependencyInjection;
+using PoeHudWrapper;
+using Serilog;
 using System;
 using System.Collections.Generic;
-using Serilog;
-using Microsoft.Extensions.DependencyInjection;
-using ExileCore.PoEMemory;
-using ExileCore.Shared.Enums;
 using System.Linq;
-using ExileCore.Shared.Helpers;
-using GameOffsets.Native;
-using ExileCore.PoEMemory.Elements;
-using ExileCore.PoEMemory.MemoryObjects;
-using ExileCore.PoEMemory.Elements.InventoryElements;
-using ExileCore;
+using System.Net;
 
 namespace PoeHUD.OffsetFinder;
 
@@ -30,20 +32,9 @@ class Program
             serviceCollection.AddPoeHudWrapper();
             var serviceProvider = serviceCollection.BuildServiceProvider();
 
-            var poeHudWrapper = serviceProvider.GetRequiredService<IPoeHudWrapper>();
-            var ingameUI = Core.Current.GameController.IngameState.IngameUi;
-
-            var index = ingameUI.GetRemoteMemoryObjectAddress(0x1560E429D20);
-
-            for (int i = 0x2E8; i < 0xFFF; i++)
-            {
-                var chatInputElement = ingameUI.ChatPanel.ReadObjectAt<Element>(i);
-                var text = chatInputElement.Text;
-                if (text == "test")
-                {
-
-                }
-            }
+            var poeHud = serviceProvider.GetRequiredService<IPoeHudWrapper>();
+            var serverData = Core.Current.GameController.IngameState.ServerData;
+            var offset = FindPartyStatusType(serverData);
         }
         catch (Exception ex)
         {
@@ -52,12 +43,26 @@ class Program
         }
     }
 
+    private static List<long> FindPartyInformationOffsets(PartyElement partyElement)
+    {
+        var offsets = new List<long>();
+        for (int i = 0x100; i < 0x400; i++)
+        {
+            var informationDictionary = partyElement.M.ReadRMOStdVector<PartyElementPlayerInfoWrapper>(partyElement.M.Read<StdVector>(partyElement.Address + i), 0x30)
+                                                       .DistinctBy(x => x.PlayerName)
+                                                       .ToDictionary(x => x.PlayerName, x => x.Info);
+            if (informationDictionary.ContainsKey("Garrochu"))
+                offsets.Add(i);
+        }
+        return offsets;
+    }
+
     private static NormalInventoryItem GetInventoryItem()
     {
         var inventoryPanel = Core.Current.GameController.IngameState.IngameUi.InventoryPanel;
         var inventorySlotItems = inventoryPanel[InventoryIndex.PlayerInventory].ServerInventory.InventorySlotItems;
         var visibleInventoryItems = inventoryPanel[InventoryIndex.PlayerInventory].VisibleInventoryItems;
-        var itemEntity = inventorySlotItems.SingleOrDefault(i => i.Location.InventoryPositionNum.X == 0 && i.Location.InventoryPositionNum.Y == 0)?.Item;
+        var itemEntity = inventorySlotItems.SingleOrDefault(i => i.Location.InventoryPosition.X == 0 && i.Location.InventoryPosition.Y == 0)?.Item;
         var item = visibleInventoryItems?.SingleOrDefault(i => i?.Entity?.Address != null && itemEntity != null && i.Entity.Address == itemEntity.Address);
 
         return item;
@@ -65,15 +70,77 @@ class Program
 
     private static List<int> FindPartyLeaderName(ServerData serverData)
     {
-        for (int i = 0; i < 0xFFFFF; i++)
+        for (int i = 0; i < 0x3000; i++)
         {
             var name = serverData.M.Read<NativeUtf16Text>(serverData.Address + i).ToString(serverData.M);
-            if (name == "FishTester")
+            if (name == "RangerGOD____")
             {
                 return new List<int>() { i };
             }
         }
         return new List<int>();
+    }
+
+    private static List<int> FindPartyAllocationType(ServerData serverData)
+    {
+        var party1Offsets = new List<int>();
+        for (int i = 0x1000; i < 0x3000; i++)
+        {
+            var partyAllocation = serverData.M.Read<PartyAllocation>(serverData.Address + i);
+            if (partyAllocation == PartyAllocation.ShortAllocation)
+            {
+                party1Offsets.Add(i);
+            }
+        }
+
+        var party2Offsets = new List<int>();
+        for (int i = 0x1000; i < 0x3000; i++)
+        {
+            var partyAllocation = serverData.M.Read<PartyAllocation>(serverData.Address + i);
+            if (partyAllocation == PartyAllocation.FreeForAll)
+            {
+                party2Offsets.Add(i);
+            }
+        }
+        return party1Offsets.Intersect(party2Offsets).ToList();
+    }
+
+    private static List<int> FindPartyStatusType(ServerData serverData)
+    {
+        var party1Offsets = new List<int>();
+        for (int i = 0x1000; i < 0x3000; i++)
+        {
+            var partyStatus = serverData.M.Read<PartyStatus>(serverData.Address + i);
+            if (partyStatus == PartyStatus.None)
+            {
+                party1Offsets.Add(i);
+            }
+        }
+
+        var party2Offsets = new List<int>();
+        for (int i = 0x1000; i < 0x3000; i++)
+        {
+            var partyStatus = serverData.M.Read<PartyStatus>(serverData.Address + i);
+            if (partyStatus == PartyStatus.PartyMember)
+            {
+                party2Offsets.Add(i);
+            }
+        }
+        return party1Offsets.Intersect(party2Offsets).ToList();
+    }
+
+    private static List<int> FindPlayerName(Player player)
+    {
+        var offsets = new List<int>();
+        for (int i = 0; i < 0xFFF; i++)
+        {
+            var name = player.M.Read<NativeUtf16Text>(player.Address + i).ToString(player.M);
+            if (name == "RetikRenameLater")
+            {
+                offsets.Add(i);
+            }
+        }
+        return offsets;
     }
 
     private static List<int> FindCharacterLevel(ServerData serverData)
@@ -87,189 +154,6 @@ class Program
             }
         }
         return new List<int>();
-    }
-
-    private static long GetPartyMemberPortraitAddress(PartyElement partyElement)
-    {
-        var firstPartyMember = partyElement.PlayerElements.First();
-        var portraitElement = firstPartyMember.GetChildFromIndices(1, 0);
-        return portraitElement.Address;
-    }
-
-    public static List<int> FindPartyMemberSaturated(PartyElement partyElement, int length, int numberOfLoops)
-    {
-        // Store first read values for all loops to check consistency
-        var firstReadValues = new byte[numberOfLoops][];
-        // Store second read values for all loops to check consistency
-        var secondReadValues = new byte[numberOfLoops][];
-
-        // Perform all reads first
-        for (int loop = 0; loop < numberOfLoops; loop++)
-        {
-            firstReadValues[loop] = partyElement.M.ReadBytes(GetPartyMemberPortraitAddress(partyElement), length);
-            secondReadValues[loop] = partyElement.M.ReadBytes(GetPartyMemberPortraitAddress(partyElement), length);
-        }
-
-        var validOffsets = new List<int>();
-
-        // Check each byte position
-        for (int byteIndex = 0; byteIndex < length; byteIndex++)
-        {
-            bool isValidOffset = true;
-
-            // Get the reference values from the first loop
-            byte firstReadReference = firstReadValues[0][byteIndex];
-            byte secondReadReference = secondReadValues[0][byteIndex];
-
-            // Must be different between first and second read
-            if (firstReadReference == secondReadReference)
-            {
-                continue;
-            }
-
-            // Check all loops for this byte position
-            for (int loop = 1; loop < numberOfLoops; loop++)
-            {
-                // Check if first read matches reference
-                if (firstReadValues[loop][byteIndex] != firstReadReference)
-                {
-                    isValidOffset = false;
-                    break;
-                }
-
-                // Check if second read matches reference
-                if (secondReadValues[loop][byteIndex] != secondReadReference)
-                {
-                    isValidOffset = false;
-                    break;
-                }
-            }
-
-            if (isValidOffset)
-            {
-                var firstValue = firstReadValues[0][byteIndex];
-                var secondValue = secondReadValues[0][byteIndex];
-                validOffsets.Add(byteIndex);
-            }
-        }
-
-        return validOffsets;
-    }
-
-    public static List<int> FindDynamicOffsets(int length, int numberOfLoops)
-    {
-        // Store first read values for all loops to check consistency
-        var firstReadValues = new byte[numberOfLoops][];
-        // Store second read values for all loops to check consistency
-        var secondReadValues = new byte[numberOfLoops][];
-
-        // Perform all reads first
-        for (int loop = 0; loop < numberOfLoops; loop++)
-        {
-            var firstItem = GetInventoryItem();
-            if (firstItem == null)
-                return new List<int>();
-            firstReadValues[loop] = firstItem.M.ReadBytes(firstItem.Address, length);
-
-            var secondItem = GetInventoryItem();
-            if (secondItem == null)
-                return new List<int>();
-            secondReadValues[loop] = secondItem.M.ReadBytes(secondItem.Address, length);
-        }
-
-        var validOffsets = new List<int>();
-
-        // Check each byte position
-        for (int byteIndex = 0; byteIndex < length; byteIndex++)
-        {
-            bool isValidOffset = true;
-
-            // Get the reference values from the first loop
-            byte firstReadReference = firstReadValues[0][byteIndex];
-            byte secondReadReference = secondReadValues[0][byteIndex];
-
-            // Must be different between first and second read
-            if (firstReadReference == secondReadReference)
-            {
-                continue;
-            }
-
-            // Check all loops for this byte position
-            for (int loop = 1; loop < numberOfLoops; loop++)
-            {
-                // Check if first read matches reference
-                if (firstReadValues[loop][byteIndex] != firstReadReference)
-                {
-                    isValidOffset = false;
-                    break;
-                }
-
-                // Check if second read matches reference
-                if (secondReadValues[loop][byteIndex] != secondReadReference)
-                {
-                    isValidOffset = false;
-                    break;
-                }
-            }
-
-            if (isValidOffset)
-            {
-                var firstValue = firstReadValues[0][byteIndex];
-                var secondValue = secondReadValues[0][byteIndex];
-                validOffsets.Add(byteIndex);
-            }
-        }
-
-        return validOffsets;
-    }
-
-    private static List<int> FindTogglingBits(NormalInventoryItem item, int startingOffset, int length, int numberOfLoops)
-    {
-        // Store initial state
-        byte[] previousState = item.M.ReadBytes(item.Address + startingOffset, length);
-
-        // Track which bytes have their IsSelected bit (bit 5) toggling consistently
-        Dictionary<int, int> toggleCount = new Dictionary<int, int>();
-
-        // Run the specified number of loops
-        for (int loop = 0; loop < numberOfLoops; loop++)
-        {
-            // Read current state
-            byte[] currentState = item.M.ReadBytes(item.Address + startingOffset, length);
-
-            // Compare each byte
-            for (int byteIndex = 0; byteIndex < length; byteIndex++)
-            {
-                // Check if bit 5 (IsSelected) has changed
-                bool previousSelected = (previousState[byteIndex] >> 5 & 1) == 0;
-                bool currentSelected = (currentState[byteIndex] >> 5 & 1) == 0;
-
-                if (previousSelected != currentSelected)
-                {
-                    // Increment toggle count for this byte
-                    if (!toggleCount.ContainsKey(byteIndex))
-                    {
-                        toggleCount[byteIndex] = 0;
-                    }
-                    toggleCount[byteIndex]++;
-                }
-            }
-
-            // Current state becomes previous state for next iteration
-            previousState = currentState;
-        }
-
-        // Find bytes where IsSelected toggled every loop (numberOfLoops - 1 toggles)
-        List<int> consistentlyTogglingBytes = new List<int>();
-        foreach (var kvp in toggleCount)
-        {
-            if (kvp.Value == numberOfLoops - 1)  // We expect (loops - 1) toggles for consistent toggling
-            {
-                consistentlyTogglingBytes.Add(kvp.Key);
-            }
-        }
-
-        return consistentlyTogglingBytes;
     }
 }
 
@@ -299,16 +183,16 @@ public static class ExtensionMethods
         return false;
     }
 
-    public static List<long> GetRemoteMemoryObjectAddress(this RemoteMemoryObject remoteMemoryObject, long targetAddress)
+    public static List<long> GetRemoteMemoryObjectAddress<T>(this RemoteMemoryObject remoteMemoryObject, long targetAddress) where T : RemoteMemoryObject, new()
     {
         var offsets = new List<long>();
 
-        remoteMemoryObject.GetRemoteMemoryObjectAddress(targetAddress, offsets);
+        remoteMemoryObject.GetRemoteMemoryObjectAddress<T>(targetAddress, offsets);
 
         return offsets;
     }
 
-    private static List<long> GetRemoteMemoryObjectAddress(this RemoteMemoryObject remoteMemoryObject, long targetAddress, List<long> offsets)
+    private static List<long> GetRemoteMemoryObjectAddress<T>(this RemoteMemoryObject remoteMemoryObject, long targetAddress, List<long> offsets) where T : RemoteMemoryObject, new()
     {
         for (long offset = 0; offset <= 0xFFFFF; offset++)
         {

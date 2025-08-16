@@ -73,14 +73,6 @@
                 <MenuItem>
                     <MenuItem.Header>
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock VerticalAlignment="Center" Margin="0,0,5,0">League:</TextBlock>
-                            <ComboBox Width="120" ItemsSource="{Binding LeagueList}" SelectedItem="{Binding SelectedLeague, Mode=TwoWay}" />
-                        </StackPanel>
-                    </MenuItem.Header>
-                </MenuItem>
-                <MenuItem>
-                    <MenuItem.Header>
-                        <StackPanel Orientation="Horizontal">
                             <TextBlock VerticalAlignment="Center" Margin="0,0,5,0">Service Location:</TextBlock>
                             <ComboBox Width="120" ItemsSource="{Binding Source={StaticResource serviceLocation}}" SelectedItem="{Binding ServiceLocation, Mode=TwoWay}" />
                         </StackPanel>
@@ -232,7 +224,7 @@
                 <StackPanel DockPanel.Dock="Left" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="80,0,0,0">
                     <TextBlock FontSize="14" Margin="0,0,5,0">Currency:</TextBlock>
                     <TextBlock  HorizontalAlignment="Center" FontSize="14" Text="{Binding DivineCount, StringFormat={}{0}div}" Margin="0,0,5,0" />
-                    <TextBlock  HorizontalAlignment="Center" FontSize="14" Text="{Binding BaseCurrencyCount, StringFormat={}({0}c)}" />
+                    <TextBlock  HorizontalAlignment="Center" FontSize="14" Text="{Binding BaseCurrencyCount, StringFormat={}({0}ex)}" />
                 </StackPanel>
                 <StackPanel DockPanel.Dock="Left" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="80,0,0,0">
                     <TextBlock FontSize="14" Margin="0,0,5,0">Divine Rate:</TextBlock>

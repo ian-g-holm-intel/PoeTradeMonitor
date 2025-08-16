@@ -1,9 +1,10 @@
-﻿using PoeLib.Proto;
-using PoeLib.Extensions;
-using PoeTradeMonitor.GUI.Interfaces;
-using Microsoft.Extensions.Logging;
-using Grpc.Core;
+﻿using Grpc.Core;
 using Grpc.Net.ClientFactory;
+using Microsoft.Extensions.Logging;
+using PoeLib.Extensions;
+using PoeLib.Proto;
+using PoeTrade.Contracts;
+using PoeTradeMonitor.GUI.Interfaces;
 
 namespace PoeTradeMonitor.GUI.Clients;
 
@@ -70,6 +71,30 @@ public class TradeBotClient : ITradeBotClient
         {
             logger.LogWarning(ex, "Failed to connect to TradeBot");
         }
+    }
+
+    public async Task<Dictionary<TradeCurrencyType, CurrencyInfo>> GetCurrencyAsync(string clientName)
+    {
+        var request = new GetCurrencyRequest();
+        var client = clientFactory.CreateClient<TradeBot.TradeBotClient>($"{clientName}{typeof(TradeBot.TradeBotClient).Name}");
+        var response = await client.GetCurrencyAsync(request);
+
+        var result = new Dictionary<TradeCurrencyType, CurrencyInfo>();
+
+        foreach (var kvp in response.Currencies)
+        {
+            if (Enum.TryParse<TradeCurrencyType>(kvp.Key.ToString(), out var keyType) &&
+                Enum.TryParse<TradeCurrencyType>(kvp.Value.Type.ToString(), out var valueType))
+            {
+                result[keyType] = new CurrencyInfo
+                {
+                    Type = valueType,
+                    Amount = Convert.ToDecimal(kvp.Value.Amount)
+                };
+            }
+        }
+
+        return result;
     }
 
     public async Task SendMessageAsync(string message, string clientName)

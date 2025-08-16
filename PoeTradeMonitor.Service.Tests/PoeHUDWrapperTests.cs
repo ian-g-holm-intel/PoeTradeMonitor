@@ -130,7 +130,6 @@ public class PoeHUDWrapperTests
             var name = poeHudWrapper.GetItemName(item);
             var baseType = poeHudWrapper.GetBaseType(item);
             var numSockets = item.GetNumberSockets();
-            var numLinks = item.GetNumberLinks();
             var corrupted = item.IsCorrupted();
             var itemLevel = item.GetItemLevel();
             var className = poeHudWrapper.GetClassName(item);
@@ -149,50 +148,6 @@ public class PoeHUDWrapperTests
     {
         var items = poeHudWrapper.PlayerInventoryItems.ToList();
         Assert.IsTrue(items.Count() >= 1);
-    }
-
-    [TestMethod]
-    public void IsItemCurrency()
-    {
-        var items = poeHudWrapper.PlayerInventoryItems;
-        foreach (var item in items)
-        {
-            var isItemCurrency = poeHudWrapper.IsItemCurrency(item.Item);
-            Assert.IsTrue(isItemCurrency);
-        }
-    }
-
-    [TestMethod]
-    public void IsItemUniqueRing()
-    {
-        var items = poeHudWrapper.PlayerInventoryItems;
-        foreach (var item in items)
-        {
-            var isUniqueRing = poeHudWrapper.IsItemUniqueRing(item.Item);
-            Assert.IsTrue(isUniqueRing);
-        }
-    }
-
-    [TestMethod]
-    public void IsItemFragment()
-    {
-        var items = poeHudWrapper.PlayerInventoryItems;
-        foreach (var item in items)
-        {
-            var isFragment = poeHudWrapper.IsItemFragment(item.Item);
-            Assert.IsTrue(isFragment);
-        }
-    }
-
-    [TestMethod]
-    public void IsItemMap()
-    {
-        var items = poeHudWrapper.PlayerInventoryItems;
-        foreach (var item in items)
-        {
-            var isMap = poeHudWrapper.IsItemMap(item.Item);
-            Assert.IsTrue(isMap);
-        }
     }
 
     [TestMethod]
@@ -412,7 +367,6 @@ public class PoeHUDWrapperTests
             var name = poeHudWrapper.GetItemName(item);
             var baseType = poeHudWrapper.GetBaseType(item);
             var numSockets = item.GetNumberSockets();
-            var numLinks = item.GetNumberLinks();
             var corrupted = item.IsCorrupted();
             var className = poeHudWrapper.GetClassName(item);
         }

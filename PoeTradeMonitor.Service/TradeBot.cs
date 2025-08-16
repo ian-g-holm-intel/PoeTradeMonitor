@@ -21,6 +21,7 @@ public class TradeBot : ITradeBot
     private readonly IPoeChatWatcher poeChatWatcher;
     private readonly INotificationClient notificationClient;
     private readonly ICallbackClient callback;
+    private readonly IStashCurrencyCache stashCurrencyCache;
     private List<ItemTradeRequest> itemTradeQueue = new List<ItemTradeRequest>();
     private readonly Stopwatch itemTradeTimer = new Stopwatch();
     private Task? tradeLoopTask;
@@ -29,13 +30,14 @@ public class TradeBot : ITradeBot
     public bool IsExecutingTrade { get; set; }
 
 
-    public TradeBot(ITradeCommands tc, IPoeChatWatcher chatWater, ITradeExecutorService te, INotificationClient client, ICallbackClient callback, ILogger<TradeBot> log)
+    public TradeBot(ITradeCommands tc, IPoeChatWatcher chatWater, ITradeExecutorService te, INotificationClient client, ICallbackClient callback, IStashCurrencyCache stashCurrencyCache, ILogger<TradeBot> log)
     {
         tradeCommands = tc;
         poeChatWatcher = chatWater;
         tradeExecutor = te;
         notificationClient = client;
         this.callback = callback;
+        this.stashCurrencyCache = stashCurrencyCache;
         this.log = log;
     }
 
@@ -48,6 +50,9 @@ public class TradeBot : ITradeBot
         {
             try
             {
+                log.LogInformation("Updating currency cache");
+                await tradeCommands.UpdateCurrencyCache(ctSource.Token);
+
                 log.LogInformation($"Waiting for trade requests");
                 while (!ctSource.Token.IsCancellationRequested)
                 {

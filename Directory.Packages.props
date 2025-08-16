@@ -4,7 +4,7 @@
 		<CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
 		<!-- This is necessary to allow pinning SharpDX's transitive dependencies since it is no longer maintained -->
 	</PropertyGroup>
-	<PropertyGroup Condition="'$(MSBuildProjectName)' == 'ClickableTransparentOverlay' OR '$(MSBuildProjectName)' == 'ItemFilterLibrary' OR $(MSBuildProjectDirectory.Contains('PrivateExileApi'))">
+	<PropertyGroup Condition="'$(MSBuildProjectName)' == 'ClickableTransparentOverlay' OR '$(MSBuildProjectName)' == 'ItemFilterLibrary' OR $(MSBuildProjectDirectory.Contains('ExileCore2'))">
 		<ManagePackageVersionsCentrally>false</ManagePackageVersionsCentrally>
 	</PropertyGroup>
 	<ItemGroup>

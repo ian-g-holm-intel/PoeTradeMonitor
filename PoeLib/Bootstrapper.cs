@@ -2,8 +2,7 @@
 using PoeLib.Common;
 using PoeLib.Parsers;
 using PoeLib.PriceFetchers;
-using PoeLib.PriceFetchers.PoeNinja;
-using PoeLib.PriceFetchers.PoeWatch;
+using PoeLib.PriceFetchers.Poe2Scout;
 using PoeLib.Tools;
 using PoeLib.Tools.Notification;
 
@@ -16,8 +15,7 @@ public static class Bootstrapper
         container.AddSingleton<ICurrencyPriceCache, CurrencyPriceCache>();
         container.AddSingleton<IChatMessageCache, ChatMessageCache>();
         container.AddSingleton<INotificationClient, PushoverNotificationClient>();
-        container.AddSingleton<IPriceFetcher, PoeNinjaWrapper>();
-        container.AddSingleton<IPriceFetcher, PoeWatchWrapper>();
+        container.AddSingleton<IPriceFetcher, Poe2ScoutWrapper>();
         container.AddSingleton<IPriceFetcherWrapper, PriceFetcherWrapper>();
         container.AddSingleton<IMessageParser, MessageParser>();
         container.AddSingleton<IPoeChatWatcher, PoeChatWatcher>();

@@ -44,6 +44,9 @@ public partial class SearchGuiItem : ObservableObject
     [ObservableProperty]
     private string source = string.Empty;
 
+    [ObservableProperty]
+    private bool isPlusOneCorruption;
+
     public override string ToString()
     {
         return Name;
