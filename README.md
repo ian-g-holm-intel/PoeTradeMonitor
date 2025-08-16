@@ -10,6 +10,8 @@ PoeTradeMonitor is a sophisticated trading solution designed for Path of Exile p
 
 ## 🚀 Key Features
 
+![PoeTradeMonitor Dashboard](assets/images/PoeTradeMonitor.png)
+
 ### Automated Trading
 - **Intelligent Trade Bot**: Fully automated trade execution with safety checks
 - **Smart Scheduling**: Queue and prioritize trades based on profitability
