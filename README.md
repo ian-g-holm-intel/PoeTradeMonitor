@@ -73,7 +73,6 @@ Core shared library containing essential functionality for POE API interactions 
 - **PoeAuthenticator** - Secure authentication and session management
 - **PoeHudWrapper** - Game overlay integration and memory access
 - **PoeCrafter** - Item crafting simulation and optimization tools
-- **OffsetFinder** - Memory offset discovery for game integration
 
 ## 🛠️ Technology Stack
 
