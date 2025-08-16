@@ -9,8 +9,8 @@ using PoeHudWrapper;
 using InputSimulatorStandard.Native;
 using InputSimulatorStandard;
 using System.Windows.Forms;
-using ExileCore.PoEMemory.Elements.InventoryElements;
-using ExileCore.PoEMemory.MemoryObjects;
+using ExileCore2.PoEMemory.Elements.InventoryElements;
+using ExileCore2.PoEMemory.MemoryObjects;
 using PoeTrade.Contracts;
 using RateLimiter;
 using ComposableAsync;
@@ -61,6 +61,7 @@ public interface ITradeCommands
     Task OpenChat(CancellationToken ct = default);
     Task CloseChat(VirtualKeyCode closeCode = VirtualKeyCode.RETURN);
     Task MouseOverItems();
+    Task UpdateCurrencyCache(CancellationToken ct = default);
     Task<bool> VerifyItemsCorrect(ItemTradeRequest tradeRequest, IEnumerable<NormalInventoryItem> theirTradeItems);
     Task<bool> WaitForHideout(int timeoutMs);
 }
@@ -72,17 +73,19 @@ public class TradeCommands : ITradeCommands
     private readonly IInputSimulator input;
     private readonly IPoeChatWatcher chatWatcher;
     private readonly IPoeHudWrapper poeHud;
+    private readonly IStashCurrencyCache stashCurrencyCache;
     private readonly TimeLimiter textCommandLimiter;
     private readonly AsyncLock inputLock;
     private readonly Random randomNumber = new Random();
     private readonly string hideoutName;
 
-    public TradeCommands(IPriceValidator validator, IInputSimulator inputsim, IPoeChatWatcher chat, IPoeHudWrapper poeHudWrapper, ILogger<TradeCommands> log, IConfiguration configuration)
+    public TradeCommands(IPriceValidator validator, IInputSimulator inputsim, IPoeChatWatcher chat, IPoeHudWrapper poeHudWrapper, ILogger<TradeCommands> log, IConfiguration configuration, IStashCurrencyCache stashCurrencyCache)
     {
         priceValidator = validator;
         input = inputsim;
         chatWatcher = chat;
-        poeHud = poeHudWrapper;
+        this.poeHud = poeHudWrapper;
+        this.stashCurrencyCache = stashCurrencyCache;
         this.log = log;
         hideoutName = configuration.GetValue("HideoutName", "Immaculate Hideout");
         textCommandLimiter = TimeLimiter.GetFromMaxCountByInterval(1, TimeSpan.FromMilliseconds(200));
@@ -395,7 +398,7 @@ public class TradeCommands : ITradeCommands
                         await CheckForPartyInvite(isTrade, inventoryCurrency.Count);
                         while (!ctSource.IsCancellationRequested && poeHud.InventoryPanelOpen && !isClicked(currency.Slot))
                         {
-                            await RightClickMouse(currency.Location, isTrade);
+                            await LeftClickMouse(currency.Location, isTrade);
                         }
                     }
                 }
@@ -412,7 +415,7 @@ public class TradeCommands : ITradeCommands
                             await CheckForPartyInvite(isTrade, inventoryCurrency.Count);
                             while (!ctSource.IsCancellationRequested && poeHud.InventoryPanelOpen && !isClicked(invCurrency.Slot))
                             {
-                                await RightClickMouse(invCurrency.Location, isTrade);
+                                await LeftClickMouse(invCurrency.Location, isTrade);
                             }
                             movedAmount += invCurrency.Amount;
                         }
@@ -460,65 +463,33 @@ public class TradeCommands : ITradeCommands
 
         try
         {
-            var essences = new List<ServerInventory.InventSlotItem>();
-            var currency = new List<ServerInventory.InventSlotItem>();
-            var fossils = new List<ServerInventory.InventSlotItem>();
-            var resonators = new List<ServerInventory.InventSlotItem>();
             var maps = new List<ServerInventory.InventSlotItem>();
-            var fragments = new List<ServerInventory.InventSlotItem>();
-            var beasts = new List<ServerInventory.InventSlotItem>();
+            var tablets = new List<ServerInventory.InventSlotItem>();
             var remainingItems = new List<ServerInventory.InventSlotItem>();
             var items = poeHud.PlayerInventoryItems;
             foreach (var item in items)
             {
-                if(poeHud.IsItemCurrency(item.Item))
-                    currency.Add(item);
-                else if(poeHud.IsItemEssence(item.Item))
-                    essences.Add(item);
-                else if(poeHud.IsItemFossil(item.Item))
-                    fossils.Add(item);
-                else if(poeHud.IsItemResonator(item.Item))
-                    resonators.Add(item);
-                else if(poeHud.IsItemBeast(item.Item))
-                    beasts.Add(item);
+                var className = poeHud.GetClassName(item.Item);
+                if (className == "Map")
+                    maps.Add(item);
+                else if (className == "TowerAugmentation")
+                    tablets.Add(item);
                 else
                     remainingItems.Add(item);
             }
 
-            foreach(var item in essences)
+            if (maps.Any())
+                await SelectTab("XP Maps");
+
+            foreach (var item in maps)
             {
-                await MoveItem(item, shouldDelay, false);
+                await MoveItem(item, shouldDelay);
             }
 
-            foreach(var item in fragments)
-            {
-                await MoveItem(item, shouldDelay, false);
-            }
+            if (tablets.Any())
+                await SelectTab("Tablets");
 
-            foreach(var item in maps)
-            {
-                await MoveItem(item, shouldDelay, false);
-            }
-
-            foreach(var item in fossils)
-            {
-                await MoveItem(item, shouldDelay, false);
-            }
-
-            foreach(var item in resonators)
-            {
-                await MoveItem(item, shouldDelay, false);
-            }
-
-            foreach (var item in currency)
-            {
-                await CheckForPartyInvite(true, currency.Count);
-                await MoveItem(item, shouldDelay, false);
-            }
-
-			if (beasts.Any())
-				await SelectTab("Beasts");
-            foreach (var item in beasts)
+            foreach (var item in tablets)
             {
                 await MoveItem(item, shouldDelay);
             }
@@ -642,6 +613,8 @@ public class TradeCommands : ITradeCommands
                 }
             }
         }
+
+        stashCurrencyCache.UpdateCurrencies(poeHud.StashCurrencies);
     }
 
     private Point getFreeItemSlot()
@@ -698,7 +671,13 @@ public class TradeCommands : ITradeCommands
         while (Control.ModifierKeys != Keys.None)
             await Task.Delay(10);
 
-        await ReturnToPreviousWindow(() => SendTextCommand("/played"));
+        await ReturnToPreviousWindow(async () =>
+        {
+            if (poeHud.AreaName == hideoutName)
+                await UpdateCurrencyCache();
+            else
+                await SendTextCommand("/played");
+        });
     }
 
     public async Task CloseAllPanels()
@@ -714,38 +693,14 @@ public class TradeCommands : ITradeCommands
     {
         if(string.IsNullOrEmpty(characterName))
             log.LogInformation("Going to hideout");
-        else if (poeHud.GetPartyMemberZone(characterName) == "Kingsmarch")
-            log.LogInformation("Going to kingsmarch of {characterName}", characterName);
 
-        await SendKeyPress(VirtualKeyCode.F2);
+        await CloseAllPanels();
 
         var retryCount = 5;
-        if (poeHud.GetPartyMemberZone(characterName) == "Kingsmarch")
+        if (!await GotoPlayersHideout(characterName, retryCount, ct))
         {
-            if (!await GotoPlayersKingsmarch(characterName, retryCount, ct))
-            {
-                log.LogError($"Failed to join kingsmarch");
-                return false;
-            }
-        }
-        else
-        {
-            if (!await GotoPlayersHideout(characterName, retryCount, ct))
-            {
-                log.LogError($"Failed to join hideout");
-
-                if (poeHud.IsLoading)
-                    await Task.Delay(100);
-
-                if (!poeHud.InGame)
-                {
-                    await SendKeyPress(VirtualKeyCode.RETURN);
-                    while (!poeHud.InGame)
-                        await Task.Delay(100);
-                }
-
-                return false;
-            }
+            log.LogError($"Failed to join hideout");
+            return false;
         }
         return true;
     }
@@ -885,7 +840,7 @@ public class TradeCommands : ITradeCommands
         {
             await DoUntilTrueAsync(async () =>
             {
-                await SendKeyPress(VirtualKeyCode.VK_S);
+                await SendKeyPress(VirtualKeyCode.VK_J);
                 await Task.Delay(100);
             }, () => poeHud.SocialPanelOpen, 5000);
         }
@@ -1319,6 +1274,39 @@ public class TradeCommands : ITradeCommands
         await Task.Delay(50);
         return condition();
     }
+
+    public async Task UpdateCurrencyCache(CancellationToken ct = default)
+    {
+        try
+        {
+            if (await OpenStash(ct))
+            {
+                try
+                {
+                    await poeHud.SwitchToTab("$");
+                    while (!ct.IsCancellationRequested && !poeHud.StashCurrencies.Any())
+                    {
+                        await Task.Delay(100, ct);
+                    }
+                    var currencies = poeHud.StashCurrencies;
+                    stashCurrencyCache.UpdateCurrencies(currencies);
+                }
+                finally
+                {
+                    await CloseAllPanels();
+                }
+            }
+            else
+            {
+                log.LogWarning("Failed to update currency cache");
+            }
+        }
+        catch
+        {
+            log.LogWarning("Failed to update currency cache");
+        }
+    }
+
     public async Task<bool> WaitForHideout(int timeoutMs)
     {
         log.LogInformation("Waiting to go to hideout");

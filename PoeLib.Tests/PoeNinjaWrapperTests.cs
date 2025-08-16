@@ -23,7 +23,7 @@ public class PoeNinjaWrapperTests
     [TestMethod]
     public async Task GetGems()
     {
-        var data = await poeNinja.GetGemsData("Settlers");
+        var data = await poeNinja.GetGemsData("Standard");
 
         var awakenedGems = data.SearchItems
             .Where(gem => gem.Name.Contains("Awakened") && !gem.Name.Contains("Enlighten") && !gem.Name.Contains("Enhance") && !gem.Name.Contains("Empower"))

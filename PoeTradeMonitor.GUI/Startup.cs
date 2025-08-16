@@ -22,6 +22,7 @@ using PoeLib.Common;
 using System.IO;
 using PoeTradeMonitor.GUI.Settings;
 using PoeLib.Proto;
+using PoeLib.PriceFetchers.Poe2Scout;
 
 namespace PoeTradeMonitor.GUI;
 
@@ -73,7 +74,7 @@ public class Startup
         services.AddSingleton<ICurrencyPriceCache, CurrencyPriceCache>();
         services.AddSingleton<IChatMessageCache, ChatMessageCache>();
         services.AddSingleton<ICurrencyCache, CurrencyCache>();
-        services.AddSingleton<IPriceFetcher, PoeNinjaWrapper>();
+        services.AddSingleton<IPriceFetcher, Poe2ScoutWrapper>();
         services.AddSingleton<IPriceFetcherWrapper, PriceFetcherWrapper>();
         services.AddSingleton<IMessageParser, MessageParser>();
         services.AddSingleton<IPoeChatWatcher, PoeChatWatcher>();

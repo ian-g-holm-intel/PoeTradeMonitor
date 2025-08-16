@@ -7,9 +7,12 @@ packages/
 PoeTradeMonitor.sln.iml
 *.orig
 *.user
+PoeHelper/
+/ExileCore2Compiled
 /PoeTradeMonitor.Service/Logs
 /PoeAuthenticator/ChromeCookiesView.cfg
 Logs/
 *.log
 *.pkl
+/.serena
 

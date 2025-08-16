@@ -3,7 +3,6 @@ using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.Extensions.DependencyInjection;
-using PoeCrafter.Crafters;
 using PoeHudWrapper;
 using PoeLib;
 using PoeLib.Common;
@@ -22,7 +21,7 @@ class Program
     [DllImport("user32.dll", EntryPoint = "SetWindowPos")]
     public static extern IntPtr SetWindowPos(IntPtr hWnd, int hWndInsertAfter, int x, int Y, int cx, int cy, int wFlags);
 
-    static async Task Main(string[] args)
+    static void Main(string[] args)
     {
         try
         {
@@ -39,12 +38,12 @@ class Program
             foreach (var initializable in container.GetServices<IInitializable>())
                 initializable.Initialize();
 
-            var crafter = container.GetRequiredService<GlovesCrafter>();
+            //var crafter = container.GetRequiredService<FocusedAmuletCrafter>();
 
             Console.WriteLine("Press any key to start...");
             Console.ReadLine();
 
-            await crafter.Craft();
+            //await crafter.Craft();
         }
         catch (Exception e)
         {
@@ -63,27 +62,6 @@ class Program
         container.AddPoeLib();
         container.AddPoeTradeMonitorService();
         container.AddPoeHudWrapper();
-        container.AddSingleton<ManaGearCrafter>();
-        container.AddSingleton<JeweledFoilCrafter>();
-        container.AddSingleton<VaalRegaliaCrafter>();
-        container.AddSingleton<RingCrafter>();
-        container.AddSingleton<AssassinsMarkRingCrafter>();
-        container.AddSingleton<StaffCrafter>();
-        container.AddSingleton<BootCrafter>();
-        container.AddSingleton<ViridianJewelCrafter>();
-        container.AddSingleton<DeathBowAltRegalCrafter>();
-        container.AddSingleton<ZanaWatchstoneCrafter>();
-        container.AddSingleton<HelmCrafter>();
-        container.AddSingleton<WandCrafter>();
-        container.AddSingleton<FlaskCrafter>();
-        container.AddSingleton<SwordCrafter>();
-        container.AddSingleton<FocusedAmuletCrafter>();
-        container.AddSingleton<AmuletCrafter>();
-        container.AddSingleton<ArmorCrafter>();
-        container.AddSingleton<AstrolabeCrafter>();
-        container.AddSingleton<MaceCrafter>();
-        container.AddSingleton<GlovesCrafter>();
-        container.AddSingleton<QuiverCrafter>();
         container.AddSingleton<IRarityStateMachine, RarityStateMachine>();
 
         return container.BuildServiceProvider(); ;

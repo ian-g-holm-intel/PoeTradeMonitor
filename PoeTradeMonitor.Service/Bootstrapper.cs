@@ -1,8 +1,5 @@
 ﻿using InputSimulatorStandard;
 using PoeLib.Parsers;
-using PoeLib.PriceFetchers;
-using PoeLib.PriceFetchers.PoeNinja;
-using PoeLib.PriceFetchers.PoeWatch;
 using PoeLib.Tools;
 using PoeLib.Tools.Notification;
 using PoeHudWrapper;
@@ -24,6 +21,7 @@ public static class Bootstrapper
         services.AddSingleton<ITradeBot, TradeBot>();
         services.AddSingleton<ICallbackClient, CallbackClient>();
         services.AddSingleton<ITradeCommands, TradeCommands>();
+        services.AddSingleton<IStashCurrencyCache, StashCurrencyCache>();
         services.AddSingleton<ITradeExecutorService, TradeExecutorService>();
         services.AddSingleton<INotificationClient, PushoverNotificationClient>();
         services.AddSingleton<IPoeChatWatcher, PoeChatWatcher>();
@@ -31,9 +29,6 @@ public static class Bootstrapper
         services.AddSingleton<IMessageParser, MessageParser>();
         services.AddSingleton<IPriceValidator, PriceValidator>();
         services.AddSingleton<IInputSimulator>(new InputSimulator());
-        services.AddSingleton<IPriceFetcherWrapper, PriceFetcherWrapper>();
-        services.AddSingleton<IPriceFetcher, PoeNinjaWrapper>();
-        services.AddSingleton<IPriceFetcher, PoeWatchWrapper>();
         services.AddSingleton<ICurrencyPriceCache, CurrencyPriceCache>();
         services.AddSingleton<ITradeBotStateMachine, TradeBotStateMachine>();
         services.AddSingleton<ITradeCommands, TradeCommands>();

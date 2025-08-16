@@ -70,7 +70,7 @@ public class PoeHttpClient : IPoeHttpClient
     public async Task<HttpResponseMessage> GetFetchRequest(IEnumerable<string> searchIDs)
     {
         var client = httpClientFactory.CreateClient("PoeApi");
-        var message = new HttpRequestMessage(HttpMethod.Get, $"/api/trade/fetch/{string.Join(",", searchIDs)}");
+        var message = new HttpRequestMessage(HttpMethod.Get, $"/api/trade2/fetch/{string.Join(",", searchIDs)}");
         AddApiHeaders(message);
         using (await asyncLock.LockAsync().ConfigureAwait(false))
         {
@@ -82,7 +82,7 @@ public class PoeHttpClient : IPoeHttpClient
     {
         var stringContent = searchRequest.ToStringContent(out var json);
         var client = httpClientFactory.CreateClient("PoeApi");
-        var message = new HttpRequestMessage(HttpMethod.Post, $"/api/trade/search/{league}");
+        var message = new HttpRequestMessage(HttpMethod.Post, $"/api/trade2/search/poe2/{league}");
         AddApiHeaders(message);
         message.Content = stringContent;
         using (await asyncLock.LockAsync().ConfigureAwait(false))
@@ -94,7 +94,7 @@ public class PoeHttpClient : IPoeHttpClient
     private async Task<HttpResponseMessage> RefreshSearchPage(string league)
     {
         var client = httpClientFactory.CreateClient("PoeApi");
-        var message = new HttpRequestMessage(HttpMethod.Get, "/trade/search/Standard");
+        var message = new HttpRequestMessage(HttpMethod.Get, $"/trade2/search/poe2/{league}");
         AddWebHeaders(message);
         return await client.SendAsync(message).ConfigureAwait(false);
     }
@@ -131,9 +131,9 @@ public class PoeHttpClient : IPoeHttpClient
         {
             for (int i = 0; i < 3; i++)
             {
-                var message = new HttpRequestMessage(HttpMethod.Post, "https://www.pathofexile.com/api/trade/whisper");
+                var message = new HttpRequestMessage(HttpMethod.Post, "https://www.pathofexile.com/api/trade2/whisper");
                 AddApiHeaders(message);
-                message.Headers.Add("Referer", $"https://www.pathofexile.com/trade/search/{settings.League}/{searchId}");
+                message.Headers.Add("Referer", $"https://www.pathofexile.com/trade2/search/{settings.League}/{searchId}");
                 string jsonPayload = JsonSerializer.Serialize(itemWhisper, options: new JsonSerializerOptions { DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull });
                 message.Content = new StringContent(jsonPayload, Encoding.UTF8, "application/json");
                 var client = httpClientFactory.CreateClient("PoeApi");
@@ -173,7 +173,7 @@ public class PoeHttpClient : IPoeHttpClient
     public async Task<WebSocket> InitializeWebSocket(string league, string searchId, CancellationToken ct)
     {
         //await GetSearchRequest(league, searchId);
-        var serverUri = new Uri($"wss://www.pathofexile.com/api/trade/live/{league}/{searchId}");
+        var serverUri = new Uri($"wss://www.pathofexile.com/api/trade2/live/poe2/{league}/{searchId}");
         
         using (await asyncLock.LockAsync().ConfigureAwait(false))
         {

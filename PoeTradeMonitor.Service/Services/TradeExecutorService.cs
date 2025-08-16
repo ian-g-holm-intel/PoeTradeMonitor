@@ -195,7 +195,7 @@ public class TradeExecutorService : ITradeExecutorService
                 }
 
                 log.LogInformation($"Successfully bought {tradeRequest.Item.Name} for {tradeRequest.Price}");
-                if (tradeRequest.Item.StackSize == 1 && tradeRequest.Item.Rarity != ItemRarity.Currency && tradeRequest.Item.DescriptionText != null && !tradeRequest.Item.DescriptionText.Contains("bestiary"))
+                if (tradeRequest.Item.StackSize == 1 && tradeRequest.Item.Rarity != ItemRarity.Currency)
                 {
                     await notificationClient.SendPushNotification("Trade Successful", "Trade Successful", $"Successfully bought {tradeRequest.Item.Name} for {tradeRequest.Price}", "hello.caf");
                 }
@@ -208,12 +208,14 @@ public class TradeExecutorService : ITradeExecutorService
                 await tradeCommands.OpenStash(ct);
                 await tradeCommands.RemoveInventoryItems();
                 await tradeCommands.SelectTab("$");
+                await tradeCommands.UpdateCurrencyCache();
             }
             catch (FailedEnterHideoutException)
             {
                 await stateMachine.ChangeState(Trigger.LeaveParty, ct);
                 await tradeCommands.OpenStash(ct);
                 await tradeCommands.RemoveInventoryCurrency();
+                await tradeCommands.UpdateCurrencyCache();
                 log.LogInformation($"Failed to trade {tradeRequest.Item.Name} with {tradeRequest.CharacterName}");
             }
             catch (InsufficientCurrencyException ex)
@@ -225,6 +227,7 @@ public class TradeExecutorService : ITradeExecutorService
             {
                 await tradeCommands.OpenStash(ct);
                 await tradeCommands.RemoveInventoryCurrency();
+                await tradeCommands.UpdateCurrencyCache();
                 log.LogInformation($"Failed to trade {tradeRequest.Item.Name} with {tradeRequest.CharacterName}");
             }
         }

@@ -46,8 +46,9 @@
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0" Orientation="Horizontal">
                     <RadioButton Content="Divine Orbs" FontSize="14" IsChecked="{Binding IsDivineOrbs, Mode=TwoWay}" Margin="0,0,20,0" VerticalContentAlignment="Center" />
-                    <RadioButton Content="Chaos Orbs" FontSize="14" IsChecked="{Binding IsBaseCurrency, Mode=TwoWay}" VerticalContentAlignment="Center" />
+                    <RadioButton Content="Exalted Orbs" FontSize="14" IsChecked="{Binding IsBaseCurrency, Mode=TwoWay}" VerticalContentAlignment="Center" />
                 </StackPanel>
+                <CheckBox Grid.Column="2" Content="+1 Corruption" FontSize="14" IsChecked="{Binding IsPlusOneCorruption, Mode=TwoWay}" VerticalContentAlignment="Center" VerticalAlignment="Center"/>
             </Grid>
         </StackPanel>
         <StackPanel Grid.Row="3" Margin="5">

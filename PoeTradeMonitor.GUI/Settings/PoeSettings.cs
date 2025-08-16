@@ -11,10 +11,10 @@ namespace PoeTradeMonitor.GUI.Settings;
 public partial class PoeSettings : ObservableObject
 {
     [ObservableProperty]
-    private string league = "Mercenaries";
+    private string league = "Dawn%20of%20the%20Hunt";
 
     [ObservableProperty]
-    private string hideoutName = "Immaculate Hideout";
+    private string hideoutName = "Felled Hideout";
 
     [ObservableProperty]
     private string windowsVersion = "19.0.0";

@@ -42,7 +42,7 @@ public class Program
         var logFormat = "{Timestamp:yyyy-MM-dd HH:mm:ss.fff} [{Level}] {Message}{NewLine}{Exception}";
 #endif
         var assembly = Assembly.GetEntryAssembly() ?? Assembly.GetCallingAssembly();
-        var logPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "PoeTradeMonitor", assembly.GetName().Name + ".log");
+        var logPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "PoeTradeMonitor2", assembly.GetName().Name + ".log");
         Log.Logger = new LoggerConfiguration()
             .MinimumLevel.Debug()
             .MinimumLevel.Override("Microsoft", LogEventLevel.Error)

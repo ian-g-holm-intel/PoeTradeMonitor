@@ -16,8 +16,8 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\PoeLib\PoeLib.csproj" />
-		<ProjectReference Include="..\PrivateExileApi\ExileApi\Core\Core.csproj" />
-		<ProjectReference Include="..\PrivateExileApi\GameOffsets\GameOffsets.csproj" />
+		<ProjectReference Include="..\ExileCore2\ExileCore2\Core\Core.csproj" />
+		<ProjectReference Include="..\ExileCore2\GameOffsets\GameOffsets2.csproj" />
 	</ItemGroup>
 
 </Project>

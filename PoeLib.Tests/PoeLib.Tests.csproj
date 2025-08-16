@@ -23,6 +23,8 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\PoeLib\PoeLib.csproj" />
+		<ProjectReference Include="..\PoeTradeMonitor.GUI\PoeTradeMonitor.GUI.csproj" />
+		<ProjectReference Include="..\PoeTrade.Contracts\PoeTrade.Contracts.csproj" />
 	</ItemGroup>
 
 </Project>

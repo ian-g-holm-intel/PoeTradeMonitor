@@ -41,7 +41,6 @@ public class RarityStateMachine : IRarityStateMachine
 
         config.ForState(State.Normal)
             .OnEntry(() => Console.WriteLine("Normal"))
-            .PermitReentry(Trigger.Scour, async () => await UseCurrency(TradeCurrencyType.Scour))
             .Permit(Trigger.Transmute, State.Magic, async () => await UseCurrency(TradeCurrencyType.Transmute))
             .Permit(Trigger.Alch, State.Rare, async () => await UseCurrency(TradeCurrencyType.Alch))
             .Permit(Trigger.Essence, State.Rare, UseEssence);
@@ -49,10 +48,6 @@ public class RarityStateMachine : IRarityStateMachine
         config.ForState(State.Magic)
             .OnEntry(() => Console.WriteLine("Magic"))
             .Permit(Trigger.Regal, State.Rare, async () => await UseCurrency(TradeCurrencyType.Regal));
-
-        config.ForState(State.Rare)
-            .OnEntry(() => Console.WriteLine("Rare"))
-            .Permit(Trigger.Scour, State.Normal, async () => await UseCurrency(TradeCurrencyType.Scour));
 
         machine = StateMachineFactory.Create(State.Normal, config);
     }
