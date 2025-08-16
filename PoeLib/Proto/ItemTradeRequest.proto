@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package poe_lib;
+
+option csharp_namespace = "PoeLib.Proto";
+
+// Import necessary proto files from PoeTrade.Contracts  
+import "Proto/trade_item.proto";
+import "Proto/price_info.proto";
+import "Proto/currency_info.proto";
+
+message ItemTradeRequest {
+	string characterName = 1;
+	string accountName = 2;
+	poe_trade.contracts.TradeItem item = 3;
+	poe_trade.contracts.PriceInfo price = 4;
+	repeated poe_trade.contracts.CurrencyInfo currencies = 5;
+	int64 timestamp = 6;
+	double divineRate = 7;
+}

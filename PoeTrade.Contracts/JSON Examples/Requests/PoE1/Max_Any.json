@@ -1,0 +1,210 @@
+{
+	"query": {
+		"status": {
+			"option": "online"
+		},
+		"stats": [
+			{
+				"type": "and",
+				"filters": []
+			}
+		],
+		"filters": {
+			"weapon_filters": {
+				"filters": {
+					"damage": {
+						"max": 1
+					},
+					"crit": {
+						"max": 1
+					},
+					"pdps": {
+						"max": 1
+					},
+					"edps": {
+						"max": 1
+					},
+					"dps": {
+						"max": 1
+					},
+					"aps": {
+						"max": 1
+					}
+				}
+			},
+			"armour_filters": {
+				"filters": {
+					"ev": {
+						"max": 1
+					},
+					"ward": {
+						"max": 1
+					},
+					"base_defence_percentile": {
+						"max": 1
+					},
+					"ar": {
+						"max": 1
+					},
+					"es": {
+						"max": 1
+					},
+					"block": {
+						"max": 1
+					}
+				}
+			},
+			"socket_filters": {
+				"filters": {
+					"sockets": {
+						"max": 1
+					},
+					"links": {
+						"max": 1
+					}
+				}
+			},
+			"req_filters": {
+				"filters": {
+					"str": {
+						"max": 1
+					},
+					"int": {
+						"max": 1
+					},
+					"lvl": {
+						"max": 1
+					},
+					"dex": {
+						"max": 1
+					}
+				}
+			},
+			"map_filters": {
+				"filters": {
+					"map_tier": {
+						"max": 1
+					},
+					"map_iiq": {
+						"max": 1
+					},
+					"area_level": {
+						"max": 1
+					},
+					"map_packsize": {
+						"max": 1
+					},
+					"map_iir": {
+						"max": 1
+					}
+				}
+			},
+			"heist_filters": {
+				"filters": {
+					"heist_max_wings": {
+						"max": 1
+					},
+					"heist_max_escape_routes": {
+						"max": 1
+					},
+					"heist_max_reward_rooms": {
+						"max": 1
+					},
+					"heist_wings": {
+						"max": 1
+					},
+					"heist_escape_routes": {
+						"max": 1
+					},
+					"heist_reward_rooms": {
+						"max": 1
+					},
+					"heist_lockpicking": {
+						"max": 1
+					},
+					"heist_perception": {
+						"max": 1
+					},
+					"heist_counter_thaumaturgy": {
+						"max": 1
+					},
+					"heist_agility": {
+						"max": 1
+					},
+					"heist_engineering": {
+						"max": 1
+					},
+					"heist_deception": {
+						"max": 1
+					},
+					"heist_trap_disarmament": {
+						"max": 1
+					},
+					"heist_demolition": {
+						"max": 1
+					},
+					"heist_brute_force": {
+						"max": 1
+					}
+				}
+			},
+			"sanctum_filters": {
+				"filters": {
+					"sanctum_max_resolve": {
+						"max": 1
+					},
+					"sanctum_gold": {
+						"max": 1
+					},
+					"sanctum_resolve": {
+						"max": 1
+					},
+					"sanctum_inspiration": {
+						"max": 1
+					}
+				}
+			},
+			"misc_filters": {
+				"filters": {
+					"ilvl": {
+						"max": 1
+					},
+					"gem_level_progress": {
+						"max": 1
+					},
+					"quality": {
+						"max": 1
+					},
+					"gem_level": {
+						"max": 1
+					},
+					"memory_level": {
+						"max": 1
+					},
+					"talisman_tier": {
+						"max": 1
+					},
+					"stack_size": {
+						"max": 1
+					},
+					"scourge_tier": {
+						"max": 1
+					},
+					"stored_experience": {
+						"max": 1
+					}
+				}
+			},
+			"trade_filters": {
+				"filters": {
+					"price": {
+						"max": 1
+					}
+				}
+			}
+		}
+	},
+	"sort": {
+		"price": "asc"
+	}
+}

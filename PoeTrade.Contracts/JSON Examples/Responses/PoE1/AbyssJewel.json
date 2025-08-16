@@ -1,0 +1,188 @@
+{
+    "result": [
+        {
+            "id": "09ccd5fe70176349464373640a1ce03f2e58d9c69ae870871fca26d6ac9ea8a1",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2025-08-09T20:50:00Z",
+                "stash": {
+                    "name": "~price 50 divine",
+                    "x": 6,
+                    "y": 18
+                },
+                "whisper": "@OgiTermiNator Hi, I would like to buy your Enthralling Lens Hypnotic Eye Jewel listed for 50 divine in Mercenaries (stash tab \"~price 50 divine\"; position: left 7, top 19)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI4NDU0ZjMwYzU1NWMzZDUyZTU3ZmJkYmY2NjVlNzI0YiIsImlzcyI6Ill6NzVvM0RjWSIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6Ik9naVRlcm1pTmF0b3IiLCJsb2MiOiJlbl9VUyIsInRvayI6Iml0ZW0iLCJzdWIiOiIwOWNjZDVmZTcwMTc2MzQ5NDY0MzczNjQwYTFjZTAzZjJlNThkOWM2OWFlODcwODcxZmNhMjZkNmFjOWVhOGExIiwiZGF0IjoiNjUwMzAzYTA5NzU0ZWMyMTRkNGQwMTc4YWM5NjNlZTQiLCJpYXQiOjE3NTUwMjEyODUsImV4cCI6MTc1NTAyMTU4NX0.OrYVvH12DMqVtS-O0-cHXnkrhxBR_Mm1xchDM9P7DLY",
+                "account": {
+                    "name": "ozeanie000#3328",
+                    "online": {
+                        "league": "Mercenaries"
+                    },
+                    "lastCharacterName": "OgiTermiNator",
+                    "language": "en_US",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 50,
+                    "currency": "divine"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 1,
+                "h": 1,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1JpdmV0ZWRFeWUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/a17c4bcc60/RivetedEye.png",
+                "league": "Mercenaries",
+                "id": "09ccd5fe70176349464373640a1ce03f2e58d9c69ae870871fca26d6ac9ea8a1",
+                "abyssJewel": true,
+                "name": "Enthralling Lens",
+                "typeLine": "Hypnotic Eye Jewel",
+                "baseType": "Hypnotic Eye Jewel",
+                "rarity": "Rare",
+                "ilvl": 84,
+                "identified": true,
+                "corrupted": true,
+                "properties": [
+                    {
+                        "name": "Abyss",
+                        "values": [],
+                        "displayMode": 0
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "63",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 62
+                    }
+                ],
+                "explicitMods": [
+                    "+9 to Strength and Dexterity",
+                    "Adds 15 to 21 Chaos Damage to Spells",
+                    "4% increased Cast Speed",
+                    "8 to 11 Added Spell Physical Damage while Dual Wielding",
+                    "Regenerate 19 Energy Shield per second"
+                ],
+                "descrText": "Place into an Abyssal Socket on an Item or into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+                "frameType": 2,
+                "extended": {
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "Breathtaking",
+                                "tier": "P1",
+                                "level": 60,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2561836520",
+                                        "min": "17",
+                                        "max": "20"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of Enchanting",
+                                "tier": "S1",
+                                "level": 50,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2891184298",
+                                        "min": "2",
+                                        "max": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of Athletics",
+                                "tier": "S1",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_538848803",
+                                        "min": "8",
+                                        "max": "10"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Annealed",
+                                "tier": "P4",
+                                "level": 54,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_4255924189",
+                                        "min": "6",
+                                        "max": "8"
+                                    },
+                                    {
+                                        "hash": "explicit.stat_4255924189",
+                                        "min": "10",
+                                        "max": "12"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of Sin",
+                                "tier": "S1",
+                                "level": 79,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2300399854",
+                                        "min": "14",
+                                        "max": "16"
+                                    },
+                                    {
+                                        "hash": "explicit.stat_2300399854",
+                                        "min": "18",
+                                        "max": "22"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_538848803",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2300399854",
+                                [
+                                    4
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2891184298",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_4255924189",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2561836520",
+                                [
+                                    0
+                                ]
+                            ]
+                        ]
+                    },
+                    "text": "SXRlbSBDbGFzczogQWJ5c3MgSmV3ZWxzDQpSYXJpdHk6IFJhcmUNCkVudGhyYWxsaW5nIExlbnMNCkh5cG5vdGljIEV5ZSBKZXdlbA0KLS0tLS0tLS0NCkFieXNzDQotLS0tLS0tLQ0KUmVxdWlyZW1lbnRzOg0KTGV2ZWw6IDYzDQotLS0tLS0tLQ0KSXRlbSBMZXZlbDogODQNCi0tLS0tLS0tDQorOSB0byBTdHJlbmd0aCBhbmQgRGV4dGVyaXR5DQpBZGRzIDE1IHRvIDIxIENoYW9zIERhbWFnZSB0byBTcGVsbHMNCjQlIGluY3JlYXNlZCBDYXN0IFNwZWVkDQo4IHRvIDExIEFkZGVkIFNwZWxsIFBoeXNpY2FsIERhbWFnZSB3aGlsZSBEdWFsIFdpZWxkaW5nDQpSZWdlbmVyYXRlIDE5IEVuZXJneSBTaGllbGQgcGVyIHNlY29uZA0KLS0tLS0tLS0NClBsYWNlIGludG8gYW4gQWJ5c3NhbCBTb2NrZXQgb24gYW4gSXRlbSBvciBpbnRvIGFuIGFsbG9jYXRlZCBKZXdlbCBTb2NrZXQgb24gdGhlIFBhc3NpdmUgU2tpbGwgVHJlZS4gUmlnaHQgY2xpY2sgdG8gcmVtb3ZlIGZyb20gdGhlIFNvY2tldC4NCi0tLS0tLS0tDQpDb3JydXB0ZWQNCg=="
+                }
+            }
+        },
+    ]
+}

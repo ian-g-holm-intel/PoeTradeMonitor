@@ -1,0 +1,238 @@
+{
+    "result": [
+        {
+            "id": "c88cb01e25ba7c24b250549676c50a4e9a4524a9151ed0a0769e52bafceeed03",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2025-05-08T06:02:26Z",
+                "stash": {
+                    "name": "~b/o 1 mir Andy11 (mir service)",
+                    "x": 8,
+                    "y": 10
+                },
+                "whisper": "@Il_Nam Hi, I would like to buy your Vengeance Choker Solar Amulet listed for 1 mirror in Dawn of the Hunt (stash tab \"~b/o 1 mir Andy11 (mir service)\"; position: left 9, top 11)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI0N2IzNGM5MjZlZTNjYTg1MzlmOTAyOTQ0ZjYxNWY3YiIsImlzcyI6IlI0ajh5ek9GNyIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6IklsX05hbSIsImxvYyI6ImVuX1VTIiwidG9rIjoiaXRlbSIsInN1YiI6ImM4OGNiMDFlMjViYTdjMjRiMjUwNTQ5Njc2YzUwYTRlOWE0NTI0YTkxNTFlZDBhMDc2OWU1MmJhZmNlZWVkMDMiLCJkYXQiOiJkNjIwZTcxYTNmYTA3ODVhNGIxZWIxNTNhNDAxOTc4NSIsImlhdCI6MTc1NTAyMzk3NCwiZXhwIjoxNzU1MDI0Mjc0fQ._6rhNdwk_kSGuo7x9BmhSQ1DUfpZBHVpJjlRFHU_eNY",
+                "account": {
+                    "name": "JeNebu#4995",
+                    "online": {
+                        "league": "Dawn of the Hunt",
+                        "status": "afk"
+                    },
+                    "lastCharacterName": "Il_Nam",
+                    "language": "en_US",
+                    "realm": "poe2"
+                },
+                "price": {
+                    "type": "~b/o",
+                    "amount": 1,
+                    "currency": "mirror"
+                }
+            },
+            "item": {
+                "realm": "poe2",
+                "verified": true,
+                "w": 1,
+                "h": 1,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9CYXNldHlwZXMvU29sYXJBbXVsZXQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/f23b75f540/SolarAmulet.png",
+                "league": "Dawn of the Hunt",
+                "id": "c88cb01e25ba7c24b250549676c50a4e9a4524a9151ed0a0769e52bafceeed03",
+                "fractured": true,
+                "name": "Vengeance Choker",
+                "typeLine": "Solar Amulet",
+                "baseType": "Solar Amulet",
+                "rarity": "Rare",
+                "ilvl": 84,
+                "identified": true,
+                "properties": [
+                    {
+                        "name": "Amulet",
+                        "values": [],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Quality (Defence Modifiers)",
+                        "values": [
+                            [
+                                "+20%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 6
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "65",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 62
+                    }
+                ],
+                "implicitMods": [
+                    "+13 to [Spirit|Spirit]"
+                ],
+                "explicitMods": [
+                    "+106 to maximum [EnergyShield|Energy Shield]",
+                    "57% increased maximum [EnergyShield|Energy Shield]",
+                    "39% increased [CriticalDamageBonus|Critical Damage Bonus]",
+                    "+22 to all [Attributes|Attributes]",
+                    "+18% to all [ElementalDamage|Elemental] [Resistances]"
+                ],
+                "fracturedMods": [
+                    "+50 to [Spirit|Spirit]"
+                ],
+                "frameType": 2,
+                "extended": {
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "Incandescent",
+                                "tier": "P1",
+                                "level": 82,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3489782002",
+                                        "min": "80",
+                                        "max": "89"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of Destruction",
+                                "tier": "S1",
+                                "level": 74,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3556824919",
+                                        "min": "35",
+                                        "max": "39"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Span",
+                                "tier": "S1",
+                                "level": 80,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2901986750",
+                                        "min": "17",
+                                        "max": "18"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Multiverse",
+                                "tier": "S2",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1379411836",
+                                        "min": "21",
+                                        "max": "22"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Unassailable",
+                                "tier": "P1",
+                                "level": 77,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2482852589",
+                                        "min": "45",
+                                        "max": "50"
+                                    }
+                                ]
+                            }
+                        ],
+                        "implicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 38,
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_3981240776",
+                                        "min": "10",
+                                        "max": "15"
+                                    }
+                                ]
+                            }
+                        ],
+                        "fractured": [
+                            {
+                                "name": "Countess'",
+                                "tier": "P1",
+                                "level": 47,
+                                "magnitudes": [
+                                    {
+                                        "hash": "fractured.stat_3981240776",
+                                        "min": "47",
+                                        "max": "50"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_3489782002",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2482852589",
+                                [
+                                    4
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3556824919",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1379411836",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2901986750",
+                                [
+                                    2
+                                ]
+                            ]
+                        ],
+                        "implicit": [
+                            [
+                                "implicit.stat_3981240776",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "fractured": [
+                            [
+                                "fractured.stat_3981240776",
+                                [
+                                    0
+                                ]
+                            ]
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

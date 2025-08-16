@@ -1,0 +1,165 @@
+syntax = "proto3";
+
+package poe_trade.contracts;
+
+import "google/protobuf/wrappers.proto";
+
+option csharp_namespace = "PoeTrade.Contracts.Proto";
+
+// Common filter types
+message RangeFilter {
+  google.protobuf.Int32Value min = 1;
+  google.protobuf.Int32Value max = 2;
+}
+
+message OptionFilter {
+  string option = 1;
+}
+
+message InputFilter {
+  string input = 1;
+}
+
+message PriceFilter {
+  google.protobuf.StringValue option = 1;
+  google.protobuf.Int32Value min = 2;
+  google.protobuf.Int32Value max = 3;
+}
+
+// Type filters
+message TypeFilters {
+  google.protobuf.BoolValue disabled = 1;
+  TypeFilterOptions filters = 2;
+}
+
+message TypeFilterOptions {
+  OptionFilter category = 1;
+  OptionFilter rarity = 2;
+  RangeFilter item_level = 3; // PoE2-specific
+  RangeFilter quality = 4; // PoE2-specific
+}
+
+// Weapon filters (PoE1)
+message WeaponFilters {
+  google.protobuf.BoolValue disabled = 1;
+  WeaponFilterOptions filters = 2;
+}
+
+message WeaponFilterOptions {
+  RangeFilter damage = 1;
+  RangeFilter crit = 2;
+  RangeFilter physical_dps = 3;
+  RangeFilter elemental_dps = 4;
+  RangeFilter dps = 5;
+  RangeFilter attacks_per_second = 6;
+}
+
+// Armour filters (PoE1)
+message ArmourFilters {
+  google.protobuf.BoolValue disabled = 1;
+  ArmourFilterOptions filters = 2;
+}
+
+message ArmourFilterOptions {
+  RangeFilter armour = 1;
+  RangeFilter energy_shield = 2;
+  RangeFilter evasion = 3;
+  RangeFilter block = 4;
+  RangeFilter base_defence_percentile = 5;
+  RangeFilter ward = 6;
+}
+
+// Socket filters (PoE1)
+message SocketFilters {
+  google.protobuf.BoolValue disabled = 1;
+  SocketFilterOptions filters = 2;
+}
+
+message SocketFilterOptions {
+  SocketColorFilter sockets = 1;
+  SocketColorFilter links = 2;
+}
+
+message SocketColorFilter {
+  google.protobuf.Int32Value red = 1;
+  google.protobuf.Int32Value green = 2;
+  google.protobuf.Int32Value blue = 3;
+  google.protobuf.Int32Value white = 4;
+  google.protobuf.Int32Value min = 5;
+  google.protobuf.Int32Value max = 6;
+}
+
+// Equipment filters (PoE2)
+message EquipmentFilters {
+  google.protobuf.BoolValue disabled = 1;
+  EquipmentFilterOptions filters = 2;
+}
+
+message EquipmentFilterOptions {
+  // Weapon properties
+  RangeFilter attacks_per_second = 1;
+  RangeFilter dps = 2;
+  RangeFilter elemental_dps = 3;
+  RangeFilter damage = 4;
+  RangeFilter crit = 5;
+  RangeFilter physical_dps = 6;
+  RangeFilter reload_time = 7;
+  
+  // Armour properties
+  RangeFilter armour = 8;
+  RangeFilter energy_shield = 9;
+  RangeFilter spirit = 10;
+  RangeFilter evasion = 11;
+  RangeFilter block = 12;
+  RangeFilter rune_sockets = 13;
+}
+
+// Requirement filters
+message RequirementFilters {
+  google.protobuf.BoolValue disabled = 1;
+  RequirementFilterOptions filters = 2;
+}
+
+message RequirementFilterOptions {
+  RangeFilter level = 1;
+  RangeFilter strength = 2;
+  RangeFilter intelligence = 3;
+  RangeFilter dexterity = 4;
+  OptionFilter class = 5; // PoE1-specific
+}
+
+// Map filters
+message MapFilters {
+  google.protobuf.BoolValue disabled = 1;
+  MapFilterOptions filters = 2;
+}
+
+message MapFilterOptions {
+  RangeFilter map_tier = 1;
+  RangeFilter area_level = 2;
+  
+  // PoE1-specific
+  RangeFilter item_quantity = 3;
+  RangeFilter item_rarity = 4;
+  RangeFilter pack_size = 5;
+  OptionFilter map_blighted = 6;
+  OptionFilter completion_reward = 7;
+  OptionFilter map_uber_blighted = 8;
+  OptionFilter map_series = 9;
+  
+  // PoE2-specific
+  RangeFilter map_bonus = 10;
+  OptionFilter ultimatum_hint = 11;
+}
+
+// Trade filters
+message TradeFilters {
+  google.protobuf.BoolValue disabled = 1;
+  TradeFilterOptions filters = 2;
+}
+
+message TradeFilterOptions {
+  InputFilter account = 1;
+  OptionFilter collapse = 2;
+  PriceFilter price = 3;
+}

@@ -1,0 +1,172 @@
+{
+    "result": [
+        {
+            "id": "24a51e5c6eaa34505af96d21cffc5ded53a885d9e31b2f5d216cf045c1fcfa83",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2025-07-28T17:10:04Z",
+                "stash": {
+                    "name": "10",
+                    "x": 2,
+                    "y": 10
+                },
+                "whisper": "@WickedFro Hi, I would like to buy your Sorrow Shelter Whisper-woven Cloak listed for 1 divine in Mercenaries (stash tab \"10\"; position: left 3, top 11)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI3NWI0NWQwOGNkZGYwMmJiNTAxY2Q1NmQyOTI2ZjM5ZCIsImlzcyI6IjJidzB2cG9payIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6IldpY2tlZEZybyIsImxvYyI6ImVuX1VTIiwidG9rIjoiaXRlbSIsInN1YiI6IjI0YTUxZTVjNmVhYTM0NTA1YWY5NmQyMWNmZmM1ZGVkNTNhODg1ZDllMzFiMmY1ZDIxNmNmMDQ1YzFmY2ZhODMiLCJkYXQiOiJkNzMzOTllYTNjYjYwMzdkMGU5ZjVkYTRmOTRjNGVkNiIsImlhdCI6MTc1NTAyMTgxMiwiZXhwIjoxNzU1MDIyMTEyfQ.764FCEHpfgu4DnrOOVqE1x9G0qDfAFdMIEYL6X7JR5Q",
+                "account": {
+                    "name": "Hefro1#2120",
+                    "online": {
+                        "league": "Mercenaries"
+                    },
+                    "lastCharacterName": "WickedFro",
+                    "language": "en_US",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 1,
+                    "currency": "divine"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 2,
+                "h": 2,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVpc3QvV2hpc3BlcldvdmVuQ2xvYWsiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/5d44c09a37/WhisperWovenCloak.png",
+                "league": "Mercenaries",
+                "id": "24a51e5c6eaa34505af96d21cffc5ded53a885d9e31b2f5d216cf045c1fcfa83",
+                "name": "Sorrow Shelter",
+                "typeLine": "Whisper-woven Cloak",
+                "baseType": "Whisper-woven Cloak",
+                "rarity": "Rare",
+                "ilvl": 83,
+                "identified": true,
+                "note": "~price 1 divine",
+                "properties": [
+                    {
+                        "name": "Any Heist member can equip this item.",
+                        "values": [
+                            [
+                                "",
+                                0
+                            ]
+                        ],
+                        "displayMode": 3
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level {0} in {1}",
+                        "values": [
+                            [
+                                "5",
+                                0
+                            ],
+                            [
+                                "Any Job",
+                                0
+                            ]
+                        ],
+                        "displayMode": 3
+                    }
+                ],
+                "implicitMods": [
+                    "5% reduced raising of Alert Level"
+                ],
+                "explicitMods": [
+                    "30% increased Damage with Hits against Enemies on Full Life\nPlayers deal 30% increased Damage with Hits against Enemies on Full Life",
+                    "12% reduced raising of Alert Level from opening Chests",
+                    "6% increased Movement Speed while area is not in Lockdown\nPlayers have 6% increased Movement Speed while area is not in Lockdown"
+                ],
+                "descrText": "Can only be equipped to Heist members.",
+                "frameType": 2,
+                "extended": {
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "of Silence",
+                                "tier": "S1",
+                                "level": 82,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2500803699",
+                                        "min": "-12",
+                                        "max": "-11"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Tresspassing",
+                                "tier": "P4",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_902577520",
+                                        "min": "6",
+                                        "max": "7"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Instigator's",
+                                "tier": "P3",
+                                "level": 45,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3708045494",
+                                        "min": "29",
+                                        "max": "32"
+                                    }
+                                ]
+                            }
+                        ],
+                        "implicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_703341733",
+                                        "min": "-5",
+                                        "max": "-5"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_3708045494",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2500803699",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_902577520",
+                                [
+                                    1
+                                ]
+                            ]
+                        ],
+                        "implicit": [
+                            [
+                                "implicit.stat_703341733",
+                                [
+                                    0
+                                ]
+                            ]
+                        ]
+                    },
+                    "text": "SXRlbSBDbGFzczogSGVpc3QgQ2xvYWtzDQpSYXJpdHk6IFJhcmUNClNvcnJvdyBTaGVsdGVyDQpXaGlzcGVyLXdvdmVuIENsb2FrDQotLS0tLS0tLQ0KQW55IEhlaXN0IG1lbWJlciBjYW4gZXF1aXAgdGhpcyBpdGVtLg0KLS0tLS0tLS0NClJlcXVpcmVtZW50czoNCkxldmVsIDUgaW4gQW55IEpvYg0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDgzDQotLS0tLS0tLQ0KNSUgcmVkdWNlZCByYWlzaW5nIG9mIEFsZXJ0IExldmVsIChpbXBsaWNpdCkNCi0tLS0tLS0tDQozMCUgaW5jcmVhc2VkIERhbWFnZSB3aXRoIEhpdHMgYWdhaW5zdCBFbmVtaWVzIG9uIEZ1bGwgTGlmZQpQbGF5ZXJzIGRlYWwgMzAlIGluY3JlYXNlZCBEYW1hZ2Ugd2l0aCBIaXRzIGFnYWluc3QgRW5lbWllcyBvbiBGdWxsIExpZmUNCjEyJSByZWR1Y2VkIHJhaXNpbmcgb2YgQWxlcnQgTGV2ZWwgZnJvbSBvcGVuaW5nIENoZXN0cw0KNiUgaW5jcmVhc2VkIE1vdmVtZW50IFNwZWVkIHdoaWxlIGFyZWEgaXMgbm90IGluIExvY2tkb3duClBsYXllcnMgaGF2ZSA2JSBpbmNyZWFzZWQgTW92ZW1lbnQgU3BlZWQgd2hpbGUgYXJlYSBpcyBub3QgaW4gTG9ja2Rvd24NCi0tLS0tLS0tDQpDYW4gb25seSBiZSBlcXVpcHBlZCB0byBIZWlzdCBtZW1iZXJzLg0KLS0tLS0tLS0NCk5vdGU6IH5wcmljZSAxIGRpdmluZQ0K"
+                }
+            }
+        }
+    ]
+}

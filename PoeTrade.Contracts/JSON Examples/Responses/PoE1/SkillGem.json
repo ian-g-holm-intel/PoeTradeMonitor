@@ -1,0 +1,230 @@
+{
+    "result": [
+        {
+            "id": "4b6616ee589c6f444df78effb97fe2eb99dcbda6bd20f53a2e1c0dfb2ab16973",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2025-08-12T16:23:04Z",
+                "stash": {
+                    "name": "sales",
+                    "x": 4,
+                    "y": 9
+                },
+                "whisper": "@HurricaneMercenaries Hi, I would like to buy your level 21 20% Vaal Molten Strike listed for 10 divine in Mercenaries (stash tab \"sales\"; position: left 5, top 10)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI3ZDk0YTZlOGU0YTVlYTg0YWQ1MzUyMDUwZGFkMDI0NSIsImlzcyI6Ik9KbTQ3anJDRSIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6Ikh1cnJpY2FuZU1lcmNlbmFyaWVzIiwibG9jIjoiZW5fVVMiLCJ0b2siOiJpdGVtIiwic3ViIjoiNGI2NjE2ZWU1ODljNmY0NDRkZjc4ZWZmYjk3ZmUyZWI5OWRjYmRhNmJkMjBmNTNhMmUxYzBkZmIyYWIxNjk3MyIsImRhdCI6IjUzNTAwZGQxZGY0ZmUxNjNjZjNjYzkyNGUwYmI0ZmIyIiwiaWF0IjoxNzU1MDIxMTc5LCJleHAiOjE3NTUwMjE0Nzl9.Shkd0Pi_7mbPBUeJ2t5_y6TBfhNBIJv1TF1mvojprc4",
+                "account": {
+                    "name": "Exim1us#0541",
+                    "online": {
+                        "league": "Mercenaries"
+                    },
+                    "lastCharacterName": "HurricaneMercenaries",
+                    "language": "en_US",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 10,
+                    "currency": "divine"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 1,
+                "h": 1,
+                "icon": "https://web.poecdn.com/gen/image/WzMwLDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9WYWFsR2Vtcy9WYWFsTW9sdGVuU3RyaWtlIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsImdkIjo1fV0/eb6b5b7bf9/VaalMoltenStrike.png",
+                "support": false,
+                "league": "Mercenaries",
+                "id": "4b6616ee589c6f444df78effb97fe2eb99dcbda6bd20f53a2e1c0dfb2ab16973",
+                "name": "",
+                "typeLine": "Vaal Molten Strike",
+                "baseType": "Vaal Molten Strike",
+                "ilvl": 0,
+                "identified": true,
+                "note": "~price 10 divine",
+                "corrupted": true,
+                "properties": [
+                    {
+                        "name": "Attack, Projectile, AoE, Melee, Strike, Fire, Chaining, Vaal",
+                        "values": [],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "21 (Max)",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 5
+                    },
+                    {
+                        "name": "Cost",
+                        "values": [
+                            [
+                                "13 Mana",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Attack Speed",
+                        "values": [
+                            [
+                                "80% of base",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Attack Damage",
+                        "values": [
+                            [
+                                "251% of base",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Effectiveness of Added Damage",
+                        "values": [
+                            [
+                                "251%",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Quality",
+                        "values": [
+                            [
+                                "+20%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 6
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "72",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 62
+                    },
+                    {
+                        "name": "Str",
+                        "values": [
+                            [
+                                "159",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1,
+                        "type": 63
+                    }
+                ],
+                "secDescrText": "Infuses your two-handed melee weapon with molten energies to attack with physical and fire damage. This attack causes balls of molten magma to launch forth from the enemies you hit, divided amongst all enemies hit by the strike. These will deal area attack damage to enemies where they land. Every fifth time you attack with this skill it fires more, high-damage projectiles.",
+                "explicitMods": [
+                    "Fires 3 Projectiles",
+                    "60% of Physical Damage Converted to Fire Damage",
+                    "Projectiles deal 60% less Damage with Hits and Ailments",
+                    "Every fifth Attack fires 5 additional Projectiles",
+                    "Every fifth Attack, Projectiles deal 800% more Damage with Hits and Ailments"
+                ],
+                "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
+                "frameType": 4,
+                "hybrid": {
+                    "isVaalGem": true,
+                    "baseTypeName": "Molten Strike of the Zenith",
+                    "properties": [
+                        {
+                            "name": "Souls Per Use",
+                            "values": [
+                                [
+                                    "15",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Can Store {0} Uses",
+                            "values": [
+                                [
+                                    "3",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 3
+                        },
+                        {
+                            "name": "Soul Gain Prevention",
+                            "values": [
+                                [
+                                    "3 sec",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Attack Speed",
+                            "values": [
+                                [
+                                    "70% of base",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Attack Damage",
+                            "values": [
+                                [
+                                    "208% of base",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Effectiveness of Added Damage",
+                            "values": [
+                                [
+                                    "208%",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        }
+                    ],
+                    "explicitMods": [
+                        "Fires 9 Projectiles",
+                        "Chains +8 Times",
+                        "60% of Physical Damage Converted to Fire Damage",
+                        "+0.4 metres to radius",
+                        "Can't be Evaded",
+                        "Projectiles deal 10% more Damage with Hits and Ailments",
+                        "Projectiles can Chain when impacting the ground\nProjectiles do not change direction when Chaining"
+                    ],
+                    "secDescrText": "Infuses your melee weapon with molten energies to attack with physical and fire damage. This attack causes balls of molten magma to launch forth causing area attack damage to enemies where they land."
+                },
+                "extended": {
+                    "text": "SXRlbSBDbGFzczogU2tpbGwgR2Vtcw0KUmFyaXR5OiBHZW0NCk1vbHRlbiBTdHJpa2Ugb2YgdGhlIFplbml0aA0KLS0tLS0tLS0NCkF0dGFjaywgUHJvamVjdGlsZSwgQW9FLCBNZWxlZSwgU3RyaWtlLCBGaXJlLCBDaGFpbmluZywgVmFhbA0KTGV2ZWw6IDIxIChNYXgpDQpDb3N0OiAxMyBNYW5hDQpBdHRhY2sgU3BlZWQ6IDgwJSBvZiBiYXNlDQpBdHRhY2sgRGFtYWdlOiAyNTElIG9mIGJhc2UNCkVmZmVjdGl2ZW5lc3Mgb2YgQWRkZWQgRGFtYWdlOiAyNTElDQpRdWFsaXR5OiArMjAlIChhdWdtZW50ZWQpDQotLS0tLS0tLQ0KUmVxdWlyZW1lbnRzOg0KTGV2ZWw6IDcyDQpTdHI6IDE1OQ0KLS0tLS0tLS0NCkluZnVzZXMgeW91ciB0d28taGFuZGVkIG1lbGVlIHdlYXBvbiB3aXRoIG1vbHRlbiBlbmVyZ2llcyB0byBhdHRhY2sgd2l0aCBwaHlzaWNhbCBhbmQgZmlyZSBkYW1hZ2UuIFRoaXMgYXR0YWNrIGNhdXNlcyBiYWxscyBvZiBtb2x0ZW4gbWFnbWEgdG8gbGF1bmNoIGZvcnRoIGZyb20gdGhlIGVuZW1pZXMgeW91IGhpdCwgZGl2aWRlZCBhbW9uZ3N0IGFsbCBlbmVtaWVzIGhpdCBieSB0aGUgc3RyaWtlLiBUaGVzZSB3aWxsIGRlYWwgYXJlYSBhdHRhY2sgZGFtYWdlIHRvIGVuZW1pZXMgd2hlcmUgdGhleSBsYW5kLiBFdmVyeSBmaWZ0aCB0aW1lIHlvdSBhdHRhY2sgd2l0aCB0aGlzIHNraWxsIGl0IGZpcmVzIG1vcmUsIGhpZ2gtZGFtYWdlIHByb2plY3RpbGVzLg0KLS0tLS0tLS0NCkZpcmVzIDMgUHJvamVjdGlsZXMNCjYwJSBvZiBQaHlzaWNhbCBEYW1hZ2UgQ29udmVydGVkIHRvIEZpcmUgRGFtYWdlDQpQcm9qZWN0aWxlcyBkZWFsIDYwJSBsZXNzIERhbWFnZSB3aXRoIEhpdHMgYW5kIEFpbG1lbnRzDQpFdmVyeSBmaWZ0aCBBdHRhY2sgZmlyZXMgNSBhZGRpdGlvbmFsIFByb2plY3RpbGVzDQpFdmVyeSBmaWZ0aCBBdHRhY2ssIFByb2plY3RpbGVzIGRlYWwgODAwJSBtb3JlIERhbWFnZSB3aXRoIEhpdHMgYW5kIEFpbG1lbnRzDQotLS0tLS0tLQ0KVmFhbCBNb2x0ZW4gU3RyaWtlDQotLS0tLS0tLQ0KU291bHMgUGVyIFVzZTogMTUNCkNhbiBTdG9yZSAzIFVzZXMNClNvdWwgR2FpbiBQcmV2ZW50aW9uOiAzIHNlYw0KQXR0YWNrIFNwZWVkOiA3MCUgb2YgYmFzZQ0KQXR0YWNrIERhbWFnZTogMjA4JSBvZiBiYXNlDQpFZmZlY3RpdmVuZXNzIG9mIEFkZGVkIERhbWFnZTogMjA4JQ0KLS0tLS0tLS0NCkluZnVzZXMgeW91ciBtZWxlZSB3ZWFwb24gd2l0aCBtb2x0ZW4gZW5lcmdpZXMgdG8gYXR0YWNrIHdpdGggcGh5c2ljYWwgYW5kIGZpcmUgZGFtYWdlLiBUaGlzIGF0dGFjayBjYXVzZXMgYmFsbHMgb2YgbW9sdGVuIG1hZ21hIHRvIGxhdW5jaCBmb3J0aCBjYXVzaW5nIGFyZWEgYXR0YWNrIGRhbWFnZSB0byBlbmVtaWVzIHdoZXJlIHRoZXkgbGFuZC4NCi0tLS0tLS0tDQpGaXJlcyA5IFByb2plY3RpbGVzDQpDaGFpbnMgKzggVGltZXMNCjYwJSBvZiBQaHlzaWNhbCBEYW1hZ2UgQ29udmVydGVkIHRvIEZpcmUgRGFtYWdlDQorMC40IG1ldHJlcyB0byByYWRpdXMNCkNhbid0IGJlIEV2YWRlZA0KUHJvamVjdGlsZXMgZGVhbCAxMCUgbW9yZSBEYW1hZ2Ugd2l0aCBIaXRzIGFuZCBBaWxtZW50cw0KUHJvamVjdGlsZXMgY2FuIENoYWluIHdoZW4gaW1wYWN0aW5nIHRoZSBncm91bmQKUHJvamVjdGlsZXMgZG8gbm90IGNoYW5nZSBkaXJlY3Rpb24gd2hlbiBDaGFpbmluZw0KLS0tLS0tLS0NClBsYWNlIGludG8gYW4gaXRlbSBzb2NrZXQgb2YgdGhlIHJpZ2h0IGNvbG91ciB0byBnYWluIHRoaXMgc2tpbGwuIFJpZ2h0IGNsaWNrIHRvIHJlbW92ZSBmcm9tIGEgc29ja2V0Lg0KLS0tLS0tLS0NCkNvcnJ1cHRlZA0KLS0tLS0tLS0NClRyYW5zZmlndXJlZA0KLS0tLS0tLS0NCk5vdGU6IH5wcmljZSAxMCBkaXZpbmUNCg=="
+                }
+            }
+        },
+    ]
+}

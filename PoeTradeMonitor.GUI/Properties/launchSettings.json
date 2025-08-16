@@ -1,0 +1,12 @@
+﻿{
+  "profiles": {
+    "PoeTradeMonitor.GUI": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:53090;http://localhost:53091"
+    }
+  }
+}

@@ -1,0 +1,431 @@
+{
+	"result": [
+		{
+			"id": "4140fdf470edc661e50dda5869e6867ec21b2f969a561a5ae7ae38f69111ad0a",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-08-12T17:37:23Z",
+				"stash": {
+					"name": "Penance Brand",
+					"x": 2,
+					"y": 1
+				},
+				"whisper": "@JayJaymcspeed Hi, I would like to buy your Dire Breaker Synthesised Karui Sceptre listed for 1 mirror in Mercenaries (stash tab \"Penance Brand\"; position: left 3, top 2)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIwY2IyYTJiOTZiODE4OTQwZjc5NmQxZWVjMmM2NDk5OCIsImlzcyI6IlA3ajRKWUd0TCIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6IkpheUpheW1jc3BlZWQiLCJsb2MiOiJlbl9VUyIsInRvayI6Iml0ZW0iLCJzdWIiOiI0MTQwZmRmNDcwZWRjNjYxZTUwZGRhNTg2OWU2ODY3ZWMyMWIyZjk2OWE1NjFhNWFlN2FlMzhmNjkxMTFhZDBhIiwiZGF0IjoiOGJkYjQxMzE0NGU0MjRkOWVhOTkzM2ZmMGQwMWQzMTciLCJpYXQiOjE3NTUwMjA1MDYsImV4cCI6MTc1NTAyMDgwNn0.SjbP80M0L1aOvNRwTUwBK6MlGud2Y9UF2K1eqN567Bw",
+				"account": {
+					"name": "MisterDuber#1153",
+					"online": {
+						"league": "Mercenaries"
+					},
+					"lastCharacterName": "JayJaymcspeed",
+					"language": "en_US",
+					"realm": "pc"
+				},
+				"price": {
+					"type": "~price",
+					"amount": 1,
+					"currency": "mirror"
+				}
+			},
+			"item": {
+				"verified": true,
+				"w": 2,
+				"h": 3,
+				"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdGVycy9zY2VwdGVyMiIsInciOjIsImgiOjMsInNjYWxlIjoxLCJkdXBsaWNhdGVkIjp0cnVlLCJzeW50aGVzaXNlZCI6dHJ1ZX1d/7f2c61035d/scepter2.png",
+				"league": "Mercenaries",
+				"id": "4140fdf470edc661e50dda5869e6867ec21b2f969a561a5ae7ae38f69111ad0a",
+				"synthesised": true,
+				"sockets": [
+					{
+						"group": 0,
+						"attr": "G",
+						"sColour": "W"
+					},
+					{
+						"group": 0,
+						"attr": "G",
+						"sColour": "W"
+					},
+					{
+						"group": 0,
+						"attr": "G",
+						"sColour": "W"
+					}
+				],
+				"name": "Dire Breaker",
+				"typeLine": "Synthesised Karui Sceptre",
+				"baseType": "Karui Sceptre",
+				"rarity": "Rare",
+				"ilvl": 84,
+				"identified": true,
+				"note": "~price 1 mirror",
+				"duplicated": true,
+				"properties": [
+					{
+						"name": "Sceptre",
+						"values": [],
+						"displayMode": 0
+					},
+					{
+						"name": "Quality",
+						"values": [
+							[
+								"+30%",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 6
+					},
+					{
+						"name": "Physical Damage",
+						"values": [
+							[
+								"37-55",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 9
+					},
+					{
+						"name": "Critical Strike Chance",
+						"values": [
+							[
+								"7.00%",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 12
+					},
+					{
+						"name": "Attacks per Second",
+						"values": [
+							[
+								"1.50",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 13
+					},
+					{
+						"name": "Weapon Range: {0} metres",
+						"values": [
+							[
+								"1.1",
+								0
+							]
+						],
+						"displayMode": 3,
+						"type": 14
+					}
+				],
+				"requirements": [
+					{
+						"name": "Level",
+						"values": [
+							[
+								"66",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 62
+					},
+					{
+						"name": "Str",
+						"values": [
+							[
+								"96",
+								0
+							]
+						],
+						"displayMode": 1,
+						"type": 63
+					},
+					{
+						"name": "Int",
+						"values": [
+							[
+								"96",
+								0
+							]
+						],
+						"displayMode": 1,
+						"type": 65
+					}
+				],
+				"enchantMods": [
+					"Quality does not increase Physical Damage",
+					"Grants 1% increased Area of Effect per 4% Quality"
+				],
+				"implicitMods": [
+					"12% increased Cast Speed",
+					"Enemies you Kill have a 15% chance to Explode, dealing a tenth of their maximum Life as Physical Damage",
+					"Item sells for much more to vendors",
+					"Spells have a 10% chance to deal Double Damage"
+				],
+				"explicitMods": [
+					"69% increased Spell Damage",
+					"32% increased Cast Speed",
+					"+38% to Global Critical Strike Multiplier",
+					"+1 to Level of all Spell Skill Gems",
+					"+1 to Level of all Physical Spell Skill Gems",
+					"Gain 5% of Non-Chaos Damage as extra Chaos Damage"
+				],
+				"craftedMods": [
+					"5% chance to deal Double Damage"
+				],
+				"frameType": 2,
+				"extended": {
+					"dps": 69,
+					"pdps": 69,
+					"edps": 0,
+					"mods": {
+						"explicit": [
+							{
+								"name": "Magister's",
+								"tier": "P1",
+								"level": 55,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_124131830",
+										"min": "1",
+										"max": "1"
+									}
+								]
+							},
+							{
+								"name": "Chosen",
+								"tier": "P1",
+								"level": 60,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_2974417149",
+										"min": "60",
+										"max": "69"
+									},
+									{
+										"hash": "explicit.stat_2063695047",
+										"min": "5",
+										"max": "5"
+									}
+								]
+							},
+							{
+								"name": "Lithomancer's",
+								"tier": "P1",
+								"level": 2,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_1600707273",
+										"min": "1",
+										"max": "1"
+									}
+								]
+							},
+							{
+								"name": "of Finesse",
+								"tier": "S1",
+								"level": 83,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_2891184298",
+										"min": "29",
+										"max": "32"
+									}
+								]
+							},
+							{
+								"name": "of Destruction",
+								"tier": "S1",
+								"level": 73,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_3556824919",
+										"min": "35",
+										"max": "38"
+									}
+								]
+							}
+						],
+						"implicit": [
+							{
+								"name": "",
+								"tier": "",
+								"level": 24,
+								"magnitudes": [
+									{
+										"hash": "implicit.stat_2891184298",
+										"min": "10",
+										"max": "12"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 60,
+								"magnitudes": [
+									{
+										"hash": "implicit.stat_2813626504",
+										"min": "8",
+										"max": "10"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 75,
+								"magnitudes": [
+									{
+										"hash": "implicit.stat_3295179224",
+										"min": "15",
+										"max": "15"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "implicit.stat_3513534186",
+										"min": "2",
+										"max": "2"
+									}
+								]
+							}
+						],
+						"enchant": [
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "enchant.stat_2052525717",
+										"min": "1",
+										"max": "1"
+									},
+									{
+										"hash": "enchant.stat_334333797",
+										"min": "1",
+										"max": "1"
+									}
+								]
+							}
+						],
+						"crafted": [
+							{
+								"name": "of Craft",
+								"tier": "S0",
+								"level": 72,
+								"magnitudes": [
+									{
+										"hash": "crafted.stat_1172810729",
+										"min": "4",
+										"max": "5"
+									}
+								]
+							}
+						]
+					},
+					"hashes": {
+						"explicit": [
+							[
+								"explicit.stat_2974417149",
+								[
+									1
+								]
+							],
+							[
+								"explicit.stat_2891184298",
+								[
+									3
+								]
+							],
+							[
+								"explicit.stat_3556824919",
+								[
+									4
+								]
+							],
+							[
+								"explicit.stat_124131830",
+								[
+									0
+								]
+							],
+							[
+								"explicit.stat_1600707273",
+								[
+									2
+								]
+							],
+							[
+								"explicit.stat_2063695047",
+								[
+									1
+								]
+							]
+						],
+						"implicit": [
+							[
+								"implicit.stat_2891184298",
+								[
+									0
+								]
+							],
+							[
+								"implicit.stat_3295179224",
+								[
+									2
+								]
+							],
+							[
+								"implicit.stat_3513534186",
+								[
+									3
+								]
+							],
+							[
+								"implicit.stat_2813626504",
+								[
+									1
+								]
+							]
+						],
+						"enchant": [
+							[
+								"enchant.stat_2052525717",
+								[
+									0
+								]
+							],
+							[
+								"enchant.stat_334333797",
+								[
+									0
+								]
+							]
+						],
+						"crafted": [
+							[
+								"crafted.stat_1172810729",
+								[
+									0
+								]
+							]
+						]
+					},
+					"text": "SXRlbSBDbGFzczogU2NlcHRyZXMNClJhcml0eTogUmFyZQ0KRGlyZSBCcmVha2VyDQpTeW50aGVzaXNlZCBLYXJ1aSBTY2VwdHJlDQotLS0tLS0tLQ0KU2NlcHRyZQ0KUXVhbGl0eTogKzMwJSAoYXVnbWVudGVkKQ0KUGh5c2ljYWwgRGFtYWdlOiAzNy01NQ0KQ3JpdGljYWwgU3RyaWtlIENoYW5jZTogNy4wMCUNCkF0dGFja3MgcGVyIFNlY29uZDogMS41MA0KV2VhcG9uIFJhbmdlOiAxLjEgbWV0cmVzDQotLS0tLS0tLQ0KUmVxdWlyZW1lbnRzOg0KTGV2ZWw6IDY2DQpTdHI6IDk2DQpJbnQ6IDk2DQotLS0tLS0tLQ0KU29ja2V0czogVy1XLVcgDQotLS0tLS0tLQ0KSXRlbSBMZXZlbDogODQNCi0tLS0tLS0tDQpRdWFsaXR5IGRvZXMgbm90IGluY3JlYXNlIFBoeXNpY2FsIERhbWFnZSAoZW5jaGFudCkNCkdyYW50cyAxJSBpbmNyZWFzZWQgQXJlYSBvZiBFZmZlY3QgcGVyIDQlIFF1YWxpdHkgKGVuY2hhbnQpDQotLS0tLS0tLQ0KMTIlIGluY3JlYXNlZCBDYXN0IFNwZWVkIChpbXBsaWNpdCkNCkVuZW1pZXMgeW91IEtpbGwgaGF2ZSBhIDE1JSBjaGFuY2UgdG8gRXhwbG9kZSwgZGVhbGluZyBhIHRlbnRoIG9mIHRoZWlyIG1heGltdW0gTGlmZSBhcyBQaHlzaWNhbCBEYW1hZ2UgKGltcGxpY2l0KQ0KSXRlbSBzZWxscyBmb3IgbXVjaCBtb3JlIHRvIHZlbmRvcnMgKGltcGxpY2l0KQ0KU3BlbGxzIGhhdmUgYSAxMCUgY2hhbmNlIHRvIGRlYWwgRG91YmxlIERhbWFnZSAoaW1wbGljaXQpDQotLS0tLS0tLQ0KNjklIGluY3JlYXNlZCBTcGVsbCBEYW1hZ2UNCjMyJSBpbmNyZWFzZWQgQ2FzdCBTcGVlZA0KKzM4JSB0byBHbG9iYWwgQ3JpdGljYWwgU3RyaWtlIE11bHRpcGxpZXINCisxIHRvIExldmVsIG9mIGFsbCBTcGVsbCBTa2lsbCBHZW1zDQorMSB0byBMZXZlbCBvZiBhbGwgUGh5c2ljYWwgU3BlbGwgU2tpbGwgR2Vtcw0KR2FpbiA1JSBvZiBOb24tQ2hhb3MgRGFtYWdlIGFzIGV4dHJhIENoYW9zIERhbWFnZQ0KNSUgY2hhbmNlIHRvIGRlYWwgRG91YmxlIERhbWFnZSAoY3JhZnRlZCkNCi0tLS0tLS0tDQpNaXJyb3JlZA0KLS0tLS0tLS0NClN5bnRoZXNpc2VkIEl0ZW0NCi0tLS0tLS0tDQpOb3RlOiB+cHJpY2UgMSBtaXJyb3INCg=="
+				}
+			}
+		}
+	]
+}

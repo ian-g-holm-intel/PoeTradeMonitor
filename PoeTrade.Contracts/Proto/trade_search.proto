@@ -1,0 +1,55 @@
+syntax = "proto3";
+
+package poe_trade.contracts;
+
+import "google/protobuf/wrappers.proto";
+import "Proto/trade_item.proto";
+
+option csharp_namespace = "PoeTrade.Contracts.Proto";
+
+// Main trade search response
+message TradeFetchResponse {
+  repeated TradeSearchResult result = 1;
+}
+
+// Individual trade search result
+message TradeSearchResult {
+  string id = 1;
+  TradeListing listing = 2;
+  TradeItem item = 3;
+}
+
+// Trade listing information
+message TradeListing {
+  string method = 1;
+  string indexed = 2;
+  StashInfo stash = 3;
+  string whisper = 4;
+  string whisper_token = 5;
+  AccountInfo account = 6;
+  google.protobuf.StringValue price_type = 7;
+  google.protobuf.DoubleValue price_amount = 8;
+  google.protobuf.StringValue price_currency = 9;
+}
+
+// Stash information
+message StashInfo {
+  string name = 1;
+  int32 x = 2;
+  int32 y = 3;
+}
+
+// Account information
+message AccountInfo {
+  string name = 1;
+  OnlineStatus online = 2;
+  string last_character_name = 3;
+  string language = 4;
+  string realm = 5;
+}
+
+// Online status
+message OnlineStatus {
+  string league = 1;
+  google.protobuf.StringValue status = 2;
+}

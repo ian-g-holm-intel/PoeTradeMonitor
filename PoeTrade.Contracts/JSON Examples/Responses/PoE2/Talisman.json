@@ -1,0 +1,81 @@
+{
+    "result": [
+        {
+            "id": "dea1c7a0ce7ef168d2ec1636cdcf70c641f1a4dfbc6900aa235ec58067c61146",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2025-07-19T20:51:10Z",
+                "stash": {
+                    "name": "handel truhe",
+                    "x": 0,
+                    "y": 9
+                },
+                "whisper": "@YatsufusaA Hi, ich möchte 'Talisman von Eeshta' zum angebotenen Preis von 1 divine in der Dawn of the Hunt-Liga kaufen (Truhenfach \"handel truhe\"; Position: 1 von links, 10 von oben)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI2MWE0NjNkODQ5NzIxOGQzZjlhODIwYmRmZWNjNTAxMyIsImlzcyI6Ilh6RDc5OFdoUCIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6IllhdHN1ZnVzYUEiLCJsb2MiOiJkZV9ERSIsInRvayI6Iml0ZW0iLCJzdWIiOiJkZWExYzdhMGNlN2VmMTY4ZDJlYzE2MzZjZGNmNzBjNjQxZjFhNGRmYmM2OTAwYWEyMzVlYzU4MDY3YzYxMTQ2IiwiZGF0IjoiZDIyMDc1NDkwYTk2ODk5MGQ2N2U2NzUxZWRmMzcxYTAiLCJpYXQiOjE3NTUwMjQ0NDIsImV4cCI6MTc1NTAyNDc0Mn0.u_y-ffH3h-cG8CgmO3q-mb6ZX1HQsAsv06CZe0vsyg0",
+                "account": {
+                    "name": "murasame#1647",
+                    "online": {
+                        "league": "Dawn of the Hunt"
+                    },
+                    "lastCharacterName": "YatsufusaA",
+                    "language": "de_DE",
+                    "realm": "poe2"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 1,
+                    "currency": "divine"
+                }
+            },
+            "item": {
+                "realm": "poe2",
+                "verified": true,
+                "w": 1,
+                "h": 1,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVG9ybWVudGVkU3Bpcml0U29ja2V0YWJsZXMvQXptZXJpU29ja2V0YWJsZU93bFNwZWNpYWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/167ce5e0ef/AzmeriSocketableOwlSpecial.png",
+                "stackSize": 1,
+                "maxStackSize": 10,
+                "league": "Dawn of the Hunt",
+                "id": "dea1c7a0ce7ef168d2ec1636cdcf70c641f1a4dfbc6900aa235ec58067c61146",
+                "name": "",
+                "typeLine": "Talisman of Eeshta",
+                "baseType": "Talisman of Eeshta",
+                "ilvl": 0,
+                "identified": true,
+                "note": "~price 1 divine",
+                "properties": [
+                    {
+                        "name": "Stack Size",
+                        "values": [
+                            [
+                                "1/10",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 32
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "50",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 62
+                    }
+                ],
+                "explicitMods": [
+                    "Helmets: 6% reduced Cost of Skills"
+                ],
+                "descrText": "Place into an empty Rune Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be removed.",
+                "frameType": 5,
+                "extended": []
+            }
+        }
+    ]
+}

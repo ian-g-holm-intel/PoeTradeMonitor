@@ -1,0 +1,252 @@
+{
+    "result": [
+        {
+            "id": "3c1d4107e157dd7e915da50a59d9d0b0b69e700ff811140db02281dddfd0f14a",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2025-06-10T13:40:46Z",
+                "stash": {
+                    "name": "~b/o 1 mirror",
+                    "x": 3,
+                    "y": 3
+                },
+                "whisper": "@畏惧的猎人 你好，我想購買 敗壞選擇 地圖鑰匙（階級 15） (階級15) 標價 1 mirror 在 Dawn of the Hunt (倉庫頁 \"~b/o 1 mirror\"; 位置: 左 4, 上 4)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxYjI5ODU0ZDk0Njc5YWMwNzM2N2ZkOGExMjYwNDA5MCIsImlzcyI6ImVZUXFERFlTTCIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6Ilx1NzU0Zlx1NjBlN1x1NzY4NFx1NzMwZVx1NGViYSIsImxvYyI6InpoX1RXIiwidG9rIjoiaXRlbSIsInN1YiI6IjNjMWQ0MTA3ZTE1N2RkN2U5MTVkYTUwYTU5ZDlkMGIwYjY5ZTcwMGZmODExMTQwZGIwMjI4MWRkZGZkMGYxNGEiLCJkYXQiOiIxZjY3OWE1YjE1YzJkMDUzNThmZjYwZDBkMGY1Zjc2NyIsImlhdCI6MTc1NTAyNDM2MCwiZXhwIjoxNzU1MDI0NjYwfQ.GW4CLAtoIwj_bJHmyDcKSrpx9SdZOQPNVt7waAGlNXc",
+                "account": {
+                    "name": "yellowboy11#6830",
+                    "online": {
+                        "league": "Dawn of the Hunt"
+                    },
+                    "lastCharacterName": "畏惧的猎人",
+                    "language": "zh_TW",
+                    "realm": "poe2"
+                },
+                "price": {
+                    "type": "~b/o",
+                    "amount": 1,
+                    "currency": "mirror"
+                }
+            },
+            "item": {
+                "realm": "poe2",
+                "verified": true,
+                "w": 1,
+                "h": 1,
+                "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FbmRnYW1lTWFwcy9FbmRnYW1lTWFwMTUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIiwibWQiOnRydWV9XQ/770ea5e75a/EndgameMap15.png",
+                "league": "Dawn of the Hunt",
+                "id": "3c1d4107e157dd7e915da50a59d9d0b0b69e700ff811140db02281dddfd0f14a",
+                "name": "Putrid Choice",
+                "typeLine": "Waystone (Tier 15)",
+                "baseType": "Waystone (Tier 15)",
+                "rarity": "Rare",
+                "ilvl": 80,
+                "identified": true,
+                "properties": [
+                    {
+                        "name": "Waystone",
+                        "values": [],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Waystone Tier",
+                        "values": [
+                            [
+                                "15",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 1
+                    },
+                    {
+                        "name": "[LimitedRespawn|Revives Available]",
+                        "values": [
+                            [
+                                "2",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 98
+                    },
+                    {
+                        "name": "Waystone Drop Chance",
+                        "values": [
+                            [
+                                "+55%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 66
+                    }
+                ],
+                "enchantMods": [
+                    "60% increased [Rarity|Magic] Monsters",
+                    "Players in Area are 21% [Delirious]"
+                ],
+                "explicitMods": [
+                    "93% increased Gold found in this Area",
+                    "43% increased number of [Rarity|Rare] Monsters",
+                    "Area has patches of [ChilledGround|Chilled Ground]",
+                    "Monsters deal 39% of Damage as Extra Lightning"
+                ],
+                "descrText": "Can be used in a Map Device, allowing you to enter a Map. Waystones can only be used once.",
+                "frameType": 2,
+                "extended": {
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "of Ice",
+                                "tier": "S1",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_349586058",
+                                        "min": "30",
+                                        "max": "30"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Brimming",
+                                "tier": "P2",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3793155082",
+                                        "min": "35",
+                                        "max": "54"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of Thunder",
+                                "tier": "S1",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_512071314",
+                                        "min": "36",
+                                        "max": "40"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Bountiful",
+                                "tier": "P2",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1276056105",
+                                        "min": "76",
+                                        "max": "100"
+                                    }
+                                ]
+                            }
+                        ],
+                        "enchant": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "enchant.stat_3873704640",
+                                        "min": "20",
+                                        "max": "20"
+                                    },
+                                    {
+                                        "hash": "enchant.stat_1715784068",
+                                        "min": "7",
+                                        "max": "7"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "enchant.stat_3873704640",
+                                        "min": "20",
+                                        "max": "20"
+                                    },
+                                    {
+                                        "hash": "enchant.stat_1715784068",
+                                        "min": "7",
+                                        "max": "7"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "enchant.stat_3873704640",
+                                        "min": "20",
+                                        "max": "20"
+                                    },
+                                    {
+                                        "hash": "enchant.stat_1715784068",
+                                        "min": "7",
+                                        "max": "7"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_1276056105",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3793155082",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_349586058",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_512071314",
+                                [
+                                    2
+                                ]
+                            ]
+                        ],
+                        "enchant": [
+                            [
+                                "enchant.stat_3873704640",
+                                [
+                                    0,
+                                    1,
+                                    2
+                                ]
+                            ],
+                            [
+                                "enchant.stat_1715784068",
+                                [
+                                    0,
+                                    1,
+                                    2
+                                ]
+                            ]
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

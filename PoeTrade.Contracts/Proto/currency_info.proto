@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package poe_trade.contracts;
+
+option csharp_namespace = "PoeTrade.Contracts.Proto";
+
+// Currency information for trading
+message CurrencyInfo {
+  // Amount of currency required
+  double amount = 1;
+  
+  // Currency type (e.g., "chaos", "exalted", "divine")
+  string type = 2;
+}

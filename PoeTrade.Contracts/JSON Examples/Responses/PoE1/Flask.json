@@ -1,0 +1,178 @@
+{
+    "result": [
+        {
+            "id": "d51da82bb88d3ff1dc78c8d70776e5bb14177263ac6db7997082675078e56415",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2025-08-12T17:43:35Z",
+                "stash": {
+                    "name": "預兆",
+                    "x": 11,
+                    "y": 4
+                },
+                "whisper": "@五千_超爽的 Hi, I would like to buy your Progenesis Amethyst Flask listed for 50 divine in Mercenaries (stash tab \"預兆\"; position: left 12, top 5)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1MTFmMmZiODg2YWY4OGNhNWVmNmNkZDJhMmExNDA1OCIsImlzcyI6IjN6cHJHcGdpNSIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6Ilx1NGU5NFx1NTM0M19cdThkODVcdTcyM2RcdTc2ODQiLCJsb2MiOiJlbl9VUyIsInRvayI6Iml0ZW0iLCJzdWIiOiJkNTFkYTgyYmI4OGQzZmYxZGM3OGM4ZDcwNzc2ZTViYjE0MTc3MjYzYWM2ZGI3OTk3MDgyNjc1MDc4ZTU2NDE1IiwiZGF0IjoiYzE0NGNkYzRkOWRmZjUyZDhmZTNjOWU5NGZmNTFiMmEiLCJpYXQiOjE3NTUwMjEzNjksImV4cCI6MTc1NTAyMTY2OX0.cB96VjHiDhrCi0DKmJ8R55eiojArFlXgB3U7Xa5fjjw",
+                "account": {
+                    "name": "cj6fu0z04#1856",
+                    "online": {
+                        "league": "Mercenaries"
+                    },
+                    "lastCharacterName": "五千_超爽的",
+                    "language": "en_US",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 50,
+                    "currency": "divine"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 1,
+                "h": 2,
+                "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvVWJlck1hdmVuRmxhc2siLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjEsInJlbGljIjoxMH1d/01b102ae59/UberMavenFlask.png",
+                "league": "Mercenaries",
+                "id": "d51da82bb88d3ff1dc78c8d70776e5bb14177263ac6db7997082675078e56415",
+                "isRelic": true,
+                "foilVariation": 10,
+                "name": "Progenesis",
+                "typeLine": "Amethyst Flask",
+                "baseType": "Amethyst Flask",
+                "rarity": "Unique",
+                "ilvl": 84,
+                "identified": true,
+                "note": "~price 50 divine",
+                "properties": [
+                    {
+                        "name": "Lasts {0} Seconds",
+                        "values": [
+                            [
+                                "8.60",
+                                1
+                            ]
+                        ],
+                        "displayMode": 3
+                    },
+                    {
+                        "name": "Consumes {0} of {1} Charges on use",
+                        "values": [
+                            [
+                                "28",
+                                1
+                            ],
+                            [
+                                "65",
+                                0
+                            ]
+                        ],
+                        "displayMode": 3
+                    },
+                    {
+                        "name": "Currently has {0} Charges",
+                        "values": [
+                            [
+                                "0",
+                                0
+                            ]
+                        ],
+                        "displayMode": 3
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "60",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 62
+                    }
+                ],
+                "utilityMods": [
+                    "+35% to Chaos Resistance"
+                ],
+                "explicitMods": [
+                    "19% reduced Charges per use",
+                    "33% increased Duration",
+                    "When Hit during effect, 25% of Life loss from Damage taken occurs over 4 seconds instead"
+                ],
+                "descrText": "Right click to drink. Can only hold charges while in belt. Refills as you kill monsters.",
+                "flavourText": [
+                    "They were bred in a cosmic ocean of raw creation.\r",
+                    "Feasting and drinking of the milk of the mother,\r",
+                    "they fought to the death for every last drop."
+                ],
+                "frameType": 10,
+                "extended": {
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_388617051",
+                                        "min": "-20",
+                                        "max": "-10"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1256719186",
+                                        "min": "-35",
+                                        "max": "35"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 75,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_41860024",
+                                        "min": "25",
+                                        "max": "25"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_388617051",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1256719186",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_41860024",
+                                [
+                                    2
+                                ]
+                            ]
+                        ]
+                    },
+                    "text": "SXRlbSBDbGFzczogVXRpbGl0eSBGbGFza3MNClJhcml0eTogVW5pcXVlDQpQcm9nZW5lc2lzDQpBbWV0aHlzdCBGbGFzaw0KLS0tLS0tLS0NCkxhc3RzIDguNjAgKGF1Z21lbnRlZCkgU2Vjb25kcw0KQ29uc3VtZXMgMjggKGF1Z21lbnRlZCkgb2YgNjUgQ2hhcmdlcyBvbiB1c2UNCkN1cnJlbnRseSBoYXMgMCBDaGFyZ2VzDQorMzUlIHRvIENoYW9zIFJlc2lzdGFuY2UNCi0tLS0tLS0tDQpSZXF1aXJlbWVudHM6DQpMZXZlbDogNjANCi0tLS0tLS0tDQpJdGVtIExldmVsOiA4NA0KLS0tLS0tLS0NCjE5JSByZWR1Y2VkIENoYXJnZXMgcGVyIHVzZQ0KMzMlIGluY3JlYXNlZCBEdXJhdGlvbg0KV2hlbiBIaXQgZHVyaW5nIGVmZmVjdCwgMjUlIG9mIExpZmUgbG9zcyBmcm9tIERhbWFnZSB0YWtlbiBvY2N1cnMgb3ZlciA0IHNlY29uZHMgaW5zdGVhZA0KLS0tLS0tLS0NClRoZXkgd2VyZSBicmVkIGluIGEgY29zbWljIG9jZWFuIG9mIHJhdyBjcmVhdGlvbi4NCkZlYXN0aW5nIGFuZCBkcmlua2luZyBvZiB0aGUgbWlsayBvZiB0aGUgbW90aGVyLA0KdGhleSBmb3VnaHQgdG8gdGhlIGRlYXRoIGZvciBldmVyeSBsYXN0IGRyb3AuDQotLS0tLS0tLQ0KUmlnaHQgY2xpY2sgdG8gZHJpbmsuIENhbiBvbmx5IGhvbGQgY2hhcmdlcyB3aGlsZSBpbiBiZWx0LiBSZWZpbGxzIGFzIHlvdSBraWxsIG1vbnN0ZXJzLg0KLS0tLS0tLS0NCkZvaWwgVW5pcXVlIChDZWxlc3RpYWwgQXVyZWF0ZSkNCi0tLS0tLS0tDQpOb3RlOiB+cHJpY2UgNTAgZGl2aW5lDQo="
+                }
+            }
+        },
+    ]
+}

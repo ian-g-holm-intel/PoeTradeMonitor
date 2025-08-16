@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+package poe_trade.contracts;
+
+import "google/protobuf/wrappers.proto";
+
+option csharp_namespace = "PoeTrade.Contracts.Proto";
+
+// Item property
+message ItemProperty {
+  string name = 1;
+  repeated PropertyValueList values = 2;
+  int32 display_mode = 3;
+  google.protobuf.Int32Value type = 4;
+}
+
+// Property value list (can contain mixed string/number values)
+message PropertyValueList {
+  repeated PropertyValue values = 1;
+}
+
+// Property value (can be string or number)
+message PropertyValue {
+  oneof value {
+    string string_value = 1;
+    double number_value = 2;
+    int32 int_value = 3;
+  }
+}
+
+// Granted skill
+message GrantedSkill {
+  string name = 1;
+  repeated PropertyValueList values = 2;
+  int32 display_mode = 3;
+  google.protobuf.StringValue icon = 4;
+}
+
+// Gem tab
+message GemTab {
+  google.protobuf.StringValue name = 1;
+  repeated GemTabPage pages = 2;
+}
+
+// Gem tab page
+message GemTabPage {
+  repeated string stats = 1;
+}

@@ -1,0 +1,323 @@
+{
+	"query": {
+		"status": {
+			"option": "online"
+		},
+		"stats": [
+			{
+				"type": "and",
+				"filters": []
+			}
+		],
+		"filters": {
+			"type_filters": {
+				"filters": {
+					"category": {
+						"option": "weapon.one"
+					},
+					"rarity": {
+						"option": "nonunique"
+					}
+				}
+			},
+			"weapon_filters": {
+				"disabled": false,
+				"filters": {
+					"damage": {
+						"min": 1
+					},
+					"crit": {
+						"min": 1
+					},
+					"pdps": {
+						"min": 1
+					},
+					"edps": {
+						"min": 1
+					},
+					"dps": {
+						"min": 1
+					},
+					"aps": {
+						"min": 1
+					}
+				}
+			},
+			"armour_filters": {
+				"disabled": false,
+				"filters": {
+					"ar": {
+						"min": 1
+					},
+					"es": {
+						"min": 1
+					},
+					"block": {
+						"min": 1
+					},
+					"base_defence_percentile": {
+						"min": 1
+					},
+					"ward": {
+						"min": 1
+					},
+					"ev": {
+						"min": 1
+					}
+				}
+			},
+			"socket_filters": {
+				"disabled": false,
+				"filters": {
+					"sockets": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"w": 1,
+						"min": 4
+					},
+					"links": {
+						"r": 1,
+						"g": 1,
+						"b": 1,
+						"w": 1,
+						"min": 4
+					}
+				}
+			},
+			"req_filters": {
+				"disabled": false,
+				"filters": {
+					"lvl": {
+						"min": 1
+					},
+					"dex": {
+						"min": 1
+					},
+					"int": {
+						"min": 1
+					},
+					"str": {
+						"min": 1
+					}
+				}
+			},
+			"map_filters": {
+				"disabled": false,
+				"filters": {
+					"map_tier": {
+						"min": 1
+					},
+					"map_iiq": {
+						"min": 1
+					},
+					"area_level": {
+						"min": 1
+					},
+					"map_blighted": {
+						"option": "false"
+					},
+					"map_completion_reward": {
+						"option": "Mageblood"
+					},
+					"map_uberblighted": {
+						"option": "false"
+					},
+					"map_series": {
+						"option": "current"
+					},
+					"map_iir": {
+						"min": 1
+					},
+					"map_packsize": {
+						"min": 1
+					}
+				}
+			},
+			"heist_filters": {
+				"disabled": false,
+				"filters": {
+					"heist_wings": {
+						"min": 1
+					},
+					"heist_escape_routes": {
+						"min": 1
+					},
+					"heist_reward_rooms": {
+						"min": 1
+					},
+					"heist_max_wings": {
+						"min": 1
+					},
+					"heist_max_escape_routes": {
+						"min": 1
+					},
+					"heist_max_reward_rooms": {
+						"min": 1
+					},
+					"heist_objective_value": {
+						"option": "moderate"
+					},
+					"heist_lockpicking": {
+						"min": 1
+					},
+					"heist_perception": {
+						"min": 1
+					},
+					"heist_counter_thaumaturgy": {
+						"min": 1
+					},
+					"heist_agility": {
+						"min": 1
+					},
+					"heist_engineering": {
+						"min": 1
+					},
+					"heist_deception": {
+						"min": 1
+					},
+					"heist_trap_disarmament": {
+						"min": 1
+					},
+					"heist_demolition": {
+						"min": 1
+					},
+					"heist_brute_force": {
+						"min": 1
+					}
+				}
+			},
+			"sanctum_filters": {
+				"disabled": false,
+				"filters": {
+					"sanctum_resolve": {
+						"min": 1
+					},
+					"sanctum_inspiration": {
+						"min": 1
+					},
+					"sanctum_max_resolve": {
+						"min": 1
+					},
+					"sanctum_gold": {
+						"min": 1
+					}
+				}
+			},
+			"ultimatum_filters": {
+				"disabled": false,
+				"filters": {
+					"ultimatum_challenge": {
+						"option": "Defense"
+					},
+					"ultimatum_reward": {
+						"option": "DoubleDivCards"
+					},
+					"ultimatum_input": {
+						"option": "The Doctor"
+					},
+					"ultimatum_output": {
+						"option": "Brightbeak"
+					}
+				}
+			},
+			"misc_filters": {
+				"disabled": false,
+				"filters": {
+					"quality": {
+						"min": 1
+					},
+					"gem_level": {
+						"min": 1
+					},
+					"ilvl": {
+						"min": 1
+					},
+					"gem_level_progress": {
+						"min": 1
+					},
+					"gem_transfigured": {
+						"option": "false"
+					},
+					"fractured_item": {
+						"option": "false"
+					},
+					"searing_item": {
+						"option": "false"
+					},
+					"memory_level": {
+						"min": 1
+					},
+					"gem_vaal": {
+						"option": "false"
+					},
+					"synthesised_item": {
+						"option": "false"
+					},
+					"tangled_item": {
+						"option": "false"
+					},
+					"identified": {
+						"option": "false"
+					},
+					"mirrored": {
+						"option": "false"
+					},
+					"crafted": {
+						"option": "false"
+					},
+					"foreseeing": {
+						"option": "false"
+					},
+					"corrupted": {
+						"option": "false"
+					},
+					"split": {
+						"option": "false"
+					},
+					"veiled": {
+						"option": "false"
+					},
+					"talisman_tier": {
+						"min": 1
+					},
+					"stack_size": {
+						"min": 1
+					},
+					"stored_experience": {
+						"min": 1
+					},
+					"alternate_art": {
+						"option": "false"
+					},
+					"corpse_type": {
+						"option": "construct"
+					},
+					"crucible_item": {
+						"option": "false"
+					},
+					"scourge_tier": {
+						"min": 1
+					},
+					"foil_variation": {
+						"option": "1"
+					}
+				}
+			},
+			"trade_filters": {
+				"disabled": false,
+				"filters": {
+					"account": {
+						"input": "dxbydt#4360"
+					},
+					"price": {
+						"min": 1
+					}
+				}
+			}
+		}
+	},
+	"sort": {
+		"price": "asc"
+	}
+}

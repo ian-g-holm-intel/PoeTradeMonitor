@@ -1,0 +1,256 @@
+{
+	"result": [
+		{
+			"id": "9cbd91f74dac7fd73a65cbbfcb340864b0ff45f56506dafd78f2914d8d8c5963",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-08-03T19:08:55Z",
+				"stash": {
+					"name": "~price 2 divine",
+					"x": 12,
+					"y": 10
+				},
+				"whisper": "@MR_ไก่จ๋า Hi, I would like to buy your Phoenix Grip Helical Ring listed for 1 mirror in Mercenaries (stash tab \"~price 2 divine\"; position: left 13, top 11)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzYzgxNTAwNjgxYmRiOGEwMDUyMmQyY2FiYTUxZTI3MyIsImlzcyI6IldYamRtcHZUbSIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6Ik1SX1x1MGU0NFx1MGUwMVx1MGU0OFx1MGUwOFx1MGU0Ylx1MGUzMiIsImxvYyI6ImVuX1VTIiwidG9rIjoiaXRlbSIsInN1YiI6IjljYmQ5MWY3NGRhYzdmZDczYTY1Y2JiZmNiMzQwODY0YjBmZjQ1ZjU2NTA2ZGFmZDc4ZjI5MTRkOGQ4YzU5NjMiLCJkYXQiOiJhZGIzNjc2MjQ4ZGM3NTAxYTM5ZDcwNTVkODY3NTMzZCIsImlhdCI6MTc1NTAyMTAxMSwiZXhwIjoxNzU1MDIxMzExfQ.d6a2wUARMf9-8e_yoD8Ir6BxaYnllo61CO8UnvI-7nc",
+				"account": {
+					"name": "Keroroz#7891",
+					"online": {
+						"league": "Mercenaries"
+					},
+					"lastCharacterName": "MR_ไก่จ๋า",
+					"language": "en_US",
+					"realm": "pc"
+				},
+				"price": {
+					"type": "~price",
+					"amount": 1,
+					"currency": "mirror"
+				}
+			},
+			"item": {
+				"verified": true,
+				"w": 1,
+				"h": 1,
+				"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvSGVpc3RSaW5nMURhcmsiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwiZHVwbGljYXRlZCI6dHJ1ZX1d/42ef48c649/HeistRing1Dark.png",
+				"league": "Mercenaries",
+				"id": "9cbd91f74dac7fd73a65cbbfcb340864b0ff45f56506dafd78f2914d8d8c5963",
+				"name": "Phoenix Grip",
+				"typeLine": "Helical Ring",
+				"baseType": "Helical Ring",
+				"rarity": "Rare",
+				"ilvl": 84,
+				"identified": true,
+				"note": "~price 1 mirror",
+				"duplicated": true,
+				"split": true,
+				"properties": [
+					{
+						"name": "Quality (Attribute Modifiers)",
+						"values": [
+							[
+								"+20%",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 6
+					}
+				],
+				"requirements": [
+					{
+						"name": "Level",
+						"values": [
+							[
+								"65",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 62
+					}
+				],
+				"implicitMods": [
+					"-2 Prefix Modifiers allowed",
+					"+1 Suffix Modifier allowed",
+					"Implicit Modifiers Cannot Be Changed",
+					"50% increased Suffix Modifier magnitudes"
+				],
+				"explicitMods": [
+					"Grants Level 30 Aspect of the Spider Skill",
+					"+175 to Intelligence",
+					"+69% to Global Critical Strike Multiplier",
+					"36% reduced Rarity of Items found"
+				],
+				"craftedMods": [
+					"+32 to all Attributes"
+				],
+				"frameType": 2,
+				"extended": {
+					"mods": {
+						"explicit": [
+							{
+								"name": "of the Essence",
+								"tier": "S0",
+								"level": 82,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_3556824919",
+										"min": "21",
+										"max": "25"
+									}
+								]
+							},
+							{
+								"name": "of the Genius",
+								"tier": "S1",
+								"level": 82,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_328541901",
+										"min": "51",
+										"max": "55"
+									}
+								]
+							},
+							{
+								"name": "Dragon's",
+								"tier": "P2",
+								"level": 62,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_3917489142",
+										"min": "19",
+										"max": "24"
+									}
+								]
+							},
+							{
+								"name": "of Fenumus",
+								"tier": "S0",
+								"level": 20,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_956546305",
+										"min": "30",
+										"max": "30"
+									}
+								]
+							}
+						],
+						"implicit": [
+							{
+								"name": "",
+								"tier": "",
+								"level": 30,
+								"magnitudes": [
+									{
+										"hash": "implicit.stat_3182714256",
+										"min": "-2",
+										"max": "-2"
+									},
+									{
+										"hash": "implicit.stat_718638445",
+										"min": "1",
+										"max": "1"
+									},
+									{
+										"hash": "implicit.stat_532463031",
+										"min": "1",
+										"max": "1"
+									},
+									{
+										"hash": "implicit.stat_1794120699",
+										"min": "0",
+										"max": "0"
+									},
+									{
+										"hash": "implicit.stat_1033086302",
+										"min": "50",
+										"max": "50"
+									}
+								]
+							}
+						],
+						"crafted": [
+							{
+								"name": "of Craft",
+								"tier": "R2",
+								"level": 50,
+								"magnitudes": [
+									{
+										"hash": "crafted.stat_1379411836",
+										"min": "10",
+										"max": "13"
+									}
+								]
+							}
+						]
+					},
+					"hashes": {
+						"explicit": [
+							[
+								"explicit.stat_956546305",
+								[
+									3
+								]
+							],
+							[
+								"explicit.stat_328541901",
+								[
+									1
+								]
+							],
+							[
+								"explicit.stat_3556824919",
+								[
+									0
+								]
+							],
+							[
+								"explicit.stat_3917489142",
+								[
+									2
+								]
+							]
+						],
+						"implicit": [
+							[
+								"implicit.stat_3182714256",
+								[
+									0
+								]
+							],
+							[
+								"implicit.stat_718638445",
+								[
+									0
+								]
+							],
+							[
+								"implicit.stat_532463031",
+								[
+									0
+								]
+							],
+							[
+								"implicit.stat_1033086302",
+								[
+									0
+								]
+							]
+						],
+						"crafted": [
+							[
+								"crafted.stat_1379411836",
+								[
+									0
+								]
+							]
+						]
+					},
+					"text": "SXRlbSBDbGFzczogUmluZ3MNClJhcml0eTogUmFyZQ0KUGhvZW5peCBHcmlwDQpIZWxpY2FsIFJpbmcNCi0tLS0tLS0tDQpRdWFsaXR5IChBdHRyaWJ1dGUgTW9kaWZpZXJzKTogKzIwJSAoYXVnbWVudGVkKQ0KLS0tLS0tLS0NClJlcXVpcmVtZW50czoNCkxldmVsOiA2NQ0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDg0DQotLS0tLS0tLQ0KLTIgUHJlZml4IE1vZGlmaWVycyBhbGxvd2VkIChpbXBsaWNpdCkNCisxIFN1ZmZpeCBNb2RpZmllciBhbGxvd2VkIChpbXBsaWNpdCkNCkltcGxpY2l0IE1vZGlmaWVycyBDYW5ub3QgQmUgQ2hhbmdlZCAoaW1wbGljaXQpDQo1MCUgaW5jcmVhc2VkIFN1ZmZpeCBNb2RpZmllciBtYWduaXR1ZGVzIChpbXBsaWNpdCkNCi0tLS0tLS0tDQpHcmFudHMgTGV2ZWwgMzAgQXNwZWN0IG9mIHRoZSBTcGlkZXIgU2tpbGwNCisxNzUgdG8gSW50ZWxsaWdlbmNlDQorNjklIHRvIEdsb2JhbCBDcml0aWNhbCBTdHJpa2UgTXVsdGlwbGllcg0KMzYlIHJlZHVjZWQgUmFyaXR5IG9mIEl0ZW1zIGZvdW5kDQorMzIgdG8gYWxsIEF0dHJpYnV0ZXMgKGNyYWZ0ZWQpDQotLS0tLS0tLQ0KTWlycm9yZWQNCi0tLS0tLS0tDQpTcGxpdA0KLS0tLS0tLS0NCk5vdGU6IH5wcmljZSAxIG1pcnJvcg0K"
+				}
+			}
+		}
+	]
+}

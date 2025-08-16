@@ -1,0 +1,361 @@
+{
+	"result": [
+		{
+			"id": "4dee23a2fe97429e86ddc0daf0beda1c2b28c0fa7ad112e1255f7a67a6a5bd7c",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-08-11T17:55:29Z",
+				"stash": {
+					"name": "HUGE",
+					"x": 10,
+					"y": 1
+				},
+				"whisper": "@HeyMeowOldMan Hi, I would like to buy your Corpse Wrap Twilight Regalia listed for 1 mirror in Mercenaries (stash tab \"HUGE\"; position: left 11, top 2)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyNDQzNzVmODkxYTZiZmQ4YzJiOWUxYzMzZjQxZDNkYSIsImlzcyI6Ik1SbndCdzZGSiIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6IkhleU1lb3dPbGRNYW4iLCJsb2MiOiJlbl9VUyIsInRvayI6Iml0ZW0iLCJzdWIiOiI0ZGVlMjNhMmZlOTc0MjllODZkZGMwZGFmMGJlZGExYzJiMjhjMGZhN2FkMTEyZTEyNTVmN2E2N2E2YTViZDdjIiwiZGF0IjoiNzdiODViOTJkMjI3NjYzNDM2YWVhOWE2YzQxMDM2MjkiLCJpYXQiOjE3NTUwMjA4NjQsImV4cCI6MTc1NTAyMTE2NH0.LRuGyD1LhMOmfwXDw9Yj80RFJOcL2gzuFistq6JyEOQ",
+				"account": {
+					"name": "asd4566789#4303",
+					"online": {
+						"league": "Mercenaries"
+					},
+					"lastCharacterName": "HeyMeowOldMan",
+					"language": "en_US",
+					"realm": "pc"
+				},
+				"price": {
+					"type": "~price",
+					"amount": 1,
+					"currency": "mirror"
+				}
+			},
+			"item": {
+				"verified": true,
+				"w": 2,
+				"h": 3,
+				"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5U3RyRGV4SW50MUMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MSwiZHVwbGljYXRlZCI6dHJ1ZSwic2VhcmluZyI6dHJ1ZSwidGFuZ2xlZCI6dHJ1ZSwiZnJhY3R1cmVkIjp0cnVlfV0/708e1eff47/BodyStrDexInt1C.png",
+				"league": "Mercenaries",
+				"id": "4dee23a2fe97429e86ddc0daf0beda1c2b28c0fa7ad112e1255f7a67a6a5bd7c",
+				"searing": true,
+				"tangled": true,
+				"fractured": true,
+				"sockets": [
+					{
+						"group": 0,
+						"attr": "G",
+						"sColour": "W"
+					},
+					{
+						"group": 0,
+						"attr": "G",
+						"sColour": "W"
+					},
+					{
+						"group": 0,
+						"attr": "G",
+						"sColour": "W"
+					},
+					{
+						"group": 0,
+						"attr": "G",
+						"sColour": "W"
+					},
+					{
+						"group": 0,
+						"attr": "G",
+						"sColour": "W"
+					},
+					{
+						"group": 0,
+						"attr": "G",
+						"sColour": "W"
+					}
+				],
+				"name": "Corpse Wrap",
+				"typeLine": "Twilight Regalia",
+				"baseType": "Twilight Regalia",
+				"rarity": "Rare",
+				"ilvl": 89,
+				"identified": true,
+				"note": "~price 1 mirror",
+				"duplicated": true,
+				"split": true,
+				"properties": [
+					{
+						"name": "Quality",
+						"values": [
+							[
+								"+30%",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 6
+					},
+					{
+						"name": "Energy Shield",
+						"values": [
+							[
+								"1485",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 18
+					}
+				],
+				"requirements": [
+					{
+						"name": "Level",
+						"values": [
+							[
+								"84",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 62
+					},
+					{
+						"name": "Int",
+						"values": [
+							[
+								"879",
+								1
+							]
+						],
+						"displayMode": 1,
+						"type": 65
+					}
+				],
+				"enchantMods": [
+					"15% increased Explicit Defence Modifier magnitudes",
+					"200% increased Attribute Requirements"
+				],
+				"implicitMods": [
+					"1% less Damage Taken per 180 Intelligence",
+					"16% increased effect of Non-Curse Auras from your Skills"
+				],
+				"explicitMods": [
+					"+55 to Intelligence",
+					"+115 to maximum Energy Shield",
+					"174% increased Energy Shield",
+					"19% increased Stun and Block Recovery"
+				],
+				"craftedMods": [
+					"Regenerate 172.5 Energy Shield per second while a Rare or Unique Enemy is Nearby"
+				],
+				"fracturedMods": [
+					"8% increased Attributes"
+				],
+				"frameType": 2,
+				"extended": {
+					"base_defence_percentile": 100,
+					"es": 1485,
+					"mods": {
+						"explicit": [
+							{
+								"name": "Resplendent",
+								"tier": "P1",
+								"level": 75,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_4052037485",
+										"min": "91",
+										"max": "100"
+									}
+								]
+							},
+							{
+								"name": "Unfaltering",
+								"tier": "P1",
+								"level": 86,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_4015621042",
+										"min": "101",
+										"max": "110"
+									}
+								]
+							},
+							{
+								"name": "Seraphim's",
+								"tier": "P1",
+								"level": 78,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_4015621042",
+										"min": "39",
+										"max": "42"
+									},
+									{
+										"hash": "explicit.stat_2511217560",
+										"min": "16",
+										"max": "17"
+									}
+								]
+							},
+							{
+								"name": "of the Genius",
+								"tier": "S1",
+								"level": 82,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_328541901",
+										"min": "51",
+										"max": "55"
+									}
+								]
+							}
+						],
+						"implicit": [
+							{
+								"name": "",
+								"tier": "",
+								"level": 75,
+								"magnitudes": [
+									{
+										"hash": "implicit.stat_2874488491",
+										"min": "180",
+										"max": "180"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 75,
+								"magnitudes": [
+									{
+										"hash": "implicit.stat_1880071428",
+										"min": "15",
+										"max": "16"
+									}
+								]
+							}
+						],
+						"fractured": [
+							{
+								"name": "of Hillock",
+								"tier": "S0",
+								"level": 60,
+								"magnitudes": [
+									{
+										"hash": "fractured.stat_3143208761",
+										"min": "7",
+										"max": "8"
+									}
+								]
+							}
+						],
+						"enchant": [
+							{
+								"name": "Enchantment Defence Modifier Effect and Attribute Requirements Penalty",
+								"tier": "",
+								"level": 69,
+								"magnitudes": [
+									{
+										"hash": "enchant.stat_3300369861",
+										"min": "15",
+										"max": "15"
+									},
+									{
+										"hash": "enchant.stat_3639275092",
+										"min": "200",
+										"max": "200"
+									}
+								]
+							}
+						],
+						"crafted": [
+							{
+								"name": "of Craft",
+								"tier": "S0",
+								"level": 81,
+								"magnitudes": [
+									{
+										"hash": "crafted.stat_2238019079",
+										"min": "150",
+										"max": "150"
+									}
+								]
+							}
+						]
+					},
+					"hashes": {
+						"explicit": [
+							[
+								"explicit.stat_328541901",
+								[
+									3
+								]
+							],
+							[
+								"explicit.stat_4052037485",
+								[
+									0
+								]
+							],
+							[
+								"explicit.stat_4015621042",
+								[
+									1,
+									2
+								]
+							],
+							[
+								"explicit.stat_2511217560",
+								[
+									2
+								]
+							]
+						],
+						"implicit": [
+							[
+								"implicit.stat_2874488491",
+								[
+									0
+								]
+							],
+							[
+								"implicit.stat_1880071428",
+								[
+									1
+								]
+							]
+						],
+						"fractured": [
+							[
+								"fractured.stat_3143208761",
+								[
+									0
+								]
+							]
+						],
+						"enchant": [
+							[
+								"enchant.stat_3300369861",
+								[
+									0
+								]
+							],
+							[
+								"enchant.stat_3639275092",
+								[
+									0
+								]
+							]
+						],
+						"crafted": [
+							[
+								"crafted.stat_2238019079",
+								[
+									0
+								]
+							]
+						]
+					},
+					"text": "SXRlbSBDbGFzczogQm9keSBBcm1vdXJzDQpSYXJpdHk6IFJhcmUNCkNvcnBzZSBXcmFwDQpUd2lsaWdodCBSZWdhbGlhDQotLS0tLS0tLQ0KUXVhbGl0eTogKzMwJSAoYXVnbWVudGVkKQ0KRW5lcmd5IFNoaWVsZDogMTQ4NSAoYXVnbWVudGVkKQ0KLS0tLS0tLS0NClJlcXVpcmVtZW50czoNCkxldmVsOiA4NA0KSW50OiA4NzkgKGF1Z21lbnRlZCkNCi0tLS0tLS0tDQpTb2NrZXRzOiBXLVctVy1XLVctVyANCi0tLS0tLS0tDQpJdGVtIExldmVsOiA4OQ0KLS0tLS0tLS0NCjE1JSBpbmNyZWFzZWQgRXhwbGljaXQgRGVmZW5jZSBNb2RpZmllciBtYWduaXR1ZGVzIChlbmNoYW50KQ0KMjAwJSBpbmNyZWFzZWQgQXR0cmlidXRlIFJlcXVpcmVtZW50cyAoZW5jaGFudCkNCi0tLS0tLS0tDQoxJSBsZXNzIERhbWFnZSBUYWtlbiBwZXIgMTgwIEludGVsbGlnZW5jZSAoaW1wbGljaXQpDQoxNiUgaW5jcmVhc2VkIGVmZmVjdCBvZiBOb24tQ3Vyc2UgQXVyYXMgZnJvbSB5b3VyIFNraWxscyAoaW1wbGljaXQpDQotLS0tLS0tLQ0KOCUgaW5jcmVhc2VkIEF0dHJpYnV0ZXMgKGZyYWN0dXJlZCkNCis1NSB0byBJbnRlbGxpZ2VuY2UNCisxMTUgdG8gbWF4aW11bSBFbmVyZ3kgU2hpZWxkDQoxNzQlIGluY3JlYXNlZCBFbmVyZ3kgU2hpZWxkDQoxOSUgaW5jcmVhc2VkIFN0dW4gYW5kIEJsb2NrIFJlY292ZXJ5DQpSZWdlbmVyYXRlIDE3Mi41IEVuZXJneSBTaGllbGQgcGVyIHNlY29uZCB3aGlsZSBhIFJhcmUgb3IgVW5pcXVlIEVuZW15IGlzIE5lYXJieSAoY3JhZnRlZCkNCi0tLS0tLS0tDQpNaXJyb3JlZA0KLS0tLS0tLS0NClNwbGl0DQpTZWFyaW5nIEV4YXJjaCBJdGVtDQpFYXRlciBvZiBXb3JsZHMgSXRlbQ0KLS0tLS0tLS0NCkZyYWN0dXJlZCBJdGVtDQotLS0tLS0tLQ0KTm90ZTogfnByaWNlIDEgbWlycm9yDQo="
+				}
+			}
+		}
+	]
+}

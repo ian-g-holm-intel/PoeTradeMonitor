@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+package poe_trade.contracts;
+
+import "google/protobuf/wrappers.proto";
+
+option csharp_namespace = "PoeTrade.Contracts.Proto";
+
+// Extended item information
+message ItemExtended {
+  ModsInfo mods = 1;
+  HashesInfo hashes = 2;
+  google.protobuf.StringValue text = 3;
+}
+
+// Mod information container
+message ModsInfo {
+  repeated ModInfo explicit = 1;
+  repeated ModInfo implicit = 2;
+  repeated ModInfo enchant = 3;
+  repeated ModInfo crafted = 4;
+  repeated ModInfo fractured = 5;
+}
+
+// Individual mod information
+message ModInfo {
+  string name = 1;
+  string tier = 2;
+  string level = 3;
+  repeated ModMagnitude magnitudes = 4;
+}
+
+// Mod magnitude (min/max values)
+message ModMagnitude {
+  string hash = 1;
+  string min = 2;
+  string max = 3;
+}
+
+// Hash information for different mod types
+message HashesInfo {
+  repeated string explicit = 1;
+  repeated string implicit = 2;
+  repeated string enchant = 3;
+  repeated string crafted = 4;
+  repeated string fractured = 5;
+  repeated string rune = 6;
+}

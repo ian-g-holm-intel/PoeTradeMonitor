@@ -1,0 +1,170 @@
+{
+    "result": [
+        {
+            "id": "6f581d308374cb8697b3a96ec74ab992f18dac7d696dc16cc1b5b520b95ab2c4",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2025-07-30T15:15:29Z",
+                "stash": {
+                    "name": "~price 1 mirror",
+                    "x": 0,
+                    "y": 6
+                },
+                "whisper": "@TheMFingGOAT Hi, I would like to buy your Brood Splinter Time-Lost Emerald listed for 1 mirror in Dawn of the Hunt (stash tab \"~price 1 mirror\"; position: left 1, top 7)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJmNzM4YmEwYzEzZjIyOTAyY2ZjZmMyMzI0MjljNWFlNyIsImlzcyI6ImxuZ3BZbTBVViIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6IlRoZU1GaW5nR09BVCIsImxvYyI6ImVuX1VTIiwidG9rIjoiaXRlbSIsInN1YiI6IjZmNTgxZDMwODM3NGNiODY5N2IzYTk2ZWM3NGFiOTkyZjE4ZGFjN2Q2OTZkYzE2Y2MxYjViNTIwYjk1YWIyYzQiLCJkYXQiOiI1N2FjYjQ4NWRiODU2OTNkNTBkYjBmZmZkYjM3YzI4OSIsImlhdCI6MTc1NTAyNDIzMCwiZXhwIjoxNzU1MDI0NTMwfQ.BhiNLXKvgLkKPl2Ws4gl9eDR1d88cuNVsmQcTq1M25Q",
+                "account": {
+                    "name": "Belton#3929",
+                    "online": {
+                        "league": "Dawn of the Hunt"
+                    },
+                    "lastCharacterName": "TheMFingGOAT",
+                    "language": "en_US",
+                    "realm": "poe2"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 1,
+                    "currency": "mirror"
+                }
+            },
+            "item": {
+                "realm": "poe2",
+                "verified": true,
+                "w": 1,
+                "h": 1,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL1NwZWNpYWxFbWVyYWxkSmV3ZWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9acdb9443b/SpecialEmeraldJewel.png",
+                "league": "Dawn of the Hunt",
+                "id": "6f581d308374cb8697b3a96ec74ab992f18dac7d696dc16cc1b5b520b95ab2c4",
+                "fractured": true,
+                "name": "Brood Splinter",
+                "typeLine": "Time-Lost Emerald",
+                "baseType": "Time-Lost Emerald",
+                "rarity": "Rare",
+                "ilvl": 80,
+                "identified": true,
+                "properties": [
+                    {
+                        "name": "[Jewel]",
+                        "values": [],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Radius",
+                        "values": [
+                            [
+                                "Large",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 24
+                    }
+                ],
+                "explicitMods": [
+                    "Notable Passive Skills in Radius also grant 10% increased [CriticalDamageBonus|Critical Damage Bonus] for [Attack] Damage",
+                    "Notable Passive Skills in Radius also grant 10% increased [CriticalDamageBonus|Critical Damage Bonus] with [Spear|Spears]",
+                    "Notable Passive Skills in Radius also grant 3% increased [BuffMagnitude|Magnitude] of [Ailments] you inflict"
+                ],
+                "fracturedMods": [
+                    "Upgrades Radius to Large"
+                ],
+                "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+                "frameType": 2,
+                "extended": {
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "of Hunting",
+                                "tier": "S0",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_138421180",
+                                        "min": "5",
+                                        "max": "10"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of Demolishing",
+                                "tier": "S0",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1352561456",
+                                        "min": "5",
+                                        "max": "10"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Acrimonious",
+                                "tier": "P0",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1321104829",
+                                        "min": "3",
+                                        "max": "7"
+                                    }
+                                ]
+                            }
+                        ],
+                        "implicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 1,
+                                "magnitudes": null
+                            }
+                        ],
+                        "fractured": [
+                            {
+                                "name": "Grand",
+                                "tier": "P0",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "fractured.stat_3891355829|2",
+                                        "min": 1,
+                                        "max": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_138421180",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1352561456",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1321104829",
+                                [
+                                    2
+                                ]
+                            ]
+                        ],
+                        "fractured": [
+                            [
+                                "fractured.stat_3891355829|2",
+                                [
+                                    0
+                                ]
+                            ]
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

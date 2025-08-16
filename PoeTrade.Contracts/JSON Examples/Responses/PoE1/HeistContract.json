@@ -1,0 +1,272 @@
+{
+    "result": [
+        {
+            "id": "f8a32038dfcfdb1b8452ae0cfbb5c3010871743513966670d26adad82062ade7",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2025-08-12T16:16:23Z",
+                "stash": {
+                    "name": "SSSSEEEELLLLL",
+                    "x": 1,
+                    "y": 7
+                },
+                "whisper": "@拉屎拉絲打你全家 Hi, I would like to buy your Doom Bond Contract: Mansion listed for 2 fusing in Mercenaries (stash tab \"SSSSEEEELLLLL\"; position: left 2, top 8)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxOTRlNDdhOWEwZDg5Y2Y4ZmE3NWVhNTUwYjhkMTJlNiIsImlzcyI6IlEyZ2JqNjdDdyIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6Ilx1NjJjOVx1NWM0ZVx1NjJjOVx1N2Q3Mlx1NjI1M1x1NGY2MFx1NTE2OFx1NWJiNiIsImxvYyI6ImVuX1VTIiwidG9rIjoiaXRlbSIsInN1YiI6ImY4YTMyMDM4ZGZjZmRiMWI4NDUyYWUwY2ZiYjVjMzAxMDg3MTc0MzUxMzk2NjY3MGQyNmFkYWQ4MjA2MmFkZTciLCJkYXQiOiI3NjI3M2UyOTFiMDNhNGU2MDNjYjliMjdhNWMzOTc5MyIsImlhdCI6MTc1NTAyMTg3NywiZXhwIjoxNzU1MDIyMTc3fQ.siKt5Xa-m6l8-fydR7EBDidX2iLyJ3uatqzcTDnWUV8",
+                "account": {
+                    "name": "little_i#0060",
+                    "online": {
+                        "league": "Mercenaries"
+                    },
+                    "lastCharacterName": "拉屎拉絲打你全家",
+                    "language": "en_US",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~b/o",
+                    "amount": 2,
+                    "currency": "fusing"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 1,
+                "h": 1,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVpc3QvQ29udHJhY3RJdGVtOSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/24220667d4/ContractItem9.png",
+                "league": "Mercenaries",
+                "id": "f8a32038dfcfdb1b8452ae0cfbb5c3010871743513966670d26adad82062ade7",
+                "name": "Doom Bond",
+                "typeLine": "Contract: Mansion",
+                "baseType": "Contract: Mansion",
+                "rarity": "Rare",
+                "ilvl": 83,
+                "identified": true,
+                "note": "~b/o 2 fusing",
+                "properties": [
+                    {
+                        "name": "Client",
+                        "values": [
+                            [
+                                "Aline Koltz",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Heist Target: {0} ({1})",
+                        "values": [
+                            [
+                                "Abberathine Horns",
+                                0
+                            ],
+                            [
+                                "Moderate Value",
+                                0
+                            ]
+                        ],
+                        "displayMode": 3,
+                        "type": 47
+                    },
+                    {
+                        "name": "Area Level",
+                        "values": [
+                            [
+                                "83",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 34
+                    },
+                    {
+                        "name": "Requires {1} (Level {0})",
+                        "values": [
+                            [
+                                "3",
+                                0
+                            ],
+                            [
+                                "Deception",
+                                0
+                            ]
+                        ],
+                        "displayMode": 3,
+                        "type": 45
+                    },
+                    {
+                        "name": "Item Quantity",
+                        "values": [
+                            [
+                                "+52%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 2
+                    },
+                    {
+                        "name": "Item Rarity",
+                        "values": [
+                            [
+                                "+31%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 3
+                    },
+                    {
+                        "name": "Alert Level Reduction",
+                        "values": [
+                            [
+                                "+20%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Time Before Lockdown",
+                        "values": [
+                            [
+                                "+20%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Maximum Alive Reinforcements",
+                        "values": [
+                            [
+                                "+20%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 4
+                    }
+                ],
+                "explicitMods": [
+                    "Players cannot inflict Exposure",
+                    "44% more Monster Life",
+                    "+40% Monster Physical Damage Reduction",
+                    "Reinforcements have 14% increased Attack Speed",
+                    "Reinforcements have 11% increased Cast Speed",
+                    "Reinforcements have 9% increased Movement Speed"
+                ],
+                "descrText": "Give this Contract to Adiyah in the Rogue Harbour to embark on the Heist.",
+                "flavourText": [
+                    "\"As warm as living flesh, and smelling strongly of sulphite.\r",
+                    "Morbid curiosity compels me to add it to my collection of oddities.\""
+                ],
+                "frameType": 2,
+                "extended": {
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "of Balance",
+                                "tier": "S1",
+                                "level": 68,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1026390635",
+                                        "min": "1",
+                                        "max": "1"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Fecund",
+                                "tier": "P1",
+                                "level": 78,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_95249895",
+                                        "min": "40",
+                                        "max": "49"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Armoured",
+                                "tier": "P1",
+                                "level": 78,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_839186746",
+                                        "min": "40",
+                                        "max": "40"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Supplemented",
+                                "tier": "P5",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1339532482",
+                                        "min": "10",
+                                        "max": "15"
+                                    },
+                                    {
+                                        "hash": "explicit.stat_1843941387",
+                                        "min": "10",
+                                        "max": "15"
+                                    },
+                                    {
+                                        "hash": "explicit.stat_1342271987",
+                                        "min": "5",
+                                        "max": "10"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_1026390635",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_95249895",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_839186746",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1339532482",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1843941387",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1342271987",
+                                [
+                                    3
+                                ]
+                            ]
+                        ]
+                    },
+                    "text": "SXRlbSBDbGFzczogQ29udHJhY3RzDQpSYXJpdHk6IFJhcmUNCkRvb20gQm9uZA0KQ29udHJhY3Q6IE1hbnNpb24NCi0tLS0tLS0tDQpDbGllbnQ6IEFsaW5lIEtvbHR6DQpIZWlzdCBUYXJnZXQ6IEFiYmVyYXRoaW5lIEhvcm5zIChNb2RlcmF0ZSBWYWx1ZSkNCkFyZWEgTGV2ZWw6IDgzDQpSZXF1aXJlcyBEZWNlcHRpb24gKExldmVsIDMpDQpJdGVtIFF1YW50aXR5OiArNTIlIChhdWdtZW50ZWQpDQpJdGVtIFJhcml0eTogKzMxJSAoYXVnbWVudGVkKQ0KQWxlcnQgTGV2ZWwgUmVkdWN0aW9uOiArMjAlIChhdWdtZW50ZWQpDQpUaW1lIEJlZm9yZSBMb2NrZG93bjogKzIwJSAoYXVnbWVudGVkKQ0KTWF4aW11bSBBbGl2ZSBSZWluZm9yY2VtZW50czogKzIwJSAoYXVnbWVudGVkKQ0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDgzDQotLS0tLS0tLQ0KUGxheWVycyBjYW5ub3QgaW5mbGljdCBFeHBvc3VyZQ0KNDQlIG1vcmUgTW9uc3RlciBMaWZlDQorNDAlIE1vbnN0ZXIgUGh5c2ljYWwgRGFtYWdlIFJlZHVjdGlvbg0KUmVpbmZvcmNlbWVudHMgaGF2ZSAxNCUgaW5jcmVhc2VkIEF0dGFjayBTcGVlZA0KUmVpbmZvcmNlbWVudHMgaGF2ZSAxMSUgaW5jcmVhc2VkIENhc3QgU3BlZWQNClJlaW5mb3JjZW1lbnRzIGhhdmUgOSUgaW5jcmVhc2VkIE1vdmVtZW50IFNwZWVkDQotLS0tLS0tLQ0KIkFzIHdhcm0gYXMgbGl2aW5nIGZsZXNoLCBhbmQgc21lbGxpbmcgc3Ryb25nbHkgb2Ygc3VscGhpdGUuDQpNb3JiaWQgY3VyaW9zaXR5IGNvbXBlbHMgbWUgdG8gYWRkIGl0IHRvIG15IGNvbGxlY3Rpb24gb2Ygb2RkaXRpZXMuIg0KLS0tLS0tLS0NCkdpdmUgdGhpcyBDb250cmFjdCB0byBBZGl5YWggaW4gdGhlIFJvZ3VlIEhhcmJvdXIgdG8gZW1iYXJrIG9uIHRoZSBIZWlzdC4NCi0tLS0tLS0tDQpOb3RlOiB+Yi9vIDIgZnVzaW5nDQo="
+                }
+            }
+        }
+    ]
+}

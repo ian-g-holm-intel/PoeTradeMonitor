@@ -1,0 +1,89 @@
+﻿syntax = "proto3";
+import "Proto/ItemTradeRequest.proto";
+
+package poe_lib;
+
+option csharp_namespace = "PoeLib.Proto";
+
+service TradeBot {
+  rpc QueueTrade (QueueTradeRequest) returns (QueueTradeReply) {}
+  rpc GetTradeStatus (GetTradeStatusRequest) returns (GetTradeStatusReply) {}
+  rpc SendMessage (SendMessageRequest) returns (SendMessageReply) {}
+  rpc AntiAFK (AntiAFKRequest) returns (AntiAFKReply) {}
+  rpc CheckPartyInvite (CheckPartyInviteRequest) returns (CheckPartyInviteReply) {}
+  rpc AddCharacterMessage (AddCharacterMessageRequest) returns (AddCharacterMessageReply) {}
+  rpc SendPushNotification (SendPushNotificationRequest) returns (SendPushNotificationReply) {}
+  rpc SetAutoReply (SetAutoReplyRequest) returns (SetAutoReplyReply) {}
+}
+
+message QueueTradeRequest {
+  ItemTradeRequest tradeRequest = 1;
+}
+
+message QueueTradeReply {
+}
+
+message GetTradeStatusRequest {
+}
+
+message GetTradeStatusReply {
+  bool executingTrade = 1;
+}
+
+message SendMessageRequest {
+  string message = 1;
+}
+
+message SendMessageReply {
+}
+
+message AntiAFKRequest {
+}
+
+message AntiAFKReply {
+}
+
+message CheckPartyInviteRequest {
+  int32 timeout = 1;
+  string accountName = 2;
+}
+
+message CheckPartyInviteReply {
+  bool inviteReceived = 1;
+}
+
+message AddCharacterMessageRequest {
+  CharacterMessage message = 1;
+}
+
+message AddCharacterMessageReply {
+}
+
+message CharacterMessage {
+	string character = 1;
+	string message = 2;
+	int64 timestamp = 3;
+	bytes id = 4;
+	MessageSource source = 5;
+	enum MessageSource {
+		Player = 0;
+        Me = 1;
+	}
+}
+
+message SendPushNotificationRequest {
+  string title = 1;
+  string subtitle = 2;
+  string body = 3;
+  string sound = 4;
+}
+
+message SendPushNotificationReply {
+}
+
+message SetAutoReplyRequest {
+  bool enabled = 1;
+}
+
+message SetAutoReplyReply {
+}

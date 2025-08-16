@@ -1,0 +1,60 @@
+syntax = "proto3";
+
+package poe_trade.contracts;
+
+import "google/protobuf/wrappers.proto";
+import "Proto/request_filters.proto";
+import "Proto/complex_filters.proto";
+
+option csharp_namespace = "PoeTrade.Contracts.Proto";
+
+// Main trade search request
+message TradeSearchRequest {
+  TradeQuery query = 1;
+  SortOptions sort = 2;
+}
+
+// Trade query containing search parameters
+message TradeQuery {
+  StatusFilter status = 1;
+  repeated StatsFilter stats = 2;
+  QueryFilters filters = 3;
+}
+
+// Status filter for online/offline
+message StatusFilter {
+  string option = 1;
+}
+
+// Stats filter for mod searching
+message StatsFilter {
+  string type = 1;
+  repeated string filters = 2; // Using string array to handle dynamic filters
+}
+
+// Sort options
+message SortOptions {
+  google.protobuf.StringValue price = 1;
+}
+
+// Main filters container
+message QueryFilters {
+  TypeFilters type_filters = 1;
+  
+  // PoE1-specific filters
+  WeaponFilters weapon_filters = 2;
+  ArmourFilters armour_filters = 3;
+  SocketFilters socket_filters = 4;
+  HeistFilters heist_filters = 5;
+  SanctumFilters sanctum_filters = 6;
+  UltimatumFilters ultimatum_filters = 7;
+  
+  // PoE2-specific filters
+  EquipmentFilters equipment_filters = 8;
+  
+  // Common filters
+  RequirementFilters req_filters = 9;
+  MapFilters map_filters = 10;
+  MiscFilters misc_filters = 11;
+  TradeFilters trade_filters = 12;
+}

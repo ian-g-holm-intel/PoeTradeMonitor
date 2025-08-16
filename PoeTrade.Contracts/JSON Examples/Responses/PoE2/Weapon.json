@@ -1,0 +1,752 @@
+{
+	"result": [
+		{
+			"id": "68fc556251723ccceb262e2cb456402e4829b0708badd03ba69d73b77980526d",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-07-04T09:02:24Z",
+				"stash": {
+					"name": "~b/o 1 mir huisew (mir service)",
+					"x": 14,
+					"y": 19
+				},
+				"whisper": "@Il_Nam Hi, I would like to buy your Blood Edge Spiked Spear listed for 1 mirror in Dawn of the Hunt (stash tab \"~b/o 1 mir huisew (mir service)\"; position: left 15, top 20)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyNWE2OGM1OTZhNTc0YTZlZTg4NjBlODY2NWU0OTY2ZSIsImlzcyI6IlA3ajJ3clpITCIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6IklsX05hbSIsImxvYyI6ImVuX1VTIiwidG9rIjoiaXRlbSIsInN1YiI6IjY4ZmM1NTYyNTE3MjNjY2NlYjI2MmUyY2I0NTY0MDJlNDgyOWIwNzA4YmFkZDAzYmE2OWQ3M2I3Nzk4MDUyNmQiLCJkYXQiOiI4NzVhN2FjYzdmYjhkZGEyODhlZDlkYTIyYWJkYjc1NSIsImlhdCI6MTc1NTAyMzc4NSwiZXhwIjoxNzU1MDI0MDg1fQ.iToNeosmNt_Fa0koyA-FtTa72ca_C4DCwny7v92vwoI",
+				"account": {
+					"name": "JeNebu#4995",
+					"online": {
+						"league": "Dawn of the Hunt",
+						"status": "afk"
+					},
+					"lastCharacterName": "Il_Nam",
+					"language": "en_US",
+					"realm": "poe2"
+				},
+				"price": {
+					"type": "~b/o",
+					"amount": 1,
+					"currency": "mirror"
+				}
+			},
+			"item": {
+				"realm": "poe2",
+				"verified": true,
+				"w": 1,
+				"h": 4,
+				"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9PbmVIYW5kU3BlYXJzLzFIU3BlYXIwNyIsInciOjEsImgiOjQsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/9bda9719ba/1HSpear07.png",
+				"league": "Dawn of the Hunt",
+				"id": "68fc556251723ccceb262e2cb456402e4829b0708badd03ba69d73b77980526d",
+				"fractured": true,
+				"sockets": [
+					{
+						"group": 0,
+						"type": "rune",
+						"item": "rune"
+					}
+				],
+				"name": "Blood Edge",
+				"typeLine": "Spiked Spear",
+				"baseType": "Spiked Spear",
+				"rarity": "Rare",
+				"ilvl": 84,
+				"identified": true,
+				"properties": [
+					{
+						"name": "[Spear]",
+						"values": [],
+						"displayMode": 0
+					},
+					{
+						"name": "[Quality]",
+						"values": [
+							[
+								"+20%",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 6
+					},
+					{
+						"name": "[Physical] Damage",
+						"values": [
+							[
+								"288-511",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 9
+					},
+					{
+						"name": "[Critical|Critical Hit] Chance",
+						"values": [
+							[
+								"11.50%",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 12
+					},
+					{
+						"name": "Attacks per Second",
+						"values": [
+							[
+								"2.05",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 13
+					}
+				],
+				"requirements": [
+					{
+						"name": "Level",
+						"values": [
+							[
+								"77",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 62
+					},
+					{
+						"name": "[Strength|Str]",
+						"values": [
+							[
+								"64",
+								0
+							]
+						],
+						"displayMode": 1,
+						"type": 63
+					},
+					{
+						"name": "[Dexterity|Dex]",
+						"values": [
+							[
+								"165",
+								0
+							]
+						],
+						"displayMode": 1,
+						"type": 64
+					}
+				],
+				"grantedSkills": [
+					{
+						"name": "Grants Skill",
+						"values": [
+							[
+								"Spear Throw",
+								25
+							]
+						],
+						"displayMode": 0,
+						"icon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NJY2VTcGVhciIsInJlYWxtIjoicG9lMiJ9XQ/da079143ea/HuntressIceSpear.png"
+					}
+				],
+				"runeMods": [
+					"25% increased [Physical] Damage"
+				],
+				"explicitMods": [
+					"175% increased [Physical] Damage",
+					"Adds 39 to 66 [Physical|Physical] Damage",
+					"98% increased [ElementalDamage|Elemental] Damage with [Attack|Attacks]",
+					"+39% to [CriticalDamageBonus|Critical Damage Bonus]",
+					"28% increased [Attack] Speed"
+				],
+				"fracturedMods": [
+					"+5% to [Critical|Critical Hit] Chance"
+				],
+				"frameType": 2,
+				"socketedItems": [
+					{
+						"realm": "poe2",
+						"verified": true,
+						"w": 1,
+						"h": 1,
+						"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6b729ab5a0/EnhanceRuneTier2.png",
+						"stackSize": 1,
+						"maxStackSize": 10,
+						"league": "Dawn of the Hunt",
+						"id": "c0812c74b7843c32da7a2d92680cccbda54972efdff7401ec7f54ce32d917da5",
+						"name": "",
+						"typeLine": "Greater Iron Rune",
+						"baseType": "Greater Iron Rune",
+						"ilvl": 0,
+						"identified": true,
+						"properties": [
+							{
+								"name": "Stack Size",
+								"values": [
+									[
+										"1/10",
+										0
+									]
+								],
+								"displayMode": 0,
+								"type": 32
+							}
+						],
+						"requirements": [
+							{
+								"name": "Level",
+								"values": [
+									[
+										"30",
+										0
+									]
+								],
+								"displayMode": 0,
+								"type": 62
+							}
+						],
+						"explicitMods": [
+							"[MartialWeapon|Martial Weapon]: 25% increased [Physical] Damage",
+							"Armour: 25% increased [Armour|Armour], [Evasion|Evasion] and [EnergyShield|Energy Shield]",
+							"Wand or Staff: 30% increased [Spell] Damage"
+						],
+						"descrText": "Place into an empty Rune Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be removed.",
+						"frameType": 5,
+						"socket": 0
+					}
+				],
+				"extended": {
+					"dps": 818.97,
+					"pdps": 818.97,
+					"edps": 0,
+					"mods": {
+						"explicit": [
+							{
+								"name": "Merciless",
+								"tier": "P1",
+								"level": 82,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_1509134228",
+										"min": "170",
+										"max": "179"
+									}
+								]
+							},
+							{
+								"name": "Flaring",
+								"tier": "P1",
+								"level": 77,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_1940865751",
+										"min": "26",
+										"max": "39"
+									},
+									{
+										"hash": "explicit.stat_1940865751",
+										"min": "44",
+										"max": "66"
+									}
+								]
+							},
+							{
+								"name": "Devastating",
+								"tier": "P1",
+								"level": 81,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_387439868",
+										"min": "87",
+										"max": "100"
+									}
+								]
+							},
+							{
+								"name": "of Celebration",
+								"tier": "S1",
+								"level": 77,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_210067635",
+										"min": "26",
+										"max": "28"
+									}
+								]
+							},
+							{
+								"name": "of Destruction",
+								"tier": "S1",
+								"level": 73,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_2694482655",
+										"min": "35",
+										"max": "39"
+									}
+								]
+							}
+						],
+						"implicit": [
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": null
+							}
+						],
+						"fractured": [
+							{
+								"name": "of Unmaking",
+								"tier": "S1",
+								"level": 73,
+								"magnitudes": [
+									{
+										"hash": "fractured.stat_518292764",
+										"min": "4.41",
+										"max": "5"
+									}
+								]
+							}
+						]
+					},
+					"hashes": {
+						"explicit": [
+							[
+								"explicit.stat_1509134228",
+								[
+									0
+								]
+							],
+							[
+								"explicit.stat_1940865751",
+								[
+									1
+								]
+							],
+							[
+								"explicit.stat_387439868",
+								[
+									2
+								]
+							],
+							[
+								"explicit.stat_2694482655",
+								[
+									4
+								]
+							],
+							[
+								"explicit.stat_210067635",
+								[
+									3
+								]
+							]
+						],
+						"fractured": [
+							[
+								"fractured.stat_518292764",
+								[
+									0
+								]
+							]
+						],
+						"rune": [
+							[
+								"rune.stat_1509134228",
+								null
+							]
+						]
+					}
+				}
+			}
+		},
+		{
+			"id": "df24cfe5a5cad4a1a762ccf551dd566bc14d716e04537bf1dbf46981bfe4802a",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-06-24T12:49:13Z",
+				"stash": {
+					"name": "~b/o 1 mir nadat (mir service)",
+					"x": 5,
+					"y": 7
+				},
+				"whisper": "@Il_Nam Hi, I would like to buy your Rapture Call Razor Quarterstaff listed for 1 mirror in Dawn of the Hunt (stash tab \"~b/o 1 mir nadat (mir service)\"; position: left 6, top 8)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJmOWE0M2E1Mjk1ZDdiNWRkNzBjYzIzMjUwOWY4ZTdlZSIsImlzcyI6ImdPTTNKbDd1USIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6IklsX05hbSIsImxvYyI6ImVuX1VTIiwidG9rIjoiaXRlbSIsInN1YiI6ImRmMjRjZmU1YTVjYWQ0YTFhNzYyY2NmNTUxZGQ1NjZiYzE0ZDcxNmUwNDUzN2JmMWRiZjQ2OTgxYmZlNDgwMmEiLCJkYXQiOiJmYTkxMjkyNTc3NDYzMDZjZjI5Y2UxMzFiMzI5ZWYyZiIsImlhdCI6MTc1NTAyMzg2MSwiZXhwIjoxNzU1MDI0MTYxfQ.C7yrJjvrfUWI-wWyLtiruCveBnyXJYZlEmgsbzsanWE",
+				"account": {
+					"name": "JeNebu#4995",
+					"online": {
+						"league": "Dawn of the Hunt",
+						"status": "afk"
+					},
+					"lastCharacterName": "Il_Nam",
+					"language": "en_US",
+					"realm": "poe2"
+				},
+				"price": {
+					"type": "~b/o",
+					"amount": 1,
+					"currency": "mirror"
+				}
+			},
+			"item": {
+				"realm": "poe2",
+				"verified": true,
+				"w": 2,
+				"h": 4,
+				"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9Ud29IYW5kV2VhcG9ucy9XYXJTdGF2ZXMvV2Fyc3RhZmYwNyIsInciOjIsImgiOjQsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/10760714ba/Warstaff07.png",
+				"league": "Dawn of the Hunt",
+				"id": "df24cfe5a5cad4a1a762ccf551dd566bc14d716e04537bf1dbf46981bfe4802a",
+				"fractured": true,
+				"sockets": [
+					{
+						"group": 0,
+						"type": "rune",
+						"item": "soulcore"
+					},
+					{
+						"group": 1,
+						"type": "rune",
+						"item": "soulcore"
+					}
+				],
+				"name": "Rapture Call",
+				"typeLine": "Razor Quarterstaff",
+				"baseType": "Razor Quarterstaff",
+				"rarity": "Rare",
+				"ilvl": 82,
+				"identified": true,
+				"properties": [
+					{
+						"name": "[Quarterstaff]",
+						"values": [],
+						"displayMode": 0
+					},
+					{
+						"name": "[Quality]",
+						"values": [
+							[
+								"+20%",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 6
+					},
+					{
+						"name": "[Physical] Damage",
+						"values": [
+							[
+								"78-130",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 9
+					},
+					{
+						"name": "[ElementalDamage|Elemental] Damage",
+						"values": [
+							[
+								"72-132",
+								5
+							],
+							[
+								"5-252",
+								6
+							]
+						],
+						"displayMode": 0,
+						"type": 10
+					},
+					{
+						"name": "[Critical|Critical Hit] Chance",
+						"values": [
+							[
+								"14.94%",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 12
+					},
+					{
+						"name": "Attacks per Second",
+						"values": [
+							[
+								"1.40",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 13
+					}
+				],
+				"requirements": [
+					{
+						"name": "Level",
+						"values": [
+							[
+								"77",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 62
+					},
+					{
+						"name": "[Dexterity|Dex]",
+						"values": [
+							[
+								"165",
+								0
+							]
+						],
+						"displayMode": 1,
+						"type": 64
+					},
+					{
+						"name": "[Intelligence|Int]",
+						"values": [
+							[
+								"64",
+								0
+							]
+						],
+						"displayMode": 1,
+						"type": 65
+					}
+				],
+				"runeMods": [
+					"+24% to [CriticalDamageBonus|Critical Damage Bonus]"
+				],
+				"explicitMods": [
+					"Adds 72 to 132 [Cold|Cold] Damage",
+					"Adds 5 to 252 [Lightning|Lightning] Damage",
+					"132% increased [ElementalDamage|Elemental] Damage with [Attack|Attacks]",
+					"+39% to [CriticalDamageBonus|Critical Damage Bonus]",
+					"+7 to Level of all [Melee|Melee] Skills"
+				],
+				"fracturedMods": [
+					"+4.94% to [Critical|Critical Hit] Chance"
+				],
+				"frameType": 2,
+				"socketedItems": [
+					{
+						"realm": "poe2",
+						"verified": true,
+						"w": 1,
+						"h": 1,
+						"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUNyaXQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/6d3a52eb08/GreaterSoulCoreCrit.png",
+						"stackSize": 1,
+						"maxStackSize": 10,
+						"league": "Dawn of the Hunt",
+						"id": "2b064a9b20ac7669ec347e4a0832a77bf6513ba17a1aed26698795fc5cd8e703",
+						"name": "",
+						"typeLine": "Soul Core of Ticaba",
+						"baseType": "Soul Core of Ticaba",
+						"ilvl": 0,
+						"identified": true,
+						"properties": [
+							{
+								"name": "Stack Size",
+								"values": [
+									[
+										"1/10",
+										0
+									]
+								],
+								"displayMode": 0,
+								"type": 32
+							}
+						],
+						"explicitMods": [
+							"[MartialWeapon|Martial Weapon]: +12% to [CriticalDamageBonus|Critical Damage Bonus]",
+							"Armour: Hits against you have 10% reduced [CriticalDamageBonus|Critical Damage Bonus]"
+						],
+						"descrText": "Place into an empty Rune Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be removed.",
+						"frameType": 5,
+						"socket": 0
+					},
+					{
+						"realm": "poe2",
+						"verified": true,
+						"w": 1,
+						"h": 1,
+						"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL0dyZWF0ZXJTb3VsQ29yZUNyaXQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/6d3a52eb08/GreaterSoulCoreCrit.png",
+						"stackSize": 1,
+						"maxStackSize": 10,
+						"league": "Dawn of the Hunt",
+						"id": "006965c2c1e3ec27dbce3cc1c57f4458b28b24aec511ead841f274ff466e31d8",
+						"name": "",
+						"typeLine": "Soul Core of Ticaba",
+						"baseType": "Soul Core of Ticaba",
+						"ilvl": 0,
+						"identified": true,
+						"properties": [
+							{
+								"name": "Stack Size",
+								"values": [
+									[
+										"1/10",
+										0
+									]
+								],
+								"displayMode": 0,
+								"type": 32
+							}
+						],
+						"explicitMods": [
+							"[MartialWeapon|Martial Weapon]: +12% to [CriticalDamageBonus|Critical Damage Bonus]",
+							"Armour: Hits against you have 10% reduced [CriticalDamageBonus|Critical Damage Bonus]"
+						],
+						"descrText": "Place into an empty Rune Socket in a Weapon or Armour to apply its effect to that item. Once socketed it cannot be removed.",
+						"frameType": 5,
+						"socket": 1
+					}
+				],
+				"extended": {
+					"dps": 468.3,
+					"pdps": 145.6,
+					"edps": 322.7,
+					"mods": {
+						"explicit": [
+							{
+								"name": "of Destruction",
+								"tier": "S1",
+								"level": 73,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_2694482655",
+										"min": "35",
+										"max": "39"
+									}
+								]
+							},
+							{
+								"name": "of War",
+								"tier": "S1",
+								"level": 81,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_9187492",
+										"min": "7",
+										"max": "7"
+									}
+								]
+							},
+							{
+								"name": "Vapourising",
+								"tier": "P1",
+								"level": 81,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_3336890334",
+										"min": "1",
+										"max": "14"
+									},
+									{
+										"hash": "explicit.stat_3336890334",
+										"min": "178",
+										"max": "256"
+									}
+								]
+							},
+							{
+								"name": "Crystalising",
+								"tier": "P1",
+								"level": 81,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_1037193709",
+										"min": "59",
+										"max": "89"
+									},
+									{
+										"hash": "explicit.stat_1037193709",
+										"min": "90",
+										"max": "135"
+									}
+								]
+							},
+							{
+								"name": "Devastating",
+								"tier": "P1",
+								"level": 81,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_387439868",
+										"min": "120",
+										"max": "139"
+									}
+								]
+							}
+						],
+						"fractured": [
+							{
+								"name": "of Unmaking",
+								"tier": "S1",
+								"level": 73,
+								"magnitudes": [
+									{
+										"hash": "fractured.stat_518292764",
+										"min": "4.41",
+										"max": "5"
+									}
+								]
+							}
+						]
+					},
+					"hashes": {
+						"explicit": [
+							[
+								"explicit.stat_1037193709",
+								[
+									3
+								]
+							],
+							[
+								"explicit.stat_3336890334",
+								[
+									2
+								]
+							],
+							[
+								"explicit.stat_387439868",
+								[
+									4
+								]
+							],
+							[
+								"explicit.stat_2694482655",
+								[
+									0
+								]
+							],
+							[
+								"explicit.stat_9187492",
+								[
+									1
+								]
+							]
+						],
+						"fractured": [
+							[
+								"fractured.stat_518292764",
+								[
+									0
+								]
+							]
+						],
+						"rune": [
+							[
+								"rune.stat_2694482655",
+								null
+							]
+						]
+					}
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,693 @@
+{
+	"result": [
+		{
+			"id": "7b22c241bcd838b939152fe1b0bb38cd01114efa3b362862d7f76be7f2d46f82",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-06-23T19:12:44Z",
+				"stash": {
+					"name": "Selling",
+					"x": 6,
+					"y": 0
+				},
+				"whisper": "@Whichagost Hi, I would like to buy your Sun Leather listed for 1 alch in Mercenaries (stash tab \"Selling\"; position: left 7, top 1)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhNjI0NTM5OTllN2QwZWQyYmI4MzVhOGMwZTU4NDQ1NiIsImlzcyI6IjJidzBFMEdzayIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6IldoaWNoYWdvc3QiLCJsb2MiOiJlbl9VUyIsInRvayI6Iml0ZW0iLCJzdWIiOiI3YjIyYzI0MWJjZDgzOGI5MzkxNTJmZTFiMGJiMzhjZDAxMTE0ZWZhM2IzNjI4NjJkN2Y3NmJlN2YyZDQ2ZjgyIiwiZGF0IjoiOTE4YmY5YWNiYWFhMjQzOTNiMWQxYzBlZTBjNGNmYjMiLCJpYXQiOjE3NTUwMjI1MzIsImV4cCI6MTc1NTAyMjgzMn0.a0425ujlq77LEA81eyhfuadXfk_eVedQ7dXl45m19sw",
+				"account": {
+					"name": "ghostpall#6918",
+					"online": {
+						"league": "Mercenaries"
+					},
+					"lastCharacterName": "Whichagost",
+					"language": "en_US",
+					"realm": "pc"
+				},
+				"price": {
+					"type": "~b/o",
+					"amount": 1,
+					"currency": "alch"
+				}
+			},
+			"item": {
+				"verified": true,
+				"w": 2,
+				"h": 3,
+				"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5RGV4M0MiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/e30de2c7a6/BodyDex3C.png",
+				"league": "Mercenaries",
+				"id": "7b22c241bcd838b939152fe1b0bb38cd01114efa3b362862d7f76be7f2d46f82",
+				"sockets": [
+					{
+						"group": 0,
+						"attr": "D",
+						"sColour": "G"
+					},
+					{
+						"group": 0,
+						"attr": "D",
+						"sColour": "G"
+					},
+					{
+						"group": 0,
+						"attr": "D",
+						"sColour": "G"
+					},
+					{
+						"group": 0,
+						"attr": "S",
+						"sColour": "R"
+					}
+				],
+				"name": "",
+				"typeLine": "Sun Leather",
+				"baseType": "Sun Leather",
+				"rarity": "Normal",
+				"ilvl": 38,
+				"identified": true,
+				"properties": [
+					{
+						"name": "Evasion Rating",
+						"values": [
+							[
+								"358",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 17
+					}
+				],
+				"requirements": [
+					{
+						"name": "Level",
+						"values": [
+							[
+								"32",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 62
+					},
+					{
+						"name": "Dex",
+						"values": [
+							[
+								"91",
+								0
+							]
+						],
+						"displayMode": 1,
+						"type": 64
+					}
+				],
+				"frameType": 0,
+				"extended": {
+					"base_defence_percentile": 59,
+					"ev": 430,
+					"ev_aug": true,
+					"mods": {},
+					"hashes": {},
+					"text": "SXRlbSBDbGFzczogQm9keSBBcm1vdXJzDQpSYXJpdHk6IE5vcm1hbA0KU3VuIExlYXRoZXINCi0tLS0tLS0tDQpFdmFzaW9uIFJhdGluZzogMzU4DQotLS0tLS0tLQ0KUmVxdWlyZW1lbnRzOg0KTGV2ZWw6IDMyDQpEZXg6IDkxDQotLS0tLS0tLQ0KU29ja2V0czogRy1HLUctUiANCi0tLS0tLS0tDQpJdGVtIExldmVsOiAzOA0K"
+				}
+			}
+		},
+		{
+			"id": "5d75bebc265a5753f9977c7a18c9add5ac90a5cec27bbea82f0beb080350c309",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-06-22T19:36:44Z",
+				"stash": {
+					"name": "Selling",
+					"x": 2,
+					"y": 7
+				},
+				"whisper": "@Whichagost Hi, I would like to buy your War Plate listed for 1 alch in Mercenaries (stash tab \"Selling\"; position: left 3, top 8)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMzFjZDU3OGUzYWQxNzZkNGM4OWM3MmMzYTMyYjViYyIsImlzcyI6ImJaajQ2SktTTCIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6IldoaWNoYWdvc3QiLCJsb2MiOiJlbl9VUyIsInRvayI6Iml0ZW0iLCJzdWIiOiI1ZDc1YmViYzI2NWE1NzUzZjk5NzdjN2ExOGM5YWRkNWFjOTBhNWNlYzI3YmJlYTgyZjBiZWIwODAzNTBjMzA5IiwiZGF0IjoiMzU3NTM5ZTg2ZWIxNTcxYTYzNWZmNzZiZmRkOGQxMTAiLCJpYXQiOjE3NTUwMjI1NTgsImV4cCI6MTc1NTAyMjg1OH0.Swmzp1NUgSlAqg58irI8Y103OctDl5E7Pogu1CqhQcY",
+				"account": {
+					"name": "ghostpall#6918",
+					"online": {
+						"league": "Mercenaries"
+					},
+					"lastCharacterName": "Whichagost",
+					"language": "en_US",
+					"realm": "pc"
+				},
+				"price": {
+					"type": "~b/o",
+					"amount": 1,
+					"currency": "alch"
+				}
+			},
+			"item": {
+				"verified": true,
+				"w": 2,
+				"h": 3,
+				"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5U3RyMkIiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/c62bd1159e/BodyStr2B.png",
+				"league": "Mercenaries",
+				"id": "5d75bebc265a5753f9977c7a18c9add5ac90a5cec27bbea82f0beb080350c309",
+				"sockets": [
+					{
+						"group": 0,
+						"attr": "S",
+						"sColour": "R"
+					},
+					{
+						"group": 0,
+						"attr": "S",
+						"sColour": "R"
+					},
+					{
+						"group": 0,
+						"attr": "S",
+						"sColour": "R"
+					},
+					{
+						"group": 0,
+						"attr": "S",
+						"sColour": "R"
+					}
+				],
+				"name": "",
+				"typeLine": "War Plate",
+				"baseType": "War Plate",
+				"rarity": "Magic",
+				"ilvl": 31,
+				"identified": false,
+				"properties": [
+					{
+						"name": "Armour",
+						"values": [
+							[
+								"234",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 16
+					}
+				],
+				"requirements": [
+					{
+						"name": "Strength",
+						"values": [
+							[
+								"63",
+								0
+							]
+						],
+						"displayMode": 1,
+						"type": 63
+					}
+				],
+				"frameType": 1,
+				"extended": {
+					"base_defence_percentile": 56,
+					"ar": 281,
+					"ar_aug": true,
+					"mods": {},
+					"hashes": {},
+					"text": "SXRlbSBDbGFzczogQm9keSBBcm1vdXJzDQpSYXJpdHk6IE1hZ2ljDQpXYXIgUGxhdGUNCi0tLS0tLS0tDQpBcm1vdXI6IDIzNA0KLS0tLS0tLS0NClJlcXVpcmVtZW50czoNClN0cmVuZ3RoOiA2Mw0KLS0tLS0tLS0NClNvY2tldHM6IFItUi1SLVIgDQotLS0tLS0tLQ0KSXRlbSBMZXZlbDogMzENCi0tLS0tLS0tDQpVbmlkZW50aWZpZWQNCg=="
+				}
+			}
+		},
+		{
+			"id": "806dcc5723be48e78d80bd9fd63f5fece564252441af720fa26c2b6f504c8921",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-08-02T10:19:59Z",
+				"stash": {
+					"name": "SELL",
+					"x": 0,
+					"y": 8
+				},
+				"whisper": "@TURBO_N_FIFTY_FIVE Hi, I would like to buy your Debeon's Dirge Despot Axe listed for 1 vaal in Mercenaries (stash tab \"SELL\"; position: left 1, top 9)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMmM1ZWFkM2FlOGFlMzFiYTM1YzU5MGFmODBlODA3ZCIsImlzcyI6IkRFd3lyUlhjNSIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6IlRVUkJPX05fRklGVFlfRklWRSIsImxvYyI6ImVuX1VTIiwidG9rIjoiaXRlbSIsInN1YiI6IjgwNmRjYzU3MjNiZTQ4ZTc4ZDgwYmQ5ZmQ2M2Y1ZmVjZTU2NDI1MjQ0MWFmNzIwZmEyNmMyYjZmNTA0Yzg5MjEiLCJkYXQiOiJkMmE2MGJiNGFhODg3NGNmNTBhMGVjM2VlNzBkZTdiZiIsImlhdCI6MTc1NTAyMjU4MiwiZXhwIjoxNzU1MDIyODgyfQ.cL5GiH3EGuk5ZvukQeqpGRQtwbXtvzFLM45msBnMzzw",
+				"account": {
+					"name": "Jnouney#3573",
+					"online": {
+						"league": "Mercenaries"
+					},
+					"lastCharacterName": "TURBO_N_FIFTY_FIVE",
+					"language": "en_US",
+					"realm": "pc"
+				},
+				"price": {
+					"type": "~price",
+					"amount": 1,
+					"currency": "vaal"
+				}
+			},
+			"item": {
+				"verified": true,
+				"w": 2,
+				"h": 4,
+				"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9Ud29IYW5kV2VhcG9ucy9Ud29IYW5kQXhlcy9TdHJpbmdBeGUiLCJ3IjoyLCJoIjo0LCJzY2FsZSI6MX1d/c3289a678a/StringAxe.png",
+				"league": "Mercenaries",
+				"id": "806dcc5723be48e78d80bd9fd63f5fece564252441af720fa26c2b6f504c8921",
+				"sockets": [
+					{
+						"group": 0,
+						"attr": "D",
+						"sColour": "G"
+					},
+					{
+						"group": 0,
+						"attr": "S",
+						"sColour": "R"
+					}
+				],
+				"name": "Debeon's Dirge",
+				"typeLine": "Despot Axe",
+				"baseType": "Despot Axe",
+				"rarity": "Unique",
+				"ilvl": 82,
+				"identified": true,
+				"note": "~price 1 vaal",
+				"properties": [
+					{
+						"name": "Two Handed Axe",
+						"values": [],
+						"displayMode": 0
+					},
+					{
+						"name": "Physical Damage",
+						"values": [
+							[
+								"90-122",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 9
+					},
+					{
+						"name": "Elemental Damage",
+						"values": [
+							[
+								"345-487",
+								5
+							]
+						],
+						"displayMode": 0,
+						"type": 10
+					},
+					{
+						"name": "Critical Strike Chance",
+						"values": [
+							[
+								"5.00%",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 12
+					},
+					{
+						"name": "Attacks per Second",
+						"values": [
+							[
+								"1.40",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 13
+					},
+					{
+						"name": "Weapon Range: {0} metres",
+						"values": [
+							[
+								"1.3",
+								0
+							]
+						],
+						"displayMode": 3,
+						"type": 14
+					}
+				],
+				"requirements": [
+					{
+						"name": "Level",
+						"values": [
+							[
+								"66",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 62
+					},
+					{
+						"name": "Str",
+						"values": [
+							[
+								"140",
+								0
+							]
+						],
+						"displayMode": 1,
+						"type": 63
+					},
+					{
+						"name": "Dex",
+						"values": [
+							[
+								"86",
+								0
+							]
+						],
+						"displayMode": 1,
+						"type": 64
+					}
+				],
+				"explicitMods": [
+					"Adds 345 to 487 Cold Damage",
+					"15% increased Movement Speed if you've Warcried Recently",
+					"150% increased Elemental Damage if you've Warcried Recently",
+					"Warcries Knock Back and Interrupt Enemies in a smaller Area"
+				],
+				"flavourText": [
+					"A sharp and heavy beat,\r",
+					"discorded, out of tune,\r",
+					"when you hear it on the wind,\r",
+					"you know death will follow soon."
+				],
+				"frameType": 3,
+				"extended": {
+					"dps": 760.2,
+					"pdps": 177.8,
+					"edps": 582.4,
+					"dps_aug": true,
+					"pdps_aug": true,
+					"mods": {
+						"explicit": [
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_519622288",
+										"min": "1",
+										"max": "1"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_2546417825",
+										"min": "15",
+										"max": "15"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_2803182108",
+										"min": "150",
+										"max": "150"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_1037193709",
+										"min": "310",
+										"max": "350"
+									},
+									{
+										"hash": "explicit.stat_1037193709",
+										"min": "460",
+										"max": "500"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": null
+							}
+						]
+					},
+					"hashes": {
+						"explicit": [
+							[
+								"explicit.stat_1037193709",
+								[
+									3
+								]
+							],
+							[
+								"explicit.stat_2546417825",
+								[
+									1
+								]
+							],
+							[
+								"explicit.stat_2803182108",
+								[
+									2
+								]
+							],
+							[
+								"explicit.stat_519622288",
+								[
+									0
+								]
+							]
+						]
+					},
+					"text": "SXRlbSBDbGFzczogVHdvIEhhbmQgQXhlcw0KUmFyaXR5OiBVbmlxdWUNCkRlYmVvbidzIERpcmdlDQpEZXNwb3QgQXhlDQotLS0tLS0tLQ0KVHdvIEhhbmRlZCBBeGUNClBoeXNpY2FsIERhbWFnZTogOTAtMTIyDQpFbGVtZW50YWwgRGFtYWdlOiAzNDUtNDg3IChhdWdtZW50ZWQpDQpDcml0aWNhbCBTdHJpa2UgQ2hhbmNlOiA1LjAwJQ0KQXR0YWNrcyBwZXIgU2Vjb25kOiAxLjQwDQpXZWFwb24gUmFuZ2U6IDEuMyBtZXRyZXMNCi0tLS0tLS0tDQpSZXF1aXJlbWVudHM6DQpMZXZlbDogNjYNClN0cjogMTQwDQpEZXg6IDg2DQotLS0tLS0tLQ0KU29ja2V0czogRy1SIA0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDgyDQotLS0tLS0tLQ0KQWRkcyAzNDUgdG8gNDg3IENvbGQgRGFtYWdlDQoxNSUgaW5jcmVhc2VkIE1vdmVtZW50IFNwZWVkIGlmIHlvdSd2ZSBXYXJjcmllZCBSZWNlbnRseQ0KMTUwJSBpbmNyZWFzZWQgRWxlbWVudGFsIERhbWFnZSBpZiB5b3UndmUgV2FyY3JpZWQgUmVjZW50bHkNCldhcmNyaWVzIEtub2NrIEJhY2sgYW5kIEludGVycnVwdCBFbmVtaWVzIGluIGEgc21hbGxlciBBcmVhDQotLS0tLS0tLQ0KQSBzaGFycCBhbmQgaGVhdnkgYmVhdCwNCmRpc2NvcmRlZCwgb3V0IG9mIHR1bmUsDQp3aGVuIHlvdSBoZWFyIGl0IG9uIHRoZSB3aW5kLA0KeW91IGtub3cgZGVhdGggd2lsbCBmb2xsb3cgc29vbi4NCi0tLS0tLS0tDQpOb3RlOiB+cHJpY2UgMSB2YWFsDQo="
+				}
+			}
+		},
+		{
+			"id": "05eeebae57c899329ab187002a4b3443b25c9f958eb5a511c3bf3967c60dc74b",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-07-19T15:01:46Z",
+				"stash": {
+					"name": "~b/o 1 chaos",
+					"x": 20,
+					"y": 23
+				},
+				"whisper": "@BRGNBOBBYDROPTABLES Hi, I would like to buy your Ventor's Gamble Gold Ring listed for 1 chaos in Mercenaries (stash tab \"~b/o 1 chaos\"; position: left 21, top 24)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJkNmNjZjVjODQ3YTIzM2E5NWNkYjQ5NDRhNzcxODJiZiIsImlzcyI6IlZCZDRqOVBUcCIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6IkJSR05CT0JCWURST1BUQUJMRVMiLCJsb2MiOiJlbl9VUyIsInRvayI6Iml0ZW0iLCJzdWIiOiIwNWVlZWJhZTU3Yzg5OTMyOWFiMTg3MDAyYTRiMzQ0M2IyNWM5Zjk1OGViNWE1MTFjM2JmMzk2N2M2MGRjNzRiIiwiZGF0IjoiZDhjY2FjOTcyNGExNjRhYzYxZTJiZjRlZTllYmM3OWUiLCJpYXQiOjE3NTUwMjI2MDEsImV4cCI6MTc1NTAyMjkwMX0.iatlhLY7ZbmUORjHQ7n7q2o-KOsI7thLMnLT5Wxp0n4",
+				"account": {
+					"name": "KlunkyMonkey#4964",
+					"online": {
+						"league": "Mercenaries"
+					},
+					"lastCharacterName": "BRGNBOBBYDROPTABLES",
+					"language": "en_US",
+					"realm": "pc"
+				},
+				"price": {
+					"type": "~b/o",
+					"amount": 1,
+					"currency": "chaos"
+				}
+			},
+			"item": {
+				"verified": true,
+				"w": 1,
+				"h": 1,
+				"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvRGllT2ZEZXN0aW55IiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlbGljIjo2fV0/fd8ab2801a/DieOfDestiny.png",
+				"league": "Mercenaries",
+				"id": "05eeebae57c899329ab187002a4b3443b25c9f958eb5a511c3bf3967c60dc74b",
+				"isRelic": true,
+				"foilVariation": 6,
+				"name": "Ventor's Gamble",
+				"typeLine": "Gold Ring",
+				"baseType": "Gold Ring",
+				"rarity": "Unique",
+				"ilvl": 75,
+				"identified": true,
+				"requirements": [
+					{
+						"name": "Level",
+						"values": [
+							[
+								"65",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 62
+					}
+				],
+				"implicitMods": [
+					"7% increased Rarity of Items found"
+				],
+				"explicitMods": [
+					"+27 to maximum Life",
+					"36% reduced Rarity of Items found",
+					"+9% to Fire Resistance",
+					"-8% to Cold Resistance",
+					"+13% to Lightning Resistance",
+					"11% reduced Mana Reservation Efficiency of Skills"
+				],
+				"flavourText": [
+					"In a blaze of glory,\r",
+					"An anomaly defying all odds\r",
+					"The \"unkillable\" beast met the divine\r",
+					"And Ventor met his latest trophy."
+				],
+				"frameType": 10,
+				"extended": {
+					"mods": {
+						"explicit": [
+							{
+								"name": "",
+								"tier": "",
+								"level": 82,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_3299347043",
+										"min": "0",
+										"max": "60"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_3372524247",
+										"min": "-25",
+										"max": "50"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_4220027924",
+										"min": "-25",
+										"max": "50"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_1671376347",
+										"min": "-25",
+										"max": "50"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_3917489142",
+										"min": "-40",
+										"max": "40"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_4237190083",
+										"min": "-15",
+										"max": "15"
+									}
+								]
+							}
+						],
+						"implicit": [
+							{
+								"name": "",
+								"tier": "",
+								"level": 25,
+								"magnitudes": [
+									{
+										"hash": "implicit.stat_3917489142",
+										"min": "6",
+										"max": "15"
+									}
+								]
+							}
+						]
+					},
+					"hashes": {
+						"explicit": [
+							[
+								"explicit.stat_3299347043",
+								[
+									0
+								]
+							],
+							[
+								"explicit.stat_3917489142",
+								[
+									4
+								]
+							],
+							[
+								"explicit.stat_3372524247",
+								[
+									1
+								]
+							],
+							[
+								"explicit.stat_4220027924",
+								[
+									2
+								]
+							],
+							[
+								"explicit.stat_1671376347",
+								[
+									3
+								]
+							],
+							[
+								"explicit.stat_4237190083",
+								[
+									5
+								]
+							]
+						],
+						"implicit": [
+							[
+								"implicit.stat_3917489142",
+								[
+									0
+								]
+							]
+						]
+					},
+					"text": "SXRlbSBDbGFzczogUmluZ3MNClJhcml0eTogVW5pcXVlDQpWZW50b3IncyBHYW1ibGUNCkdvbGQgUmluZw0KLS0tLS0tLS0NClJlcXVpcmVtZW50czoNCkxldmVsOiA2NQ0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDc1DQotLS0tLS0tLQ0KNyUgaW5jcmVhc2VkIFJhcml0eSBvZiBJdGVtcyBmb3VuZCAoaW1wbGljaXQpDQotLS0tLS0tLQ0KKzI3IHRvIG1heGltdW0gTGlmZQ0KMzYlIHJlZHVjZWQgUmFyaXR5IG9mIEl0ZW1zIGZvdW5kDQorOSUgdG8gRmlyZSBSZXNpc3RhbmNlDQotOCUgdG8gQ29sZCBSZXNpc3RhbmNlDQorMTMlIHRvIExpZ2h0bmluZyBSZXNpc3RhbmNlDQoxMSUgcmVkdWNlZCBNYW5hIFJlc2VydmF0aW9uIEVmZmljaWVuY3kgb2YgU2tpbGxzDQotLS0tLS0tLQ0KSW4gYSBibGF6ZSBvZiBnbG9yeSwNCkFuIGFub21hbHkgZGVmeWluZyBhbGwgb2Rkcw0KVGhlICJ1bmtpbGxhYmxlIiBiZWFzdCBtZXQgdGhlIGRpdmluZQ0KQW5kIFZlbnRvciBtZXQgaGlzIGxhdGVzdCB0cm9waHkuDQotLS0tLS0tLQ0KRm9pbCBVbmlxdWUgKEF1cmVhdGUpDQo="
+				}
+			}
+		}
+	]
+}

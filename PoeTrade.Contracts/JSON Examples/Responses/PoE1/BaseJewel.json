@@ -1,0 +1,164 @@
+{
+    "result": [
+        {
+            "id": "f678b1e097e9c1522b6cda8d6ba46f1de7eb23460880aa8875e5d2680f1a79da",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2025-07-31T01:48:38Z",
+                "stash": {
+                    "name": "Team work",
+                    "x": 23,
+                    "y": 22
+                },
+                "whisper": "@semma_ne_staje_da_jebee Hi, I would like to buy your Empyrean Vessel Synthesised Crimson Jewel listed for 50 divine in Mercenaries (stash tab \"Team work\"; position: left 24, top 23)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJmNmRmZDMwZGEyZTk0MTI4ZjgxYjIwZDcwNjIwN2RmOSIsImlzcyI6IlIwN0JSOFdzNyIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6InNlbW1hX25lX3N0YWplX2RhX2plYmVlIiwibG9jIjoiZW5fVVMiLCJ0b2siOiJpdGVtIiwic3ViIjoiZjY3OGIxZTA5N2U5YzE1MjJiNmNkYThkNmJhNDZmMWRlN2ViMjM0NjA4ODBhYTg4NzVlNWQyNjgwZjFhNzlkYSIsImRhdCI6ImViMzY3YjJlMDE2ZGY0MjMxOThjOGRjODJhZmIyNzRjIiwiaWF0IjoxNzU1MDIxMjQyLCJleHAiOjE3NTUwMjE1NDJ9.ONsi82Dl8-5oHgCvq0iQNE_mrwrpdyYOjMIVd7CWv5I",
+                "account": {
+                    "name": "semma_car19#5206",
+                    "online": {
+                        "league": "Mercenaries"
+                    },
+                    "lastCharacterName": "semma_ne_staje_da_jebee",
+                    "language": "en_US",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 50,
+                    "currency": "divine"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 1,
+                "h": 1,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL2Jhc2ljc3RyIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInN5bnRoZXNpc2VkIjp0cnVlfV0/9c1bb0e02a/basicstr.png",
+                "league": "Mercenaries",
+                "id": "f678b1e097e9c1522b6cda8d6ba46f1de7eb23460880aa8875e5d2680f1a79da",
+                "synthesised": true,
+                "name": "Empyrean Vessel",
+                "typeLine": "Synthesised Crimson Jewel",
+                "baseType": "Crimson Jewel",
+                "rarity": "Rare",
+                "ilvl": 84,
+                "identified": true,
+                "note": "~price 50 divine",
+                "implicitMods": [
+                    "5% increased Melee Damage"
+                ],
+                "explicitMods": [
+                    "4% increased Attack Speed while holding a Shield",
+                    "+10% to Global Critical Strike Multiplier",
+                    "+13% to Melee Critical Strike Multiplier",
+                    "+15% to Critical Strike Multiplier with Fire Skills"
+                ],
+                "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+                "frameType": 2,
+                "extended": {
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "of Potency",
+                                "tier": "S1",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3556824919",
+                                        "min": "9",
+                                        "max": "12"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of Demolishing",
+                                "tier": "S1",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_4237442815",
+                                        "min": "12",
+                                        "max": "15"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Charging",
+                                "tier": "P1",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3805075944",
+                                        "min": "4",
+                                        "max": "6"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Infernal",
+                                "tier": "P1",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2307547323",
+                                        "min": "15",
+                                        "max": "18"
+                                    }
+                                ]
+                            }
+                        ],
+                        "implicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_1002362373",
+                                        "min": "4",
+                                        "max": "5"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_3805075944",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3556824919",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_4237442815",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2307547323",
+                                [
+                                    3
+                                ]
+                            ]
+                        ],
+                        "implicit": [
+                            [
+                                "implicit.stat_1002362373",
+                                [
+                                    0
+                                ]
+                            ]
+                        ]
+                    },
+                    "text": "SXRlbSBDbGFzczogSmV3ZWxzDQpSYXJpdHk6IFJhcmUNCkVtcHlyZWFuIFZlc3NlbA0KU3ludGhlc2lzZWQgQ3JpbXNvbiBKZXdlbA0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDg0DQotLS0tLS0tLQ0KNSUgaW5jcmVhc2VkIE1lbGVlIERhbWFnZSAoaW1wbGljaXQpDQotLS0tLS0tLQ0KNCUgaW5jcmVhc2VkIEF0dGFjayBTcGVlZCB3aGlsZSBob2xkaW5nIGEgU2hpZWxkDQorMTAlIHRvIEdsb2JhbCBDcml0aWNhbCBTdHJpa2UgTXVsdGlwbGllcg0KKzEzJSB0byBNZWxlZSBDcml0aWNhbCBTdHJpa2UgTXVsdGlwbGllcg0KKzE1JSB0byBDcml0aWNhbCBTdHJpa2UgTXVsdGlwbGllciB3aXRoIEZpcmUgU2tpbGxzDQotLS0tLS0tLQ0KUGxhY2UgaW50byBhbiBhbGxvY2F0ZWQgSmV3ZWwgU29ja2V0IG9uIHRoZSBQYXNzaXZlIFNraWxsIFRyZWUuIFJpZ2h0IGNsaWNrIHRvIHJlbW92ZSBmcm9tIHRoZSBTb2NrZXQuDQotLS0tLS0tLQ0KU3ludGhlc2lzZWQgSXRlbQ0KLS0tLS0tLS0NCk5vdGU6IH5wcmljZSA1MCBkaXZpbmUNCg=="
+                }
+            }
+        },
+    ]
+}

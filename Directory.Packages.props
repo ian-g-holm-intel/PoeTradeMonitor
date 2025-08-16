@@ -1,0 +1,79 @@
+<Project>
+	<PropertyGroup>
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+		<CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+		<!-- This is necessary to allow pinning SharpDX's transitive dependencies since it is no longer maintained -->
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(MSBuildProjectName)' == 'ClickableTransparentOverlay' OR '$(MSBuildProjectName)' == 'ItemFilterLibrary' OR $(MSBuildProjectDirectory.Contains('PrivateExileApi'))">
+		<ManagePackageVersionsCentrally>false</ManagePackageVersionsCentrally>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageVersion Include="AlphaFS.New" Version="2.3.0" />
+		<PackageVersion Include="AlphaVSS" Version="2.0.3" />
+		<PackageVersion Include="CliWrap" Version="3.9.0" />
+		<PackageVersion Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+		<PackageVersion Include="coverlet.collector" Version="6.0.4" />
+		<PackageVersion Include="Google.Protobuf" Version="3.31.1" />
+		<PackageVersion Include="Grpc.AspNetCore" Version="2.71.0" />
+		<PackageVersion Include="Grpc.Core.Api" Version="2.71.0" />
+		<PackageVersion Include="Grpc.Net.Client" Version="2.71.0" />
+		<PackageVersion Include="Grpc.Tools" Version="2.72.0" PrivateAssets="All" />
+		<PackageVersion Include="ImGui.NET" Version="1.90.0.1" />
+		<PackageVersion Include="InputSimulatorCore" Version="1.0.5" />
+		<PackageVersion Include="InputSimulatorStandard" Version="1.0.0" />
+		<PackageVersion Include="LibGit2Sharp" Version="0.31.0" />
+		<PackageVersion Include="LinqFaster" Version="1.0.0" />
+		<PackageVersion Include="LiquidState" Version="8.2.0" />
+		<PackageVersion Include="Microsoft.Bcl.AsyncInterfaces" Version="9.0.8" />
+		<PackageVersion Include="Microsoft.Build" Version="17.11.31" />
+		<PackageVersion Include="Microsoft.Build.Locator" Version="1.9.1" />
+		<PackageVersion Include="Microsoft.Build.Tasks.Core" Version="17.11.31" />
+		<PackageVersion Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="4.11.0" />
+		<PackageVersion Include="Microsoft.CodeAnalysis.Scripting.Common" Version="4.11.0" />
+		<PackageVersion Include="Microsoft.Extensions.Configuration.Binder" Version="9.0.8" />
+		<PackageVersion Include="Microsoft.Extensions.Configuration.Json" Version="9.0.8" />
+		<PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.8" />
+		<PackageVersion Include="Microsoft.Extensions.Hosting.Abstractions" Version="9.0.8" />
+		<PackageVersion Include="Microsoft.Extensions.Caching.Memory" Version="9.0.8" />
+		<PackageVersion Include="Microsoft.Extensions.Http" Version="9.0.8" />
+		<PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="9.0.8" />
+		<PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+		<PackageVersion Include="Moq" Version="4.20.72" />
+		<PackageVersion Include="Moq.AutoMock" Version="3.5.0" />
+		<PackageVersion Include="morelinq" Version="4.0.0" />
+		<PackageVersion Include="MSTest.TestAdapter" Version="3.10.2" />
+		<PackageVersion Include="MSTest.TestFramework" Version="3.10.2" />
+		<PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageVersion Include="Nito.AsyncEx" Version="5.1.2" />
+		<PackageVersion Include="ProcessMemoryUtilities.Net" Version="1.3.4" />
+		<PackageVersion Include="PushoverNET.Standard" Version="1.1.0" />
+		<PackageVersion Include="RateLimiter" Version="2.2.0" />
+		<PackageVersion Include="Serilog" Version="3.1.1" />
+		<PackageVersion Include="Serilog.AspNetCore" Version="8.0.3" />
+		<PackageVersion Include="Serilog.Sinks.Console" Version="5.0.0" />
+		<PackageVersion Include="Serilog.Sinks.File" Version="5.0.0" />
+		<PackageVersion Include="SharpDX" Version="4.2.0" />
+		<PackageVersion Include="SharpDX.Desktop" Version="4.2.0" />
+		<PackageVersion Include="SharpDX.Mathematics" Version="4.2.0" />
+		<PackageVersion Include="SharpDX.XAudio2" Version="4.2.0" />
+		<PackageVersion Include="SixLabors.ImageSharp" Version="2.1.11" />
+		<PackageVersion Include="stateless" Version="5.18.0" />
+		<PackageVersion Include="System.Linq.Dynamic.Core" Version="1.3.7" />
+		<PackageVersion Include="System.Net.Http" Version="4.3.4" />
+		<!-- System.Private.Uri is a Transitive Dependency for SharpDX -->
+		<PackageVersion Include="System.Private.Uri" Version="4.3.2" />
+		<!-- System.Runtime.Caching is a Transitive Dependency for SharpDX -->
+		<PackageVersion Include="System.Runtime.Caching" Version="8.0.0" />
+		<!-- System.Text.RegularExpressions is a Transitive Dependency for SharpDX -->
+		<PackageVersion Include="System.Text.RegularExpressions" Version="4.3.1" />
+		<PackageVersion Include="System.Text.Json" Version="9.0.8" />
+		<PackageVersion Include="TestableIO.System.IO.Abstractions.Wrappers" Version="21.1.3" />
+		<PackageVersion Include="TestableIO.System.IO.Abstractions.TestingHelpers" Version="21.1.3" />
+		<PackageVersion Include="Vanara.PInvoke.DwmApi" Version="3.4.17" />
+		<PackageVersion Include="Vanara.PInvoke.Kernel32" Version="3.4.17" />
+		<PackageVersion Include="Vanara.PInvoke.Multimedia" Version="3.4.17" />
+		<PackageVersion Include="Vanara.PInvoke.User32" Version="3.4.17" />
+		<PackageVersion Include="Vortice.D3DCompiler" Version="3.3.4" />
+		<PackageVersion Include="Vortice.Direct3D11" Version="3.3.4" />
+	</ItemGroup>
+</Project>

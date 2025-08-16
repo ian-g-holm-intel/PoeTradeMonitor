@@ -1,0 +1,72 @@
+{
+    "result": [
+        {
+            "id": "9b6e50384da65dabf1341ebb48becf8e9ee7b86394e6ed7e5419b628eda9d792",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2025-08-11T19:23:07Z",
+                "stash": {
+                    "name": "4",
+                    "x": 10,
+                    "y": 9
+                },
+                "whisper": "@mercenuns Hi, I would like to buy your The Doctor listed for 1 divine in Mercenaries (stash tab \"4\"; position: left 11, top 10)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5NzRjODI4MDRkOTg0ZDkwM2Y1MzFmMWQzMzJlMzcwYyIsImlzcyI6IllZTUxLTTZUWSIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6Im1lcmNlbnVucyIsImxvYyI6ImVuX1VTIiwidG9rIjoiaXRlbSIsInN1YiI6IjliNmU1MDM4NGRhNjVkYWJmMTM0MWViYjQ4YmVjZjhlOWVlN2I4NjM5NGU2ZWQ3ZTU0MTliNjI4ZWRhOWQ3OTIiLCJkYXQiOiJkMjllNjMyMjhmN2E4ZTNlN2YxODU2MGJjMDBlMzUyNiIsImlhdCI6MTc1NTAyMTY3NCwiZXhwIjoxNzU1MDIxOTc0fQ.cFYdwpab6o8ARJUedaOvJdnYOGMEPyV9Zt0NVSzDW2Y",
+                "account": {
+                    "name": "azel24#9490",
+                    "online": {
+                        "league": "Mercenaries"
+                    },
+                    "lastCharacterName": "mercenuns",
+                    "language": "en_US",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 1,
+                    "currency": "divine"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 1,
+                "h": 1,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvRGl2aW5hdGlvbi9JbnZlbnRvcnlJY29uIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/f34bf8cbb5/InventoryIcon.png",
+                "stackSize": 1,
+                "maxStackSize": 8,
+                "league": "Mercenaries",
+                "id": "9b6e50384da65dabf1341ebb48becf8e9ee7b86394e6ed7e5419b628eda9d792",
+                "name": "",
+                "typeLine": "The Doctor",
+                "baseType": "The Doctor",
+                "ilvl": 0,
+                "identified": true,
+                "note": "~price 1 divine",
+                "properties": [
+                    {
+                        "name": "Stack Size",
+                        "values": [
+                            [
+                                "1/8",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 32
+                    }
+                ],
+                "explicitMods": [
+                    "<uniqueitem>{Headhunter}"
+                ],
+                "flavourText": [
+                    "\"They said I needed my head examined, but I'd rather just take yours.\" - Klopek the Cannibal"
+                ],
+                "frameType": 6,
+                "artFilename": "TheDoctor",
+                "extended": {
+                    "text": "SXRlbSBDbGFzczogRGl2aW5hdGlvbiBDYXJkcw0KUmFyaXR5OiBEaXZpbmF0aW9uIENhcmQNClRoZSBEb2N0b3INCi0tLS0tLS0tDQpTdGFjayBTaXplOiAxLzgNCi0tLS0tLS0tDQpIZWFkaHVudGVyDQotLS0tLS0tLQ0KIlRoZXkgc2FpZCBJIG5lZWRlZCBteSBoZWFkIGV4YW1pbmVkLCBidXQgSSdkIHJhdGhlciBqdXN0IHRha2UgeW91cnMuIiAtIEtsb3BlayB0aGUgQ2FubmliYWwNCi0tLS0tLS0tDQpOb3RlOiB+cHJpY2UgMSBkaXZpbmUNCg=="
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+	"query": {
+		"status": {
+			"option": "online"
+		},
+		"stats": [
+			{
+				"type": "and",
+				"filters": []
+			}
+		],
+		"filters": {
+			"type_filters": {
+				"filters": {
+					"ilvl": {
+						"max": 1
+					},
+					"quality": {
+						"max": 1
+					}
+				}
+			},
+			"equipment_filters": {
+				"filters": {
+					"aps": {
+						"max": 1
+					},
+					"damage": {
+						"max": 1
+					},
+					"crit": {
+						"max": 1
+					},
+					"pdps": {
+						"max": 1
+					},
+					"reload_time": {
+						"max": 1
+					},
+					"ar": {
+						"max": 1
+					},
+					"es": {
+						"max": 1
+					},
+					"spirit": {
+						"max": 1
+					},
+					"rune_sockets": {
+						"max": 1
+					},
+					"block": {
+						"max": 1
+					},
+					"ev": {
+						"max": 1
+					},
+					"edps": {
+						"max": 1
+					},
+					"dps": {
+						"max": 1
+					}
+				}
+			},
+			"req_filters": {
+				"filters": {
+					"str": {
+						"max": 1
+					},
+					"int": {
+						"max": 1
+					},
+					"lvl": {
+						"max": 1
+					},
+					"dex": {
+						"max": 1
+					}
+				}
+			},
+			"map_filters": {
+				"filters": {
+					"map_bonus": {
+						"max": 1
+					},
+					"map_tier": {
+						"max": 1
+					}
+				}
+			},
+			"misc_filters": {
+				"filters": {
+					"gem_level": {
+						"max": 1
+					},
+					"area_level": {
+						"max": 1
+					},
+					"sanctum_gold": {
+						"max": 1
+					},
+					"unidentified_tier": {
+						"max": 1
+					},
+					"stack_size": {
+						"max": 1
+					},
+					"gem_sockets": {
+						"max": 1
+					}
+				}
+			},
+			"trade_filters": {
+				"filters": {
+					"price": {
+						"max": 1
+					}
+				}
+			}
+		}
+	},
+	"sort": {
+		"price": "asc"
+	}
+}

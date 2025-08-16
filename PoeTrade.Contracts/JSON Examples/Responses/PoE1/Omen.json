@@ -1,0 +1,54 @@
+{
+    "result": [
+        {
+            "id": "973e422f1c3a5d9e18dfc090529d9f098d5464cb8034c0d8c820821616285708",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2025-08-10T16:53:33Z",
+                "stash": {
+                    "name": "ทันเด้อเอ็กเพลส",
+                    "x": 11,
+                    "y": 11
+                },
+                "whisper": "@天高箭远 สวัสดี เราต้องการซื้อ ลางบอกเหตุผู้สวาปามวิญญาณ ที่คุณตั้งขายไว้ในราคา 1 chaos ในลีก Mercenaries (แท็บ \"ทันเด้อเอ็กเพลส\" ตำแหน่ง: ซ้าย 12, บน 12)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyYmIzNTVhMTA4ZDg3NWNmNzY0MTVmNWUwNzBhMmUzYSIsImlzcyI6Im5CNEQzVkpIMCIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6Ilx1NTkyOVx1OWFkOFx1N2JhZFx1OGZkYyIsImxvYyI6InRoX1RIIiwidG9rIjoiaXRlbSIsInN1YiI6Ijk3M2U0MjJmMWMzYTVkOWUxOGRmYzA5MDUyOWQ5ZjA5OGQ1NDY0Y2I4MDM0YzBkOGM4MjA4MjE2MTYyODU3MDgiLCJkYXQiOiJkMDcxMWU2YjdkOGY2MDZkZWY4N2RhM2I1NDRiMTlmNSIsImlhdCI6MTc1NTAyMjA1MCwiZXhwIjoxNzU1MDIyMzUwfQ.Ee017anIe45Kj9WvMthTiTQ4fuCY6SjlNXnSEk-c9Zw",
+                "account": {
+                    "name": "Saharatatatatata#3327",
+                    "online": {
+                        "league": "Mercenaries"
+                    },
+                    "lastCharacterName": "天高箭远",
+                    "language": "th_TH",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 1,
+                    "currency": "chaos"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 1,
+                "h": 1,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXptZXJpL1Zvb2Rvb09tZW5zM0JsdWUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c90fccd068/VoodooOmens3Blue.png",
+                "league": "Mercenaries",
+                "id": "973e422f1c3a5d9e18dfc090529d9f098d5464cb8034c0d8c820821616285708",
+                "name": "",
+                "typeLine": "Omen of the Soul Devourer",
+                "baseType": "Omen of the Soul Devourer",
+                "ilvl": 0,
+                "identified": true,
+                "note": "~price 1 chaos",
+                "explicitMods": [
+                    "Will be Consumed when you level up\nto grant Soul Eater for 5 minutes"
+                ],
+                "descrText": "Each player can only consume one Omen in each combat area.",
+                "frameType": 5,
+                "extended": {
+                    "text": "SXRlbSBDbGFzczogU3RhY2thYmxlIEN1cnJlbmN5DQpSYXJpdHk6IEN1cnJlbmN5DQpPbWVuIG9mIHRoZSBTb3VsIERldm91cmVyDQotLS0tLS0tLQ0KV2lsbCBiZSBDb25zdW1lZCB3aGVuIHlvdSBsZXZlbCB1cAp0byBncmFudCBTb3VsIEVhdGVyIGZvciA1IG1pbnV0ZXMNCi0tLS0tLS0tDQpFYWNoIHBsYXllciBjYW4gb25seSBjb25zdW1lIG9uZSBPbWVuIGluIGVhY2ggY29tYmF0IGFyZWEuDQotLS0tLS0tLQ0KTm90ZTogfnByaWNlIDEgY2hhb3MNCg=="
+                }
+            }
+        }
+    ]
+}

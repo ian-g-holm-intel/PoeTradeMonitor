@@ -1,0 +1,15 @@
+obj/
+bin/
+.vs/
+packages/
+*.DotSettings
+.idea*
+PoeTradeMonitor.sln.iml
+*.orig
+*.user
+/PoeTradeMonitor.Service/Logs
+/PoeAuthenticator/ChromeCookiesView.cfg
+Logs/
+*.log
+*.pkl
+

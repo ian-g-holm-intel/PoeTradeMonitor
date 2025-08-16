@@ -1,0 +1,96 @@
+{
+    "result": [
+        {
+            "id": "6257d6613c7481e9377e52ae5ae6a86645fcb20c1aade0adf8e42be161c734c3",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2025-07-05T10:24:10Z",
+                "stash": {
+                    "name": "~price 1 divine",
+                    "x": 0,
+                    "y": 2
+                },
+                "whisper": "@Nil_b 안녕하세요, 1 divine(으)로 올려놓은 Mercenaries 리그의 죽음의발톱 페누무스 역병 걸린 거미류(을)를 구매하고 싶습니다 (보관함 탭 \"~price 1 divine\", 위치: 왼쪽 1, 상단 3)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJiNDk5YzEyZjE0ZWMwNGI3OGRjNDM3ZTg5ZDFiM2ZhOSIsImlzcyI6Ik9KbTQ0VzhTRSIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6Ik5pbF9iIiwibG9jIjoia29fS1IiLCJ0b2siOiJpdGVtIiwic3ViIjoiNjI1N2Q2NjEzYzc0ODFlOTM3N2U1MmFlNWFlNmE4NjY0NWZjYjIwYzFhYWRlMGFkZjhlNDJiZTE2MWM3MzRjMyIsImRhdCI6IjkxNDJjNDlmMDAyOTM5NmU4NmFiNGZhZjU3ZjIxOTNlIiwiaWF0IjoxNzU1MDIxNzQxLCJleHAiOjE3NTUwMjIwNDF9.UyLBEFee7gsSUl7iTyR3LkkhQXBgZcjVCnmgF-6BTNg",
+                "account": {
+                    "name": "Wit80#5981",
+                    "online": {
+                        "league": "Mercenaries"
+                    },
+                    "lastCharacterName": "Nil_b",
+                    "language": "ko_KR",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 1,
+                    "currency": "divine"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 1,
+                "h": 1,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJGdWxsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3214b44360/BestiaryOrbFull.png",
+                "league": "Mercenaries",
+                "id": "6257d6613c7481e9377e52ae5ae6a86645fcb20c1aade0adf8e42be161c734c3",
+                "name": "Deathtalons",
+                "typeLine": "Fenumal Plagued Arachnid",
+                "baseType": "Fenumal Plagued Arachnid",
+                "rarity": "Rare",
+                "ilvl": 83,
+                "identified": true,
+                "itemLevel": 83,
+                "properties": [
+                    {
+                        "name": "Genus",
+                        "values": [
+                            [
+                                "Spiders",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 21
+                    },
+                    {
+                        "name": "Group",
+                        "values": [
+                            [
+                                "Arachnids",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 22
+                    },
+                    {
+                        "name": "Family",
+                        "values": [
+                            [
+                                "The Caverns",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 23
+                    }
+                ],
+                "explicitMods": [
+                    "Fenumal Presence",
+                    "Vile Hatchery",
+                    "Infested Earth",
+                    "Evasive",
+                    "Inflicts Grasping Vines"
+                ],
+                "descrText": "Right-click to add this to your bestiary.",
+                "frameType": 2,
+                "extended": {
+                    "mods": {},
+                    "hashes": {},
+                    "text": "SXRlbSBDbGFzczogU3RhY2thYmxlIEN1cnJlbmN5DQpSYXJpdHk6IFJhcmUNCkRlYXRodGFsb25zDQpGZW51bWFsIFBsYWd1ZWQgQXJhY2huaWQNCi0tLS0tLS0tDQpHZW51czogU3BpZGVycw0KR3JvdXA6IEFyYWNobmlkcw0KRmFtaWx5OiBUaGUgQ2F2ZXJucw0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDgzDQotLS0tLS0tLQ0KRmVudW1hbCBQcmVzZW5jZQ0KVmlsZSBIYXRjaGVyeQ0KSW5mZXN0ZWQgRWFydGgNCkV2YXNpdmUNCkluZmxpY3RzIEdyYXNwaW5nIFZpbmVzDQotLS0tLS0tLQ0KUmlnaHQtY2xpY2sgdG8gYWRkIHRoaXMgdG8geW91ciBiZXN0aWFyeS4NCg=="
+                }
+            }
+        }
+    ]
+}

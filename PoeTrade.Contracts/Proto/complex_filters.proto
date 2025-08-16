@@ -1,0 +1,103 @@
+syntax = "proto3";
+
+package poe_trade.contracts;
+
+import "google/protobuf/wrappers.proto";
+import "Proto/request_filters.proto";
+
+option csharp_namespace = "PoeTrade.Contracts.Proto";
+
+// Heist filters (PoE1)
+message HeistFilters {
+  google.protobuf.BoolValue disabled = 1;
+  HeistFilterOptions filters = 2;
+}
+
+message HeistFilterOptions {
+  RangeFilter wings = 1;
+  RangeFilter escape_routes = 2;
+  RangeFilter reward_rooms = 3;
+  RangeFilter max_wings = 4;
+  RangeFilter max_escape_routes = 5;
+  RangeFilter max_reward_rooms = 6;
+  OptionFilter objective_value = 7;
+  RangeFilter lockpicking = 8;
+  RangeFilter perception = 9;
+  RangeFilter counter_thaumaturgy = 10;
+  RangeFilter agility = 11;
+  RangeFilter engineering = 12;
+  RangeFilter deception = 13;
+  RangeFilter trap_disarmament = 14;
+  RangeFilter demolition = 15;
+  RangeFilter brute_force = 16;
+}
+
+// Sanctum filters (PoE1)
+message SanctumFilters {
+  google.protobuf.BoolValue disabled = 1;
+  SanctumFilterOptions filters = 2;
+}
+
+message SanctumFilterOptions {
+  RangeFilter resolve = 1;
+  RangeFilter inspiration = 2;
+  RangeFilter max_resolve = 3;
+  RangeFilter gold = 4;
+}
+
+// Ultimatum filters (PoE1)
+message UltimatumFilters {
+  google.protobuf.BoolValue disabled = 1;
+  UltimatumFilterOptions filters = 2;
+}
+
+message UltimatumFilterOptions {
+  OptionFilter challenge = 1;
+  OptionFilter reward = 2;
+  OptionFilter input = 3;
+  OptionFilter output = 4;
+}
+
+// Misc filters
+message MiscFilters {
+  google.protobuf.BoolValue disabled = 1;
+  MiscFilterOptions filters = 2;
+}
+
+message MiscFilterOptions {
+  // Common properties
+  RangeFilter quality = 1;
+  RangeFilter gem_level = 2;
+  RangeFilter item_level = 3;
+  RangeFilter area_level = 4;
+  RangeFilter stack_size = 5;
+  OptionFilter corrupted = 6;
+  OptionFilter alternate_art = 7;
+  OptionFilter identified = 8;
+  OptionFilter mirrored = 9;
+  RangeFilter sanctum_gold = 10;
+  
+  // PoE1-specific properties
+  RangeFilter gem_level_progress = 11;
+  OptionFilter gem_transfigured = 12;
+  OptionFilter fractured_item = 13;
+  OptionFilter searing_item = 14;
+  RangeFilter memory_level = 15;
+  OptionFilter gem_vaal = 16;
+  OptionFilter synthesised_item = 17;
+  OptionFilter tangled_item = 18;
+  OptionFilter crafted = 19;
+  OptionFilter foreseeing = 20;
+  OptionFilter split = 21;
+  OptionFilter veiled = 22;
+  RangeFilter talisman_tier = 23;
+  RangeFilter stored_experience = 24;
+  OptionFilter corpse_type = 25;
+  OptionFilter crucible_item = 26;
+  RangeFilter scourge_tier = 27;
+  OptionFilter foil_variation = 28;
+  
+  // PoE2-specific properties
+  RangeFilter gem_sockets = 29;
+  RangeFilter unidentified_tier = 30;
+}

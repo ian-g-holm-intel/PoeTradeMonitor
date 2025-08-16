@@ -1,0 +1,113 @@
+{
+	"result": [
+		{
+			"id": "4140fdf470edc661e50dda5869e6867ec21b2f969a561a5ae7ae38f69111ad0a",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-08-12T17:37:23Z",
+				"stash": {
+					"name": "Penance Brand",
+					"x": 2,
+					"y": 1
+				},
+				"whisper": "@JayJaymcspeed Hi, I would like to buy your Dire Breaker Synthesised Karui Sceptre listed for 1 mirror in Mercenaries (stash tab \"Penance Brand\"; position: left 3, top 2)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIwY2IyYTJiOTZiODE4OTQwZjc5NmQxZWVjMmM2NDk5OCIsImlzcyI6IlA3ajRKWUd0TCIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6IkpheUpheW1jc3BlZWQiLCJsb2MiOiJlbl9VUyIsInRvayI6Iml0ZW0iLCJzdWIiOiI0MTQwZmRmNDcwZWRjNjYxZTUwZGRhNTg2OWU2ODY3ZWMyMWIyZjk2OWE1NjFhNWFlN2FlMzhmNjkxMTFhZDBhIiwiZGF0IjoiOGJkYjQxMzE0NGU0MjRkOWVhOTkzM2ZmMGQwMWQzMTciLCJpYXQiOjE3NTUwMjA1MDYsImV4cCI6MTc1NTAyMDgwNn0.SjbP80M0L1aOvNRwTUwBK6MlGud2Y9UF2K1eqN567Bw",
+				"account": {
+					"name": "MisterDuber#1153",
+					"online": {
+						"league": "Mercenaries"
+					},
+					"lastCharacterName": "JayJaymcspeed",
+					"language": "en_US"
+				},
+				"price": {
+					"type": "~price",
+					"amount": 1,
+					"currency": "mirror"
+				}
+			},
+			"item": {
+				"verified": true,
+				"w": 1,
+				"h": 3,
+				"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdHJlcy9TY2VwdHJlMyIsInciOjEsImgiOjMsInNjYWxlIjoxfV0/9f3ddf44df/Sceptre3.png",
+				"league": "Mercenaries",
+				"id": "4140fdf470edc661e50dda5869e6867ec21b2f969a561a5ae7ae38f69111ad0a",
+				"name": "Dire Breaker",
+				"typeLine": "Karui Sceptre",
+				"baseType": "Karui Sceptre",
+				"rarity": "Rare",
+				"ilvl": 85,
+				"identified": true,
+				"synthesised": true,
+				"implicitMods": [
+					"16% increased Elemental Damage"
+				],
+				"explicitMods": [
+					"+2 to Level of Socketed Gems",
+					"Adds 21 to 38 Physical Damage",
+					"41% increased Critical Strike Chance",
+					"Adds 15 to 28 Fire Damage",
+					"+98 to maximum Life",
+					"20% increased Cast Speed"
+				],
+				"frameType": 2,
+				"x": 2,
+				"y": 1,
+				"inventoryId": "Stash47"
+			}
+		},
+		{
+			"id": "b234cdf470edc661e50dda5869e6867ec21b2f969a561a5ae7ae38f69111bd1b",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-08-12T15:22:18Z",
+				"stash": {
+					"name": "~price 2 divine",
+					"x": 5,
+					"y": 3
+				},
+				"whisper": "@TestPlayer Hi, I would like to buy your listed item",
+				"whisper_token": "test_token_123",
+				"account": {
+					"name": "TestAccount#9999",
+					"online": {
+						"league": "Mercenaries"
+					},
+					"lastCharacterName": "TestCharacter",
+					"language": "en_US"
+				},
+				"price": {
+					"type": "~price",
+					"amount": 2,
+					"currency": "divine"
+				}
+			},
+			"item": {
+				"verified": true,
+				"w": 2,
+				"h": 4,
+				"icon": "https://web.poecdn.com/gen/image/test.png",
+				"league": "Mercenaries",
+				"id": "b234cdf470edc661e50dda5869e6867ec21b2f969a561a5ae7ae38f69111bd1b",
+				"name": "Test Sword",
+				"typeLine": "Vaal Blade",
+				"baseType": "Vaal Blade",
+				"rarity": "Rare",
+				"ilvl": 80,
+				"identified": true,
+				"explicitMods": [
+					"150% increased Physical Damage",
+					"Adds 25 to 45 Physical Damage",
+					"15% increased Attack Speed"
+				],
+				"frameType": 2,
+				"x": 5,
+				"y": 3,
+				"inventoryId": "Stash12"
+			}
+		}
+	],
+	"id": "4ba2WRaL",
+	"total": 2
+}

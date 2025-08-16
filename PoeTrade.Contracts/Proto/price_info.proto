@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package poe_trade.contracts;
+
+option csharp_namespace = "PoeTrade.Contracts.Proto";
+
+// Price information for trading
+message PriceInfo {
+  // Listing type (e.g., "~price" for negotiable, "~exact" for non-negotiable)
+  string price_type = 1;
+  
+  // Amount of currency required
+  double amount = 2;
+  
+  // Currency type (e.g., "chaos", "exalted", "divine")
+  string currency_type = 3;
+  
+  // Whether this price is relative to another price or absolute
+  // This field is typically not serialized from/to JSON
+  bool is_relative = 4;
+}

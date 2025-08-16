@@ -1,0 +1,3868 @@
+{
+	"numTabs": 31,
+	"currencyLayout": {
+		"sections": [
+			"general",
+			"influence"
+		],
+		"layout": {
+			"0": {
+				"section": "general",
+				"x": 308.5192697768763,
+				"y": 48.073022312373229,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"1": {
+				"section": "general",
+				"x": 68.76267748478702,
+				"y": 48.073022312373229,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"2": {
+				"section": "general",
+				"x": 462.474645030426,
+				"y": 108.92494929006087,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"3": {
+				"section": "general",
+				"x": 359.026369168357,
+				"y": 47.464503042596358,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"4": {
+				"section": "general",
+				"x": 290.8722109533469,
+				"y": 108.92494929006087,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"5": {
+				"section": "general",
+				"x": 411.35902636916839,
+				"y": 108.92494929006087,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"6": {
+				"section": "general",
+				"x": 171.60243407707913,
+				"y": 108.92494929006087,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"7": {
+				"section": "general",
+				"x": 359.6348884381339,
+				"y": 273.8336713995943,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"8": {
+				"section": "general",
+				"x": 16.43002028397566,
+				"y": 109.53346855983775,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"9": {
+				"section": "general",
+				"x": 68.15415821501014,
+				"y": 108.92494929006087,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"10": {
+				"section": "general",
+				"x": 359.6348884381339,
+				"y": 324.949290060852,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"11": {
+				"section": "general",
+				"x": 239.1480730223124,
+				"y": 109.53346855983775,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"12": {
+				"section": "general",
+				"x": 359.6348884381339,
+				"y": 108.92494929006087,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"13": {
+				"section": "general",
+				"x": 171.60243407707913,
+				"y": 161.25760649087224,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"14": {
+				"section": "general",
+				"x": 119.87829614604464,
+				"y": 47.464503042596358,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"15": {
+				"section": "general",
+				"x": 411.35902636916839,
+				"y": 48.073022312373229,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"16": {
+				"section": "general",
+				"x": 463.0831643002029,
+				"y": 48.073022312373229,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"17": {
+				"section": "general",
+				"x": 170.99391480730226,
+				"y": 222.71805273833673,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"18": {
+				"section": "general",
+				"x": 119.26977687626776,
+				"y": 222.71805273833673,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"19": {
+				"section": "general",
+				"x": 68.76267748478702,
+				"y": 222.71805273833673,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"20": {
+				"section": "general",
+				"x": 514.1987829614604,
+				"y": 161.25760649087224,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"21": {
+				"section": "general",
+				"x": 514.1987829614604,
+				"y": 109.53346855983775,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"22": {
+				"section": "general",
+				"x": 514.8073022312374,
+				"y": 47.464503042596358,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"23": {
+				"section": "general",
+				"x": 17.038539553752537,
+				"y": 47.464503042596358,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"24": {
+				"section": "general",
+				"x": 17.038539553752537,
+				"y": 161.25760649087224,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"25": {
+				"section": "general",
+				"x": 68.76267748478702,
+				"y": 161.25760649087224,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"26": {
+				"section": "general",
+				"x": 410.7505070993915,
+				"y": 161.25760649087224,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"27": {
+				"section": "general",
+				"x": 514.1987829614604,
+				"y": 324.949290060852,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"28": {
+				"x": 247.0588235294118,
+				"y": 219.0669371196755,
+				"w": 2,
+				"h": 4,
+				"scale": 0.807692289352417
+			},
+			"30": {
+				"x": 110.75050709939149,
+				"y": 413.7931034482759,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"31": {
+				"x": 161.8661257606491,
+				"y": 413.7931034482759,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"32": {
+				"x": 213.5902636916836,
+				"y": 413.7931034482759,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"33": {
+				"x": 265.922920892495,
+				"y": 413.7931034482759,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"34": {
+				"x": 317.64705882352947,
+				"y": 413.7931034482759,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"35": {
+				"section": "general",
+				"x": 161.8661257606491,
+				"y": 523.3265720081137,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417,
+				"hidden": true
+			},
+			"36": {
+				"section": "general",
+				"x": 213.5902636916836,
+				"y": 523.3265720081137,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417,
+				"hidden": true
+			},
+			"37": {
+				"section": "general",
+				"x": 265.922920892495,
+				"y": 523.3265720081137,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417,
+				"hidden": true
+			},
+			"38": {
+				"section": "general",
+				"x": 359.6348884381339,
+				"y": 222.71805273833673,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417,
+				"hidden": true
+			},
+			"39": {
+				"section": "general",
+				"x": 110.75050709939149,
+				"y": 523.3265720081137,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417,
+				"hidden": true
+			},
+			"40": {
+				"x": 369.3711967545639,
+				"y": 413.7931034482759,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"41": {
+				"x": 422.31237322515218,
+				"y": 413.7931034482759,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"42": {
+				"x": 108.92494929006087,
+				"y": 468.55983772819476,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"43": {
+				"x": 161.25760649087224,
+				"y": 468.55983772819476,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"44": {
+				"x": 213.5902636916836,
+				"y": 468.55983772819476,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"45": {
+				"x": 265.922920892495,
+				"y": 468.55983772819476,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"46": {
+				"x": 317.64705882352947,
+				"y": 468.55983772819476,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"47": {
+				"x": 369.3711967545639,
+				"y": 468.55983772819476,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"48": {
+				"x": 422.31237322515218,
+				"y": 468.55983772819476,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"49": {
+				"section": "general",
+				"x": 462.474645030426,
+				"y": 161.25760649087224,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"50": {
+				"section": "general",
+				"x": 290.8722109533469,
+				"y": 161.25760649087224,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"51": {
+				"section": "general",
+				"x": 239.1480730223124,
+				"y": 160.64908722109537,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"52": {
+				"section": "general",
+				"x": 359.6348884381339,
+				"y": 161.25760649087224,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"53": {
+				"section": "general",
+				"x": 119.26977687626776,
+				"y": 161.25760649087224,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"54": {
+				"section": "general",
+				"x": 119.87829614604464,
+				"y": 109.53346855983775,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"55": {
+				"section": "general",
+				"x": 514.1987829614604,
+				"y": 222.10953346855986,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"56": {
+				"section": "general",
+				"x": 514.1987829614604,
+				"y": 273.8336713995943,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"57": {
+				"section": "general",
+				"x": 462.474645030426,
+				"y": 222.10953346855986,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"58": {
+				"section": "general",
+				"x": 67.54563894523327,
+				"y": 273.8336713995943,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"59": {
+				"section": "general",
+				"x": 119.26977687626776,
+				"y": 273.8336713995943,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"60": {
+				"section": "general",
+				"x": 170.99391480730226,
+				"y": 273.8336713995943,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"61": {
+				"section": "influence",
+				"x": 441.1764705882353,
+				"y": 159.4320486815416,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"62": {
+				"section": "general",
+				"x": 67.54563894523327,
+				"y": 324.949290060852,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"63": {
+				"section": "general",
+				"x": 119.26977687626776,
+				"y": 324.949290060852,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"64": {
+				"section": "general",
+				"x": 462.474645030426,
+				"y": 273.8336713995943,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"65": {
+				"section": "general",
+				"x": 170.99391480730226,
+				"y": 324.949290060852,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"66": {
+				"section": "influence",
+				"x": 441.1764705882353,
+				"y": 51.724137931034487,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"67": {
+				"section": "influence",
+				"x": 385.1926977687627,
+				"y": 105.2738336713996,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"68": {
+				"section": "influence",
+				"x": 385.1926977687627,
+				"y": 51.724137931034487,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"69": {
+				"section": "influence",
+				"x": 441.1764705882353,
+				"y": 105.2738336713996,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"70": {
+				"section": "general",
+				"x": 411.35902636916839,
+				"y": 273.8336713995943,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"71": {
+				"section": "influence",
+				"x": 385.1926977687627,
+				"y": 159.4320486815416,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"72": {
+				"section": "general",
+				"x": 359.6348884381339,
+				"y": 223.3265720081136,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417,
+				"hidden": true
+			},
+			"73": {
+				"section": "general",
+				"x": 187.4239350912779,
+				"y": 47.464503042596358,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"74": {
+				"section": "general",
+				"x": 239.1480730223124,
+				"y": 47.464503042596358,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"75": {
+				"section": "general",
+				"x": 359.6348884381339,
+				"y": 222.71805273833673,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"76": {
+				"section": "general",
+				"x": 411.35902636916839,
+				"y": 324.949290060852,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"77": {
+				"section": "influence",
+				"x": 88.84381338742394,
+				"y": 159.4320486815416,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"78": {
+				"section": "influence",
+				"x": 145.43610547667346,
+				"y": 159.4320486815416,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"79": {
+				"section": "influence",
+				"x": 88.84381338742394,
+				"y": 215.41582150101423,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"80": {
+				"section": "influence",
+				"x": 145.43610547667346,
+				"y": 215.41582150101423,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"81": {
+				"section": "influence",
+				"x": 88.84381338742394,
+				"y": 51.724137931034487,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"82": {
+				"section": "influence",
+				"x": 145.43610547667346,
+				"y": 51.724137931034487,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"83": {
+				"section": "influence",
+				"x": 88.84381338742394,
+				"y": 105.2738336713996,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"84": {
+				"section": "influence",
+				"x": 145.43610547667346,
+				"y": 105.2738336713996,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"85": {
+				"section": "influence",
+				"x": 116.83569979716026,
+				"y": 281.13590263691688,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"86": {
+				"section": "influence",
+				"x": 385.1926977687627,
+				"y": 226.97768762677488,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"87": {
+				"section": "influence",
+				"x": 412.5760649087221,
+				"y": 282.3529411764706,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"88": {
+				"section": "influence",
+				"x": 439.35091277890469,
+				"y": 226.97768762677488,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"89": {
+				"section": "influence",
+				"x": 214.80730223123735,
+				"y": 51.724137931034487,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"90": {
+				"section": "influence",
+				"x": 265.3144016227181,
+				"y": 51.724137931034487,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"91": {
+				"section": "influence",
+				"x": 317.03853955375259,
+				"y": 51.724137931034487,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"92": {
+				"section": "influence",
+				"x": 214.80730223123735,
+				"y": 105.2738336713996,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"93": {
+				"section": "influence",
+				"x": 265.3144016227181,
+				"y": 105.2738336713996,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"94": {
+				"section": "influence",
+				"x": 317.03853955375259,
+				"y": 105.2738336713996,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"95": {
+				"section": "influence",
+				"x": 214.80730223123735,
+				"y": 159.4320486815416,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"96": {
+				"section": "influence",
+				"x": 265.3144016227181,
+				"y": 159.4320486815416,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"97": {
+				"section": "influence",
+				"x": 317.03853955375259,
+				"y": 159.4320486815416,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"98": {
+				"section": "influence",
+				"x": 88.84381338742394,
+				"y": 346.24746450304266,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"99": {
+				"section": "influence",
+				"x": 145.43610547667346,
+				"y": 346.24746450304266,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"100": {
+				"section": "influence",
+				"x": 386.40973630831646,
+				"y": 346.24746450304266,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"101": {
+				"section": "influence",
+				"x": 440.5679513184584,
+				"y": 346.24746450304266,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"102": {
+				"section": "general",
+				"x": 16.43002028397566,
+				"y": 273.8336713995943,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"103": {
+				"section": "general",
+				"x": 16.43002028397566,
+				"y": 324.949290060852,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"104": {
+				"section": "general",
+				"x": 16.43002028397566,
+				"y": 222.71805273833673,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"105": {
+				"section": "general",
+				"x": 463.0831643002029,
+				"y": 324.949290060852,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"106": {
+				"section": "influence",
+				"x": 26.77484787018256,
+				"y": 51.724137931034487,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"107": {
+				"section": "influence",
+				"x": 26.77484787018256,
+				"y": 105.2738336713996,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"108": {
+				"section": "influence",
+				"x": 26.77484787018256,
+				"y": 159.4320486815416,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"109": {
+				"section": "influence",
+				"x": 26.77484787018256,
+				"y": 215.41582150101423,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"110": {
+				"section": "influence",
+				"x": 26.77484787018256,
+				"y": 268.96551724137938,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"111": {
+				"section": "general",
+				"x": 411.35902636916839,
+				"y": 222.71805273833673,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"112": {
+				"section": "general",
+				"x": 161.8661257606491,
+				"y": 523.3265720081137,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417,
+				"hidden": true
+			},
+			"113": {
+				"section": "influence",
+				"x": 494.72616632860049,
+				"y": 233.67139959432053,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"114": {
+				"section": "influence",
+				"x": 494.72616632860049,
+				"y": 287.22109533468565,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"115": {
+				"section": "influence",
+				"x": 494.72616632860049,
+				"y": 341.9878296146045,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"116": {
+				"section": "influence",
+				"x": 494.72616632860049,
+				"y": 51.724137931034487,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			},
+			"117": {
+				"section": "influence",
+				"x": 494.72616632860049,
+				"y": 105.2738336713996,
+				"w": 1,
+				"h": 1,
+				"scale": 0.807692289352417
+			}
+		}
+	},
+	"items": [
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ2xlYW5zaW5nRmlyZU9yYlJhbmsyIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/33fd210c40/CleansingFireOrbRank2.png",
+			"stackSize": 59,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "18bba39a7e19f0457f1e4e01b223d2db8cc8df290a8a5097d5b45cef6c65468d",
+			"name": "",
+			"typeLine": "Greater Eldritch Ember",
+			"baseType": "Greater Eldritch Ember",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"59/10",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Adds a Greater Searing Exarch implicit modifier to\r\na Body Armour, Boots, Gloves or Helmet\r\nThis replaces any existing implicit modifiers other than Eater of Worlds implicit modifiers"
+			],
+			"descrText": "Right click this item then left click a normal, magic or rare item to apply it. Cannot be used on Shaper, Elder or Elderslayer influenced items.",
+			"frameType": 5,
+			"x": 78,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQW5jaWVudFNoYXJkIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/bb214de034/AncientShard.png",
+			"stackSize": 16,
+			"maxStackSize": 20,
+			"league": "Mercenaries",
+			"id": "7593ae56969799e028b1ad5b195782a3ed9d700be8a53778bc0f82fca09ff10c",
+			"name": "",
+			"typeLine": "Ancient Shard",
+			"baseType": "Ancient Shard",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"16/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"descrText": "A stack of 20 shards becomes an Ancient Orb.",
+			"frameType": 5,
+			"x": 62,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGFuZ2xlT3JiUmFuazMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/80772bd510/TangleOrbRank3.png",
+			"stackSize": 54,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "c19f6213753e37b47e57411e42ea218cdca231ef89b2bfb3418f1c2717b3586d",
+			"name": "",
+			"typeLine": "Grand Eldritch Ichor",
+			"baseType": "Grand Eldritch Ichor",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"54/10",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Adds a Grand Eater of Worlds implicit modifier to\r\na Body Armour, Boots, Gloves or Helmet\r\nThis replaces any existing implicit modifiers other than Searing Exarch implicit modifiers"
+			],
+			"descrText": "Right click this item then left click a normal, magic or rare item to apply it. Cannot be used on Shaper, Elder or Elderslayer influenced items.",
+			"frameType": 5,
+			"x": 83,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVmFsZG9zUHV6emxlQm94IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/aa5be00d00/ValdosPuzzleBox.png",
+			"stackSize": 5,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "7f4b9eff7bfeb1b00a07c8a84230a4c78ea0389bca0cbfa639097fd8edb7b468",
+			"name": "",
+			"typeLine": "Valdo's Puzzle Box",
+			"baseType": "Valdo's Puzzle Box",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"5/10",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Contains a Mysterious Map with a Foil Unique Reward"
+			],
+			"descrText": "Right click to open.",
+			"flavourText": [
+				"I can find no method of destroying the dangerous contents within... ",
+				" perhaps, someday, you will find a way."
+			],
+			"frameType": 5,
+			"x": 44,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9SYXJlU2hhcmQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/2e51dc8c8c/CurrencyUpgradeToRareShard.png",
+			"stackSize": 14,
+			"maxStackSize": 20,
+			"league": "Mercenaries",
+			"id": "58e74e69fbf155394e31031c8166f30f0a6ee23a23ed41a6023ead258981ecf5",
+			"name": "",
+			"typeLine": "Alchemy Shard",
+			"baseType": "Alchemy Shard",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"14/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"descrText": "A stack of 20 shards becomes an Orb of Alchemy.",
+			"frameType": 5,
+			"x": 26,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lDb252ZXJ0VG9Ob3JtYWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/6953e90545/CurrencyConvertToNormal.png",
+			"stackSize": 366,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "f11d0dbabfaf525ceff8ad919af01f9a48fc5a4bae1a69e2968465c40ba0f2fc",
+			"name": "",
+			"typeLine": "Orb of Scouring",
+			"baseType": "Orb of Scouring",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"366/30",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Removes all modifiers from an item"
+			],
+			"descrText": "Right click this item then left click on a magic or rare item to apply it.",
+			"frameType": 5,
+			"x": 10,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUmVncmV0T3JiIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/a2ebb4b5a3/RegretOrb.png",
+			"stackSize": 395,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "7c376cf11771232bbe7d666a843c5e174846018e03f4047aa686e15e427938c8",
+			"name": "",
+			"typeLine": "Orb of Unmaking",
+			"baseType": "Orb of Unmaking",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"395/40",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Grants an atlas passive skill refund point"
+			],
+			"descrText": "Right click on this item to use it.",
+			"frameType": 5,
+			"x": 70,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQW5udWxsT3JiIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/88cfdbe1e5/AnnullOrb.png",
+			"stackSize": 11,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "c4c0922084f70080ae227df08df122913432802f8eedcfcf6ea119e4cb445eef",
+			"name": "",
+			"typeLine": "Orb of Annulment",
+			"baseType": "Orb of Annulment",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"11/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Removes a random modifier from an item"
+			],
+			"descrText": "Right click this item then left click on a magic or rare item to apply it.",
+			"frameType": 5,
+			"x": 54,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ29uZmxpY3RPcmJSYW5rMSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/e1919976c3/ConflictOrbRank1.png",
+			"stackSize": 1,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "971088ba02dbfeb1edd9061d6fa2d817349893216eb0daa889357a023ed7d07e",
+			"name": "",
+			"typeLine": "Orb of Conflict",
+			"baseType": "Orb of Conflict",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"1/10",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Unpredictably raise the strength of one Searing Exarch or Eater of Worlds modifier on an item and lower the strength of another\r\nLesser modifiers that have their strength lowered will be removed"
+			],
+			"descrText": "Right click this item then left click a non-unique item to apply it. Can only be used on items that have both a Searing Exarch and an Eater of Worlds implicit modifier. The chance of raising or lowering a modifier depends on its relative strength.",
+			"frameType": 5,
+			"x": 85,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lJbXBsaWNpdE1vZCIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/c3cbf3e5ab/CurrencyImplicitMod.png",
+			"stackSize": 111,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "673923751bbfefc330965e4adcfb13e94adc26d04bc3c41e6497f556468ddc40",
+			"name": "",
+			"typeLine": "Blessed Orb",
+			"baseType": "Blessed Orb",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"111/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Randomises the values of the implicit modifiers of an item"
+			],
+			"descrText": "Right click this item then left click another item to apply it.",
+			"frameType": 5,
+			"x": 21,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9GbGFza1BsYXRlIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/c03aace282/FlaskPlate.png",
+			"stackSize": 60,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "ea26498df104074d3c38e079b72dab46b9ecb1f95ee2d42873483b4aa94b045c",
+			"name": "",
+			"typeLine": "Enkindling Orb",
+			"baseType": "Enkindling Orb",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"60/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Adds an enchantment to a utility flask that will improve it\r\nbut prevent it from gaining charges during its effect\r\nReplaces any existing enchantment"
+			],
+			"descrText": "Right click this item then left click a flask to apply it.",
+			"frameType": 5,
+			"x": 73,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXROdW1iZXJzIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/685633cb14/CurrencyRerollSocketNumbers.png",
+			"stackSize": 473,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "b6091195e037cbda00b20b343f41623e6d4c145baecffd7a348ff11c161402b9",
+			"name": "",
+			"typeLine": "Jeweller's Orb",
+			"baseType": "Jeweller's Orb",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"473/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Reforges the number of sockets on an item"
+			],
+			"descrText": "Right click this item then left click a socketed item to apply it. The item's quality increases the chances of obtaining more sockets.",
+			"frameType": 5,
+			"x": 19,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGFydmVzdC9TYWNyZWRMaWZlZm9yY2UiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/dd4e43e4d0/SacredLifeforce.png",
+			"stackSize": 1,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "61a059b9cfd17e9f432c8bf68104c7e34e06e846880e973b8cac0f129d0fb263",
+			"name": "",
+			"typeLine": "Sacred Crystallised Lifeforce",
+			"baseType": "Sacred Crystallised Lifeforce",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"1/10",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"descrText": "Can be used at the Horticrafting bench in your hideout.",
+			"frameType": 5,
+			"x": 101,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVsbHNjYXBlL0hlbGxzY2FwZUNocm9tYXRpY09yYiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/c0a50953c2/HellscapeChromaticOrb.png",
+			"stackSize": 6,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "30069a0a414b3b45679455e8a42542b3ce7318b4fd1d887dfae944974eca7d27",
+			"name": "",
+			"typeLine": "Tainted Chromatic Orb",
+			"baseType": "Tainted Chromatic Orb",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"6/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Unpredictably reforges the colour of sockets on a corrupted item"
+			],
+			"descrText": "Right click this item then left click a corrupted socketed item to apply it.",
+			"frameType": 5,
+			"x": 97,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGFydmVzdC9QcmltYWxMaWZlZm9yY2UiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/d5d53c61c3/PrimalLifeforce.png",
+			"stackSize": 18918,
+			"maxStackSize": 50000,
+			"stackSizeText": "18.9K",
+			"league": "Mercenaries",
+			"id": "f11ebd69db355e95bb710f4d7e2b4ef105f5aa79513809748f966d243194cbe0",
+			"name": "",
+			"typeLine": "Primal Crystallised Lifeforce",
+			"baseType": "Primal Crystallised Lifeforce",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"18918/50000",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"descrText": "Can be used at the Horticrafting bench in your hideout.",
+			"frameType": 5,
+			"x": 100,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXptZXJpL1Zvb2Rvb09tZW5zNEJsdWUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/3492df192d/VoodooOmens4Blue.png",
+			"league": "Mercenaries",
+			"id": "ed8285055ad8fa1b0ba113b50805b907fd445b83fe38f8a6060d9b4a808e6f9e",
+			"name": "",
+			"typeLine": "Omen of Brilliance",
+			"baseType": "Omen of Brilliance",
+			"ilvl": 0,
+			"identified": true,
+			"explicitMods": [
+				"Will be Consumed when you level up\nto grant 100% increased Experience gained for 60 seconds"
+			],
+			"descrText": "Each player can only consume one Omen in each combat area.",
+			"frameType": 5,
+			"x": 45,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvTWF2ZW5DaGlzZWwyIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/c2d88e71df/MavenChisel2.png",
+			"stackSize": 1,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "415d08e7e97ecb6729fe51df6092da4c0ba5480370751ac01a14055ccc35addd",
+			"name": "",
+			"typeLine": "Maven's Chisel of Proliferation",
+			"baseType": "Maven's Chisel of Proliferation",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"1/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Improves the quality of a map enhancing Pack Size\r\nReplaces other quality types"
+			],
+			"descrText": "Right click this item then left click a map to apply it. Has greater effect on lower tier, non-unique maps. The maximum quality is 20%.",
+			"frameType": 5,
+			"x": 107,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVsbHNjYXBlL0hlbGxzY2FwZU9yYk9mRnVzaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/a97eb273c3/HellscapeOrbOfFusing.png",
+			"stackSize": 6,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "ba9a2a03e0f31a89d9cb082140c72775544d6a5a26779510106b56cd3cea1b62",
+			"name": "",
+			"typeLine": "Tainted Orb of Fusing",
+			"baseType": "Tainted Orb of Fusing",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"6/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Unpredictably adds or removes a link to the largest group of linked sockets on a corrupted item"
+			],
+			"descrText": "Right click this item then left click a corrupted socketed item to apply it.",
+			"frameType": 5,
+			"x": 95,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVsbHNjYXBlL0hlbGxzY2FwZU15dGhpY09yYiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/3cc4ad8930/HellscapeMythicOrb.png",
+			"stackSize": 1,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "0fa7e846959f8d006ea111f5c6b06ce56ace8b9341baf3c505efa6fe33f825c5",
+			"name": "",
+			"typeLine": "Tainted Mythic Orb",
+			"baseType": "Tainted Mythic Orb",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"1/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Unpredictably either upgrades a corrupted item to unique rarity or destroys it"
+			],
+			"descrText": "Right click this item then left click a corrupted item to apply it. Cannot apply to Maps.",
+			"frameType": 5,
+			"x": 94,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGFyYmluZ2VyT3JiIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3e31090ea7/HarbingerOrb.png",
+			"stackSize": 2,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "2784fb3eb60b46391f9214ea8410901bbebecbc77cede3ca51f054aad9430df8",
+			"name": "",
+			"typeLine": "Harbinger's Orb",
+			"baseType": "Harbinger's Orb",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"2/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Reforges a map item as another of a higher tier"
+			],
+			"descrText": "Right click this item then left click a map to apply it.",
+			"frameType": 5,
+			"x": 57,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb01hZ2ljIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/1a6cb2ad17/CurrencyAddModToMagic.png",
+			"stackSize": 796,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "18142208d94c38eb49801669360e3139a43d66e11b64a5473392ed71e9c320f0",
+			"name": "",
+			"typeLine": "Orb of Augmentation",
+			"baseType": "Orb of Augmentation",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"796/30",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Augments a magic item with a new random modifier"
+			],
+			"descrText": "Right click this item then left click a magic item to apply it. Magic items can have up to two random modifiers.",
+			"frameType": 5,
+			"x": 13,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVsbHNjYXBlL0hlbGxzY2FwZUFybW91cmVyc1NjcmFwIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/05e0065a80/HellscapeArmourersScrap.png",
+			"stackSize": 5,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "fcb06df4786f20fd2f065cfeb760c01e11ee5e2834032d3f9982e11d2ca6765e",
+			"name": "",
+			"typeLine": "Tainted Armourer's Scrap",
+			"baseType": "Tainted Armourer's Scrap",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"5/40",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Randomises the quality of a corrupted armour"
+			],
+			"descrText": "Right click this item then left click a corrupted armour to apply it. The maximum random quality is 20%.",
+			"frameType": 5,
+			"x": 92,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lWYWFsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/304f775089/CurrencyVaal.png",
+			"stackSize": 206,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "2f62ee89648d652619da5d06cf8570415175041dbfb23117eb5922730ddf4ede",
+			"name": "",
+			"typeLine": "Vaal Orb",
+			"baseType": "Vaal Orb",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"206/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Corrupts an item, modifying it unpredictably"
+			],
+			"descrText": "Right click this item then left click an item to corrupt it. Corrupted items cannot be modified again.",
+			"frameType": 5,
+			"x": 27,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/b102771c23/CurrencyAddModToRare.png",
+			"stackSize": 10,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "f533181a260ec9fff0433c5287102bd8104764c675336cf3ef0b4408cc927137",
+			"name": "",
+			"typeLine": "Exalted Orb",
+			"baseType": "Exalted Orb",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"10/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Augments a rare item with a new random modifier"
+			],
+			"descrText": "Right click this item then left click a rare item to apply it. Rare items can have up to six random modifiers.",
+			"frameType": 5,
+			"x": 11,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ2xlYW5zaW5nRmlyZU9yYlJhbms0IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/920113641f/CleansingFireOrbRank4.png",
+			"stackSize": 1,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "51dfcb3622b0854f58a239b450d8c5929dee13345c3e04fffe16ac728d77634c",
+			"name": "",
+			"typeLine": "Exceptional Eldritch Ember",
+			"baseType": "Exceptional Eldritch Ember",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"1/10",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Adds an Exceptional Searing Exarch implicit modifier to\r\na Body Armour, Boots, Gloves or Helmet\r\nThis replaces any existing implicit modifiers other than Eater of Worlds implicit modifiers"
+			],
+			"descrText": "Right click this item then left click a normal, magic or rare item to apply it. Cannot be used on Shaper, Elder or Elderslayer influenced items.",
+			"frameType": 5,
+			"x": 80,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lQYXNzaXZlU2tpbGxSZWZ1bmQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/6b8ab3ff07/CurrencyPassiveSkillRefund.png",
+			"stackSize": 239,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "01a72131aac48ee55e2adf1f2fddbe8c84d11dc4025152e951b7ba811c339e03",
+			"name": "",
+			"typeLine": "Orb of Regret",
+			"baseType": "Orb of Regret",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"239/40",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Grants a passive skill refund point"
+			],
+			"descrText": "Right click on this item to use it.",
+			"frameType": 5,
+			"x": 7,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU2VjcmV0c29mdGhlQXRsYXMvWmFuYVBpbm5hY2xlT3JiMyIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/0ccbd52cd2/ZanaPinnacleOrb3.png",
+			"stackSize": 1,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "d95b96f4a88ed71d4e27d0454cdb4a7716538877ad093b6e729fa740214b44e2",
+			"name": "",
+			"typeLine": "Orb of Intention",
+			"baseType": "Orb of Intention",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"1/10",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Modifies a Memory Influenced Map, causing items found to\r\nhave more Memory Strands, but fewer items drop"
+			],
+			"descrText": "Right click this item then left click a Memory Influenced Map item to apply it. Can apply up to 3 to a single Map item.",
+			"frameType": 5,
+			"x": 115,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXRMaW5rcyIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/f38529edfc/CurrencyRerollSocketLinks.png",
+			"stackSize": 677,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "efe89b8170bd39953f46feecfc1d0e2ec2c848cbeae08eb43306d30a9c7b0adb",
+			"name": "",
+			"typeLine": "Orb of Fusing",
+			"baseType": "Orb of Fusing",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"677/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Reforges the links between sockets on an item"
+			],
+			"descrText": "Right click this item then left click a socketed item to apply it. The item's quality increases the chances of obtaining more links.",
+			"frameType": 5,
+			"x": 18,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lJZGVudGlmaWNhdGlvbkZyYWdtZW50IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/4f379102ee/CurrencyIdentificationFragment.png",
+			"stackSize": 1,
+			"maxStackSize": 5,
+			"league": "Mercenaries",
+			"id": "f63bdd10520eced00e539abdad048770ac05e6c1acc1b53ca348bd73a22638e3",
+			"name": "",
+			"typeLine": "Scroll Fragment",
+			"baseType": "Scroll Fragment",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"1/5",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"descrText": "A stack of 5 fragments becomes a Scroll of Wisdom.",
+			"frameType": 5,
+			"x": 23,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU2FjcmVkT3JiIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/f5a07465c5/SacredOrb.png",
+			"stackSize": 1,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "d86e79b73487b9aab5c079e389dae07512c0be9a9333790195957a2ebc6c7376",
+			"name": "",
+			"typeLine": "Sacred Orb",
+			"baseType": "Sacred Orb",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"1/10",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Randomises the numeric values of base defences on an armour"
+			],
+			"descrText": "Right click this item then left click an armour to apply it.",
+			"frameType": 5,
+			"x": 76,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU2NvdXRpbmdSZXBvcnQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/584635f3c8/ScoutingReport.png",
+			"stackSize": 12,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "7d3da75e340bf00af4c0fac9c28fef68fa78839772e6b8043f87738bb8e311a7",
+			"name": "",
+			"typeLine": "Singular Scouting Report",
+			"baseType": "Singular Scouting Report",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"12/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Reroll all of Kirac's Atlas Missions, including at least one Unique map"
+			],
+			"descrText": "Right click this item while viewing Kirac's Atlas Missions to use it.",
+			"frameType": 5,
+			"x": 42,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGFuZ2xlT3JiUmFuazEiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/3135dab202/TangleOrbRank1.png",
+			"stackSize": 169,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "1c118f0cc8c5bb61243aeac12ffbaf961bf2dfcad42970eedd29d91f3cb71ad9",
+			"name": "",
+			"typeLine": "Lesser Eldritch Ichor",
+			"baseType": "Lesser Eldritch Ichor",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"169/10",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Adds a Lesser Eater of Worlds implicit modifier to\r\na Body Armour, Boots, Gloves or Helmet\r\nThis replaces any existing implicit modifiers other than Searing Exarch implicit modifiers"
+			],
+			"descrText": "Right click this item then left click a normal, magic or rare item to apply it. Cannot be used on Shaper, Elder or Elderslayer influenced items.",
+			"frameType": 5,
+			"x": 81,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxNYWdpY1NoYXJkIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/2dc121cb4e/CurrencyRerollMagicShard.png",
+			"stackSize": 10,
+			"maxStackSize": 20,
+			"league": "Mercenaries",
+			"id": "ddbcb63bd7329ade0ff40659b08cb7f5ae2106113a5a69d367661dcff5397b06",
+			"name": "",
+			"typeLine": "Alteration Shard",
+			"baseType": "Alteration Shard",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"10/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"descrText": "A stack of 20 shards becomes an Orb of Alteration.",
+			"frameType": 5,
+			"x": 25,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxNYWdpYyIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/28212545fd/CurrencyRerollMagic.png",
+			"stackSize": 1076,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "a25607568c2da8d514455aa41bb83105dd608f043ffc97809b6c4fe6637d5461",
+			"name": "",
+			"typeLine": "Orb of Alteration",
+			"baseType": "Orb of Alteration",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"1076/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Reforges a magic item with new random modifiers"
+			],
+			"descrText": "Right click this item then left click a magic item to apply it.",
+			"frameType": 5,
+			"x": 9,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvTWF2ZW5DaGlzZWw1IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/38a6fb8abe/MavenChisel5.png",
+			"stackSize": 9,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "adf9557b3dca10ab66f8bc10a1525f854e6f15d4d62c8017a503426546e61600",
+			"name": "",
+			"typeLine": "Maven's Chisel of Divination",
+			"baseType": "Maven's Chisel of Divination",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"9/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Improves the quality of a map enhancing Divination Cards found\r\nReplaces other quality types"
+			],
+			"descrText": "Right click this item then left click a map to apply it. Has greater effect on lower tier, non-unique maps. The maximum quality is 20%.",
+			"frameType": 5,
+			"x": 110,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lHZW1RdWFsaXR5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/1be1273b91/CurrencyGemQuality.png",
+			"stackSize": 197,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "2a7c9c51b644aa773f9b7bdac9ebff8dde33d5f2d90e5b8e8f362bf2ef849b83",
+			"name": "",
+			"typeLine": "Gemcutter's Prism",
+			"baseType": "Gemcutter's Prism",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"197/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Improves the quality of a gem"
+			],
+			"descrText": "Right click this item then left click a gem to apply it. The maximum quality is 20%.",
+			"frameType": 5,
+			"x": 16,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lEdXBsaWNhdGUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/7111e35254/CurrencyDuplicate.png",
+			"stackSize": 3,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "7c4fac3049e9f81e81621059761358576d4b382c60a1b2ac035dc762f0b07cf5",
+			"name": "",
+			"typeLine": "Mirror of Kalandra",
+			"baseType": "Mirror of Kalandra",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"3/10",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Creates a mirrored copy of an item"
+			],
+			"descrText": "Right click this item then left click an equipable non-unique item to apply it. Mirrored copies cannot be modified.",
+			"frameType": 5,
+			"x": 4,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ2hhb3NTaGFyZCIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/fa09d6f7ba/ChaosShard.png",
+			"stackSize": 6,
+			"maxStackSize": 20,
+			"league": "Mercenaries",
+			"id": "9dbacb27635cef40a08a949492edcce6bce7e1d75d6e9a99891e2841de595f9c",
+			"name": "",
+			"typeLine": "Chaos Shard",
+			"baseType": "Chaos Shard",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"6/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"descrText": "A stack of 20 shards becomes a Chaos Orb.",
+			"frameType": 5,
+			"x": 49,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhhbHRlZFNoYXJkIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/a919870741/ExaltedShard.png",
+			"stackSize": 5,
+			"maxStackSize": 20,
+			"league": "Mercenaries",
+			"id": "2003c3cf0fafd6f9e8448508dde8451d495b01621dd858c15a22b1081143d0d4",
+			"name": "",
+			"typeLine": "Exalted Shard",
+			"baseType": "Exalted Shard",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"5/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"descrText": "A stack of 20 shards becomes an Exalted Orb.",
+			"frameType": 5,
+			"x": 51,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU2V0dGxlcnMvVmlsbGFnZVJ1bmU0IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/7b3f931918/VillageRune4.png",
+			"stackSize": 1,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "b96d0eb941f8dba6043fed8b5670572d540167f9d3ed05b6babe218d07b0fa52",
+			"name": "",
+			"typeLine": "Runegraft of the Combatant",
+			"baseType": "Runegraft of the Combatant",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"1/10",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				},
+				{
+					"name": "Replaces a {0} Passive Skill",
+					"values": [
+						[
+							"Mastery",
+							0
+						]
+					],
+					"displayMode": 3
+				}
+			],
+			"explicitMods": [
+				"50% increased Attack Damage against Enemies with a higher percentage of their Life remaining than you"
+			],
+			"descrText": "Right click this item then left click\nan allocated Passive Mastery Skill.\nOnly one Runegraft of any given\ntype can be in use at a time.",
+			"frameType": 5,
+			"x": 47,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRWxkcml0Y2hBbm51bG1lbnRPcmIiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/cd03411d81/EldritchAnnulmentOrb.png",
+			"stackSize": 12,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "1a4442c6402fffd39673ce149dfe9b8660d51cd7fddc35a2448b18cd4f0d06d6",
+			"name": "",
+			"typeLine": "Eldritch Orb of Annulment",
+			"baseType": "Eldritch Orb of Annulment",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"12/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"If The Searing Exarch is dominant, remove a prefix modifier\r\nIf The Eater of Worlds is dominant, remove a suffix modifier"
+			],
+			"descrText": "Right click this item then left click on a magic or rare item with The Searing Exarch or The Eater of Worlds dominance to apply it.",
+			"frameType": 5,
+			"x": 88,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRWxkcml0Y2hFeGFsdGVkT3JiIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/56026bffa3/EldritchExaltedOrb.png",
+			"stackSize": 10,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "6e5ca57e6c4aefaeca3fa91819d956a313c997e71dc1ec92d12de7fb09d1d27c",
+			"name": "",
+			"typeLine": "Eldritch Exalted Orb",
+			"baseType": "Eldritch Exalted Orb",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"10/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"If The Searing Exarch is dominant, add a prefix modifier\r\nIf The Eater of Worlds is dominant, add a suffix modifier"
+			],
+			"descrText": "Right click this item then left click a rare item with The Searing Exarch or The Eater of Worlds dominance to apply it. Rare items can have up to six random modifiers.",
+			"frameType": 5,
+			"x": 87,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNYXBRdWFsaXR5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/c83c35bed5/CurrencyMapQuality.png",
+			"stackSize": 119,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "f16a64fbda1d9af613355c324b45842201f0d04a05ee1fcb2489534e9af27008",
+			"name": "",
+			"typeLine": "Cartographer's Chisel",
+			"baseType": "Cartographer's Chisel",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"119/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Improves the quality of a map"
+			],
+			"descrText": "Right click this item then left click a map to apply it. Has greater effect on lower tier, non-unique maps. The maximum quality is 20%.",
+			"frameType": 5,
+			"x": 22,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU2V0dGxlcnMvVmlsbGFnZVJ1bmU2IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/f655bb547e/VillageRune6.png",
+			"stackSize": 1,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "3218fce19a5064491f365c86c9b13271849ce1f9d79956a13497e1ab8b72b34c",
+			"name": "",
+			"typeLine": "Runegraft of the Sinistral",
+			"baseType": "Runegraft of the Sinistral",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"1/10",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				},
+				{
+					"name": "Replaces a {0} Passive Skill",
+					"values": [
+						[
+							"Mastery",
+							0
+						]
+					],
+					"displayMode": 3
+				}
+			],
+			"explicitMods": [
+				"10% more Attack speed with Offhand"
+			],
+			"descrText": "Right click this item then left click\nan allocated Passive Mastery Skill.\nOnly one Runegraft of any given\ntype can be in use at a time.",
+			"frameType": 5,
+			"x": 46,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ2xlYW5zaW5nRmlyZU9yYlJhbmszIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/65093ad252/CleansingFireOrbRank3.png",
+			"stackSize": 32,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "237c2256e73fa06c092f2078ee2632c9aefec99f7d5190dc25bbdfad9eb090dd",
+			"name": "",
+			"typeLine": "Grand Eldritch Ember",
+			"baseType": "Grand Eldritch Ember",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"32/10",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Adds a Grand Searing Exarch implicit modifier to\r\na Body Armour, Boots, Gloves or Helmet\r\nThis replaces any existing implicit modifiers other than Eater of Worlds implicit modifiers"
+			],
+			"descrText": "Right click this item then left click a normal, magic or rare item to apply it. Cannot be used on Shaper, Elder or Elderslayer influenced items.",
+			"frameType": 5,
+			"x": 79,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/d119a0d734/CurrencyRerollRare.png",
+			"stackSize": 1119,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "dac3dc394e2d6e9faae2a6f50281a68b22358acef068aa24a14d4ba800e51593",
+			"name": "",
+			"typeLine": "Chaos Orb",
+			"baseType": "Chaos Orb",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"1119/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Reforges a rare item with new random modifiers"
+			],
+			"descrText": "Right click this item then left click a rare item to apply it.",
+			"frameType": 5,
+			"x": 2,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQW5jaWVudE9yYiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/08feb97abf/AncientOrb.png",
+			"stackSize": 4,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "9d08ce2c202bc158ce841cdae3855d9d7bc6795742ea71f56b6d62dd4bb607ef",
+			"name": "",
+			"typeLine": "Ancient Orb",
+			"baseType": "Ancient Orb",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"4/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Reforges a unique equipment as another of the same item class"
+			],
+			"descrText": "Right click this item then left click a unique item to apply it.",
+			"frameType": 5,
+			"x": 58,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGFuZ2xlT3JiUmFuazQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c1205e2c0a/TangleOrbRank4.png",
+			"stackSize": 3,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "08702f563ea7be5261f417d626d7475226c0c2a6226759395ecb078c3d40a141",
+			"name": "",
+			"typeLine": "Exceptional Eldritch Ichor",
+			"baseType": "Exceptional Eldritch Ichor",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"3/10",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Adds an Exceptional Eater of Worlds implicit modifier to\r\na Body Armour, Boots, Gloves or Helmet\r\nThis replaces any existing implicit modifiers other than Searing Exarch implicit modifiers"
+			],
+			"descrText": "Right click this item then left click a normal, magic or rare item to apply it. Cannot be used on Shaper, Elder or Elderslayer influenced items.",
+			"frameType": 5,
+			"x": 84,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRWxkcml0Y2hDaGFvc09yYiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/afdc1d40be/EldritchChaosOrb.png",
+			"stackSize": 10,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "9bec0cd078604b6e3b4ed6bf9b96c708d6d16c42bd104b9304eebee4621570b5",
+			"name": "",
+			"typeLine": "Eldritch Chaos Orb",
+			"baseType": "Eldritch Chaos Orb",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"10/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"If The Searing Exarch is dominant, reroll prefix modifiers\r\nIf The Eater of Worlds is dominant, reroll suffix modifiers"
+			],
+			"descrText": "Right click this item then left click a rare item with The Searing Exarch or The Eater of Worlds dominance to apply it.",
+			"frameType": 5,
+			"x": 86,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmVzdGlhcnlPcmJFbXB0eSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/023527ca4e/BestiaryOrbEmpty.png",
+			"stackSize": 49,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "c56f2611e64487bb2ff9bb5cd1fd7c42c8d50bd656cf7f37c1f61d9c43b906ee",
+			"name": "",
+			"typeLine": "Bestiary Orb",
+			"baseType": "Bestiary Orb",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"49/10",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Stores a Beast in an item"
+			],
+			"descrText": "Right click on this item then left click on a Beast in your Menagerie to itemise the Beast.",
+			"frameType": 5,
+			"x": 43,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lJZGVudGlmaWNhdGlvbiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/3a1e615322/CurrencyIdentification.png",
+			"stackSize": 117,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "24db80617457928f4b304090923d889a9174acdb93e7f50e8f42b44b9a70fcd2",
+			"name": "",
+			"typeLine": "Scroll of Wisdom",
+			"baseType": "Scroll of Wisdom",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"117/40",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Identifies an item"
+			],
+			"descrText": "Right click this item then left click an unidentified item to apply it.",
+			"frameType": 5,
+			"x": 1,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9NYWdpY1NoYXJkIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/769d3bfabd/CurrencyUpgradeToMagicShard.png",
+			"stackSize": 4,
+			"maxStackSize": 20,
+			"league": "Mercenaries",
+			"id": "41956a381092126e4145bbb908584edc58b74af254e63c999e67cc7572ebd995",
+			"name": "",
+			"typeLine": "Transmutation Shard",
+			"baseType": "Transmutation Shard",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"4/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"descrText": "A stack of 20 shards becomes an Orb of Transmutation.",
+			"frameType": 5,
+			"x": 24,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGFydmVzdC9WaXZpZExpZmVmb3JjZSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/9e3d712362/VividLifeforce.png",
+			"stackSize": 14201,
+			"maxStackSize": 50000,
+			"stackSizeText": "14.2K",
+			"league": "Mercenaries",
+			"id": "ff681bc7d0de27c730ac7518f2e131589b5f910e2f4f79cd9102d7c3ae88833c",
+			"name": "",
+			"typeLine": "Vivid Crystallised Lifeforce",
+			"baseType": "Vivid Crystallised Lifeforce",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"14201/50000",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"descrText": "Can be used at the Horticrafting bench in your hideout.",
+			"frameType": 5,
+			"x": 99,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVGFuZ2xlT3JiUmFuazIiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/37b581d6b1/TangleOrbRank2.png",
+			"stackSize": 56,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "81f2f64b07b8e7c6f26f8ca95348d1a7ede39c5039e68d29361d6f55d9c96bee",
+			"name": "",
+			"typeLine": "Greater Eldritch Ichor",
+			"baseType": "Greater Eldritch Ichor",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"56/10",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Adds a Greater Eater of Worlds implicit modifier to\r\na Body Armour, Boots, Gloves or Helmet\r\nThis replaces any existing implicit modifiers other than Searing Exarch implicit modifiers"
+			],
+			"descrText": "Right click this item then left click a normal, magic or rare item to apply it. Cannot be used on Shaper, Elder or Elderslayer influenced items.",
+			"frameType": 5,
+			"x": 82,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/898378b439/CurrencyUpgradeMagicToRare.png",
+			"stackSize": 107,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "9d5fe50795c256635e6e264390b5354200bd127670e2656bae1c5da36ea41c30",
+			"name": "",
+			"typeLine": "Regal Orb",
+			"baseType": "Regal Orb",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"107/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Upgrades a magic item to a rare item"
+			],
+			"descrText": "Right click this item then left click a magic item to apply it. Current modifiers are retained and a new one is added.",
+			"frameType": 5,
+			"x": 12,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVsbHNjYXBlL0hlbGxzY2FwZUpld2VsbGVyc09yYiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/7ade99596b/HellscapeJewellersOrb.png",
+			"stackSize": 12,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "d80cef35f047a909f887905f78e76ea070a52a99a773b19a846c5535b8d1bd26",
+			"name": "",
+			"typeLine": "Tainted Jeweller's Orb",
+			"baseType": "Tainted Jeweller's Orb",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"12/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Unpredictably adds or removes a socket on a corrupted item"
+			],
+			"descrText": "Right click this item then left click a corrupted socketed item to apply it.",
+			"frameType": 5,
+			"x": 96,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGFydmVzdC9XaWxkTGlmZWZvcmNlIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/facb3683d5/WildLifeforce.png",
+			"stackSize": 12780,
+			"maxStackSize": 50000,
+			"stackSizeText": "12.7K",
+			"league": "Mercenaries",
+			"id": "ec706c31a1bb95df2acfafba2f7e0d7420726804b91846064141970089adf682",
+			"name": "",
+			"typeLine": "Wild Crystallised Lifeforce",
+			"baseType": "Wild Crystallised Lifeforce",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"12780/50000",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"descrText": "Can be used at the Horticrafting bench in your hideout.",
+			"frameType": 5,
+			"x": 98,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9SYXJlIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/f0dc27cd7c/CurrencyUpgradeToRare.png",
+			"stackSize": 439,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "64f6c37d5186461b3e3e6d8677f15ce3bf7c81a5d5bb31bc3ff6a43d8934e662",
+			"name": "",
+			"typeLine": "Orb of Alchemy",
+			"baseType": "Orb of Alchemy",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"439/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Upgrades a normal item to a rare item"
+			],
+			"descrText": "Right click this item then left click a normal item to apply it.",
+			"frameType": 5,
+			"x": 5,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/e1a54ff97d/CurrencyModValues.png",
+			"stackSize": 29,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "36c80cf81a7e176785cbe0a32949880f9fff3e354837272e8ba4d610ce1af220",
+			"name": "",
+			"typeLine": "Divine Orb",
+			"baseType": "Divine Orb",
+			"ilvl": 0,
+			"identified": true,
+			"note": "~price 1160/5 chaos",
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"29/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Randomises the values of the random modifiers on an item"
+			],
+			"descrText": "Right click this item then left click a magic, rare or unique item to apply it.",
+			"frameType": 5,
+			"x": 20,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU2NvdXRpbmdSZXBvcnQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/584635f3c8/ScoutingReport.png",
+			"stackSize": 3,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "f185b71c250796813db1930eb80bad133f11f4830b9e4f32ac96fef6819a3216",
+			"name": "",
+			"typeLine": "Operative's Scouting Report",
+			"baseType": "Operative's Scouting Report",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"3/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Reroll all of Kirac's Atlas Missions, granting missions with rewarding implicit modifiers"
+			],
+			"descrText": "Right click this item while viewing Kirac's Atlas Missions to use it.",
+			"frameType": 5,
+			"x": 33,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU2NvdXRpbmdSZXBvcnQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/584635f3c8/ScoutingReport.png",
+			"stackSize": 44,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "1700e6eb2f1cd94fae2f89535e5f96f262c107286664b4a17e47ae7e91df2834",
+			"name": "",
+			"typeLine": "Vaal Scouting Report",
+			"baseType": "Vaal Scouting Report",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"44/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Reroll all of Kirac's Atlas Missions, corrupting all non-Unique Maps"
+			],
+			"descrText": "Right click this item while viewing Kirac's Atlas Missions to use it.",
+			"frameType": 5,
+			"x": 30,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBcm1vdXJRdWFsaXR5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/0b964e9b9e/CurrencyArmourQuality.png",
+			"stackSize": 177,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "87cec804e626acb3af4fef368c4c21960ff59b4234faff9746ca96aa6fe1e7d9",
+			"name": "",
+			"typeLine": "Armourer's Scrap",
+			"baseType": "Armourer's Scrap",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"177/40",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Improves the quality of an armour"
+			],
+			"descrText": "Right click this item then left click an armour to apply it. Has greater effect on lower item level, non-unique armours. The maximum quality is 20%.",
+			"frameType": 5,
+			"x": 3,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lQb3J0YWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/a55c72f398/CurrencyPortal.png",
+			"stackSize": 1165,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "acdd9a79604634bd3ae2b7056d2be3a2698f282fc1e08db3ea1bc967c5f880f9",
+			"name": "",
+			"typeLine": "Portal Scroll",
+			"baseType": "Portal Scroll",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"1165/40",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Creates a portal to town"
+			],
+			"descrText": "Right click on this item to use it.",
+			"frameType": 5,
+			"x": 14,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU2NvdXRpbmdSZXBvcnQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/584635f3c8/ScoutingReport.png",
+			"stackSize": 14,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "4bb7c32b12ae1ac9d0901991937875745b2de9e14d149b133ad3ddb3f0bddb9b",
+			"name": "",
+			"typeLine": "Influenced Scouting Report",
+			"baseType": "Influenced Scouting Report",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"14/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Reroll all of Kirac's Atlas Missions, including at least one Shaper Guardian, Elder Guardian, or Elderslayer Map"
+			],
+			"descrText": "Right click this item while viewing Kirac's Atlas Missions to use it.",
+			"frameType": 5,
+			"x": 32,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvTWF2ZW5DaGlzZWwzIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/7eb7224754/MavenChisel3.png",
+			"stackSize": 9,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "50f6b302f4a6f593330c46d8add054862fa5d76d42bb1d2d2f2a329e8c75967a",
+			"name": "",
+			"typeLine": "Maven's Chisel of Scarabs",
+			"baseType": "Maven's Chisel of Scarabs",
+			"ilvl": 0,
+			"identified": true,
+			"note": "~price 28 chaos",
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"9/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Improves the quality of a map enhancing Scarabs found\r\nReplaces other quality types"
+			],
+			"descrText": "Right click this item then left click a map to apply it. Has greater effect on lower tier, non-unique maps. The maximum quality is 20%.",
+			"frameType": 5,
+			"x": 108,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ2xlYW5zaW5nRmlyZU9yYlJhbmsxIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/62c98f8357/CleansingFireOrbRank1.png",
+			"stackSize": 192,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "071d88ddb41810b108246253194b059c8b568251dab718a6664fb2334de2ec6c",
+			"name": "",
+			"typeLine": "Lesser Eldritch Ember",
+			"baseType": "Lesser Eldritch Ember",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"192/10",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Adds a Lesser Searing Exarch implicit modifier to\r\na Body Armour, Boots, Gloves or Helmet\r\nThis replaces any existing implicit modifiers other than Eater of Worlds implicit modifiers"
+			],
+			"descrText": "Right click this item then left click a normal, magic or rare item to apply it. Cannot be used on Shaper, Elder or Elderslayer influenced items.",
+			"frameType": 5,
+			"x": 77,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlUmFuZG9tbHkiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/eaeece27be/CurrencyUpgradeRandomly.png",
+			"stackSize": 726,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "732820d3903d2514fdb65fe39b1bddfb005e3db5be776ac7f2e91ce3aeb80bc9",
+			"name": "",
+			"typeLine": "Orb of Chance",
+			"baseType": "Orb of Chance",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"726/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Upgrades a normal item to a random rarity"
+			],
+			"descrText": "Right click this item then left click a normal item to apply it.",
+			"frameType": 5,
+			"x": 6,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU2NvdXRpbmdSZXBvcnQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/584635f3c8/ScoutingReport.png",
+			"stackSize": 1,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "3e440d9c6c13884a33bd7221fd7419fe7fa4c9e860310552616c77d866262da0",
+			"name": "",
+			"typeLine": "Otherworldly Scouting Report",
+			"baseType": "Otherworldly Scouting Report",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"1/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Reroll all of Kirac's Atlas Missions, including at least one Breachstone"
+			],
+			"descrText": "Right click this item while viewing Kirac's Atlas Missions to use it.",
+			"frameType": 5,
+			"x": 41,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmluZGluZ09yYiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/66ef64410c/BindingOrb.png",
+			"stackSize": 310,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "b8d3e85086126feef6e35b252625f08ef4a579880242b651789e2295761a7e47",
+			"name": "",
+			"typeLine": "Orb of Binding",
+			"baseType": "Orb of Binding",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"310/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Upgrades a normal item to a rare item with up to four linked sockets"
+			],
+			"descrText": "Right click this item then left click a normal item to apply it.",
+			"frameType": 5,
+			"x": 59,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9GbGFza0luamVjdG9yIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/08e3793591/FlaskInjector.png",
+			"stackSize": 226,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "4983ed47b5ae1c504297b9246a87cb09c28b91a6f173488e7b334ed1dde6cf63",
+			"name": "",
+			"typeLine": "Instilling Orb",
+			"baseType": "Instilling Orb",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"226/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Adds an enchantment to a utility flask that will cause\r\nit to be used when certain conditions are met\r\nReplaces any existing enchantment"
+			],
+			"descrText": "Right click this item then left click a flask to apply it.",
+			"frameType": 5,
+			"x": 74,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU2NvdXRpbmdSZXBvcnQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/584635f3c8/ScoutingReport.png",
+			"stackSize": 1,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "912f7af47d7994a3ecd122ac1393a0282b5c708de7509b62af7fb370e1614618",
+			"name": "",
+			"typeLine": "Blighted Scouting Report",
+			"baseType": "Blighted Scouting Report",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"1/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Reroll all of Kirac's Atlas Missions, including at least one Blighted Map"
+			],
+			"descrText": "Right click this item while viewing Kirac's Atlas Missions to use it.",
+			"frameType": 5,
+			"x": 40,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvTWF2ZW5DaGlzZWwxIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/adaf0d8258/MavenChisel1.png",
+			"stackSize": 14,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "e1d6dca053bac726bf3e4b1540a9ffdfc448ef0c9fd2f4ea1f3a8bd5ae9a6740",
+			"name": "",
+			"typeLine": "Maven's Chisel of Procurement",
+			"baseType": "Maven's Chisel of Procurement",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"14/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Improves the quality of a map enhancing Item Rarity\r\nReplaces other quality types"
+			],
+			"descrText": "Right click this item then left click a map to apply it. Has greater effect on lower tier, non-unique maps. The maximum quality is 20%.",
+			"frameType": 5,
+			"x": 106,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSG9yaXpvbk9yYiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/a48e326c68/HorizonOrb.png",
+			"stackSize": 81,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "66c81b353bf5c1c69a5819f8b9ce473e60a5da1c39a3ddc8f2e156e0d11afb15",
+			"name": "",
+			"typeLine": "Orb of Horizons",
+			"baseType": "Orb of Horizons",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"81/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Reforges a map item as another of the same tier"
+			],
+			"descrText": "Right click this item then left click a map to apply it.",
+			"frameType": 5,
+			"x": 55,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU2NvdXRpbmdSZXBvcnQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/584635f3c8/ScoutingReport.png",
+			"stackSize": 2,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "d5950f14932499cff06fb58b312964b5327a071ddfcb2d29ddc6abc1a2a939de",
+			"name": "",
+			"typeLine": "Delirious Scouting Report",
+			"baseType": "Delirious Scouting Report",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"2/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Reroll all of Kirac's Atlas Missions, adding layers of Delirium to all non-Unique Maps"
+			],
+			"descrText": "Right click this item while viewing Kirac's Atlas Missions to use it.",
+			"frameType": 5,
+			"x": 34,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVsbHNjYXBlL0hlbGxzY2FwZUJsYWNrc21pdGhXaGV0c3RvbmUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c1551a2a62/HellscapeBlacksmithWhetstone.png",
+			"stackSize": 5,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "cf838b7e190fb05526446ebbd1257dedb24751b4f818d1d2b4896ee95eb978f5",
+			"name": "",
+			"typeLine": "Tainted Blacksmith's Whetstone",
+			"baseType": "Tainted Blacksmith's Whetstone",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"5/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Randomises the quality of a corrupted weapon"
+			],
+			"descrText": "Right click this item then left click a corrupted weapon to apply it. The maximum random quality is 20%.",
+			"frameType": 5,
+			"x": 91,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lGbGFza1F1YWxpdHkiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/8a36dffe11/CurrencyFlaskQuality.png",
+			"stackSize": 84,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "5fe2a58e6ce5ef697495d49796f7a7cb3dc311d31c3cbc23764f06a8f86e22a7",
+			"name": "",
+			"typeLine": "Glassblower's Bauble",
+			"baseType": "Glassblower's Bauble",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"84/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Improves the quality of a flask or tincture"
+			],
+			"descrText": "Right click this item then left click a flask or tincture to apply it. Has greater effect on lower item level, non-unique flasks. The maximum quality is 20%.",
+			"frameType": 5,
+			"x": 15,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU2NvdXRpbmdSZXBvcnQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/584635f3c8/ScoutingReport.png",
+			"stackSize": 102,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "369b1691ae120327594e94e23a8fa8a021f28d5929cfb2f704ae739dd7c266ad",
+			"name": "",
+			"typeLine": "Explorer's Scouting Report",
+			"baseType": "Explorer's Scouting Report",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"102/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Reroll all of Kirac's Atlas Missions, using uncompleted non-Unique Maps where possible"
+			],
+			"descrText": "Right click this item while viewing Kirac's Atlas Missions to use it.",
+			"frameType": 5,
+			"x": 31,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXRDb2xvdXJzIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/136314c10a/CurrencyRerollSocketColours.png",
+			"stackSize": 799,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "1a57fd917070b3b6729784f7870f57d6bdf1618899f9adfb0e11e08c52e45ec7",
+			"name": "",
+			"typeLine": "Chromatic Orb",
+			"baseType": "Chromatic Orb",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"799/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Reforges the colour of sockets on an item"
+			],
+			"descrText": "Right click this item then left click a socketed item to apply it.",
+			"frameType": 5,
+			"x": 17,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lXZWFwb25RdWFsaXR5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/c874e03eb7/CurrencyWeaponQuality.png",
+			"stackSize": 395,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "fcea447b55fe4c72f6d02ee5e78cabe53b6466ebd4c0ce1a2b0a53da451bc85a",
+			"name": "",
+			"typeLine": "Blacksmith's Whetstone",
+			"baseType": "Blacksmith's Whetstone",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"395/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Improves the quality of a weapon"
+			],
+			"descrText": "Right click this item then left click a weapon to apply it. Has greater effect on lower item level, non-unique weapons. The maximum quality is 20%.",
+			"frameType": 5,
+			"x": 0,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9NYWdpYyIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/130762c82d/CurrencyUpgradeToMagic.png",
+			"stackSize": 2444,
+			"maxStackSize": 5000,
+			"league": "Mercenaries",
+			"id": "a85507c4bdc2d12a53902a54b767eca9a37b926df7a8ac2b00aa08218fe3d7d4",
+			"name": "",
+			"typeLine": "Orb of Transmutation",
+			"baseType": "Orb of Transmutation",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"2444/40",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"explicitMods": [
+				"Upgrades a normal item to a magic item"
+			],
+			"descrText": "Right click this item then left click a normal item to apply it.",
+			"frameType": 5,
+			"x": 8,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQW5udWxsU2hhcmQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/f7a8a838a6/AnnullShard.png",
+			"stackSize": 8,
+			"maxStackSize": 20,
+			"league": "Mercenaries",
+			"id": "b0de31e625cb8554653922a8f14b46be5bda4cc580bbec17afbc3f37ee8895c6",
+			"name": "",
+			"typeLine": "Annulment Shard",
+			"baseType": "Annulment Shard",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"8/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"descrText": "A stack of 20 shards becomes an Orb of Annulment.",
+			"frameType": 5,
+			"x": 53,
+			"y": 0,
+			"inventoryId": "Stash1"
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 1,
+			"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSG9yaXpvblNoYXJkIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/396c5f134f/HorizonShard.png",
+			"stackSize": 7,
+			"maxStackSize": 20,
+			"league": "Mercenaries",
+			"id": "5398d21dd8549419a00422ecfb2d3ec7949a1658eea1aab1b738105b57f39f0c",
+			"name": "",
+			"typeLine": "Horizon Shard",
+			"baseType": "Horizon Shard",
+			"ilvl": 0,
+			"identified": true,
+			"properties": [
+				{
+					"name": "Stack Size",
+					"values": [
+						[
+							"7/20",
+							0
+						]
+					],
+					"displayMode": 0,
+					"type": 32
+				}
+			],
+			"descrText": "A stack of 20 shards becomes an Orb of Horizons.",
+			"frameType": 5,
+			"x": 56,
+			"y": 0,
+			"inventoryId": "Stash1"
+		}
+	]
+}

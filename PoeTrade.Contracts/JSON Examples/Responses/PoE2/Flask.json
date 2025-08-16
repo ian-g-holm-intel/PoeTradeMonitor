@@ -1,0 +1,352 @@
+{
+    "result": [
+        {
+            "id": "9bc9469c07008c5eee8e2b3ec7fa0f09667a9fa58a41e45287c5275c44b2cb4d",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2025-06-14T13:00:06Z",
+                "stash": {
+                    "name": "░交易大倉░",
+                    "x": 7,
+                    "y": 23
+                },
+                "whisper": "@木辰斬厄 你好，我想購買 黑貓 接地護符 標價 1 mirror 在 Dawn of the Hunt (倉庫頁 \"░交易大倉░\"; 位置: 左 8, 上 24)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1ODRjNDU1MmIwYWRiOWI4ZThlZjFhYThlMjg2ZDMwMCIsImlzcyI6Im84M2RnYjRpbCIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6Ilx1NjcyOFx1OGZiMFx1NjVhY1x1NTM4NCIsImxvYyI6InpoX1RXIiwidG9rIjoiaXRlbSIsInN1YiI6IjliYzk0NjljMDcwMDhjNWVlZThlMmIzZWM3ZmEwZjA5NjY3YTlmYTU4YTQxZTQ1Mjg3YzUyNzVjNDRiMmNiNGQiLCJkYXQiOiJhNmZjNDQ5OTU3NjVhNWQ3ZTc2ODhhMjg2ZGE4NDNiMSIsImlhdCI6MTc1NTAyNDI4MSwiZXhwIjoxNzU1MDI0NTgxfQ.9lLB0pzYi_1Cu4uQgPN2ZfktZq15mbX49SUX9BUW5I0",
+                "account": {
+                    "name": "guosgg#8133",
+                    "online": {
+                        "league": "Dawn of the Hunt"
+                    },
+                    "lastCharacterName": "木辰斬厄",
+                    "language": "zh_TW",
+                    "realm": "poe2"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 1,
+                    "currency": "mirror"
+                }
+            },
+            "item": {
+                "realm": "poe2",
+                "verified": true,
+                "w": 1,
+                "h": 1,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ2hhcm1zL1VuaXF1ZXMvR3JvdW5kaW5nVW5pcXVlQ2hhcm0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1abbdce909/GroundingUniqueCharm.png",
+                "league": "Dawn of the Hunt",
+                "id": "9bc9469c07008c5eee8e2b3ec7fa0f09667a9fa58a41e45287c5275c44b2cb4d",
+                "name": "The Black Cat",
+                "typeLine": "Grounding Charm",
+                "baseType": "Grounding Charm",
+                "rarity": "Unique",
+                "ilvl": 80,
+                "identified": true,
+                "note": "~price 1 mirror",
+                "properties": [
+                    {
+                        "name": "Charm",
+                        "values": [],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Lasts {0} Seconds",
+                        "values": [
+                            [
+                                "3.40",
+                                1
+                            ]
+                        ],
+                        "displayMode": 3
+                    },
+                    {
+                        "name": "Consumes {0} of {1} Charges on use",
+                        "values": [
+                            [
+                                "30",
+                                0
+                            ],
+                            [
+                                "40",
+                                0
+                            ]
+                        ],
+                        "displayMode": 3
+                    },
+                    {
+                        "name": "Currently has {0} Charges",
+                        "values": [
+                            [
+                                "0",
+                                0
+                            ]
+                        ],
+                        "displayMode": 3
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "32",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 62
+                    }
+                ],
+                "utilityMods": [
+                    "Grants Immunity to [Shock|Shock]"
+                ],
+                "implicitMods": [
+                    "Used when you become [Shock|Shocked]"
+                ],
+                "explicitMods": [
+                    "14% increased Duration",
+                    "[Lightning] Damage of Enemies [HitDamage|Hitting] you is [Unlucky] during effect"
+                ],
+                "descrText": "Used automatically when condition is met. Can only hold charges while in belt. Refill at [Wells|Wells] or by killing monsters.",
+                "flavourText": [
+                    "The most beloved member of every Brinerot crew\r",
+                    "is the one that refuses to do any actual work."
+                ],
+                "frameType": 3,
+                "extended": {
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3246948616",
+                                        "min": "-1",
+                                        "max": "-1"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2541588185",
+                                        "min": "10",
+                                        "max": "20"
+                                    }
+                                ]
+                            }
+                        ],
+                        "implicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_3699444296",
+                                        "min": "1",
+                                        "max": "1"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_2541588185",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3246948616",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "implicit": [
+                            [
+                                "implicit.stat_3699444296",
+                                [
+                                    0
+                                ]
+                            ]
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "id": "54f604c323b6005af80e4d6e64cc519e73f1a70d4bbef08dc6adf6cf35c45c5f",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2025-07-10T03:10:28Z",
+                "stash": {
+                    "name": "~price 1 mirror 44",
+                    "x": 3,
+                    "y": 0
+                },
+                "whisper": "@겸손한군자 你好，我想購買 維他命的外科醫師之終極生命藥劑 標價 1 mirror 在 Dawn of the Hunt (倉庫頁 \"~price 1 mirror 44\"; 位置: 左 4, 上 1)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1ODRjNDU1MmIwYWRiOWI4ZThlZjFhYThlMjg2ZDMwMCIsImlzcyI6Im84M2RnYjRpbCIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6Ilx1YWNiOFx1YzE5MFx1ZDU1Y1x1YWQ3MFx1Yzc5MCIsImxvYyI6InpoX1RXIiwidG9rIjoiaXRlbSIsInN1YiI6IjU0ZjYwNGMzMjNiNjAwNWFmODBlNGQ2ZTY0Y2M1MTllNzNmMWE3MGQ0YmJlZjA4ZGM2YWRmNmNmMzVjNDVjNWYiLCJkYXQiOiJmZDA4Mzg1YmU5OTVlYTE4ZmZiNmMyOTJhMTQzNGJhYSIsImlhdCI6MTc1NTAyNDI4MSwiZXhwIjoxNzU1MDI0NTgxfQ.rhiqzW-B7z8reEdsdqITAOxnvTs419P0nicP10noNXc",
+                "account": {
+                    "name": "kdjsh#1326",
+                    "online": {
+                        "league": "Dawn of the Hunt",
+                        "status": "afk"
+                    },
+                    "lastCharacterName": "겸손한군자",
+                    "language": "zh_TW",
+                    "realm": "poe2"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 1,
+                    "currency": "mirror"
+                }
+            },
+            "item": {
+                "realm": "poe2",
+                "verified": true,
+                "w": 1,
+                "h": 2,
+                "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvQmFzZXR5cGVzL0ZsYXNrTGlmZTA5IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsInJlYWxtIjoicG9lMiIsImxldmVsIjoxfV0/8ed5f669f0/FlaskLife09.png",
+                "league": "Dawn of the Hunt",
+                "id": "54f604c323b6005af80e4d6e64cc519e73f1a70d4bbef08dc6adf6cf35c45c5f",
+                "name": "",
+                "typeLine": "Vitiating Ultimate Life Flask of the Surgeon",
+                "baseType": "Ultimate Life Flask",
+                "rarity": "Magic",
+                "ilvl": 80,
+                "identified": true,
+                "properties": [
+                    {
+                        "name": "[Flask]",
+                        "values": [],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Recovers {0} Life over {1} Seconds",
+                        "values": [
+                            [
+                                "1730",
+                                1
+                            ],
+                            [
+                                "3",
+                                0
+                            ]
+                        ],
+                        "displayMode": 3
+                    },
+                    {
+                        "name": "Consumes {0} of {1} Charges on use",
+                        "values": [
+                            [
+                                "10",
+                                0
+                            ],
+                            [
+                                "75",
+                                0
+                            ]
+                        ],
+                        "displayMode": 3
+                    },
+                    {
+                        "name": "Currently has {0} Charges",
+                        "values": [
+                            [
+                                "0",
+                                0
+                            ]
+                        ],
+                        "displayMode": 3
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "60",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 62
+                    }
+                ],
+                "explicitMods": [
+                    "88% increased Life Recovered",
+                    "Removes 15% of Life Recovered from Mana when used",
+                    "32% Chance to gain a Charge when you Kill an Enemy"
+                ],
+                "descrText": "Right click to drink. Can only hold charges while in belt. Refill at [Wells|Wells] or by killing monsters.",
+                "frameType": 1,
+                "extended": {
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "of the Surgeon",
+                                "tier": "S1",
+                                "level": 45,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_828533480",
+                                        "min": "31",
+                                        "max": "35"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Vitiating",
+                                "tier": "P2",
+                                "level": 64,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1261982764",
+                                        "min": "85",
+                                        "max": "92"
+                                    },
+                                    {
+                                        "hash": "explicit.stat_648019518",
+                                        "min": "15",
+                                        "max": "15"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_1261982764",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_648019518",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_828533480",
+                                [
+                                    0
+                                ]
+                            ]
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

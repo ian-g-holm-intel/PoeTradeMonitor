@@ -1,0 +1,117 @@
+{
+    "result": [
+        {
+            "id": "8b706066b6f460e3dfa3075fb930e69607f7cab5669c09dc51c94ff59d56d4cc",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2025-07-20T15:30:39Z",
+                "stash": {
+                    "name": "Do DE - Monk",
+                    "x": 10,
+                    "y": 11
+                },
+                "whisper": "@KillerHpz Hi, I would like to buy your Kalandra's Touch Ring listed for 1 mirror in Dawn of the Hunt (stash tab \"Do DE - Monk\"; position: left 11, top 12)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIwZTZmNmNiNzMxZjdiNzY5NTcwNWYwOTE5NTJiODcwZiIsImlzcyI6IkVtTG9NSlpUNSIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6IktpbGxlckhweiIsImxvYyI6ImVuX1VTIiwidG9rIjoiaXRlbSIsInN1YiI6IjhiNzA2MDY2YjZmNDYwZTNkZmEzMDc1ZmI5MzBlNjk2MDdmN2NhYjU2NjljMDlkYzUxYzk0ZmY1OWQ1NmQ0Y2MiLCJkYXQiOiIwZmJkNzk1NjQ4ZjBiYzU0YjQ5NGNkNjczNTc5NjlkNCIsImlhdCI6MTc1NTAyNDY0NywiZXhwIjoxNzU1MDI0OTQ3fQ.qFLCERmsRlkYm2MW66q3NJGBOZNyj_O-96u3rRjr8pg",
+                "account": {
+                    "name": "Kratos#3991",
+                    "online": {
+                        "league": "Dawn of the Hunt"
+                    },
+                    "lastCharacterName": "KillerHpz",
+                    "language": "en_US",
+                    "realm": "poe2"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 1,
+                    "currency": "mirror"
+                }
+            },
+            "item": {
+                "realm": "poe2",
+                "verified": true,
+                "w": 1,
+                "h": 1,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvTWlycm9yUmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIiLCJkdXBsaWNhdGVkIjp0cnVlfV0/ec1c789fca/MirrorRing.png",
+                "league": "Dawn of the Hunt",
+                "id": "8b706066b6f460e3dfa3075fb930e69607f7cab5669c09dc51c94ff59d56d4cc",
+                "name": "Kalandra's Touch",
+                "typeLine": "Ring",
+                "baseType": "Ring",
+                "rarity": "Unique",
+                "ilvl": 80,
+                "identified": true,
+                "note": "~price 1 mirror",
+                "duplicated": true,
+                "corrupted": true,
+                "properties": [
+                    {
+                        "name": "Ring",
+                        "values": [],
+                        "displayMode": 0
+                    }
+                ],
+                "enchantMods": [
+                    "+15% to [Resistances|Chaos Resistance]"
+                ],
+                "explicitMods": [
+                    "Reflects opposite Ring"
+                ],
+                "flavourText": [
+                    "Power is a matter of perspective."
+                ],
+                "frameType": 3,
+                "extended": {
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_746505085",
+                                        "min": "1",
+                                        "max": "1"
+                                    }
+                                ]
+                            }
+                        ],
+                        "enchant": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "enchant.stat_2923486259",
+                                        "min": "13",
+                                        "max": "19"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_746505085",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "enchant": [
+                            [
+                                "enchant.stat_2923486259",
+                                [
+                                    0
+                                ]
+                            ]
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

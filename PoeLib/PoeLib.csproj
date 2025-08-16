@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Proto\Callback.proto" />
+		<None Remove="Proto\ItemTradeRequest.proto" />
+		<None Remove="Proto\PartyManager.proto" />
+		<None Remove="Proto\TradeBot.proto" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Google.Protobuf" />
+		<PackageReference Include="Grpc.Core.Api" />
+		<PackageReference Include="Grpc.Net.Client" />
+		<PackageReference Include="Grpc.Tools">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" />
+		<PackageReference Include="Microsoft.Extensions.Http" />
+		<PackageReference Include="Microsoft.Extensions.Caching.Memory" />
+		<PackageReference Include="Nito.AsyncEx" />
+		<PackageReference Include="PushoverNET.Standard" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\PoeTrade.Contracts\PoeTrade.Contracts.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Protobuf Include="Proto\ItemTradeRequest.proto" GrpcServices="None" AdditionalImportDirs="..\PoeTrade.Contracts" />
+		<Protobuf Include="Proto\Callback.proto" AdditionalImportDirs="..\PoeTrade.Contracts" />
+		<Protobuf Include="Proto\PartyManager.proto" AdditionalImportDirs="..\PoeTrade.Contracts" />
+		<Protobuf Include="Proto\TradeBot.proto" AdditionalImportDirs="..\PoeTrade.Contracts" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,80 @@
+{
+    "result": [
+        {
+            "id": "311e6f2f284648acd0e2780f550a4f74b3f3d2278bf1e4eba8601bba3eb4db4e",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2025-08-10T19:04:47Z",
+                "stash": {
+                    "name": "TR1 2x2",
+                    "x": 8,
+                    "y": 9
+                },
+                "whisper": "@EerMerc Hi, I would like to buy your Tattoo of the Tawhoa Scout listed for 1 chisel in Mercenaries (stash tab \"TR1 2x2\"; position: left 9, top 10)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJlZjYyZWU4OGU0YTBhN2FlOGEwNWQ1OWI3MzY5NWIzZiIsImlzcyI6ImpCNDVweW9TWCIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6IkVlck1lcmMiLCJsb2MiOiJlbl9VUyIsInRvayI6Iml0ZW0iLCJzdWIiOiIzMTFlNmYyZjI4NDY0OGFjZDBlMjc4MGY1NTBhNGY3NGIzZjNkMjI3OGJmMWU0ZWJhODYwMWJiYTNlYjRkYjRlIiwiZGF0IjoiMTZlNDRlZmE2ZTYxMTM2ZTIyOTllYTgyNjU0YTJkZGMiLCJpYXQiOjE3NTUwMjIwODUsImV4cCI6MTc1NTAyMjM4NX0.e8b8dqb2lqmQBbpf5L5KAc3uaigTw1r7KUJPeyF7wYg",
+                "account": {
+                    "name": "Eeren#6578",
+                    "online": {
+                        "league": "Mercenaries",
+                        "status": "afk"
+                    },
+                    "lastCharacterName": "EerMerc",
+                    "language": "en_US",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 1,
+                    "currency": "chisel"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 1,
+                "h": 1,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQW5jZXN0b3JzL0NvbW1vbkRleFRhdHR0b29FcXVpcG1lbnQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/b80711f45f/CommonDexTatttooEquipment.png",
+                "stackSize": 1,
+                "maxStackSize": 10,
+                "league": "Mercenaries",
+                "id": "311e6f2f284648acd0e2780f550a4f74b3f3d2278bf1e4eba8601bba3eb4db4e",
+                "name": "",
+                "typeLine": "Tattoo of the Tawhoa Scout",
+                "baseType": "Tattoo of the Tawhoa Scout",
+                "ilvl": 0,
+                "identified": true,
+                "note": "~price 1 chisel",
+                "properties": [
+                    {
+                        "name": "Stack Size",
+                        "values": [
+                            [
+                                "1/10",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 32
+                    },
+                    {
+                        "name": "Replaces a {0} Passive Skill",
+                        "values": [
+                            [
+                                "Small Dexterity",
+                                0
+                            ]
+                        ],
+                        "displayMode": 3
+                    }
+                ],
+                "explicitMods": [
+                    "10% chance to Avoid being Poisoned"
+                ],
+                "descrText": "Right click this item then left click an allocated Passive Skill. Maximum 50 Tattoos.",
+                "frameType": 5,
+                "extended": {
+                    "text": "SXRlbSBDbGFzczogU3RhY2thYmxlIEN1cnJlbmN5DQpSYXJpdHk6IEN1cnJlbmN5DQpUYXR0b28gb2YgdGhlIFRhd2hvYSBTY291dA0KLS0tLS0tLS0NClN0YWNrIFNpemU6IDEvMTANClJlcGxhY2VzIGEgU21hbGwgRGV4dGVyaXR5IFBhc3NpdmUgU2tpbGwNCi0tLS0tLS0tDQoxMCUgY2hhbmNlIHRvIEF2b2lkIGJlaW5nIFBvaXNvbmVkDQotLS0tLS0tLQ0KUmlnaHQgY2xpY2sgdGhpcyBpdGVtIHRoZW4gbGVmdCBjbGljayBhbiBhbGxvY2F0ZWQgUGFzc2l2ZSBTa2lsbC4gTWF4aW11bSA1MCBUYXR0b29zLg0KLS0tLS0tLS0NCk5vdGU6IH5wcmljZSAxIGNoaXNlbA0K"
+                }
+            }
+        }
+    ]
+}

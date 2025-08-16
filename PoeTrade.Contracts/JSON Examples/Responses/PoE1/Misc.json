@@ -1,0 +1,1411 @@
+{
+	"result": [
+		{
+			"id": "fc1e751116b8e11b292a0d306b950c461a436239605f6523be2b818e5d8db6f5",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-08-12T15:36:20Z",
+				"stash": {
+					"name": "sell",
+					"x": 4,
+					"y": 3
+				},
+				"whisper": "@SHENNBSTACKER Hi, I would like to buy your Agony Jack Necrotic Armour listed for 0.7 mirror in Mercenaries (stash tab \"sell\"; position: left 5, top 4)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNTZiYjA4MmIyNTIxM2RmMDM1NzliMTQ4NzFiY2NlZiIsImlzcyI6InZtTGtuS1doRSIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6IlNIRU5OQlNUQUNLRVIiLCJsb2MiOiJlbl9VUyIsInRvayI6Iml0ZW0iLCJzdWIiOiJmYzFlNzUxMTE2YjhlMTFiMjkyYTBkMzA2Yjk1MGM0NjFhNDM2MjM5NjA1ZjY1MjNiZTJiODE4ZTVkOGRiNmY1IiwiZGF0IjoiNzI5YTJiZjc4MzdiZWNmNGM5OWE2Y2Y0Y2YzMTUyZDIiLCJpYXQiOjE3NTUwMjI3MjMsImV4cCI6MTc1NTAyMzAyM30.z2KsBrBwIXqoca5XXHE9O2B28lmfJsZm6EYKXmqWHkk",
+				"account": {
+					"name": "SHENNB#0382",
+					"online": {
+						"league": "Mercenaries"
+					},
+					"lastCharacterName": "SHENNBSTACKER",
+					"language": "en_US",
+					"realm": "pc"
+				},
+				"price": {
+					"type": "~price",
+					"amount": 0.7,
+					"currency": "mirror"
+				}
+			},
+			"item": {
+				"verified": true,
+				"w": 2,
+				"h": 3,
+				"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5RGV4SW50NEMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MSwiZHVwbGljYXRlZCI6dHJ1ZSwic2VhcmluZyI6dHJ1ZSwidGFuZ2xlZCI6dHJ1ZSwiZnJhY3R1cmVkIjp0cnVlfV0/afc3a52fe1/BodyDexInt4C.png",
+				"league": "Mercenaries",
+				"id": "fc1e751116b8e11b292a0d306b950c461a436239605f6523be2b818e5d8db6f5",
+				"searing": true,
+				"tangled": true,
+				"fractured": true,
+				"sockets": [
+					{
+						"group": 0,
+						"attr": "G",
+						"sColour": "W"
+					},
+					{
+						"group": 0,
+						"attr": "G",
+						"sColour": "W"
+					},
+					{
+						"group": 0,
+						"attr": "G",
+						"sColour": "W"
+					},
+					{
+						"group": 0,
+						"attr": "G",
+						"sColour": "W"
+					},
+					{
+						"group": 0,
+						"attr": "G",
+						"sColour": "W"
+					},
+					{
+						"group": 0,
+						"attr": "G",
+						"sColour": "W"
+					}
+				],
+				"name": "Agony Jack",
+				"typeLine": "Necrotic Armour",
+				"baseType": "Necrotic Armour",
+				"rarity": "Rare",
+				"ilvl": 87,
+				"identified": true,
+				"note": "~price 0.7 mirror",
+				"duplicated": true,
+				"split": true,
+				"properties": [
+					{
+						"name": "Quality",
+						"values": [
+							[
+								"+30%",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 6
+					},
+					{
+						"name": "Evasion Rating",
+						"values": [
+							[
+								"3609",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 17
+					},
+					{
+						"name": "Energy Shield",
+						"values": [
+							[
+								"733",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 18
+					}
+				],
+				"requirements": [
+					{
+						"name": "Level",
+						"values": [
+							[
+								"84",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 62
+					},
+					{
+						"name": "Dex",
+						"values": [
+							[
+								"173",
+								0
+							]
+						],
+						"displayMode": 1,
+						"type": 64
+					},
+					{
+						"name": "Int",
+						"values": [
+							[
+								"173",
+								0
+							]
+						],
+						"displayMode": 1,
+						"type": 65
+					}
+				],
+				"enchantMods": [
+					"12% increased Explicit Defence Modifier magnitudes",
+					"50% reduced Explicit Resistance Modifier magnitudes"
+				],
+				"implicitMods": [
+					"Grace has 30% increased Aura Effect",
+					"20% increased effect of Non-Curse Auras from your Skills"
+				],
+				"explicitMods": [
+					"+58 to Intelligence",
+					"+414 to Evasion Rating",
+					"123% increased Evasion and Energy Shield",
+					"+86 to maximum Energy Shield",
+					"Regenerate 224 Energy Shield per second while a Rare or Unique Enemy is Nearby"
+				],
+				"craftedMods": [
+					"6% increased Attributes"
+				],
+				"fracturedMods": [
+					"Armour is increased by Overcapped Fire Resistance"
+				],
+				"frameType": 2,
+				"extended": {
+					"base_defence_percentile": 100,
+					"ev": 3609,
+					"es": 733,
+					"mods": {
+						"explicit": [
+							{
+								"name": "of the Essence",
+								"tier": "S0",
+								"level": 82,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_328541901",
+										"min": "51",
+										"max": "58"
+									}
+								]
+							},
+							{
+								"name": "Incorporeal",
+								"tier": "P1",
+								"level": 86,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_1999113824",
+										"min": "101",
+										"max": "110"
+									}
+								]
+							},
+							{
+								"name": "Phantasm's",
+								"tier": "P1",
+								"level": 79,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_53045048",
+										"min": "301",
+										"max": "375"
+									},
+									{
+										"hash": "explicit.stat_4052037485",
+										"min": "73",
+										"max": "80"
+									}
+								]
+							},
+							{
+								"name": "of the Order",
+								"tier": "S1",
+								"level": 60,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_2238019079",
+										"min": "200",
+										"max": "200"
+									}
+								]
+							}
+						],
+						"implicit": [
+							{
+								"name": "",
+								"tier": "",
+								"level": 75,
+								"magnitudes": [
+									{
+										"hash": "implicit.stat_1880071428",
+										"min": "19",
+										"max": "20"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 75,
+								"magnitudes": [
+									{
+										"hash": "implicit.stat_397427740",
+										"min": "28",
+										"max": "30"
+									}
+								]
+							}
+						],
+						"fractured": [
+							{
+								"name": "Xoph's",
+								"tier": "P0",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "fractured.stat_2129352930",
+										"min": "1",
+										"max": "1"
+									}
+								]
+							}
+						],
+						"enchant": [
+							{
+								"name": "Enchantment Defence Modifier Effect and Resistance Modifier Effect Penalty",
+								"tier": "",
+								"level": 69,
+								"magnitudes": [
+									{
+										"hash": "enchant.stat_3300369861",
+										"min": "12",
+										"max": "12"
+									},
+									{
+										"hash": "enchant.stat_1972391381",
+										"min": "-50",
+										"max": "-50"
+									}
+								]
+							}
+						],
+						"crafted": [
+							{
+								"name": "of Craft",
+								"tier": "S0",
+								"level": 81,
+								"magnitudes": [
+									{
+										"hash": "crafted.stat_3143208761",
+										"min": "6",
+										"max": "6"
+									}
+								]
+							}
+						]
+					},
+					"hashes": {
+						"explicit": [
+							[
+								"explicit.stat_328541901",
+								[
+									0
+								]
+							],
+							[
+								"explicit.stat_53045048",
+								[
+									2
+								]
+							],
+							[
+								"explicit.stat_1999113824",
+								[
+									1
+								]
+							],
+							[
+								"explicit.stat_4052037485",
+								[
+									2
+								]
+							],
+							[
+								"explicit.stat_2238019079",
+								[
+									3
+								]
+							]
+						],
+						"implicit": [
+							[
+								"implicit.stat_397427740",
+								[
+									1
+								]
+							],
+							[
+								"implicit.stat_1880071428",
+								[
+									0
+								]
+							]
+						],
+						"fractured": [
+							[
+								"fractured.stat_2129352930",
+								[
+									0
+								]
+							]
+						],
+						"enchant": [
+							[
+								"enchant.stat_3300369861",
+								[
+									0
+								]
+							],
+							[
+								"enchant.stat_1972391381",
+								[
+									0
+								]
+							]
+						],
+						"crafted": [
+							[
+								"crafted.stat_3143208761",
+								[
+									0
+								]
+							]
+						]
+					},
+					"text": "SXRlbSBDbGFzczogQm9keSBBcm1vdXJzDQpSYXJpdHk6IFJhcmUNCkFnb255IEphY2sNCk5lY3JvdGljIEFybW91cg0KLS0tLS0tLS0NClF1YWxpdHk6ICszMCUgKGF1Z21lbnRlZCkNCkV2YXNpb24gUmF0aW5nOiAzNjA5IChhdWdtZW50ZWQpDQpFbmVyZ3kgU2hpZWxkOiA3MzMgKGF1Z21lbnRlZCkNCi0tLS0tLS0tDQpSZXF1aXJlbWVudHM6DQpMZXZlbDogODQNCkRleDogMTczDQpJbnQ6IDE3Mw0KLS0tLS0tLS0NClNvY2tldHM6IFctVy1XLVctVy1XIA0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDg3DQotLS0tLS0tLQ0KMTIlIGluY3JlYXNlZCBFeHBsaWNpdCBEZWZlbmNlIE1vZGlmaWVyIG1hZ25pdHVkZXMgKGVuY2hhbnQpDQo1MCUgcmVkdWNlZCBFeHBsaWNpdCBSZXNpc3RhbmNlIE1vZGlmaWVyIG1hZ25pdHVkZXMgKGVuY2hhbnQpDQotLS0tLS0tLQ0KR3JhY2UgaGFzIDMwJSBpbmNyZWFzZWQgQXVyYSBFZmZlY3QgKGltcGxpY2l0KQ0KMjAlIGluY3JlYXNlZCBlZmZlY3Qgb2YgTm9uLUN1cnNlIEF1cmFzIGZyb20geW91ciBTa2lsbHMgKGltcGxpY2l0KQ0KLS0tLS0tLS0NCkFybW91ciBpcyBpbmNyZWFzZWQgYnkgT3ZlcmNhcHBlZCBGaXJlIFJlc2lzdGFuY2UgKGZyYWN0dXJlZCkNCis1OCB0byBJbnRlbGxpZ2VuY2UNCis0MTQgdG8gRXZhc2lvbiBSYXRpbmcNCjEyMyUgaW5jcmVhc2VkIEV2YXNpb24gYW5kIEVuZXJneSBTaGllbGQNCis4NiB0byBtYXhpbXVtIEVuZXJneSBTaGllbGQNClJlZ2VuZXJhdGUgMjI0IEVuZXJneSBTaGllbGQgcGVyIHNlY29uZCB3aGlsZSBhIFJhcmUgb3IgVW5pcXVlIEVuZW15IGlzIE5lYXJieQ0KNiUgaW5jcmVhc2VkIEF0dHJpYnV0ZXMgKGNyYWZ0ZWQpDQotLS0tLS0tLQ0KTWlycm9yZWQNCi0tLS0tLS0tDQpTcGxpdA0KU2VhcmluZyBFeGFyY2ggSXRlbQ0KRWF0ZXIgb2YgV29ybGRzIEl0ZW0NCi0tLS0tLS0tDQpGcmFjdHVyZWQgSXRlbQ0KLS0tLS0tLS0NCk5vdGU6IH5wcmljZSAwLjcgbWlycm9yDQo="
+				}
+			}
+		},
+		{
+			"id": "74d6716ed0c15a8684d5db02b496aca47d1c835f766fda7df06ce47540212e54",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-07-08T14:33:15Z",
+				"stash": {
+					"name": "Sell",
+					"x": 4,
+					"y": 10
+				},
+				"whisper": "@Golenzinha Hi, I would like to buy your Death Grasp Synthesised Soldier Gloves listed for 20 chaos in Mercenaries (stash tab \"Sell\"; position: left 5, top 11)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJmNzlkMTM1NWIxN2VhNGMxMmIxZDJlYTAwYjIyYTJlYyIsImlzcyI6Ikd5d0RWbVpzYiIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6IkdvbGVuemluaGEiLCJsb2MiOiJlbl9VUyIsInRvayI6Iml0ZW0iLCJzdWIiOiI3NGQ2NzE2ZWQwYzE1YTg2ODRkNWRiMDJiNDk2YWNhNDdkMWM4MzVmNzY2ZmRhN2RmMDZjZTQ3NTQwMjEyZTU0IiwiZGF0IjoiNzFmMzgzMDRkZDk0YmUzN2E2ZWU0YThlMjI4ZTUxOTgiLCJpYXQiOjE3NTUwMjI3OTAsImV4cCI6MTc1NTAyMzA5MH0.5M0KwpN8VCTdfyD6VrJBqswu4MvBh8yOSU5YWmLz0Mk",
+				"account": {
+					"name": "ozaybr#2249",
+					"online": {
+						"league": "Mercenaries"
+					},
+					"lastCharacterName": "Golenzinha",
+					"language": "en_US",
+					"realm": "pc"
+				},
+				"price": {
+					"type": "~price",
+					"amount": 20,
+					"currency": "chaos"
+				}
+			},
+			"item": {
+				"verified": true,
+				"w": 2,
+				"h": 2,
+				"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzU3RySW50MyIsInciOjIsImgiOjIsInNjYWxlIjoxLCJzeW50aGVzaXNlZCI6dHJ1ZSwic2VhcmluZyI6dHJ1ZSwidGFuZ2xlZCI6dHJ1ZX1d/70a7ef1bf5/GlovesStrInt3.png",
+				"league": "Mercenaries",
+				"id": "74d6716ed0c15a8684d5db02b496aca47d1c835f766fda7df06ce47540212e54",
+				"searing": true,
+				"tangled": true,
+				"synthesised": true,
+				"sockets": [
+					{
+						"group": 0,
+						"attr": "S",
+						"sColour": "R"
+					},
+					{
+						"group": 0,
+						"attr": "S",
+						"sColour": "R"
+					},
+					{
+						"group": 1,
+						"attr": "S",
+						"sColour": "R"
+					},
+					{
+						"group": 2,
+						"attr": "I",
+						"sColour": "B"
+					}
+				],
+				"name": "Death Grasp",
+				"typeLine": "Synthesised Soldier Gloves",
+				"baseType": "Soldier Gloves",
+				"rarity": "Rare",
+				"ilvl": 79,
+				"identified": true,
+				"corrupted": true,
+				"properties": [
+					{
+						"name": "Quality",
+						"values": [
+							[
+								"+20%",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 6
+					},
+					{
+						"name": "Armour",
+						"values": [
+							[
+								"229",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 16
+					},
+					{
+						"name": "Energy Shield",
+						"values": [
+							[
+								"46",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 18
+					}
+				],
+				"requirements": [
+					{
+						"name": "Level",
+						"values": [
+							[
+								"60",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 62
+					},
+					{
+						"name": "Str",
+						"values": [
+							[
+								"40",
+								0
+							]
+						],
+						"displayMode": 1,
+						"type": 63
+					},
+					{
+						"name": "Int",
+						"values": [
+							[
+								"40",
+								0
+							]
+						],
+						"displayMode": 1,
+						"type": 65
+					}
+				],
+				"implicitMods": [
+					"10% of Physical Damage Converted to Chaos Damage",
+					"21% increased Critical Strike Chance for Attacks"
+				],
+				"explicitMods": [
+					"+27 to Intelligence",
+					"91% increased Armour and Energy Shield",
+					"Regenerate 19.4 Life per second",
+					"+17 to maximum Mana",
+					"17% increased Rarity of Items found",
+					"+29% to Fire Resistance"
+				],
+				"frameType": 2,
+				"extended": {
+					"base_defence_percentile": 61,
+					"ar": 229,
+					"es": 46,
+					"mods": {
+						"explicit": [
+							{
+								"name": "Beryl",
+								"tier": "P12",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_1050105434",
+										"min": "15",
+										"max": "19"
+									}
+								]
+							},
+							{
+								"name": "of the Kiln",
+								"tier": "S5",
+								"level": 36,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_3372524247",
+										"min": "24",
+										"max": "29"
+									}
+								]
+							},
+							{
+								"name": "of the Augur",
+								"tier": "S6",
+								"level": 33,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_328541901",
+										"min": "23",
+										"max": "27"
+									}
+								]
+							},
+							{
+								"name": "Interpolated",
+								"tier": "P2",
+								"level": 72,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_3321629045",
+										"min": "80",
+										"max": "91"
+									}
+								]
+							},
+							{
+								"name": "of the Starfish",
+								"tier": "S5",
+								"level": 31,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_3325883026",
+										"min": "16.1",
+										"max": "24"
+									}
+								]
+							},
+							{
+								"name": "Pirate's",
+								"tier": "P1",
+								"level": 39,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_3917489142",
+										"min": "13",
+										"max": "18"
+									}
+								]
+							}
+						],
+						"implicit": [
+							{
+								"name": "",
+								"tier": "",
+								"level": 75,
+								"magnitudes": [
+									{
+										"hash": "implicit.stat_490098963",
+										"min": "10",
+										"max": "10"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 75,
+								"magnitudes": [
+									{
+										"hash": "implicit.stat_2194114101",
+										"min": "19",
+										"max": "21"
+									}
+								]
+							}
+						]
+					},
+					"hashes": {
+						"explicit": [
+							[
+								"explicit.stat_328541901",
+								[
+									2
+								]
+							],
+							[
+								"explicit.stat_3321629045",
+								[
+									3
+								]
+							],
+							[
+								"explicit.stat_3325883026",
+								[
+									4
+								]
+							],
+							[
+								"explicit.stat_1050105434",
+								[
+									0
+								]
+							],
+							[
+								"explicit.stat_3917489142",
+								[
+									5
+								]
+							],
+							[
+								"explicit.stat_3372524247",
+								[
+									1
+								]
+							]
+						],
+						"implicit": [
+							[
+								"implicit.stat_490098963",
+								[
+									0
+								]
+							],
+							[
+								"implicit.stat_2194114101",
+								[
+									1
+								]
+							]
+						]
+					},
+					"text": "SXRlbSBDbGFzczogR2xvdmVzDQpSYXJpdHk6IFJhcmUNCkRlYXRoIEdyYXNwDQpTeW50aGVzaXNlZCBTb2xkaWVyIEdsb3Zlcw0KLS0tLS0tLS0NClF1YWxpdHk6ICsyMCUgKGF1Z21lbnRlZCkNCkFybW91cjogMjI5IChhdWdtZW50ZWQpDQpFbmVyZ3kgU2hpZWxkOiA0NiAoYXVnbWVudGVkKQ0KLS0tLS0tLS0NClJlcXVpcmVtZW50czoNCkxldmVsOiA2MA0KU3RyOiA0MA0KSW50OiA0MA0KLS0tLS0tLS0NClNvY2tldHM6IFItUiBSIEIgDQotLS0tLS0tLQ0KSXRlbSBMZXZlbDogNzkNCi0tLS0tLS0tDQoxMCUgb2YgUGh5c2ljYWwgRGFtYWdlIENvbnZlcnRlZCB0byBDaGFvcyBEYW1hZ2UgKGltcGxpY2l0KQ0KMjElIGluY3JlYXNlZCBDcml0aWNhbCBTdHJpa2UgQ2hhbmNlIGZvciBBdHRhY2tzIChpbXBsaWNpdCkNCi0tLS0tLS0tDQorMjcgdG8gSW50ZWxsaWdlbmNlDQo5MSUgaW5jcmVhc2VkIEFybW91ciBhbmQgRW5lcmd5IFNoaWVsZA0KUmVnZW5lcmF0ZSAxOS40IExpZmUgcGVyIHNlY29uZA0KKzE3IHRvIG1heGltdW0gTWFuYQ0KMTclIGluY3JlYXNlZCBSYXJpdHkgb2YgSXRlbXMgZm91bmQNCisyOSUgdG8gRmlyZSBSZXNpc3RhbmNlDQotLS0tLS0tLQ0KQ29ycnVwdGVkDQpTZWFyaW5nIEV4YXJjaCBJdGVtDQpFYXRlciBvZiBXb3JsZHMgSXRlbQ0KLS0tLS0tLS0NClN5bnRoZXNpc2VkIEl0ZW0NCg=="
+				}
+			}
+		},
+		{
+			"id": "947414cec0b4b49b34decab819e268613fd76611794b262bf5b1346e2e312c44",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-07-19T08:23:17Z",
+				"stash": {
+					"name": "~b/o 1 scour 3",
+					"x": 4,
+					"y": 0
+				},
+				"whisper": "@GommageLeague Hi, I would like to buy your Cataclysm Whorl Paua Ring listed for 1 scour in Mercenaries (stash tab \"~b/o 1 scour 3\"; position: left 5, top 1)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5YWIyM2Y1YzAxMDhmMDQwMmQ0NzQyMjU2YmI4NjdiYyIsImlzcyI6ImJaajRyNkRmTCIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6IkdvbW1hZ2VMZWFndWUiLCJsb2MiOiJlbl9VUyIsInRvayI6Iml0ZW0iLCJzdWIiOiI5NDc0MTRjZWMwYjRiNDliMzRkZWNhYjgxOWUyNjg2MTNmZDc2NjExNzk0YjI2MmJmNWIxMzQ2ZTJlMzEyYzQ0IiwiZGF0IjoiN2I2Y2NiYzA3ZTNmN2NlZTUzNjU1MjY4Zjk1YmM0NGEiLCJpYXQiOjE3NTUwMjI4NDAsImV4cCI6MTc1NTAyMzE0MH0.lXo0hXrTuUYktxr43-MRZPKlSWiRIkyUY3rL1_WAfYk",
+				"account": {
+					"name": "theoddphantom#2663",
+					"online": {
+						"league": "Mercenaries"
+					},
+					"lastCharacterName": "GommageLeague",
+					"language": "en_US",
+					"realm": "pc"
+				},
+				"price": {
+					"type": "~b/o",
+					"amount": 1,
+					"currency": "scour"
+				}
+			},
+			"item": {
+				"verified": true,
+				"w": 1,
+				"h": 1,
+				"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/4f08d18365/Ring3.png",
+				"league": "Mercenaries",
+				"id": "947414cec0b4b49b34decab819e268613fd76611794b262bf5b1346e2e312c44",
+				"name": "Cataclysm Whorl",
+				"typeLine": "Paua Ring",
+				"baseType": "Paua Ring",
+				"rarity": "Rare",
+				"ilvl": 85,
+				"identified": true,
+				"requirements": [
+					{
+						"name": "Level",
+						"values": [
+							[
+								"59",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 62
+					}
+				],
+				"implicitMods": [
+					"+28 to maximum Mana"
+				],
+				"explicitMods": [
+					"+46 to maximum Energy Shield",
+					"+44 to maximum Mana",
+					"+38% to Lightning Resistance",
+					"0.32% of Physical Attack Damage Leeched as Mana"
+				],
+				"veiledMods": [
+					"Suffix01"
+				],
+				"veiled": true,
+				"frameType": 2,
+				"extended": {
+					"mods": {
+						"explicit": [
+							{
+								"name": "of Thirst",
+								"tier": "S1",
+								"level": 50,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_3237948413",
+										"min": "0.2",
+										"max": "0.4"
+									}
+								]
+							},
+							{
+								"name": "of the Maelstrom",
+								"tier": "S3",
+								"level": 60,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_1671376347",
+										"min": "36",
+										"max": "41"
+									}
+								]
+							},
+							{
+								"name": "Aqua",
+								"tier": "P8",
+								"level": 35,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_1050105434",
+										"min": "40",
+										"max": "44"
+									}
+								]
+							},
+							{
+								"name": "Resplendent",
+								"tier": "P1",
+								"level": 74,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_3489782002",
+										"min": "44",
+										"max": "47"
+									}
+								]
+							}
+						],
+						"implicit": [
+							{
+								"name": "",
+								"tier": "",
+								"level": 2,
+								"magnitudes": [
+									{
+										"hash": "implicit.stat_1050105434",
+										"min": "20",
+										"max": "30"
+									}
+								]
+							}
+						],
+						"veiled": [
+							{
+								"name": "of the Veil",
+								"tier": "S7",
+								"level": 1,
+								"magnitudes": null
+							}
+						]
+					},
+					"hashes": {
+						"explicit": [
+							[
+								"explicit.stat_3489782002",
+								[
+									3
+								]
+							],
+							[
+								"explicit.stat_1050105434",
+								[
+									2
+								]
+							],
+							[
+								"explicit.stat_1671376347",
+								[
+									1
+								]
+							],
+							[
+								"explicit.stat_3237948413",
+								[
+									0
+								]
+							]
+						],
+						"implicit": [
+							[
+								"implicit.stat_1050105434",
+								[
+									0
+								]
+							]
+						],
+						"veiled": [
+							[
+								"veiled.mod_63099",
+								[
+									0
+								]
+							]
+						]
+					},
+					"text": "SXRlbSBDbGFzczogUmluZ3MNClJhcml0eTogUmFyZQ0KQ2F0YWNseXNtIFdob3JsDQpQYXVhIFJpbmcNCi0tLS0tLS0tDQpSZXF1aXJlbWVudHM6DQpMZXZlbDogNTkNCi0tLS0tLS0tDQpJdGVtIExldmVsOiA4NQ0KLS0tLS0tLS0NCisyOCB0byBtYXhpbXVtIE1hbmEgKGltcGxpY2l0KQ0KLS0tLS0tLS0NCis0NiB0byBtYXhpbXVtIEVuZXJneSBTaGllbGQNCis0NCB0byBtYXhpbXVtIE1hbmENCiszOCUgdG8gTGlnaHRuaW5nIFJlc2lzdGFuY2UNCjAuMzIlIG9mIFBoeXNpY2FsIEF0dGFjayBEYW1hZ2UgTGVlY2hlZCBhcyBNYW5hDQpWZWlsZWQgU3VmZml4DQo="
+				}
+			}
+		},
+		{
+			"id": "9e276ad0ecccaa13cce00eb571398f0afe217cc076b106ab668330c7fcd2fdb0",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-08-11T15:19:08Z",
+				"stash": {
+					"name": "Weapon",
+					"x": 2,
+					"y": 8
+				},
+				"whisper": "@LunisAegisMercenaryRF Hi, I would like to buy your Pain Spiker Harpy Rapier listed for 4 chaos in Mercenaries (stash tab \"Weapon\"; position: left 3, top 9)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJkMzgxZGRhZjAxZjEwNmI4MDY0ZDNjOGZjNjY2Yzk4MSIsImlzcyI6IldYamRnODB1bSIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6Ikx1bmlzQWVnaXNNZXJjZW5hcnlSRiIsImxvYyI6ImVuX1VTIiwidG9rIjoiaXRlbSIsInN1YiI6IjllMjc2YWQwZWNjY2FhMTNjY2UwMGViNTcxMzk4ZjBhZmUyMTdjYzA3NmIxMDZhYjY2ODMzMGM3ZmNkMmZkYjAiLCJkYXQiOiJhODk4ZTU1YjFiNGIzNGZmOWMxZWJlZjdkZjYyZmY4MSIsImlhdCI6MTc1NTAyMjg2MywiZXhwIjoxNzU1MDIzMTYzfQ.UB-OmIMMC5HDjRvwLnp1wVuEeOkdDpQh8uAzUxF8i6o",
+				"account": {
+					"name": "LunisAegis#2506",
+					"online": {
+						"league": "Mercenaries"
+					},
+					"lastCharacterName": "LunisAegisMercenaryRF",
+					"language": "en_US",
+					"realm": "pc"
+				},
+				"price": {
+					"type": "~b/o",
+					"amount": 4,
+					"currency": "chaos"
+				}
+			},
+			"item": {
+				"verified": true,
+				"w": 1,
+				"h": 4,
+				"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9SYXBpZXJzL1JhcGllcjgiLCJ3IjoxLCJoIjo0LCJzY2FsZSI6MX1d/1f11ed5e87/Rapier8.png",
+				"league": "Mercenaries",
+				"id": "9e276ad0ecccaa13cce00eb571398f0afe217cc076b106ab668330c7fcd2fdb0",
+				"influences": {
+					"hunter": true
+				},
+				"sockets": [
+					{
+						"group": 0,
+						"attr": "D",
+						"sColour": "G"
+					},
+					{
+						"group": 1,
+						"attr": "D",
+						"sColour": "G"
+					}
+				],
+				"name": "Pain Spiker",
+				"typeLine": "Harpy Rapier",
+				"baseType": "Harpy Rapier",
+				"rarity": "Rare",
+				"ilvl": 76,
+				"identified": true,
+				"note": "~b/o 4 chaos",
+				"properties": [
+					{
+						"name": "One Handed Sword",
+						"values": [],
+						"displayMode": 0
+					},
+					{
+						"name": "Quality",
+						"values": [
+							[
+								"+11%",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 6
+					},
+					{
+						"name": "Physical Damage",
+						"values": [
+							[
+								"54-119",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 9
+					},
+					{
+						"name": "Elemental Damage",
+						"values": [
+							[
+								"14-25",
+								4
+							]
+						],
+						"displayMode": 0,
+						"type": 10
+					},
+					{
+						"name": "Critical Strike Chance",
+						"values": [
+							[
+								"6.89%",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 12
+					},
+					{
+						"name": "Attacks per Second",
+						"values": [
+							[
+								"1.40",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 13
+					},
+					{
+						"name": "Weapon Range: {0} metres",
+						"values": [
+							[
+								"1.4",
+								0
+							]
+						],
+						"displayMode": 3,
+						"type": 14
+					}
+				],
+				"requirements": [
+					{
+						"name": "Level",
+						"values": [
+							[
+								"70",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 62
+					},
+					{
+						"name": "Dex",
+						"values": [
+							[
+								"212",
+								0
+							]
+						],
+						"displayMode": 1,
+						"type": 64
+					}
+				],
+				"implicitMods": [
+					"+35% to Global Critical Strike Multiplier"
+				],
+				"explicitMods": [
+					"63% increased Chaos Damage over Time",
+					"Adds 18 to 35 Physical Damage",
+					"Adds 14 to 25 Fire Damage",
+					"21% increased Critical Strike Chance",
+					"Gain 7 Life per Enemy Killed",
+					"+99 to Accuracy Rating"
+				],
+				"foreseeing": true,
+				"frameType": 2,
+				"extended": {
+					"dps": 158.2,
+					"pdps": 130.9,
+					"edps": 27.3,
+					"dps_aug": true,
+					"pdps_aug": true,
+					"mods": {
+						"explicit": [
+							{
+								"name": "of Steadiness",
+								"tier": "S5",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_691932474",
+										"min": "80",
+										"max": "130"
+									}
+								]
+							},
+							{
+								"name": "of Success",
+								"tier": "S6",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_3695891184",
+										"min": "7",
+										"max": "10"
+									}
+								]
+							},
+							{
+								"name": "Smoking",
+								"tier": "P8",
+								"level": 18,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_709508406",
+										"min": "12",
+										"max": "17"
+									},
+									{
+										"hash": "explicit.stat_709508406",
+										"min": "25",
+										"max": "29"
+									}
+								]
+							},
+							{
+								"name": "Razor-sharp",
+								"tier": "P3",
+								"level": 54,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_1940865751",
+										"min": "16",
+										"max": "21"
+									},
+									{
+										"hash": "explicit.stat_1940865751",
+										"min": "32",
+										"max": "38"
+									}
+								]
+							},
+							{
+								"name": "Hunter's",
+								"tier": "P4",
+								"level": 68,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_601272515",
+										"min": "60",
+										"max": "69"
+									}
+								]
+							},
+							{
+								"name": "of Piercing",
+								"tier": "S4",
+								"level": 30,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_2375316951",
+										"min": "20",
+										"max": "24"
+									}
+								]
+							}
+						],
+						"implicit": [
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "implicit.stat_3556824919",
+										"min": "35",
+										"max": "35"
+									}
+								]
+							}
+						]
+					},
+					"hashes": {
+						"explicit": [
+							[
+								"explicit.stat_601272515",
+								[
+									4
+								]
+							],
+							[
+								"explicit.stat_1940865751",
+								[
+									3
+								]
+							],
+							[
+								"explicit.stat_709508406",
+								[
+									2
+								]
+							],
+							[
+								"explicit.stat_2375316951",
+								[
+									5
+								]
+							],
+							[
+								"explicit.stat_3695891184",
+								[
+									1
+								]
+							],
+							[
+								"explicit.stat_691932474",
+								[
+									0
+								]
+							]
+						],
+						"implicit": [
+							[
+								"implicit.stat_3556824919",
+								[
+									0
+								]
+							]
+						]
+					},
+					"text": "SXRlbSBDbGFzczogVGhydXN0aW5nIE9uZSBIYW5kIFN3b3Jkcw0KUmFyaXR5OiBSYXJlDQpQYWluIFNwaWtlcg0KSGFycHkgUmFwaWVyDQotLS0tLS0tLQ0KT25lIEhhbmRlZCBTd29yZA0KUXVhbGl0eTogKzExJSAoYXVnbWVudGVkKQ0KUGh5c2ljYWwgRGFtYWdlOiA1NC0xMTkgKGF1Z21lbnRlZCkNCkVsZW1lbnRhbCBEYW1hZ2U6IDE0LTI1IChhdWdtZW50ZWQpDQpDcml0aWNhbCBTdHJpa2UgQ2hhbmNlOiA2Ljg5JSAoYXVnbWVudGVkKQ0KQXR0YWNrcyBwZXIgU2Vjb25kOiAxLjQwDQpXZWFwb24gUmFuZ2U6IDEuNCBtZXRyZXMNCi0tLS0tLS0tDQpSZXF1aXJlbWVudHM6DQpMZXZlbDogNzANCkRleDogMjEyDQotLS0tLS0tLQ0KU29ja2V0czogRyBHIA0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDc2DQotLS0tLS0tLQ0KKzM1JSB0byBHbG9iYWwgQ3JpdGljYWwgU3RyaWtlIE11bHRpcGxpZXIgKGltcGxpY2l0KQ0KLS0tLS0tLS0NCjYzJSBpbmNyZWFzZWQgQ2hhb3MgRGFtYWdlIG92ZXIgVGltZQ0KQWRkcyAxOCB0byAzNSBQaHlzaWNhbCBEYW1hZ2UNCkFkZHMgMTQgdG8gMjUgRmlyZSBEYW1hZ2UNCjIxJSBpbmNyZWFzZWQgQ3JpdGljYWwgU3RyaWtlIENoYW5jZQ0KR2FpbiA3IExpZmUgcGVyIEVuZW15IEtpbGxlZA0KKzk5IHRvIEFjY3VyYWN5IFJhdGluZw0KLS0tLS0tLS0NCkh1bnRlciBJdGVtDQotLS0tLS0tLQ0KSGluZWtvcmEncyBMb2NrDQotLS0tLS0tLQ0KTm90ZTogfmIvbyA0IGNoYW9zDQo="
+				}
+			}
+		},
+		{
+			"id": "99d1ab1b303f80603c6f627057254e64cf4c29e2934484f63017766c7743577c",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-08-12T02:08:28Z",
+				"stash": {
+					"name": "Big Shop QQ",
+					"x": 23,
+					"y": 23
+				},
+				"whisper": "@MetaKb Hi, I would like to buy your Ngamahu Tiki Coral Amulet listed for 1 mirror in Mercenaries (stash tab \"Big Shop QQ\"; position: left 24, top 24)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI4MzhlNTZhYzIyY2ZmNmEyMjI4ZTliMDgzNjdiMzEzNiIsImlzcyI6ImRham9PSzNISiIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6Ik1ldGFLYiIsImxvYyI6ImVuX1VTIiwidG9rIjoiaXRlbSIsInN1YiI6Ijk5ZDFhYjFiMzAzZjgwNjAzYzZmNjI3MDU3MjU0ZTY0Y2Y0YzI5ZTI5MzQ0ODRmNjMwMTc3NjZjNzc0MzU3N2MiLCJkYXQiOiI2MmI4NDhkZTIwYzA0MTdkYTA4MmRkMGI1MDc0OTNmNSIsImlhdCI6MTc1NTAyMjg5MCwiZXhwIjoxNzU1MDIzMTkwfQ.A0bbavsjCn-IQpY6lyYrb8hloq_ZYsZ4L1xBsFogT0M",
+				"account": {
+					"name": "elektronique#1382",
+					"online": {
+						"league": "Mercenaries"
+					},
+					"lastCharacterName": "MetaKb",
+					"language": "en_US",
+					"realm": "pc"
+				},
+				"price": {
+					"type": "~price",
+					"amount": 1,
+					"currency": "mirror"
+				}
+			},
+			"item": {
+				"verified": true,
+				"w": 1,
+				"h": 1,
+				"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9OZ2FtYWh1VGlraUFMVEFSVCAiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/17b89462c1/NgamahuTikiALTART%20.png",
+				"league": "Mercenaries",
+				"id": "99d1ab1b303f80603c6f627057254e64cf4c29e2934484f63017766c7743577c",
+				"name": "Ngamahu Tiki",
+				"typeLine": "Coral Amulet",
+				"baseType": "Coral Amulet",
+				"rarity": "Unique",
+				"ilvl": 100,
+				"identified": true,
+				"note": "~price 1 mirror",
+				"requirements": [
+					{
+						"name": "Level",
+						"values": [
+							[
+								"36",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 62
+					}
+				],
+				"implicitMods": [
+					"Regenerate 2.5 Life per second"
+				],
+				"explicitMods": [
+					"57% increased Fire Damage",
+					"+100 to Evasion Rating while on Low Life",
+					"+40 to maximum Life",
+					"+28% to Fire Resistance",
+					"Regenerate 1% of Life per second while on Low Life"
+				],
+				"flavourText": [
+					"Flames to guide the Great Spirit to the site of the dead,\r",
+					"and smoke to carry them into the sky."
+				],
+				"frameType": 3,
+				"extended": {
+					"mods": {
+						"explicit": [
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_3299347043",
+										"min": "30",
+										"max": "50"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_3372524247",
+										"min": "20",
+										"max": "30"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_3470876581",
+										"min": "150",
+										"max": "250"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_3942946753",
+										"min": "1",
+										"max": "1"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 45,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_3962278098",
+										"min": "50",
+										"max": "70"
+									}
+								]
+							}
+						],
+						"implicit": [
+							{
+								"name": "",
+								"tier": "",
+								"level": 2,
+								"magnitudes": [
+									{
+										"hash": "implicit.stat_3325883026",
+										"min": "2",
+										"max": "4"
+									}
+								]
+							}
+						]
+					},
+					"hashes": {
+						"explicit": [
+							[
+								"explicit.stat_3962278098",
+								[
+									4
+								]
+							],
+							[
+								"explicit.stat_3470876581",
+								[
+									2
+								]
+							],
+							[
+								"explicit.stat_3299347043",
+								[
+									0
+								]
+							],
+							[
+								"explicit.stat_3372524247",
+								[
+									1
+								]
+							],
+							[
+								"explicit.stat_3942946753",
+								[
+									3
+								]
+							]
+						],
+						"implicit": [
+							[
+								"implicit.stat_3325883026",
+								[
+									0
+								]
+							]
+						]
+					},
+					"text": "SXRlbSBDbGFzczogQW11bGV0cw0KUmFyaXR5OiBVbmlxdWUNCk5nYW1haHUgVGlraQ0KQ29yYWwgQW11bGV0DQotLS0tLS0tLQ0KUmVxdWlyZW1lbnRzOg0KTGV2ZWw6IDM2DQotLS0tLS0tLQ0KSXRlbSBMZXZlbDogMTAwDQotLS0tLS0tLQ0KUmVnZW5lcmF0ZSAyLjUgTGlmZSBwZXIgc2Vjb25kIChpbXBsaWNpdCkNCi0tLS0tLS0tDQo1NyUgaW5jcmVhc2VkIEZpcmUgRGFtYWdlDQorMTAwIHRvIEV2YXNpb24gUmF0aW5nIHdoaWxlIG9uIExvdyBMaWZlDQorNDAgdG8gbWF4aW11bSBMaWZlDQorMjglIHRvIEZpcmUgUmVzaXN0YW5jZQ0KUmVnZW5lcmF0ZSAxJSBvZiBMaWZlIHBlciBzZWNvbmQgd2hpbGUgb24gTG93IExpZmUNCi0tLS0tLS0tDQpGbGFtZXMgdG8gZ3VpZGUgdGhlIEdyZWF0IFNwaXJpdCB0byB0aGUgc2l0ZSBvZiB0aGUgZGVhZCwNCmFuZCBzbW9rZSB0byBjYXJyeSB0aGVtIGludG8gdGhlIHNreS4NCi0tLS0tLS0tDQpOb3RlOiB+cHJpY2UgMSBtaXJyb3INCg=="
+				}
+			}
+		}
+	]
+}

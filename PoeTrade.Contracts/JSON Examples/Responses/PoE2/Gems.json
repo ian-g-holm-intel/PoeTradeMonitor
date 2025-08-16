@@ -1,0 +1,455 @@
+{
+	"result": [
+		{
+			"id": "75eb27cdba6f1c56c519ccaa49924f7961425d2ee7cc770f6bdff0034963243d",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-07-22T20:33:17Z",
+				"stash": {
+					"name": "~price 1 exalted",
+					"x": 2,
+					"y": 5
+				},
+				"whisper": "@sugunchik Здравствуйте, хочу купить у вас уровень 1 0% Каскад чар за 1 exalted в лиге Dawn of the Hunt (секция \"~price 1 exalted\"; позиция: 3 столбец, 6 ряд)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5OTY3ZWNjYzZlYWYxODU2NjJlMDU2YjM0ZTgzNGQ5OCIsImlzcyI6Ik00WGFxZ01zSiIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6InN1Z3VuY2hpayIsImxvYyI6InJ1X1JVIiwidG9rIjoiaXRlbSIsInN1YiI6Ijc1ZWIyN2NkYmE2ZjFjNTZjNTE5Y2NhYTQ5OTI0Zjc5NjE0MjVkMmVlN2NjNzcwZjZiZGZmMDAzNDk2MzI0M2QiLCJkYXQiOiJlZDMyNmZjN2NhYjM1ZGNhOGQ0OGJmZDFkZDZiYWQ4NCIsImlhdCI6MTc1NTAyNDA0NywiZXhwIjoxNzU1MDI0MzQ3fQ.3fVhYZNW3TOhxVv0sjX_yhjreXSJyQ_14facYU7ud7E",
+				"account": {
+					"name": "TexH0kpaT#7374",
+					"online": {
+						"league": "Dawn of the Hunt",
+						"status": "afk"
+					},
+					"lastCharacterName": "sugunchik",
+					"language": "ru_RU",
+					"realm": "poe2"
+				},
+				"price": {
+					"type": "~price",
+					"amount": 1,
+					"currency": "exalted"
+				}
+			},
+			"item": {
+				"realm": "poe2",
+				"verified": true,
+				"w": 1,
+				"h": 1,
+				"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvTmV3U3VwcG9ydC9TcGVsbENhc2NhZGVTdXBwb3J0R2VtIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b39c0f140f/SpellCascadeSupportGem.png",
+				"support": true,
+				"league": "Dawn of the Hunt",
+				"id": "75eb27cdba6f1c56c519ccaa49924f7961425d2ee7cc770f6bdff0034963243d",
+				"name": "",
+				"typeLine": "Spell Cascade",
+				"baseType": "Spell Cascade",
+				"ilvl": 0,
+				"identified": true,
+				"properties": [
+					{
+						"name": "[SupportGem|Support]",
+						"values": [],
+						"displayMode": 0
+					}
+				],
+				"supportGemRequirements": [
+					{
+						"name": "+5 [Intelligence|Int]",
+						"values": [
+							[
+								"(5)",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 65
+					}
+				],
+				"secDescrText": "Supports [Spell|Spells] that affect an area around you or a target location, causing those [Spell|Spells] to also target additional areas on either side of the target area, along a randomly chosen axis. Cannot support [Channelling] skills or [Remote] skills.",
+				"gemTabs": [
+					{
+						"name": null,
+						"pages": [
+							{
+								"stats": [
+									"Supported Skills have 20% less Area of Effect",
+									"Cascades from Supported Skills have 20% less Area of Effect",
+									"Supported Skills deal 30% less Damage",
+									"Supported Skills also affect Areas on either side of the targeted Area along a random axis"
+								]
+							}
+						]
+					}
+				],
+				"descrText": "Place into a Skill's Support Gem socket in the Skills Panel to apply its effects to that Skill. You cannot have multiple copies of the same Support Gem socketed at the same time.",
+				"frameType": 4,
+				"extended": []
+			}
+		},
+		{
+			"id": "b962713e5a24ff3cf372e99986ed6877a665614333ce588c3200f38370c077c5",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-08-12T06:18:07Z",
+				"stash": {
+					"name": "~price 1 chaos",
+					"x": 5,
+					"y": 0
+				},
+				"whisper": "@独狼转生 你好，我想購買 等級 21 20% 靈魂獻祭 標價 1 chaos 在 Dawn of the Hunt (倉庫頁 \"~price 1 chaos\"; 位置: 左 6, 上 1)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJjMTNmY2IwNTFjYjZiMDA2Y2RlOWU3YzJiZTBhMGRiMSIsImlzcyI6IkJ5blhtM3dGOCIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6Ilx1NzJlY1x1NzJmY1x1OGY2Y1x1NzUxZiIsImxvYyI6InpoX1RXIiwidG9rIjoiaXRlbSIsInN1YiI6ImI5NjI3MTNlNWEyNGZmM2NmMzcyZTk5OTg2ZWQ2ODc3YTY2NTYxNDMzM2NlNTg4YzMyMDBmMzgzNzBjMDc3YzUiLCJkYXQiOiI0ZGVlYWVlYzkzYmFmOTAwYzYxZmI1MjJmYjMzNTMzNCIsImlhdCI6MTc1NTAyNDEzNiwiZXhwIjoxNzU1MDI0NDM2fQ.8gfZrhi4rJP2LR7DdmFebBzBNtvOF9Lp3zYwHAcEU9E",
+				"account": {
+					"name": "68687691#6224",
+					"online": {
+						"league": "Dawn of the Hunt",
+						"status": "afk"
+					},
+					"lastCharacterName": "独狼转生",
+					"language": "zh_TW",
+					"realm": "poe2"
+				},
+				"price": {
+					"type": "~price",
+					"amount": 1,
+					"currency": "chaos"
+				}
+			},
+			"item": {
+				"realm": "poe2",
+				"verified": true,
+				"w": 1,
+				"h": 1,
+				"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvV2l0Y2hQb3dlck9mZmVyaW5nU2tpbGxHZW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1f9afca042/WitchPowerOfferingSkillGem.png",
+				"support": false,
+				"league": "Dawn of the Hunt",
+				"id": "b962713e5a24ff3cf372e99986ed6877a665614333ce588c3200f38370c077c5",
+				"gemSockets": [
+					"W",
+					"W",
+					"W",
+					"W",
+					"W"
+				],
+				"sockets": [
+					{
+						"group": 0,
+						"type": "gem"
+					},
+					{
+						"group": 1,
+						"type": "gem"
+					},
+					{
+						"group": 2,
+						"type": "gem"
+					},
+					{
+						"group": 3,
+						"type": "gem"
+					},
+					{
+						"group": 4,
+						"type": "gem"
+					}
+				],
+				"name": "",
+				"typeLine": "Soul Offering",
+				"baseType": "Soul Offering",
+				"ilvl": 0,
+				"identified": true,
+				"corrupted": true,
+				"properties": [
+					{
+						"name": "[Minion], [Buff], [DurationSkill|Duration]",
+						"values": [],
+						"displayMode": 0
+					},
+					{
+						"name": "Level",
+						"values": [
+							[
+								"21",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 5
+					},
+					{
+						"name": "",
+						"values": [
+							[
+								"20 Levels from Gem (Max)",
+								0
+							]
+						],
+						"displayMode": 0
+					},
+					{
+						"name": "",
+						"values": [
+							[
+								"+1 Level from Corruption",
+								1
+							]
+						],
+						"displayMode": 0
+					},
+					{
+						"name": "[Quality]",
+						"values": [
+							[
+								"+20%",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 6
+					},
+					{
+						"name": "Cost",
+						"values": [
+							[
+								"219 Mana",
+								0
+							]
+						],
+						"displayMode": 0
+					}
+				],
+				"requirements": [
+					{
+						"name": "Level",
+						"values": [
+							[
+								"90",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 62
+					},
+					{
+						"name": "[Intelligence|Int]",
+						"values": [
+							[
+								"205",
+								0
+							]
+						],
+						"displayMode": 1,
+						"type": 65
+					}
+				],
+				"secDescrText": "Skewer a Skeleton on a bone spike, granting you a powerful [Spell] damage [Buff] as long as the spike remains. Does not affect your [Minion|Minions].\r\n\r\nThe bone spike is itself a [Minion]. If it dies, the effect ends immediately.",
+				"gemTabs": [
+					{
+						"name": null,
+						"pages": [
+							{
+								"stats": [
+									"Limit 1 Soul Offering Spike",
+									"Spike duration is 5 seconds",
+									"[Buff] grants you 80% increased [Spell] damage"
+								]
+							}
+						]
+					}
+				],
+				"gemBackground": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1VJSW1hZ2VzL0luR2FtZS9TbWFydEhvdmVyL0dlbUhvdmVySW1hZ2UvR2VtSG92ZXJJbWFnZVBvd2VyT2ZmZXJpbmciLCJyZWFsbSI6InBvZTIifV0/a30ec69274/GemHoverImagePowerOffering.png",
+				"gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvV2l0Y2hQb3dlck9mZmVyaW5nIiwicmVhbG0iOiJwb2UyIn1d/e3a00f017a/WitchPowerOffering.png",
+				"descrText": "Skills can be managed in the Skills Panel.",
+				"frameType": 4,
+				"socketedItems": [],
+				"extended": []
+			}
+		},
+		{
+			"id": "4b708af61ec1ee869a2c7abf4c49b340bf1eaed671ccbce40550d2c2a3d5a27b",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-08-06T18:12:51Z",
+				"stash": {
+					"name": "~price 1 divine",
+					"x": 195,
+					"y": 0
+				},
+				"whisper": "@FaqMeHarder Hi, I would like to buy your level 21 20% Cast on Critical listed for 1 divine in Dawn of the Hunt (stash tab \"~price 1 divine\"; position: left 196, top 1)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhMmMxZDVlOWNlZjBjYjUyMDVkZGJlMTJlNzE1YWIzNSIsImlzcyI6Ilo4M2dENTBTUSIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6IkZhcU1lSGFyZGVyIiwibG9jIjoiZW5fVVMiLCJ0b2siOiJpdGVtIiwic3ViIjoiNGI3MDhhZjYxZWMxZWU4NjlhMmM3YWJmNGM0OWIzNDBiZjFlYWVkNjcxY2NiY2U0MDU1MGQyYzJhM2Q1YTI3YiIsImRhdCI6ImY1ZWExNWExYzk1OTY0MDliYmI3NWY0NGIxMzdkNThkIiwiaWF0IjoxNzU1MDI0MTczLCJleHAiOjE3NTUwMjQ0NzN9.0HvS12YiLNoOx9dz1K98ewiQeuJj_cNHJhONGbMMsyo",
+				"account": {
+					"name": "Carl14#9226",
+					"online": {
+						"league": "Dawn of the Hunt"
+					},
+					"lastCharacterName": "FaqMeHarder",
+					"language": "en_US",
+					"realm": "poe2"
+				},
+				"price": {
+					"type": "~price",
+					"amount": 1,
+					"currency": "divine"
+				}
+			},
+			"item": {
+				"realm": "poe2",
+				"verified": true,
+				"w": 1,
+				"h": 1,
+				"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9OZXcvQ2FzdE9uQ3JpdE1ldGFTa2lsbEdlbSIsInciOjEsImgiOjEsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/d572559d02/CastOnCritMetaSkillGem.png",
+				"support": false,
+				"league": "Dawn of the Hunt",
+				"id": "4b708af61ec1ee869a2c7abf4c49b340bf1eaed671ccbce40550d2c2a3d5a27b",
+				"gemSockets": [
+					"W",
+					"W",
+					"W",
+					"W",
+					"W"
+				],
+				"sockets": [
+					{
+						"group": 0,
+						"type": "gem"
+					},
+					{
+						"group": 1,
+						"type": "gem"
+					},
+					{
+						"group": 2,
+						"type": "gem"
+					},
+					{
+						"group": 3,
+						"type": "gem"
+					},
+					{
+						"group": 4,
+						"type": "gem"
+					}
+				],
+				"name": "",
+				"typeLine": "Cast on Critical",
+				"baseType": "Cast on Critical",
+				"ilvl": 0,
+				"identified": true,
+				"corrupted": true,
+				"properties": [
+					{
+						"name": "[Buff], [Persistent], [Trigger], [Meta]",
+						"values": [],
+						"displayMode": 0
+					},
+					{
+						"name": "Level",
+						"values": [
+							[
+								"21",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 5
+					},
+					{
+						"name": "",
+						"values": [
+							[
+								"20 Levels from Gem (Max)",
+								0
+							]
+						],
+						"displayMode": 0
+					},
+					{
+						"name": "",
+						"values": [
+							[
+								"+1 Level from Corruption",
+								1
+							]
+						],
+						"displayMode": 0
+					},
+					{
+						"name": "[Quality]",
+						"values": [
+							[
+								"+20%",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 6
+					},
+					{
+						"name": "Reservation",
+						"values": [
+							[
+								"100 Spirit",
+								0
+							]
+						],
+						"displayMode": 0
+					}
+				],
+				"requirements": [
+					{
+						"name": "Level",
+						"values": [
+							[
+								"90",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 62
+					},
+					{
+						"name": "[Intelligence|Int]",
+						"values": [
+							[
+								"205",
+								0
+							]
+						],
+						"displayMode": 1,
+						"type": 65
+					}
+				],
+				"secDescrText": "While active, gains [Energy|Energy] when you [Critical|Critically Hit] enemies and triggers socketed [Spell|Spells] on reaching maximum [Energy|Energy].",
+				"gemTabs": [
+					{
+						"name": null,
+						"pages": [
+							{
+								"stats": [
+									"10% reduced Reservation",
+									"Gains 1 [Energy] per [Power] of enemies you\n[Critical|Critically Hit] with Skills, modified by the percentage of the enemy's [AilmentThreshold|Ailment Threshold] the Critical Hit will deal",
+									"60% increased [Energy] gained",
+									"Triggers all Socketed [Spell|Spells] and loses all [Energy|Energy] on reaching maximum [Energy|Energy]"
+								]
+							}
+						]
+					},
+					{
+						"name": "Support",
+						"pages": [
+							{
+								"properties": [],
+								"description": "",
+								"stats": [
+									"Has 10 maximum Energy per 0.1 seconds of base cast time of Socketed [Spell|Spells]",
+									"Socketed Skills deal 20% less Damage"
+								]
+							}
+						]
+					}
+				],
+				"gemSkill": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvQ2FzdE9uQ3JpdFNraWxsIiwicmVhbG0iOiJwb2UyIn1d/142f379d43/CastOnCritSkill.png",
+				"descrText": "Place one or more Skill Gems into this Meta Gem's sockets in the Skills Panel. The socketed Skills will be incorporated into the Meta Gem's effect.",
+				"frameType": 4,
+				"socketedItems": [],
+				"extended": []
+			}
+		}
+	]
+}

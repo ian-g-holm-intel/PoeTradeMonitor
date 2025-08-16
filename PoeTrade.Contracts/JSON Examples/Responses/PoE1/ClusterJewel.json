@@ -1,0 +1,307 @@
+{
+	"result": [
+		{
+			"id": "d240b16afe1f6855489cc31821904f1c1045a284f95e567ccc8c35d62c4dd04c",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-08-10T16:40:27Z",
+				"stash": {
+					"name": "sell",
+					"x": 10,
+					"y": 6
+				},
+				"whisper": "@MERCENARISE_EXPLODE_KB Hi, I would like to buy your Hypnotic Solace Synthesised Large Cluster Jewel listed for 50 divine in Mercenaries (stash tab \"sell\"; position: left 11, top 7)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5NWYwMzYwYTc5NTNmMzI0OGVlNDkyYTdhNTdhYTU2ZiIsImlzcyI6Im1yanIyNWFUNiIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6Ik1FUkNFTkFSSVNFX0VYUExPREVfS0IiLCJsb2MiOiJlbl9VUyIsInRvayI6Iml0ZW0iLCJzdWIiOiJkMjQwYjE2YWZlMWY2ODU1NDg5Y2MzMTgyMTkwNGYxYzEwNDVhMjg0Zjk1ZTU2N2NjYzhjMzVkNjJjNGRkMDRjIiwiZGF0IjoiNzRlNzlmZDY2ZDU4YjIyNDY2MjU4OGZlODJkNDc2YjYiLCJpYXQiOjE3NTUwMjEzMTksImV4cCI6MTc1NTAyMTYxOX0.VgYpqc-7Q8ddq2Q_MKiIYsIu_5uHjvhsExpRPmMys1Q",
+				"account": {
+					"name": "lion1874#4502",
+					"online": {
+						"league": "Mercenaries",
+						"status": "afk"
+					},
+					"lastCharacterName": "MERCENARISE_EXPLODE_KB",
+					"language": "en_US",
+					"realm": "pc"
+				},
+				"price": {
+					"type": "~price",
+					"amount": 50,
+					"currency": "divine"
+				}
+			},
+			"item": {
+				"verified": true,
+				"w": 1,
+				"h": 1,
+				"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvSmV3ZWxzL05ld0dlbUJhc2UzIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsInN5bnRoZXNpc2VkIjp0cnVlfV0/0394b43f79/NewGemBase3.png",
+				"league": "Mercenaries",
+				"id": "d240b16afe1f6855489cc31821904f1c1045a284f95e567ccc8c35d62c4dd04c",
+				"synthesised": true,
+				"name": "Hypnotic Solace",
+				"typeLine": "Synthesised Large Cluster Jewel",
+				"baseType": "Large Cluster Jewel",
+				"rarity": "Rare",
+				"ilvl": 72,
+				"identified": true,
+				"note": "~price 50 divine",
+				"notableProperties": [
+					{
+						"name": "Sadist",
+						"values": [
+							[
+								"15% increased Elemental Damage if you've Chilled an Enemy Recently",
+								0
+							],
+							[
+								"20% increased Elemental Damage if you've Ignited an Enemy Recently",
+								0
+							],
+							[
+								"25% increased Elemental Damage if you've Shocked an Enemy Recently",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 28,
+						"suffix": "42117"
+					},
+					{
+						"name": "Prismatic Heart",
+						"values": [
+							[
+								"+10% to all Elemental Resistances",
+								0
+							],
+							[
+								"30% increased Elemental Damage",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 28,
+						"suffix": "17050"
+					},
+					{
+						"name": "Widespread Destruction",
+						"values": [
+							[
+								"6% increased Area of Effect",
+								0
+							],
+							[
+								"20% increased Elemental Damage",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 28,
+						"suffix": "36776"
+					}
+				],
+				"requirements": [
+					{
+						"name": "Level",
+						"values": [
+							[
+								"54",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 62
+					}
+				],
+				"enchantMods": [
+					"Adds 8 Passive Skills",
+					"2 Added Passive Skills are Jewel Sockets",
+					"Added Small Passive Skills grant: 10% increased Elemental Damage"
+				],
+				"implicitMods": [
+					"+3% to Global Critical Strike Multiplier",
+					"Minions have 4% increased maximum Life"
+				],
+				"explicitMods": [
+					"Added Small Passive Skills also grant: +3% to all Elemental Resistances",
+					"1 Added Passive Skill is Prismatic Heart",
+					"1 Added Passive Skill is Sadist",
+					"1 Added Passive Skill is Widespread Destruction"
+				],
+				"descrText": "Place into an allocated Large Jewel Socket on the Passive Skill Tree. Added passives do not interact with jewel radiuses. Right click to remove from the Socket.",
+				"frameType": 2,
+				"extended": {
+					"mods": {
+						"explicit": [
+							{
+								"name": "of the Prism",
+								"tier": "S2",
+								"level": 68,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_2669029667",
+										"min": "3",
+										"max": "3"
+									}
+								]
+							},
+							{
+								"name": "of Significance",
+								"tier": "S1",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_1678643716",
+										"min": "1",
+										"max": "1"
+									}
+								]
+							},
+							{
+								"name": "Notable",
+								"tier": "P1",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_2342448236",
+										"min": "1",
+										"max": "1"
+									}
+								]
+							},
+							{
+								"name": "Notable",
+								"tier": "P1",
+								"level": 68,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_3638731729",
+										"min": "1",
+										"max": "1"
+									}
+								]
+							}
+						],
+						"implicit": [
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "implicit.stat_3556824919",
+										"min": "3",
+										"max": "4"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "implicit.stat_770672621",
+										"min": "4",
+										"max": "5"
+									}
+								]
+							}
+						],
+						"enchant": [
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "enchant.stat_3086156145",
+										"min": "0",
+										"max": "0"
+									},
+									{
+										"hash": "enchant.stat_3948993189",
+										"min": "",
+										"max": ""
+									}
+								]
+							},
+							{
+								"name": "of Possibility",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "enchant.stat_4079888060",
+										"min": "2",
+										"max": "2"
+									}
+								]
+							}
+						]
+					},
+					"hashes": {
+						"explicit": [
+							[
+								"explicit.stat_2669029667",
+								[
+									0
+								]
+							],
+							[
+								"explicit.stat_2342448236",
+								[
+									2
+								]
+							],
+							[
+								"explicit.stat_3638731729",
+								[
+									3
+								]
+							],
+							[
+								"explicit.stat_1678643716",
+								[
+									1
+								]
+							]
+						],
+						"implicit": [
+							[
+								"implicit.stat_3556824919",
+								[
+									0
+								]
+							],
+							[
+								"implicit.stat_770672621",
+								[
+									1
+								]
+							]
+						],
+						"enchant": [
+							[
+								"enchant.stat_3086156145",
+								[
+									0
+								]
+							],
+							[
+								"enchant.stat_4079888060",
+								[
+									1
+								]
+							],
+							[
+								"enchant.stat_3948993189",
+								[
+									0
+								]
+							]
+						]
+					},
+					"text": "SXRlbSBDbGFzczogSmV3ZWxzDQpSYXJpdHk6IFJhcmUNCkh5cG5vdGljIFNvbGFjZQ0KU3ludGhlc2lzZWQgTGFyZ2UgQ2x1c3RlciBKZXdlbA0KLS0tLS0tLS0NClJlcXVpcmVtZW50czoNCkxldmVsOiA1NA0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDcyDQotLS0tLS0tLQ0KQWRkcyA4IFBhc3NpdmUgU2tpbGxzIChlbmNoYW50KQ0KMiBBZGRlZCBQYXNzaXZlIFNraWxscyBhcmUgSmV3ZWwgU29ja2V0cyAoZW5jaGFudCkNCkFkZGVkIFNtYWxsIFBhc3NpdmUgU2tpbGxzIGdyYW50OiAxMCUgaW5jcmVhc2VkIEVsZW1lbnRhbCBEYW1hZ2UgKGVuY2hhbnQpDQotLS0tLS0tLQ0KKzMlIHRvIEdsb2JhbCBDcml0aWNhbCBTdHJpa2UgTXVsdGlwbGllciAoaW1wbGljaXQpDQpNaW5pb25zIGhhdmUgNCUgaW5jcmVhc2VkIG1heGltdW0gTGlmZSAoaW1wbGljaXQpDQotLS0tLS0tLQ0KQWRkZWQgU21hbGwgUGFzc2l2ZSBTa2lsbHMgYWxzbyBncmFudDogKzMlIHRvIGFsbCBFbGVtZW50YWwgUmVzaXN0YW5jZXMNCjEgQWRkZWQgUGFzc2l2ZSBTa2lsbCBpcyBQcmlzbWF0aWMgSGVhcnQNCjEgQWRkZWQgUGFzc2l2ZSBTa2lsbCBpcyBTYWRpc3QNCjEgQWRkZWQgUGFzc2l2ZSBTa2lsbCBpcyBXaWRlc3ByZWFkIERlc3RydWN0aW9uDQotLS0tLS0tLQ0KUGxhY2UgaW50byBhbiBhbGxvY2F0ZWQgTGFyZ2UgSmV3ZWwgU29ja2V0IG9uIHRoZSBQYXNzaXZlIFNraWxsIFRyZWUuIEFkZGVkIHBhc3NpdmVzIGRvIG5vdCBpbnRlcmFjdCB3aXRoIGpld2VsIHJhZGl1c2VzLiBSaWdodCBjbGljayB0byByZW1vdmUgZnJvbSB0aGUgU29ja2V0Lg0KLS0tLS0tLS0NClN5bnRoZXNpc2VkIEl0ZW0NCi0tLS0tLS0tDQpOb3RlOiB+cHJpY2UgNTAgZGl2aW5lDQo="
+				}
+			}
+		},
+	]
+}

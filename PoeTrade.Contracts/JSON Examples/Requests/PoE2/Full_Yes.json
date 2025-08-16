@@ -1,0 +1,187 @@
+{
+	"query": {
+		"status": {
+			"option": "online"
+		},
+		"stats": [
+			{
+				"type": "and",
+				"filters": []
+			}
+		],
+		"filters": {
+			"type_filters": {
+				"disabled": false,
+				"filters": {
+					"category": {
+						"option": "weapon"
+					},
+					"rarity": {
+						"option": "unique"
+					},
+					"ilvl": {
+						"min": 1,
+						"max": 1
+					},
+					"quality": {
+						"min": 1,
+						"max": 1
+					}
+				}
+			},
+			"equipment_filters": {
+				"filters": {
+					"aps": {
+						"min": 1,
+						"max": 1
+					},
+					"dps": {
+						"min": 1,
+						"max": 1
+					},
+					"edps": {
+						"min": 1,
+						"max": 1
+					},
+					"damage": {
+						"min": 1,
+						"max": 1
+					},
+					"crit": {
+						"min": 1,
+						"max": 1
+					},
+					"pdps": {
+						"min": 1,
+						"max": 1
+					},
+					"reload_time": {
+						"min": 1,
+						"max": 1
+					},
+					"ar": {
+						"min": 1,
+						"max": 1
+					},
+					"es": {
+						"min": 1,
+						"max": 1
+					},
+					"spirit": {
+						"min": 1,
+						"max": 1
+					},
+					"ev": {
+						"min": 1,
+						"max": 1
+					},
+					"block": {
+						"min": 1,
+						"max": 1
+					},
+					"rune_sockets": {
+						"min": 1,
+						"max": 1
+					}
+				}
+			},
+			"req_filters": {
+				"disabled": false,
+				"filters": {
+					"lvl": {
+						"min": 1,
+						"max": 1
+					},
+					"str": {
+						"min": 1,
+						"max": 1
+					},
+					"int": {
+						"min": 1,
+						"max": 1
+					},
+					"dex": {
+						"min": 1,
+						"max": 1
+					}
+				}
+			},
+			"map_filters": {
+				"disabled": false,
+				"filters": {
+					"map_tier": {
+						"min": 1,
+						"max": 1
+					},
+					"map_bonus": {
+						"min": 1,
+						"max": 1
+					},
+					"ultimatum_hint": {
+						"option": "Victorious"
+					}
+				}
+			},
+			"misc_filters": {
+				"disabled": false,
+				"filters": {
+					"gem_level": {
+						"min": 1,
+						"max": 1
+					},
+					"area_level": {
+						"min": 1,
+						"max": 1
+					},
+					"gem_sockets": {
+						"min": 1,
+						"max": 1
+					},
+					"stack_size": {
+						"min": 1,
+						"max": 1
+					},
+					"corrupted": {
+						"option": "true"
+					},
+					"alternate_art": {
+						"option": "true"
+					},
+					"identified": {
+						"option": "true"
+					},
+					"mirrored": {
+						"option": "true"
+					},
+					"sanctum_gold": {
+						"min": 1,
+						"max": 1
+					},
+					"unidentified_tier": {
+						"min": 1,
+						"max": 1
+					}
+				}
+			},
+			"trade_filters": {
+				"disabled": false,
+				"filters": {
+					"account": {
+						"input": "dxbydt#4360"
+					},
+					"collapse": {
+						"option": "true"
+					},
+					"price": {
+						"option": "divine",
+						"min": 1,
+						"max": 1
+					}
+				}
+			}
+		}
+	},
+	"sort": {
+		"price": "asc"
+	}
+}

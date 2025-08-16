@@ -1,0 +1,300 @@
+{
+    "result": [
+        {
+            "id": "341b625377e81a1d1f927bd2aa6fb8d2b05648b5580c4817652e6e4a0ff6ef90",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2025-08-12T17:55:32Z",
+                "stash": {
+                    "name": "~b/o 1 chaos",
+                    "x": 18,
+                    "y": 15
+                },
+                "whisper": "@VXiaoXiDaiV Hi, I would like to buy your Hypnotic Orders Blueprint: Tunnels listed for 1 chaos in Mercenaries (stash tab \"~b/o 1 chaos\"; position: left 19, top 16)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhNzYwZjFmOTVkMDU1OGRmZjY2NmIwYzYyMzNlNWUxMSIsImlzcyI6IjJkNHE0MFlGayIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6IlZYaWFvWGlEYWlWIiwibG9jIjoiZW5fVVMiLCJ0b2siOiJpdGVtIiwic3ViIjoiMzQxYjYyNTM3N2U4MWExZDFmOTI3YmQyYWE2ZmI4ZDJiMDU2NDhiNTU4MGM0ODE3NjUyZTZlNGEwZmY2ZWY5MCIsImRhdCI6IjlkZWRlY2M5NTkxZjYwODBjN2VjOTI4ODZiMzM3NWMwIiwiaWF0IjoxNzU1MDIxOTIzLCJleHAiOjE3NTUwMjIyMjN9.8RIEeM37_t2R7JO3_iMI0cVYGSbvJbJvza-C_Qfw9GI",
+                "account": {
+                    "name": "XiaoXiDai#6327",
+                    "online": {
+                        "league": "Mercenaries"
+                    },
+                    "lastCharacterName": "VXiaoXiDaiV",
+                    "language": "en_US",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~b/o",
+                    "amount": 1,
+                    "currency": "chaos"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 1,
+                "h": 1,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVpc3QvQmx1ZXByaW50Tm90QXBwcm92ZWQ2IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/f2e3a9ec0f/BlueprintNotApproved6.png",
+                "league": "Mercenaries",
+                "id": "341b625377e81a1d1f927bd2aa6fb8d2b05648b5580c4817652e6e4a0ff6ef90",
+                "name": "Hypnotic Orders",
+                "typeLine": "Blueprint: Tunnels",
+                "baseType": "Blueprint: Tunnels",
+                "rarity": "Rare",
+                "ilvl": 80,
+                "identified": true,
+                "properties": [
+                    {
+                        "name": "Area Level",
+                        "values": [
+                            [
+                                "80",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 34
+                    },
+                    {
+                        "name": "Wings Revealed",
+                        "values": [
+                            [
+                                "1/4",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 35
+                    },
+                    {
+                        "name": "Escape Routes Revealed",
+                        "values": [
+                            [
+                                "1/8",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 36
+                    },
+                    {
+                        "name": "Reward Rooms Revealed",
+                        "values": [
+                            [
+                                "3/25",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 37
+                    },
+                    {
+                        "name": "Requires {1} (Level {0})",
+                        "values": [
+                            [
+                                "3",
+                                0
+                            ],
+                            [
+                                "Brute Force",
+                                0
+                            ]
+                        ],
+                        "displayMode": 3,
+                        "type": 39
+                    },
+                    {
+                        "name": "Requires {1} (Level {0})",
+                        "values": [
+                            [
+                                "2",
+                                0
+                            ],
+                            [
+                                "Demolition",
+                                0
+                            ]
+                        ],
+                        "displayMode": 3,
+                        "type": 41
+                    },
+                    {
+                        "name": "Requires {1} (Level {0})",
+                        "values": [
+                            [
+                                "1",
+                                0
+                            ],
+                            [
+                                "Counter-Thaumaturgy",
+                                0
+                            ]
+                        ],
+                        "displayMode": 3,
+                        "type": 42
+                    },
+                    {
+                        "name": "Item Quantity",
+                        "values": [
+                            [
+                                "+71%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 2
+                    },
+                    {
+                        "name": "Item Rarity",
+                        "values": [
+                            [
+                                "+42%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 3
+                    },
+                    {
+                        "name": "Alert Level Reduction",
+                        "values": [
+                            [
+                                "+27%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Time Before Lockdown",
+                        "values": [
+                            [
+                                "+27%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Maximum Alive Reinforcements",
+                        "values": [
+                            [
+                                "+27%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 4
+                    }
+                ],
+                "explicitMods": [
+                    "40% more Monster Life",
+                    "Monsters fire 2 additional Projectiles",
+                    "Players have 16% less Life Recovery Rate per 25% Alert Level",
+                    "Reward Rooms have 20% increased Monsters",
+                    "Monsters Blind on Hit"
+                ],
+                "descrText": "Use Intelligence to Reveal additional Wings and Rooms by talking to certain NPCs in the Rogue Harbour. Give this Blueprint to Adiyah to embark on the Grand Heist.",
+                "frameType": 2,
+                "extended": {
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "Deployed",
+                                "tier": "P3",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_4056408881",
+                                        "min": "19",
+                                        "max": "22"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of Anxiety",
+                                "tier": "S1",
+                                "level": 78,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1466172118",
+                                        "min": "-16",
+                                        "max": "-16"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Fecund",
+                                "tier": "P1",
+                                "level": 78,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_95249895",
+                                        "min": "40",
+                                        "max": "49"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of Blinding",
+                                "tier": "S1",
+                                "level": 46,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1629869774",
+                                        "min": "100",
+                                        "max": "100"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Splitting",
+                                "tier": "P1",
+                                "level": 1,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1309819744",
+                                        "min": "2",
+                                        "max": "2"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_95249895",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1309819744",
+                                [
+                                    4
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1466172118",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_4056408881",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1629869774",
+                                [
+                                    3
+                                ]
+                            ]
+                        ]
+                    },
+                    "text": "SXRlbSBDbGFzczogQmx1ZXByaW50cw0KUmFyaXR5OiBSYXJlDQpIeXBub3RpYyBPcmRlcnMNCkJsdWVwcmludDogVHVubmVscw0KLS0tLS0tLS0NCkFyZWEgTGV2ZWw6IDgwDQpXaW5ncyBSZXZlYWxlZDogMS80DQpFc2NhcGUgUm91dGVzIFJldmVhbGVkOiAxLzgNClJld2FyZCBSb29tcyBSZXZlYWxlZDogMy8yNQ0KUmVxdWlyZXMgQnJ1dGUgRm9yY2UgKExldmVsIDMpDQpSZXF1aXJlcyBEZW1vbGl0aW9uIChMZXZlbCAyKQ0KUmVxdWlyZXMgQ291bnRlci1UaGF1bWF0dXJneSAoTGV2ZWwgMSkNCkl0ZW0gUXVhbnRpdHk6ICs3MSUgKGF1Z21lbnRlZCkNCkl0ZW0gUmFyaXR5OiArNDIlIChhdWdtZW50ZWQpDQpBbGVydCBMZXZlbCBSZWR1Y3Rpb246ICsyNyUgKGF1Z21lbnRlZCkNClRpbWUgQmVmb3JlIExvY2tkb3duOiArMjclIChhdWdtZW50ZWQpDQpNYXhpbXVtIEFsaXZlIFJlaW5mb3JjZW1lbnRzOiArMjclIChhdWdtZW50ZWQpDQotLS0tLS0tLQ0KSXRlbSBMZXZlbDogODANCi0tLS0tLS0tDQo0MCUgbW9yZSBNb25zdGVyIExpZmUNCk1vbnN0ZXJzIGZpcmUgMiBhZGRpdGlvbmFsIFByb2plY3RpbGVzDQpQbGF5ZXJzIGhhdmUgMTYlIGxlc3MgTGlmZSBSZWNvdmVyeSBSYXRlIHBlciAyNSUgQWxlcnQgTGV2ZWwNClJld2FyZCBSb29tcyBoYXZlIDIwJSBpbmNyZWFzZWQgTW9uc3RlcnMNCk1vbnN0ZXJzIEJsaW5kIG9uIEhpdA0KLS0tLS0tLS0NClVzZSBJbnRlbGxpZ2VuY2UgdG8gUmV2ZWFsIGFkZGl0aW9uYWwgV2luZ3MgYW5kIFJvb21zIGJ5IHRhbGtpbmcgdG8gY2VydGFpbiBOUENzIGluIHRoZSBSb2d1ZSBIYXJib3VyLiBHaXZlIHRoaXMgQmx1ZXByaW50IHRvIEFkaXlhaCB0byBlbWJhcmsgb24gdGhlIEdyYW5kIEhlaXN0Lg0K"
+                }
+            }
+        }
+    ]
+}

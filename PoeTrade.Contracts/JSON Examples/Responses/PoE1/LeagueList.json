@@ -1,0 +1,130 @@
+[
+	{
+		"id": "Standard",
+		"name": "Standard",
+		"realm": "pc",
+		"url": "https://www.pathofexile.com/ladders/league/Standard",
+		"startAt": "2013-01-23T21:00:00Z",
+		"endAt": null
+	},
+	{
+		"id": "Hardcore",
+		"name": "Hardcore",
+		"realm": "pc",
+		"url": "https://www.pathofexile.com/ladders/league/Hardcore",
+		"startAt": "2013-01-23T21:00:00Z",
+		"endAt": null
+	},
+	{
+		"id": "Solo Self-Found",
+		"name": "Solo Self-Found",
+		"realm": "pc",
+		"url": "https://www.pathofexile.com/ladders/league/Solo+Self-Found",
+		"startAt": "2013-01-23T21:00:00Z",
+		"endAt": null
+	},
+	{
+		"id": "Hardcore SSF",
+		"name": "Hardcore SSF",
+		"realm": "pc",
+		"url": "https://www.pathofexile.com/ladders/league/Hardcore+SSF",
+		"startAt": "2013-01-23T21:00:00Z",
+		"endAt": null
+	},
+	{
+		"id": "Ruthless",
+		"name": "Ruthless",
+		"realm": "pc",
+		"url": "https://www.pathofexile.com/ladders/league/Ruthless",
+		"startAt": null,
+		"endAt": null
+	},
+	{
+		"id": "Hardcore Ruthless",
+		"name": "Hardcore Ruthless",
+		"realm": "pc",
+		"url": "https://www.pathofexile.com/ladders/league/Hardcore+Ruthless",
+		"startAt": null,
+		"endAt": null
+	},
+	{
+		"id": "SSF Ruthless",
+		"name": "SSF Ruthless",
+		"realm": "pc",
+		"url": "https://www.pathofexile.com/ladders/league/SSF+Ruthless",
+		"startAt": null,
+		"endAt": null
+	},
+	{
+		"id": "Hardcore SSF Ruthless",
+		"name": "Hardcore SSF Ruthless",
+		"realm": "pc",
+		"url": "https://www.pathofexile.com/ladders/league/Hardcore+SSF+Ruthless",
+		"startAt": null,
+		"endAt": null
+	},
+	{
+		"id": "Mercenaries",
+		"name": "Mercenaries",
+		"realm": "pc",
+		"url": "https://www.pathofexile.com/ladders/league/Mercenaries",
+		"startAt": "2025-06-13T20:00:00Z",
+		"endAt": null
+	},
+	{
+		"id": "Hardcore Mercenaries",
+		"name": "Hardcore Mercenaries",
+		"realm": "pc",
+		"url": "https://www.pathofexile.com/ladders/league/Hardcore+Mercenaries",
+		"startAt": "2025-06-13T20:00:00Z",
+		"endAt": null
+	},
+	{
+		"id": "SSF Mercenaries",
+		"name": "SSF Mercenaries",
+		"realm": "pc",
+		"url": "https://www.pathofexile.com/ladders/league/SSF+Mercenaries",
+		"startAt": "2025-06-13T20:00:00Z",
+		"endAt": null
+	},
+	{
+		"id": "HC SSF Mercenaries",
+		"name": "HC SSF Mercenaries",
+		"realm": "pc",
+		"url": "https://www.pathofexile.com/ladders/league/HC+SSF+Mercenaries",
+		"startAt": "2025-06-13T20:00:00Z",
+		"endAt": null
+	},
+	{
+		"id": "Ruthless Mercenaries",
+		"name": "Ruthless Mercenaries",
+		"realm": "pc",
+		"url": "https://www.pathofexile.com/ladders/league/Ruthless+Mercenaries",
+		"startAt": "2025-06-13T20:00:00Z",
+		"endAt": null
+	},
+	{
+		"id": "HC Ruthless Mercenaries",
+		"name": "HC Ruthless Mercenaries",
+		"realm": "pc",
+		"url": "https://www.pathofexile.com/ladders/league/HC+Ruthless+Mercenaries",
+		"startAt": "2025-06-13T20:00:00Z",
+		"endAt": null
+	},
+	{
+		"id": "SSF R Mercenaries",
+		"name": "SSF R Mercenaries",
+		"realm": "pc",
+		"url": "https://www.pathofexile.com/ladders/league/SSF+R+Mercenaries",
+		"startAt": "2025-06-13T20:00:00Z",
+		"endAt": null
+	},
+	{
+		"id": "HC SSF R Mercenaries",
+		"name": "HC SSF R Mercenaries",
+		"realm": "pc",
+		"url": "https://www.pathofexile.com/ladders/league/HC+SSF+R+Mercenaries",
+		"startAt": "2025-06-13T20:00:00Z",
+		"endAt": null
+	}
+]

@@ -1,0 +1,503 @@
+{
+	"result": [
+		{
+			"id": "2b0a74d109c14b1521fe6686e87a4ffd3e559c9a00df3f5871d13ec8566effc8",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-08-09T23:01:01Z",
+				"stash": {
+					"name": "~price 1 aug",
+					"x": 20,
+					"y": 12
+				},
+				"whisper": "@ama_eeeee Hi, I would like to buy your Orichalcum Spear listed for 1 aug in Dawn of the Hunt (stash tab \"~price 1 aug\"; position: left 21, top 13)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJmNmZlOWQ5ZDllZTAzOGY5NTlmYzkyYmVhNDljMTNlZiIsImlzcyI6InBxa00yTEpGMCIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6ImFtYV9lZWVlZSIsImxvYyI6ImVuX1VTIiwidG9rIjoiaXRlbSIsInN1YiI6IjJiMGE3NGQxMDljMTRiMTUyMWZlNjY4NmU4N2E0ZmZkM2U1NTljOWEwMGRmM2Y1ODcxZDEzZWM4NTY2ZWZmYzgiLCJkYXQiOiIzZWZlMGFlOGQ0ZGE2M2EzMDg5N2U2YTg5YTFkYmRlNCIsImlhdCI6MTc1NTAyNDUzMiwiZXhwIjoxNzU1MDI0ODMyfQ.AGQs218zD_J6qbMK4wPD7r8OkgTpumrcK4sLhbADs4E",
+				"account": {
+					"name": "Epat88#2550",
+					"online": {
+						"league": "Dawn of the Hunt"
+					},
+					"lastCharacterName": "ama_eeeee",
+					"language": "en_US",
+					"realm": "poe2"
+				},
+				"price": {
+					"type": "~price",
+					"amount": 1,
+					"currency": "aug"
+				}
+			},
+			"item": {
+				"realm": "poe2",
+				"verified": true,
+				"w": 1,
+				"h": 4,
+				"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9PbmVIYW5kU3BlYXJzLzFIU3BlYXIwMiIsInciOjEsImgiOjQsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/08f2f8530e/1HSpear02.png",
+				"league": "Dawn of the Hunt",
+				"id": "2b0a74d109c14b1521fe6686e87a4ffd3e559c9a00df3f5871d13ec8566effc8",
+				"name": "",
+				"typeLine": "Orichalcum Spear",
+				"baseType": "Orichalcum Spear",
+				"rarity": "Normal",
+				"ilvl": 70,
+				"identified": true,
+				"properties": [
+					{
+						"name": "[Spear]",
+						"values": [],
+						"displayMode": 0
+					},
+					{
+						"name": "[Physical] Damage",
+						"values": [
+							[
+								"38-70",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 9
+					},
+					{
+						"name": "[Critical|Critical Hit] Chance",
+						"values": [
+							[
+								"5.00%",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 12
+					},
+					{
+						"name": "Attacks per Second",
+						"values": [
+							[
+								"1.60",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 13
+					}
+				],
+				"requirements": [
+					{
+						"name": "Level",
+						"values": [
+							[
+								"67",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 62
+					},
+					{
+						"name": "[Strength|Str]",
+						"values": [
+							[
+								"53",
+								0
+							]
+						],
+						"displayMode": 1,
+						"type": 63
+					},
+					{
+						"name": "[Dexterity|Dex]",
+						"values": [
+							[
+								"135",
+								0
+							]
+						],
+						"displayMode": 1,
+						"type": 64
+					}
+				],
+				"grantedSkills": [
+					{
+						"name": "Grants Skill",
+						"values": [
+							[
+								"Spear Throw",
+								25
+							]
+						],
+						"displayMode": 0,
+						"icon": "https://web.poecdn.com/gen/image/WzIxLDE0LHsiayI6IjJEQXJ0L1NraWxsSWNvbnMvSHVudHJlc3NJY2VTcGVhciIsInJlYWxtIjoicG9lMiJ9XQ/da079143ea/HuntressIceSpear.png"
+					}
+				],
+				"frameType": 0,
+				"extended": {
+					"dps": 104,
+					"pdps": 104,
+					"edps": 0,
+					"dps_aug": true,
+					"pdps_aug": true,
+					"mods": {
+						"implicit": [
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": null
+							}
+						]
+					},
+					"hashes": {}
+				}
+			}
+		},
+		{
+			"id": "3995f17bbaf94c3a5bd236ef80d79ee489d920037005e3d5d28ced1fc18d35d5",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-08-09T23:01:01Z",
+				"stash": {
+					"name": "~price 1 aug",
+					"x": 12,
+					"y": 0
+				},
+				"whisper": "@ama_eeeee Hi, I would like to buy your Hale Warded Helm listed for 1 aug in Dawn of the Hunt (stash tab \"~price 1 aug\"; position: left 13, top 1)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJiNWQ4YWZlYmU3NDQ0MTMzNGE5MDZhNWZkZDMzOWIwNiIsImlzcyI6IjVhV2xsZWVGYSIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6ImFtYV9lZWVlZSIsImxvYyI6ImVuX1VTIiwidG9rIjoiaXRlbSIsInN1YiI6IjM5OTVmMTdiYmFmOTRjM2E1YmQyMzZlZjgwZDc5ZWU0ODlkOTIwMDM3MDA1ZTNkNWQyOGNlZDFmYzE4ZDM1ZDUiLCJkYXQiOiI4NWE4NjAyNTMyNzIwOTk2YTFmNWVhODUyYzMwZTgxOSIsImlhdCI6MTc1NTAyNDU1OSwiZXhwIjoxNzU1MDI0ODU5fQ.ynnUQ0b1Zvh1deYoVrxPzt_pGxOBcNBo3iQMzDRR4M4",
+				"account": {
+					"name": "Epat88#2550",
+					"online": {
+						"league": "Dawn of the Hunt"
+					},
+					"lastCharacterName": "ama_eeeee",
+					"language": "en_US",
+					"realm": "poe2"
+				},
+				"price": {
+					"type": "~price",
+					"amount": 1,
+					"currency": "aug"
+				}
+			},
+			"item": {
+				"realm": "poe2",
+				"verified": true,
+				"w": 2,
+				"h": 2,
+				"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0Jhc2V0eXBlcy9IZWxtZXRTdHJEZXgwMiIsInciOjIsImgiOjIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/76592dc5c5/HelmetStrDex02.png",
+				"league": "Dawn of the Hunt",
+				"id": "3995f17bbaf94c3a5bd236ef80d79ee489d920037005e3d5d28ced1fc18d35d5",
+				"name": "",
+				"typeLine": "Hale Warded Helm",
+				"baseType": "Warded Helm",
+				"rarity": "Magic",
+				"ilvl": 70,
+				"identified": true,
+				"properties": [
+					{
+						"name": "Helmet",
+						"values": [],
+						"displayMode": 0
+					},
+					{
+						"name": "[Armour]",
+						"values": [
+							[
+								"134",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 16
+					},
+					{
+						"name": "[Evasion|Evasion Rating]",
+						"values": [
+							[
+								"122",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 17
+					}
+				],
+				"requirements": [
+					{
+						"name": "Level",
+						"values": [
+							[
+								"65",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 62
+					},
+					{
+						"name": "[Strength|Str]",
+						"values": [
+							[
+								"65",
+								0
+							]
+						],
+						"displayMode": 1,
+						"type": 63
+					},
+					{
+						"name": "[Dexterity|Dex]",
+						"values": [
+							[
+								"65",
+								0
+							]
+						],
+						"displayMode": 1,
+						"type": 64
+					}
+				],
+				"explicitMods": [
+					"+17 to maximum Life"
+				],
+				"frameType": 1,
+				"extended": {
+					"ev": 146,
+					"ev_aug": true,
+					"ar": 161,
+					"ar_aug": true,
+					"mods": {
+						"explicit": [
+							{
+								"name": "Hale",
+								"tier": "P10",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_3299347043",
+										"min": "10",
+										"max": "19"
+									}
+								]
+							}
+						]
+					},
+					"hashes": {
+						"explicit": [
+							[
+								"explicit.stat_3299347043",
+								[
+									0
+								]
+							]
+						]
+					}
+				}
+			}
+		},
+		{
+			"id": "9b4807cc8d201afc241f880cfd940550a0acc09359167f69e5e33dda2e8867bd",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-08-11T01:31:57Z",
+				"stash": {
+					"name": "продажа",
+					"x": 7,
+					"y": 0
+				},
+				"whisper": "@GlenLi Здравствуйте, хочу купить у вас Знак Бринханда Деревянная дубинка за 1 regal в лиге Dawn of the Hunt (секция \"продажа\"; позиция: 8 столбец, 1 ряд)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzNzQwMDgyZmY5NzZjZTUyOTRmZjAxMDdlMDk3ZjM0YSIsImlzcyI6InFxRE1NODNIZyIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6IkdsZW5MaSIsImxvYyI6InJ1X1JVIiwidG9rIjoiaXRlbSIsInN1YiI6IjliNDgwN2NjOGQyMDFhZmMyNDFmODgwY2ZkOTQwNTUwYTBhY2MwOTM1OTE2N2Y2OWU1ZTMzZGRhMmU4ODY3YmQiLCJkYXQiOiIwMWM3OWI5MWZhMmQ4YzU4MjMxZGEyYWE1ZmUwODQwNSIsImlhdCI6MTc1NTAyNDU4NSwiZXhwIjoxNzU1MDI0ODg1fQ.1Diyw8abhCFzC9uE0b3P40yHjYOYGbRmXB1ykpIKROY",
+				"account": {
+					"name": "BlackChimera#5345",
+					"online": {
+						"league": "Dawn of the Hunt"
+					},
+					"lastCharacterName": "GlenLi",
+					"language": "ru_RU",
+					"realm": "poe2"
+				},
+				"price": {
+					"type": "~price",
+					"amount": 1,
+					"currency": "regal"
+				}
+			},
+			"item": {
+				"realm": "poe2",
+				"verified": true,
+				"w": 2,
+				"h": 3,
+				"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9PbmVIYW5kTWFjZXMvVW5pcXVlcy9CcnluaGFuZHNNYXJrIiwidyI6MiwiaCI6Mywic2NhbGUiOjEsInJlYWxtIjoicG9lMiIsInJlbGljIjowfV0/bb2cfa8e62/BrynhandsMark.png",
+				"league": "Dawn of the Hunt",
+				"id": "9b4807cc8d201afc241f880cfd940550a0acc09359167f69e5e33dda2e8867bd",
+				"isRelic": true,
+				"name": "Brynhand's Mark",
+				"typeLine": "Wooden Club",
+				"baseType": "Wooden Club",
+				"rarity": "Unique",
+				"ilvl": 65,
+				"identified": true,
+				"note": "~price 1 regal",
+				"properties": [
+					{
+						"name": "[Mace|One Hand Mace]",
+						"values": [],
+						"displayMode": 0
+					},
+					{
+						"name": "[Physical] Damage",
+						"values": [
+							[
+								"17-30",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 9
+					},
+					{
+						"name": "[Critical|Critical Hit] Chance",
+						"values": [
+							[
+								"5.00%",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 12
+					},
+					{
+						"name": "Attacks per Second",
+						"values": [
+							[
+								"1.16",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 13
+					}
+				],
+				"explicitMods": [
+					"Adds 11 to 20 [Physical|Physical] Damage",
+					"+46 to [Accuracy|Accuracy] Rating",
+					"20% reduced [Attack] Speed",
+					"+19 to [Strength|Strength]",
+					"Causes Double [Stun|Stun] Buildup"
+				],
+				"flavourText": [
+					"The mark of the smith was widely known."
+				],
+				"frameType": 9,
+				"extended": {
+					"dps": 32.48,
+					"pdps": 32.48,
+					"edps": 0,
+					"dps_aug": true,
+					"pdps_aug": true,
+					"mods": {
+						"explicit": [
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_1940865751",
+										"min": "10",
+										"max": "14"
+									},
+									{
+										"hash": "explicit.stat_1940865751",
+										"min": "16",
+										"max": "20"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_691932474",
+										"min": "30",
+										"max": "50"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_4080418644",
+										"min": "10",
+										"max": "20"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_769129523",
+										"min": "1",
+										"max": "1"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_210067635",
+										"min": "-20",
+										"max": "-20"
+									}
+								]
+							}
+						]
+					},
+					"hashes": {
+						"explicit": [
+							[
+								"explicit.stat_1940865751",
+								[
+									0
+								]
+							],
+							[
+								"explicit.stat_691932474",
+								[
+									1
+								]
+							],
+							[
+								"explicit.stat_210067635",
+								[
+									4
+								]
+							],
+							[
+								"explicit.stat_4080418644",
+								[
+									2
+								]
+							],
+							[
+								"explicit.stat_769129523",
+								[
+									3
+								]
+							]
+						]
+					}
+				}
+			}
+		}
+	]
+}

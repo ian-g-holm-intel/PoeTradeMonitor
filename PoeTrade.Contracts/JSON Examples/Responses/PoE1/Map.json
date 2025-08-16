@@ -1,0 +1,555 @@
+{
+	"result": [
+		{
+			"id": "b58e65d9c5eb1766732c6b41f5d04e99d8646b0d59435a400488727c39dc8397",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-08-02T16:43:14Z",
+				"stash": {
+					"name": "~price 5 chaos",
+					"x": 0,
+					"y": 5
+				},
+				"whisper": "@Hazzzuu Hi, I would like to buy your Anguish Swathe Phantasmagoria Map (T17) listed for 5 chaos in Mercenaries (stash tab \"~price 5 chaos\"; position: left 1, top 6)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzYzNlZTc5NTg4Y2ZhZGQyNTBmNGYxY2I1Y2Q4NTBhNiIsImlzcyI6InBCVjB3UzAiLCJhdWQiOiJjOGM2YzZjNC1mNGZmLTRmZTktODMwMC0wODAwMzRlYjQxMDEiLCJkc3QiOiJIYXp6enV1IiwibG9jIjoiZW5fVVMiLCJ0b2siOiJpdGVtIiwic3ViIjoiYjU4ZTY1ZDljNWViMTc2NjczMmM2YjQxZjVkMDRlOTlkODY0NmIwZDU5NDM1YTQwMDQ4ODcyN2MzOWRjODM5NyIsImRhdCI6Ijg3YTZjYjgyYjI3YTI5ZmNhNzJiY2IwZTE4ODJhZTNiIiwiaWF0IjoxNzU1MDIxNDM4LCJleHAiOjE3NTUwMjE3Mzh9.4EbzVUnrLAejhztRhgKENtgnd0Cf9D8fYxDuvr5P9Zk",
+				"account": {
+					"name": "Hazuu#6114",
+					"online": {
+						"league": "Mercenaries"
+					},
+					"lastCharacterName": "Hazzzuu",
+					"language": "en_US",
+					"realm": "pc"
+				},
+				"price": {
+					"type": "~price",
+					"amount": 5,
+					"currency": "chaos"
+				}
+			},
+			"item": {
+				"verified": true,
+				"w": 1,
+				"h": 1,
+				"icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9BdGxhczJNYXBzL05ldy9QaGFudGFzbWFnb3JpYSIsInciOjEsImgiOjEsInNjYWxlIjoxLCJtbiI6MjIsIm10IjoxNywicmVsaWMiOjh9XQ/3fda12a585/Phantasmagoria.png",
+				"league": "Mercenaries",
+				"id": "b58e65d9c5eb1766732c6b41f5d04e99d8646b0d59435a400488727c39dc8397",
+				"isRelic": true,
+				"foilVariation": 8,
+				"name": "Anguish Swathe",
+				"typeLine": "Phantasmagoria Map",
+				"baseType": "Phantasmagoria Map",
+				"rarity": "Rare",
+				"ilvl": 100,
+				"identified": true,
+				"unmodifiable": true,
+				"properties": [
+					{
+						"name": "Map Tier",
+						"values": [
+							[
+								"17",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 1
+					},
+					{
+						"name": "Reward",
+						"values": [
+							[
+								"Foil The Writhing Jar",
+								10
+							]
+						],
+						"displayMode": 0,
+						"type": 76
+					},
+					{
+						"name": "Item Quantity",
+						"values": [
+							[
+								"+68%",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 2
+					},
+					{
+						"name": "Item Rarity",
+						"values": [
+							[
+								"+10%",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 3
+					},
+					{
+						"name": "Monster Pack Size",
+						"values": [
+							[
+								"+38%",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 4
+					},
+					{
+						"name": "Quality",
+						"values": [
+							[
+								"+20%",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 6
+					},
+					{
+						"name": "",
+						"values": [],
+						"displayMode": 4
+					},
+					{
+						"name": "",
+						"values": [
+							[
+								"Chance for dropped Maps to convert to:",
+								24
+							]
+						],
+						"displayMode": 1,
+						"type": 77
+					},
+					{
+						"name": "Shaper Map",
+						"values": [
+							[
+								"11%",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 80
+					},
+					{
+						"name": "Elder Map",
+						"values": [
+							[
+								"5%",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 81
+					},
+					{
+						"name": "Conqueror Map",
+						"values": [
+							[
+								"12%",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 82
+					},
+					{
+						"name": "Unique Map",
+						"values": [
+							[
+								"5%",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 83
+					},
+					{
+						"name": "Scarab",
+						"values": [
+							[
+								"12%",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 84
+					}
+				],
+				"explicitMods": [
+					"Non-Unique Equipment found in Area drops as Currency instead",
+					"Monsters can only be Damaged while within 2 metres of a Player\nPlayers' modifiers to Light Radius also apply to this range",
+					"Players cannot gain Flask Charges",
+					"Players have 10% increased Cost of Skills for each Skill they've used Recently",
+					"Players who Die in area are sent to the Void",
+					"Only opens 1 Portal to Area"
+				],
+				"descrText": "Travel to this Map by using it in a personal Map Device. Maps can only be used once. Defeat 90% of all monsters in this Map, including all Rare and Unique enemies to obtain the Reward. The area created is not affected by your Atlas Passive Tree, and cannot be augmented via the Map Device.",
+				"frameType": 10,
+				"extended": {
+					"mods": {
+						"explicit": [
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_1095765106",
+										"min": "1",
+										"max": "1"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_3418377329",
+										"min": "1",
+										"max": "1"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_36406748",
+										"min": "1",
+										"max": "1"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_4039124672",
+										"min": "10",
+										"max": "10"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_3791071930",
+										"min": "2",
+										"max": "2"
+									}
+								]
+							},
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "explicit.stat_449526948",
+										"min": "1",
+										"max": "1"
+									}
+								]
+							}
+						]
+					},
+					"hashes": {
+						"explicit": [
+							[
+								"explicit.stat_449526948",
+								[
+									5
+								]
+							],
+							[
+								"explicit.stat_3791071930",
+								[
+									4
+								]
+							],
+							[
+								"explicit.stat_36406748",
+								[
+									2
+								]
+							],
+							[
+								"explicit.stat_4039124672",
+								[
+									3
+								]
+							],
+							[
+								"explicit.stat_1095765106",
+								[
+									0
+								]
+							],
+							[
+								"explicit.stat_3418377329",
+								[
+									1
+								]
+							]
+						]
+					},
+					"text": "SXRlbSBDbGFzczogTWFwcw0KUmFyaXR5OiBSYXJlDQpBbmd1aXNoIFN3YXRoZQ0KUGhhbnRhc21hZ29yaWEgTWFwDQotLS0tLS0tLQ0KTWFwIFRpZXI6IDE3DQpSZXdhcmQ6IEZvaWwgVGhlIFdyaXRoaW5nIEphcg0KSXRlbSBRdWFudGl0eTogKzY4JSAoYXVnbWVudGVkKQ0KSXRlbSBSYXJpdHk6ICsxMCUgKGF1Z21lbnRlZCkNCk1vbnN0ZXIgUGFjayBTaXplOiArMzglIChhdWdtZW50ZWQpDQpRdWFsaXR5OiArMjAlIChhdWdtZW50ZWQpDQotLS0tLS0tLQ0KQ2hhbmNlIGZvciBkcm9wcGVkIE1hcHMgdG8gY29udmVydCB0bzoNClNoYXBlciBNYXA6IDExJSAoYXVnbWVudGVkKQ0KRWxkZXIgTWFwOiA1JSAoYXVnbWVudGVkKQ0KQ29ucXVlcm9yIE1hcDogMTIlIChhdWdtZW50ZWQpDQpVbmlxdWUgTWFwOiA1JSAoYXVnbWVudGVkKQ0KU2NhcmFiOiAxMiUgKGF1Z21lbnRlZCkNCi0tLS0tLS0tDQpJdGVtIExldmVsOiAxMDANCi0tLS0tLS0tDQpNb25zdGVyIExldmVsOiA4NA0KLS0tLS0tLS0NCk5vbi1VbmlxdWUgRXF1aXBtZW50IGZvdW5kIGluIEFyZWEgZHJvcHMgYXMgQ3VycmVuY3kgaW5zdGVhZA0KTW9uc3RlcnMgY2FuIG9ubHkgYmUgRGFtYWdlZCB3aGlsZSB3aXRoaW4gMiBtZXRyZXMgb2YgYSBQbGF5ZXIKUGxheWVycycgbW9kaWZpZXJzIHRvIExpZ2h0IFJhZGl1cyBhbHNvIGFwcGx5IHRvIHRoaXMgcmFuZ2UNClBsYXllcnMgY2Fubm90IGdhaW4gRmxhc2sgQ2hhcmdlcw0KUGxheWVycyBoYXZlIDEwJSBpbmNyZWFzZWQgQ29zdCBvZiBTa2lsbHMgZm9yIGVhY2ggU2tpbGwgdGhleSd2ZSB1c2VkIFJlY2VudGx5DQpQbGF5ZXJzIHdobyBEaWUgaW4gYXJlYSBhcmUgc2VudCB0byB0aGUgVm9pZA0KT25seSBvcGVucyAxIFBvcnRhbCB0byBBcmVhDQotLS0tLS0tLQ0KVHJhdmVsIHRvIHRoaXMgTWFwIGJ5IHVzaW5nIGl0IGluIGEgcGVyc29uYWwgTWFwIERldmljZS4gTWFwcyBjYW4gb25seSBiZSB1c2VkIG9uY2UuIERlZmVhdCA5MCUgb2YgYWxsIG1vbnN0ZXJzIGluIHRoaXMgTWFwLCBpbmNsdWRpbmcgYWxsIFJhcmUgYW5kIFVuaXF1ZSBlbmVtaWVzIHRvIG9idGFpbiB0aGUgUmV3YXJkLiBUaGUgYXJlYSBjcmVhdGVkIGlzIG5vdCBhZmZlY3RlZCBieSB5b3VyIEF0bGFzIFBhc3NpdmUgVHJlZSwgYW5kIGNhbm5vdCBiZSBhdWdtZW50ZWQgdmlhIHRoZSBNYXAgRGV2aWNlLg0KLS0tLS0tLS0NClVubW9kaWZpYWJsZQ0KLS0tLS0tLS0NCkZvaWwgKENlbGVzdGlhbCBSdWJ5KQ0K"
+				}
+			}
+		},
+		{
+			"id": "77abd626664c2ca4e737d99d2d56444df07b4e4f047a3b4501a03ef0b120c0f6",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-07-21T15:03:12Z",
+				"stash": {
+					"name": "~b/o 1 chaos",
+					"x": 3,
+					"y": 4
+				},
+				"whisper": "@Пивной_КВ Здравствуйте, хочу купить у вас Заражённая Карта древнего города (T6) за 1 chaos в лиге Mercenaries (секция \"~b/o 1 chaos\"; позиция: 4 столбец, 5 ряд)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyYzBmYTMyZjYxMjNlY2I0NWRkMDJhZWViYjNhNzk5ZSIsImlzcyI6IjBRRzBEWWJIZyIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6Ilx1MDQxZlx1MDQzOFx1MDQzMlx1MDQzZFx1MDQzZVx1MDQzOV9cdTA0MWFcdTA0MTIiLCJsb2MiOiJydV9SVSIsInRvayI6Iml0ZW0iLCJzdWIiOiI3N2FiZDYyNjY2NGMyY2E0ZTczN2Q5OWQyZDU2NDQ0ZGYwN2I0ZTRmMDQ3YTNiNDUwMWEwM2VmMGIxMjBjMGY2IiwiZGF0IjoiZjM3MDVhMGNiODY1ZjE1NWViZDU1NTRhYmRmY2ZiMzQiLCJpYXQiOjE3NTUwMjIzNTksImV4cCI6MTc1NTAyMjY1OX0.rC8Q7lYZJFd3qAPL0F9133dCOJZuZR3nWzCMvvaSXaY",
+				"account": {
+					"name": "FOX3333#0507",
+					"online": {
+						"league": "Mercenaries"
+					},
+					"lastCharacterName": "Пивной_КВ",
+					"language": "ru_RU",
+					"realm": "pc"
+				},
+				"price": {
+					"type": "~b/o",
+					"amount": 1,
+					"currency": "chaos"
+				}
+			},
+			"item": {
+				"verified": true,
+				"w": 1,
+				"h": 1,
+				"icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9BdGxhczJNYXBzL05ldy9WYWFsQ2l0eSIsInciOjEsImgiOjEsInNjYWxlIjoxLCJtbiI6MjIsIm10Ijo2LCJtYiI6dHJ1ZX1d/0b374289e4/VaalCity.png",
+				"league": "Mercenaries",
+				"id": "77abd626664c2ca4e737d99d2d56444df07b4e4f047a3b4501a03ef0b120c0f6",
+				"name": "",
+				"typeLine": "Blighted Ancient City Map",
+				"baseType": "Blighted Ancient City Map",
+				"rarity": "Normal",
+				"ilvl": 74,
+				"identified": true,
+				"properties": [
+					{
+						"name": "Map Tier",
+						"values": [
+							[
+								"6",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 1
+					}
+				],
+				"implicitMods": [
+					"Area is infested with Fungal Growths\nMap's Item Quantity Modifiers also affect Blight Chest count at 25% value\nCan be Anointed up to 3 times",
+					"Natural inhabitants of this area have been removed"
+				],
+				"descrText": "Travel to this Map by using it in a personal Map Device. Maps can only be used once.",
+				"frameType": 0,
+				"extended": {
+					"mods": {
+						"implicit": [
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "implicit.stat_299373046",
+										"min": "1",
+										"max": "1"
+									},
+									{
+										"hash": "implicit.stat_2656027173",
+										"min": "1",
+										"max": "1"
+									}
+								]
+							}
+						]
+					},
+					"hashes": {
+						"implicit": [
+							[
+								"implicit.stat_299373046",
+								[
+									0
+								]
+							],
+							[
+								"implicit.stat_2656027173",
+								[
+									0
+								]
+							]
+						]
+					},
+					"text": "SXRlbSBDbGFzczogTWFwcw0KUmFyaXR5OiBOb3JtYWwNCkJsaWdodGVkIEFuY2llbnQgQ2l0eSBNYXANCi0tLS0tLS0tDQpNYXAgVGllcjogNg0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDc0DQotLS0tLS0tLQ0KTW9uc3RlciBMZXZlbDogNzMNCi0tLS0tLS0tDQpBcmVhIGlzIGluZmVzdGVkIHdpdGggRnVuZ2FsIEdyb3d0aHMgKGltcGxpY2l0KQpNYXAncyBJdGVtIFF1YW50aXR5IE1vZGlmaWVycyBhbHNvIGFmZmVjdCBCbGlnaHQgQ2hlc3QgY291bnQgYXQgMjUlIHZhbHVlIChpbXBsaWNpdCkKQ2FuIGJlIEFub2ludGVkIHVwIHRvIDMgdGltZXMgKGltcGxpY2l0KQ0KTmF0dXJhbCBpbmhhYml0YW50cyBvZiB0aGlzIGFyZWEgaGF2ZSBiZWVuIHJlbW92ZWQgKGltcGxpY2l0KQ0KLS0tLS0tLS0NClRyYXZlbCB0byB0aGlzIE1hcCBieSB1c2luZyBpdCBpbiBhIHBlcnNvbmFsIE1hcCBEZXZpY2UuIE1hcHMgY2FuIG9ubHkgYmUgdXNlZCBvbmNlLg0K"
+				}
+			}
+		},
+		{
+			"id": "d1adac630153453bbf25d5217167d8d2d1adc03ff99a82fba75fb0299e83cf5a",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-07-27T23:40:53Z",
+				"stash": {
+					"name": "~price 1 chaos - Oils",
+					"x": 19,
+					"y": 0
+				},
+				"whisper": "@Fuk_d Hi, I would like to buy your Blight-ravaged Palace Map (T15) listed for 1 chaos in Mercenaries (stash tab \"~price 1 chaos - Oils\"; position: left 20, top 1)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI4NGMzNDZmMDU4OGRlMDAwYjdhNWQ0YWY5N2Q0MDNmNCIsImlzcyI6IlhPajQwMGRGUCIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6IkZ1a19kIiwibG9jIjoiZW5fVVMiLCJ0b2siOiJpdGVtIiwic3ViIjoiZDFhZGFjNjMwMTUzNDUzYmJmMjVkNTIxNzE2N2Q4ZDJkMWFkYzAzZmY5OWE4MmZiYTc1ZmIwMjk5ZTgzY2Y1YSIsImRhdCI6ImUxMDM4MmEyN2VkZWVhMjc2NGQ2MGU4MGRhNjlkNTEyIiwiaWF0IjoxNzU1MDIyNDA3LCJleHAiOjE3NTUwMjI3MDd9.Puxws_VTxk3OT03ndXxnVeOl-yMAKYxgVbrgXHwqRUo",
+				"account": {
+					"name": "D3ecoy#7413",
+					"online": {
+						"league": "Mercenaries"
+					},
+					"lastCharacterName": "Fuk_d",
+					"language": "en_US",
+					"realm": "pc"
+				},
+				"price": {
+					"type": "~price",
+					"amount": 1,
+					"currency": "chaos"
+				}
+			},
+			"item": {
+				"verified": true,
+				"w": 1,
+				"h": 1,
+				"icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9BdGxhczJNYXBzL05ldy9QYWxhY2UiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwibW4iOjIyLCJtdCI6MTUsIm11YiI6dHJ1ZX1d/4b459e75d1/Palace.png",
+				"league": "Mercenaries",
+				"id": "d1adac630153453bbf25d5217167d8d2d1adc03ff99a82fba75fb0299e83cf5a",
+				"name": "",
+				"typeLine": "Blight-ravaged Palace Map",
+				"baseType": "Blight-ravaged Palace Map",
+				"rarity": "Normal",
+				"ilvl": 83,
+				"identified": true,
+				"properties": [
+					{
+						"name": "Map Tier",
+						"values": [
+							[
+								"15",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 1
+					}
+				],
+				"implicitMods": [
+					"Monster Level: 85",
+					"200% more Monster Life",
+					"20% increased Monster Movement Speed",
+					"Area is infested with Fungal Growths\nMap's Item Quantity Modifiers also affect Blight Chest count at 50% value\nCan be Anointed up to 9 times",
+					"Natural inhabitants of this area have been removed"
+				],
+				"descrText": "Travel to this Map by using it in a personal Map Device. Maps can only be used once.",
+				"frameType": 0,
+				"extended": {
+					"mods": {
+						"implicit": [
+							{
+								"name": "",
+								"tier": "",
+								"level": 1,
+								"magnitudes": [
+									{
+										"hash": "implicit.stat_284496119",
+										"min": "85",
+										"max": "85"
+									},
+									{
+										"hash": "implicit.stat_95249895",
+										"min": "200",
+										"max": "200"
+									},
+									{
+										"hash": "implicit.stat_2306522833",
+										"min": "20",
+										"max": "20"
+									},
+									{
+										"hash": "implicit.stat_299373046",
+										"min": "9",
+										"max": "9"
+									},
+									{
+										"hash": "implicit.stat_2656027173",
+										"min": "1",
+										"max": "1"
+									}
+								]
+							}
+						]
+					},
+					"hashes": {
+						"implicit": [
+							[
+								"implicit.stat_284496119",
+								[
+									0
+								]
+							],
+							[
+								"implicit.stat_95249895",
+								[
+									0
+								]
+							],
+							[
+								"implicit.stat_2306522833",
+								[
+									0
+								]
+							],
+							[
+								"implicit.stat_299373046",
+								[
+									0
+								]
+							],
+							[
+								"implicit.stat_2656027173",
+								[
+									0
+								]
+							]
+						]
+					},
+					"text": "SXRlbSBDbGFzczogTWFwcw0KUmFyaXR5OiBOb3JtYWwNCkJsaWdodC1yYXZhZ2VkIFBhbGFjZSBNYXANCi0tLS0tLS0tDQpNYXAgVGllcjogMTUNCi0tLS0tLS0tDQpJdGVtIExldmVsOiA4Mw0KLS0tLS0tLS0NCk1vbnN0ZXIgTGV2ZWw6IDg1DQotLS0tLS0tLQ0KTW9uc3RlciBMZXZlbDogODUgKGltcGxpY2l0KQ0KMjAwJSBtb3JlIE1vbnN0ZXIgTGlmZSAoaW1wbGljaXQpDQoyMCUgaW5jcmVhc2VkIE1vbnN0ZXIgTW92ZW1lbnQgU3BlZWQgKGltcGxpY2l0KQ0KQXJlYSBpcyBpbmZlc3RlZCB3aXRoIEZ1bmdhbCBHcm93dGhzIChpbXBsaWNpdCkKTWFwJ3MgSXRlbSBRdWFudGl0eSBNb2RpZmllcnMgYWxzbyBhZmZlY3QgQmxpZ2h0IENoZXN0IGNvdW50IGF0IDUwJSB2YWx1ZSAoaW1wbGljaXQpCkNhbiBiZSBBbm9pbnRlZCB1cCB0byA5IHRpbWVzIChpbXBsaWNpdCkNCk5hdHVyYWwgaW5oYWJpdGFudHMgb2YgdGhpcyBhcmVhIGhhdmUgYmVlbiByZW1vdmVkIChpbXBsaWNpdCkNCi0tLS0tLS0tDQpUcmF2ZWwgdG8gdGhpcyBNYXAgYnkgdXNpbmcgaXQgaW4gYSBwZXJzb25hbCBNYXAgRGV2aWNlLiBNYXBzIGNhbiBvbmx5IGJlIHVzZWQgb25jZS4NCg=="
+				}
+			}
+		}
+	]
+}

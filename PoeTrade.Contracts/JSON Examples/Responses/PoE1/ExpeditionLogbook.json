@@ -1,0 +1,391 @@
+{
+    "result": [
+        {
+            "id": "3fa15e8dead10a45c2fe653d4340c9dd452bd4f3e7ec0fc0f63f6b9fd801b734",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2025-08-12T03:09:55Z",
+                "stash": {
+                    "name": "sell",
+                    "x": 9,
+                    "y": 7
+                },
+                "whisper": "@gaslightingwomen Hi, I would like to buy your Lonely Lands Expedition Logbook listed for 10 chaos in Mercenaries (stash tab \"sell\"; position: left 10, top 8)",
+                "whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJmMGE4YWE3NzM3ZGU1YjdhNjJiNzQ3ZTlkNGZjNDUzNCIsImlzcyI6Ijh6MHl6eUdjViIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6Imdhc2xpZ2h0aW5nd29tZW4iLCJsb2MiOiJlbl9VUyIsInRvayI6Iml0ZW0iLCJzdWIiOiIzZmExNWU4ZGVhZDEwYTQ1YzJmZTY1M2Q0MzQwYzlkZDQ1MmJkNGYzZTdlYzBmYzBmNjNmNmI5ZmQ4MDFiNzM0IiwiZGF0IjoiYTk1ZDcxYTc0YThjYTc2OTJmODQwZjQxNjllMjI1M2EiLCJpYXQiOjE3NTUwMjE5NjMsImV4cCI6MTc1NTAyMjI2M30.-QzDbGkz3DrLwvEXc3QYhjzv9NruVVaKAElY2QobhDw",
+                "account": {
+                    "name": "haaaaayy#4109",
+                    "online": {
+                        "league": "Mercenaries"
+                    },
+                    "lastCharacterName": "gaslightingwomen",
+                    "language": "en_US",
+                    "realm": "pc"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 10,
+                    "currency": "chaos"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 1,
+                "h": 1,
+                "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9FeHBlZGl0aW9uQ2hyb25pY2xlMyIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/2802fe605e/ExpeditionChronicle3.png",
+                "league": "Mercenaries",
+                "id": "3fa15e8dead10a45c2fe653d4340c9dd452bd4f3e7ec0fc0f63f6b9fd801b734",
+                "name": "Lonely Lands",
+                "typeLine": "Expedition Logbook",
+                "baseType": "Expedition Logbook",
+                "rarity": "Rare",
+                "ilvl": 68,
+                "identified": true,
+                "note": "~price 10 chaos",
+                "properties": [
+                    {
+                        "name": "Item Quantity",
+                        "values": [
+                            [
+                                "+49%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 2
+                    },
+                    {
+                        "name": "Item Rarity",
+                        "values": [
+                            [
+                                "+30%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 3
+                    },
+                    {
+                        "name": "Monster Pack Size",
+                        "values": [
+                            [
+                                "+19%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 4
+                    },
+                    {
+                        "name": "Area Level",
+                        "values": [
+                            [
+                                "68",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 34
+                    }
+                ],
+                "logbookMods": [
+                    {
+                        "name": "Dried Riverbed",
+                        "faction": {
+                            "id": "Faction1",
+                            "name": "Druids of the Broken Circle"
+                        },
+                        "mods": [
+                            "34% increased quantity of Artifacts dropped by Monsters",
+                            "Area contains 27% increased number of Runic Monster Markers",
+                            "Area contains 34% increased number of Monster Markers"
+                        ]
+                    },
+                    {
+                        "name": "Desert Ruins",
+                        "faction": {
+                            "id": "Faction2",
+                            "name": "Black Scythe Mercenaries"
+                        },
+                        "mods": [
+                            "19% increased quantity of Artifacts dropped by Monsters",
+                            "16% increased number of Explosives",
+                            "Area contains 23% increased number of Remnants"
+                        ]
+                    },
+                    {
+                        "name": "Vaal Temple",
+                        "faction": {
+                            "id": "Faction1",
+                            "name": "Druids of the Broken Circle"
+                        },
+                        "mods": [
+                            "39% increased quantity of Artifacts dropped by Monsters",
+                            "22% increased Explosive Placement Range",
+                            "Area contains 17% increased number of Monster Markers"
+                        ]
+                    }
+                ],
+                "explicitMods": [
+                    "Area has patches of desecrated ground",
+                    "Monsters have 30% increased Accuracy Rating",
+                    "Monsters gain 20% of Maximum Life as Extra Maximum Energy Shield",
+                    "Players gain 30% reduced Flask Charges",
+                    "Players have -10% to amount of Suppressed Spell Damage Prevented"
+                ],
+                "descrText": "Take this item to Dannig in your Hideout to open portals to an expedition.",
+                "frameType": 2,
+                "extended": {
+                    "mods": {
+                        "implicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_4219583418",
+                                        "min": "10",
+                                        "max": "40"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "",
+                                "tier": "",
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_1640965354",
+                                        "min": "10",
+                                        "max": "40"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "",
+                                "tier": "",
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_1915989164",
+                                        "min": "10",
+                                        "max": "40"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "",
+                                "tier": "",
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_4219583418",
+                                        "min": "10",
+                                        "max": "40"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "",
+                                "tier": "",
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_3051490307",
+                                        "min": "10",
+                                        "max": "40"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "",
+                                "tier": "",
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_2991413918",
+                                        "min": "10",
+                                        "max": "40"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "",
+                                "tier": "",
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_1539368271",
+                                        "min": "20",
+                                        "max": "50"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "",
+                                "tier": "",
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_4219583418",
+                                        "min": "10",
+                                        "max": "40"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "",
+                                "tier": "",
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_1915989164",
+                                        "min": "10",
+                                        "max": "40"
+                                    }
+                                ]
+                            }
+                        ],
+                        "explicit": [
+                            {
+                                "name": "Buffered",
+                                "tier": "P3",
+                                "level": 68,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2887760183",
+                                        "min": "20",
+                                        "max": "29"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of Desecration",
+                                "tier": "S3",
+                                "level": 68,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3577222856",
+                                        "min": "10000",
+                                        "max": "10000"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of Drought",
+                                "tier": "S3",
+                                "level": 68,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2549889921",
+                                        "min": "30",
+                                        "max": "30"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of Miring",
+                                "tier": "S3",
+                                "level": 68,
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1588049749",
+                                        "min": "30",
+                                        "max": "30"
+                                    },
+                                    {
+                                        "hash": "explicit.stat_286947568",
+                                        "min": "-10",
+                                        "max": "-10"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "implicit": [
+                            [
+                                "implicit.stat_4219583418",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "implicit.stat_1640965354",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "implicit.stat_1915989164",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "implicit.stat_4219583418",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "implicit.stat_3051490307",
+                                [
+                                    4
+                                ]
+                            ],
+                            [
+                                "implicit.stat_2991413918",
+                                [
+                                    5
+                                ]
+                            ],
+                            [
+                                "implicit.stat_4219583418",
+                                [
+                                    7
+                                ]
+                            ],
+                            [
+                                "implicit.stat_1539368271",
+                                [
+                                    6
+                                ]
+                            ],
+                            [
+                                "implicit.stat_1915989164",
+                                [
+                                    8
+                                ]
+                            ]
+                        ],
+                        "explicit": [
+                            [
+                                "explicit.stat_3577222856",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1588049749",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2887760183",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2549889921",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_286947568",
+                                [
+                                    3
+                                ]
+                            ]
+                        ]
+                    },
+                    "text": "SXRlbSBDbGFzczogRXhwZWRpdGlvbiBMb2dib29rcw0KUmFyaXR5OiBSYXJlDQpMb25lbHkgTGFuZHMNCkV4cGVkaXRpb24gTG9nYm9vaw0KLS0tLS0tLS0NCkl0ZW0gUXVhbnRpdHk6ICs0OSUgKGF1Z21lbnRlZCkNCkl0ZW0gUmFyaXR5OiArMzAlIChhdWdtZW50ZWQpDQpNb25zdGVyIFBhY2sgU2l6ZTogKzE5JSAoYXVnbWVudGVkKQ0KQXJlYSBMZXZlbDogNjgNCi0tLS0tLS0tDQpJdGVtIExldmVsOiA2OA0KLS0tLS0tLS0NCkRyaWVkIFJpdmVyYmVkDQpEcnVpZHMgb2YgdGhlIEJyb2tlbiBDaXJjbGUNCjM0JSBpbmNyZWFzZWQgcXVhbnRpdHkgb2YgQXJ0aWZhY3RzIGRyb3BwZWQgYnkgTW9uc3RlcnMgKGltcGxpY2l0KQ0KQXJlYSBjb250YWlucyAyNyUgaW5jcmVhc2VkIG51bWJlciBvZiBSdW5pYyBNb25zdGVyIE1hcmtlcnMgKGltcGxpY2l0KQ0KQXJlYSBjb250YWlucyAzNCUgaW5jcmVhc2VkIG51bWJlciBvZiBNb25zdGVyIE1hcmtlcnMgKGltcGxpY2l0KQ0KLS0tLS0tLS0NCkRlc2VydCBSdWlucw0KQmxhY2sgU2N5dGhlIE1lcmNlbmFyaWVzDQoxOSUgaW5jcmVhc2VkIHF1YW50aXR5IG9mIEFydGlmYWN0cyBkcm9wcGVkIGJ5IE1vbnN0ZXJzIChpbXBsaWNpdCkNCjE2JSBpbmNyZWFzZWQgbnVtYmVyIG9mIEV4cGxvc2l2ZXMgKGltcGxpY2l0KQ0KQXJlYSBjb250YWlucyAyMyUgaW5jcmVhc2VkIG51bWJlciBvZiBSZW1uYW50cyAoaW1wbGljaXQpDQotLS0tLS0tLQ0KVmFhbCBUZW1wbGUNCkRydWlkcyBvZiB0aGUgQnJva2VuIENpcmNsZQ0KMzklIGluY3JlYXNlZCBxdWFudGl0eSBvZiBBcnRpZmFjdHMgZHJvcHBlZCBieSBNb25zdGVycyAoaW1wbGljaXQpDQoyMiUgaW5jcmVhc2VkIEV4cGxvc2l2ZSBQbGFjZW1lbnQgUmFuZ2UgKGltcGxpY2l0KQ0KQXJlYSBjb250YWlucyAxNyUgaW5jcmVhc2VkIG51bWJlciBvZiBNb25zdGVyIE1hcmtlcnMgKGltcGxpY2l0KQ0KLS0tLS0tLS0NCkFyZWEgaGFzIHBhdGNoZXMgb2YgZGVzZWNyYXRlZCBncm91bmQNCk1vbnN0ZXJzIGhhdmUgMzAlIGluY3JlYXNlZCBBY2N1cmFjeSBSYXRpbmcNCk1vbnN0ZXJzIGdhaW4gMjAlIG9mIE1heGltdW0gTGlmZSBhcyBFeHRyYSBNYXhpbXVtIEVuZXJneSBTaGllbGQNClBsYXllcnMgZ2FpbiAzMCUgcmVkdWNlZCBGbGFzayBDaGFyZ2VzDQpQbGF5ZXJzIGhhdmUgLTEwJSB0byBhbW91bnQgb2YgU3VwcHJlc3NlZCBTcGVsbCBEYW1hZ2UgUHJldmVudGVkDQotLS0tLS0tLQ0KVGFrZSB0aGlzIGl0ZW0gdG8gRGFubmlnIGluIHlvdXIgSGlkZW91dCB0byBvcGVuIHBvcnRhbHMgdG8gYW4gZXhwZWRpdGlvbi4NCi0tLS0tLS0tDQpOb3RlOiB+cHJpY2UgMTAgY2hhb3MNCg=="
+                }
+            }
+        }
+    ]
+}

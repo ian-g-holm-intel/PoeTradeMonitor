@@ -1,0 +1,65 @@
+syntax = "proto3";
+
+package poe_trade.contracts;
+
+import "google/protobuf/wrappers.proto";
+import "Proto/item_properties.proto";
+import "Proto/item_extended.proto";
+
+option csharp_namespace = "PoeTrade.Contracts.Proto";
+
+// Main trade item
+message TradeItem {
+  google.protobuf.StringValue realm = 1;
+  bool verified = 2;
+  int32 width = 3;
+  int32 height = 4;
+  string icon = 5;
+  google.protobuf.BoolValue support = 6;
+  google.protobuf.Int32Value stack_size = 7;
+  google.protobuf.Int32Value max_stack_size = 8;
+  string league = 9;
+  string id = 10;
+  repeated SocketInfo sockets = 11;
+  string name = 12;
+  string type_line = 13;
+  string base_type = 14;
+  string rarity = 15;
+  int32 item_level = 16;
+  bool identified = 17;
+  google.protobuf.StringValue note = 18;
+  google.protobuf.BoolValue corrupted = 19;
+  google.protobuf.BoolValue synthesised = 20;
+  google.protobuf.BoolValue duplicated = 21;
+  google.protobuf.BoolValue split = 22;
+  google.protobuf.BoolValue fractured = 23;
+  google.protobuf.BoolValue is_relic = 24;
+  google.protobuf.Int32Value foil_variation = 25;
+  repeated ItemProperty properties = 26;
+  repeated ItemProperty requirements = 27;
+  repeated ItemProperty support_gem_requirements = 28;
+  repeated GrantedSkill granted_skills = 29;
+  repeated string enchant_mods = 30;
+  repeated string implicit_mods = 31;
+  repeated string explicit_mods = 32;
+  repeated string crafted_mods = 33;
+  repeated string rune_mods = 34;
+  repeated string fractured_mods = 35;
+  repeated string flavour_text = 36;
+  int32 frame_type = 37;
+  ItemExtended extended = 38;
+  repeated TradeItem socketed_items = 39;
+  google.protobuf.StringValue secondary_description_text = 40;
+  repeated GemTab gem_tabs = 41;
+  google.protobuf.StringValue description_text = 42;
+  google.protobuf.Int32Value socket = 43;
+}
+
+// Socket information
+message SocketInfo {
+  int32 group = 1;
+  google.protobuf.StringValue attr = 2;
+  google.protobuf.StringValue s_colour = 3;
+  google.protobuf.StringValue type = 4;
+  google.protobuf.StringValue item = 5;
+}

@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0-windows</TargetFramework>
+		<PlatformTarget>x64</PlatformTarget>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="Element\**" />
+		<EmbeddedResource Remove="Element\**" />
+		<None Remove="Element\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\PoeLib\PoeLib.csproj" />
+		<ProjectReference Include="..\PrivateExileApi\ExileApi\Core\Core.csproj" />
+		<ProjectReference Include="..\PrivateExileApi\GameOffsets\GameOffsets.csproj" />
+	</ItemGroup>
+
+</Project>

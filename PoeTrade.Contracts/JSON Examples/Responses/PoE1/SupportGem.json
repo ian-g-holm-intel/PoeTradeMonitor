@@ -1,0 +1,138 @@
+{
+	"result": [
+		{
+			"id": "9f1f44784140cf9f77a4ea08376d41cd496899ecf51f35d4f67baff322af553f",
+			"listing": {
+				"method": "psapi",
+				"indexed": "2025-08-12T17:29:29Z",
+				"stash": {
+					"name": "6",
+					"x": 6,
+					"y": 11
+				},
+				"whisper": "@GT_COC Hi, I would like to buy your level 5 10% Awakened Multistrike Support listed for 195 divine in Mercenaries (stash tab \"6\"; position: left 7, top 12)",
+				"whisper_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI4YjZkMzMwNmUxNmE4NzFhNmRhNThlYmJmNDY5OWMwMiIsImlzcyI6Ild2VmJ6MEtDbSIsImF1ZCI6ImM4YzZjNmM0LWY0ZmYtNGZlOS04MzAwLTA4MDAzNGViNDEwMSIsImRzdCI6IkdUX0NPQyIsImxvYyI6ImVuX1VTIiwidG9rIjoiaXRlbSIsInN1YiI6IjlmMWY0NDc4NDE0MGNmOWY3N2E0ZWEwODM3NmQ0MWNkNDk2ODk5ZWNmNTFmMzVkNGY2N2JhZmYzMjJhZjU1M2YiLCJkYXQiOiJhZjgxMTljNjBjN2IyNWVkZWFkYjBjZDcxOGJkNzgxMCIsImlhdCI6MTc1NTAyMTEwNiwiZXhwIjoxNzU1MDIxNDA2fQ.gmnWiV17IPqNQgTBZ7Qbsm8mzMG0_QoOceuXUJ-JxLQ",
+				"account": {
+					"name": "jasom006258#3018",
+					"online": {
+						"league": "Mercenaries",
+						"status": "afk"
+					},
+					"lastCharacterName": "GT_COC",
+					"language": "en_US",
+					"realm": "pc"
+				},
+				"price": {
+					"type": "~price",
+					"amount": 195,
+					"currency": "divine"
+				}
+			},
+			"item": {
+				"verified": true,
+				"w": 1,
+				"h": 1,
+				"icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+				"support": true,
+				"league": "Mercenaries",
+				"id": "9f1f44784140cf9f77a4ea08376d41cd496899ecf51f35d4f67baff322af553f",
+				"name": "",
+				"typeLine": "Awakened Multistrike Support",
+				"baseType": "Awakened Multistrike Support",
+				"ilvl": 0,
+				"identified": true,
+				"note": "~price 195 divine",
+				"corrupted": true,
+				"properties": [
+					{
+						"name": "Attack, Melee, Support",
+						"values": [],
+						"displayMode": 0
+					},
+					{
+						"name": "Level",
+						"values": [
+							[
+								"5 (Max)",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 5
+					},
+					{
+						"name": "Cost & Reservation Multiplier",
+						"values": [
+							[
+								"150%",
+								0
+							]
+						],
+						"displayMode": 0
+					},
+					{
+						"name": "Quality",
+						"values": [
+							[
+								"+10%",
+								1
+							]
+						],
+						"displayMode": 0,
+						"type": 6
+					}
+				],
+				"requirements": [
+					{
+						"name": "Level",
+						"values": [
+							[
+								"80",
+								0
+							]
+						],
+						"displayMode": 0,
+						"type": 62
+					},
+					{
+						"name": "Str",
+						"values": [
+							[
+								"79",
+								0
+							]
+						],
+						"displayMode": 1,
+						"type": 63
+					},
+					{
+						"name": "Dex",
+						"values": [
+							[
+								"55",
+								0
+							]
+						],
+						"displayMode": 1,
+						"type": 64
+					}
+				],
+				"secDescrText": "Supports melee attack skills, making them repeat three times when used, targeting a random enemy each time. Cannot support Vaal skills, channelling skills, travel skills, retaliation skills or triggered skills.",
+				"explicitMods": [
+					"Supported Skills Repeat 3 additional times",
+					"Supported Skills have 47% more Melee Attack Speed",
+					"Supported Skills deal 20% less Attack Damage",
+					"Supported Skills deal 5% increased Melee Damage",
+					"First Repeat of Supported Skills deals 22% more Damage",
+					"Second Repeat of Supported Skills deals 44% more Damage",
+					"Third Repeat of Supported Skills deals 66% more Damage"
+				],
+				"descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Skill Gem you wish to augment. Right click to remove from a socket.",
+				"frameType": 4,
+				"extended": {
+					"text": "SXRlbSBDbGFzczogU3VwcG9ydCBHZW1zDQpSYXJpdHk6IEdlbQ0KQXdha2VuZWQgTXVsdGlzdHJpa2UgU3VwcG9ydA0KLS0tLS0tLS0NCkF0dGFjaywgTWVsZWUsIFN1cHBvcnQNCkxldmVsOiA1IChNYXgpDQpDb3N0ICYgUmVzZXJ2YXRpb24gTXVsdGlwbGllcjogMTUwJQ0KUXVhbGl0eTogKzEwJSAoYXVnbWVudGVkKQ0KLS0tLS0tLS0NClJlcXVpcmVtZW50czoNCkxldmVsOiA4MA0KU3RyOiA3OQ0KRGV4OiA1NQ0KLS0tLS0tLS0NClN1cHBvcnRzIG1lbGVlIGF0dGFjayBza2lsbHMsIG1ha2luZyB0aGVtIHJlcGVhdCB0aHJlZSB0aW1lcyB3aGVuIHVzZWQsIHRhcmdldGluZyBhIHJhbmRvbSBlbmVteSBlYWNoIHRpbWUuIENhbm5vdCBzdXBwb3J0IFZhYWwgc2tpbGxzLCBjaGFubmVsbGluZyBza2lsbHMsIHRyYXZlbCBza2lsbHMsIHJldGFsaWF0aW9uIHNraWxscyBvciB0cmlnZ2VyZWQgc2tpbGxzLg0KLS0tLS0tLS0NClN1cHBvcnRlZCBTa2lsbHMgUmVwZWF0IDMgYWRkaXRpb25hbCB0aW1lcw0KU3VwcG9ydGVkIFNraWxscyBoYXZlIDQ3JSBtb3JlIE1lbGVlIEF0dGFjayBTcGVlZA0KU3VwcG9ydGVkIFNraWxscyBkZWFsIDIwJSBsZXNzIEF0dGFjayBEYW1hZ2UNClN1cHBvcnRlZCBTa2lsbHMgZGVhbCA1JSBpbmNyZWFzZWQgTWVsZWUgRGFtYWdlDQpGaXJzdCBSZXBlYXQgb2YgU3VwcG9ydGVkIFNraWxscyBkZWFscyAyMiUgbW9yZSBEYW1hZ2UNClNlY29uZCBSZXBlYXQgb2YgU3VwcG9ydGVkIFNraWxscyBkZWFscyA0NCUgbW9yZSBEYW1hZ2UNClRoaXJkIFJlcGVhdCBvZiBTdXBwb3J0ZWQgU2tpbGxzIGRlYWxzIDY2JSBtb3JlIERhbWFnZQ0KLS0tLS0tLS0NClRoaXMgaXMgYSBTdXBwb3J0IEdlbS4gSXQgZG9lcyBub3QgZ3JhbnQgYSBib251cyB0byB5b3VyIGNoYXJhY3RlciwgYnV0IHRvIHNraWxscyBpbiBzb2NrZXRzIGNvbm5lY3RlZCB0byBpdC4gUGxhY2UgaW50byBhbiBpdGVtIHNvY2tldCBjb25uZWN0ZWQgdG8gYSBzb2NrZXQgY29udGFpbmluZyB0aGUgU2tpbGwgR2VtIHlvdSB3aXNoIHRvIGF1Z21lbnQuIFJpZ2h0IGNsaWNrIHRvIHJlbW92ZSBmcm9tIGEgc29ja2V0Lg0KLS0tLS0tLS0NCkNvcnJ1cHRlZA0KLS0tLS0tLS0NCk5vdGU6IH5wcmljZSAxOTUgZGl2aW5lDQo="
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net9.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+		<ApplicationIcon>exalted.ico</ApplicationIcon>
+		<StartupObject>PoeTradeMonitor.GUI.Program</StartupObject>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CommunityToolkit.Mvvm" />
+		<PackageReference Include="Grpc.AspNetCore" />
+		<PackageReference Include="Nito.AsyncEx" />
+		<PackageReference Include="Serilog.AspNetCore" />
+		<PackageReference Include="TestableIO.System.IO.Abstractions.Wrappers" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\PoeAuthenticator\PoeAuthenticator.csproj" />
+		<ProjectReference Include="..\PoeLib\PoeLib.csproj" />
+		<ProjectReference Include="..\PoeTrade.Contracts\PoeTrade.Contracts.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Remove="exalted.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Resource Include="exalted.ico">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="alert.wav">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>
