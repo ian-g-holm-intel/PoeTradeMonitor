@@ -1,5 +1,7 @@
 # PoeTradeMonitor
 
+> **⚠️ Important Notice:** This project depends on a private repository that is not included in this public repository. The application will not run without access to these private dependencies. This repository is provided for reference and educational purposes only.
+
 A comprehensive C# .NET 9.0 Windows application suite for Path of Exile trading automation, featuring real-time monitoring, intelligent price validation, and advanced automation capabilities.
 
 ## Overview
@@ -71,7 +73,6 @@ Core shared library containing essential functionality for POE API interactions 
 - **PoeAuthenticator** - Secure authentication and session management
 - **PoeHudWrapper** - Game overlay integration and memory access
 - **PoeCrafter** - Item crafting simulation and optimization tools
-- **OffsetFinder** - Memory offset discovery for game integration
 
 ## 🛠️ Technology Stack
 
@@ -212,8 +213,6 @@ dotnet test PoeTradeMonitor.Service.Tests/PoeTradeMonitor.Service.Tests.csproj
 ## 🔒 Security & Privacy
 
 ### Data Protection
-- **Local Encryption**: Sensitive data encrypted at rest
-- **Secure Communication**: TLS encryption for all external APIs
 - **No Data Collection**: No user data transmitted to third parties
 - **Credential Management**: Secure storage of authentication tokens
 
@@ -223,26 +222,6 @@ dotnet test PoeTradeMonitor.Service.Tests/PoeTradeMonitor.Service.Tests.csproj
 - **Error Handling**: Graceful degradation during service outages
 - **Audit Logging**: Complete audit trail for security analysis
 
-## 🤝 Contributing
-
-We welcome contributions from the community! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on:
-
-- Code standards and style guide
-- Testing requirements and procedures
-- Pull request process and review criteria
-- Issue reporting and feature requests
-
-### Development Workflow
-1. Fork the repository
-2. Create a feature branch
-3. Implement changes with tests
-4. Ensure all tests pass
-5. Submit a pull request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - **Path of Exile** by Grinding Gear Games
@@ -250,24 +229,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **PoeWatch** for alternative price sources
 - **ExileAPI** community for game integration insights
 - **AutoIt** team for Windows automation capabilities
-
-## 📞 Support & Community
-
-- **Issues**: Report bugs and request features on [GitHub Issues](https://github.com/your-repo/PoeTradeMonitor/issues)
-- **Documentation**: Comprehensive guides available in the [Wiki](https://github.com/your-repo/PoeTradeMonitor/wiki)
-- **Community**: Join discussions on [Discord](https://discord.gg/your-invite)
-
-## 🔄 Version History
-
-### Current Version: 2.0.0
-- Complete rewrite for .NET 9.0
-- Enhanced automation capabilities
-- Improved UI responsiveness
-- Advanced price validation
-- Multi-source price fetching
-
-See [CHANGELOG.md](CHANGELOG.md) for detailed version history and migration guides.
-
----
-
-**Note**: This application is designed for legitimate game enhancement and automation. Please ensure compliance with Path of Exile's Terms of Service and use responsibly.
