@@ -124,18 +124,6 @@ public class MainWindowViewModelTests
     }
 
     [TestMethod]
-    public void LeagueList_SetValue_ShouldUpdateCorrectly()
-    {
-        var leagues = new ObservableCollection<string> { "Standard", "Hardcore", "League1", "League2" };
-
-        viewModel.LeagueList = leagues;
-
-        Assert.AreEqual(4, viewModel.LeagueList.Count);
-        Assert.IsTrue(viewModel.LeagueList.Contains("Standard"));
-        Assert.IsTrue(viewModel.LeagueList.Contains("Hardcore"));
-    }
-
-    [TestMethod]
     public void ServiceLocation_GetSet_ShouldUpdateSettings()
     {
         viewModel.ServiceLocation = ServiceLocation.Remote;
@@ -210,15 +198,6 @@ public class MainWindowViewModelTests
         Assert.IsFalse(poeSettings.PriceLoggerEnabled);
         Assert.IsFalse(viewModel.PriceLoggerEnabled);
         mockPoePriceChecker.Verify(x => x.Stop(), Times.Once);
-    }
-
-    [TestMethod]
-    public void SelectedLeague_GetSet_ShouldUpdateSettings()
-    {
-        viewModel.SelectedLeague = "Hardcore";
-
-        Assert.AreEqual("Hardcore", poeSettings.League);
-        Assert.AreEqual("Hardcore", viewModel.SelectedLeague);
     }
 
     [TestMethod]
@@ -308,12 +287,12 @@ public class MainWindowViewModelTests
     public async Task OpenSearchInBrowserCommand_WithValidSearchID_ShouldOpenBrowser()
     {
         var searchItem = new SearchGuiItem("Test Item") { SearchID = "test-search-id" };
-        viewModel.SelectedLeague = "Standard";
+        poeSettings.League = "Dawn%20of%20the%20Hunt";
 
         await viewModel.OpenSearchInBrowserCommand.ExecuteAsync(searchItem);
 
         mockBrowserService.Verify(x => x.OpenUrlAsync(It.Is<string>(url => 
-            url.Contains("test-search-id") && url.Contains("Standard"))), Times.Once);
+            url.Contains("test-search-id") && url.Contains("Dawn%20of%20the%20Hunt"))), Times.Once);
     }
 
     [TestMethod]
@@ -400,7 +379,9 @@ public class MainWindowViewModelTests
     [TestMethod]
     public async Task ReloadDataCommand_ShouldUpdateCurrencyData()
     {
-        viewModel.SelectedLeague = "Standard";
+        poeSettings.League = "Dawn%20of%20the%20Hunt";
+        var mockCurrencies = new Dictionary<TradeCurrencyType, CurrencyInfo>();
+        mockTradeBotClient.Setup(x => x.GetCurrencyAsync(It.IsAny<string>())).ReturnsAsync(mockCurrencies);
         mockCurrencyCache.Setup(x => x.GetCurrencyCount()).Returns(1000);
         mockCurrencyPriceCache.Setup(x => x.ContainsPrice(TradeCurrencyType.Divine)).Returns(true);
         mockCurrencyPriceCache.Setup(x => x.GetPrice(TradeCurrencyType.Divine))
@@ -408,8 +389,8 @@ public class MainWindowViewModelTests
 
         await viewModel.ReloadDataCommand.ExecuteAsync(null);
 
-        mockCurrencyPriceRetriever.Verify(x => x.GetCurrencyPrices("Standard"), Times.Once);
-        mockCurrencyCache.Verify(x => x.UpdateCurrenciesAsync("Standard"), Times.Once);
+        mockCurrencyPriceRetriever.Verify(x => x.GetCurrencyPrices("Dawn%20of%20the%20Hunt"), Times.Once);
+        mockCurrencyCache.Verify(x => x.UpdateCurrencies(mockCurrencies), Times.Once);
         Assert.AreEqual(1000, viewModel.BaseCurrencyCount);
         Assert.AreEqual(200m, viewModel.DivineRateDecimal);
     }

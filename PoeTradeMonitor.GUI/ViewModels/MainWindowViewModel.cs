@@ -226,7 +226,7 @@ public partial class MainWindowViewModel : ObservableObject
     private async Task OpenSearchInBrowser(SearchGuiItem searchGuiItem)
     {
         ArgumentNullException.ThrowIfNull(searchGuiItem);
-
+        
         if (string.IsNullOrWhiteSpace(searchGuiItem.SearchID))
         {
             logger.LogWarning("Cannot open search in browser: SearchID is null or empty");
@@ -234,7 +234,7 @@ public partial class MainWindowViewModel : ObservableObject
         }
 
         var url = $"https://www.pathofexile.com/trade2/search/poe2/{poeSettings.League}/{searchGuiItem.SearchID}";
-
+        
         try
         {
             await browserService.OpenUrlAsync(url);
