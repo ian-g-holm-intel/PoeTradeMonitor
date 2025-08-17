@@ -1,5 +1,5 @@
 using PoeTradeMonitor.GUI.Models;
-using PoeTrade.Contracts;
+using PoeTradeMonitor.GUI.Services;
 
 namespace PoeTradeMonitor.GUI.Tests;
 

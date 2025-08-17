@@ -1,15 +1,22 @@
-﻿<Window x:Class="PoeTradeMonitor.GUI.Views.MainWindow"
+﻿<mah:MetroWindow x:Class="PoeTradeMonitor.GUI.Views.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
         xmlns:System="clr-namespace:System;assembly=mscorlib"
         xmlns:poeLib="clr-namespace:PoeLib.Common;assembly=PoeLib"
         xmlns:local="clr-namespace:PoeTradeMonitor.GUI.Common"
         mc:Ignorable="d"
-        Title="PoeTradeMonitor" Height="700" Width="1850" Icon="../exalted.ico" Loaded="Window_Loaded">
-    <Window.Resources>
+        Title="PoeTradeMonitor" Height="700" Width="1650" MinWidth="1500" BorderThickness="0" TitleForeground="White" OverrideDefaultWindowCommandsBrush="White" Foreground="White" Background="#2D2D30" Icon="../exalted.ico" Loaded="Window_Loaded">
+    <mah:MetroWindow.Resources>
         <BooleanToVisibilityConverter x:Key="boolToVis" />
+        <!-- Override MahApps brushes for dark theme -->
+
+        <SolidColorBrush x:Key="MahApps.Brushes.ComboBox.PopupBorder" Color="#484848"/>
+        <SolidColorBrush x:Key="MahApps.Brushes.Accent" Color="#007ACC"/>
+        <SolidColorBrush x:Key="MahApps.Brushes.WindowTitle" Color="#1B2224"/>
+        <SolidColorBrush x:Key="MahApps.Brushes.WindowTitle.Foreground" Color="White"/>
         <ObjectDataProvider x:Key="serviceLocation" MethodName="GetValues" ObjectType="{x:Type System:Enum}">
             <ObjectDataProvider.MethodParameters>
                 <x:Type TypeName="poeLib:ServiceLocation"/>
@@ -26,7 +33,7 @@
             <Setter Property="Tag" Value="{Binding DataContext, RelativeSource={RelativeSource AncestorType=DataGrid}}"/>
             <Setter Property="ContextMenu">
                 <Setter.Value>
-                    <ContextMenu>
+                    <ContextMenu Foreground="White" Background="#3F3F46">
                         <MenuItem Header="Enable"
                               Command="{Binding PlacementTarget.Tag.EnableSearchItemCommand, RelativeSource={RelativeSource AncestorType=ContextMenu}}"
                               CommandParameter="{Binding PlacementTarget.DataContext, RelativeSource={RelativeSource AncestorType=ContextMenu}}"/>
@@ -46,203 +53,289 @@
                 </Setter.Value>
             </Setter>
         </Style>
-    </Window.Resources>
-    <Window.InputBindings>
+    </mah:MetroWindow.Resources>
+    <mah:MetroWindow.InputBindings>
         <KeyBinding Key="R" Modifiers="Control" Command="{Binding ReloadDataCommand, IsAsync=True}" />
         <KeyBinding Key="Q" Modifiers="Control" Command="{Binding ExitCommand}" />
-    </Window.InputBindings>
+    </mah:MetroWindow.InputBindings>
     <Grid Margin="5">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="250"/>
-            <ColumnDefinition Width="130"/>
-            <ColumnDefinition />
-        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto" />
             <RowDefinition />
-            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <Menu Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3">
-            <MenuItem Header="_File">
-                <MenuItem Header="_Reload Data" InputGestureText="Ctrl+R" Command="{Binding ReloadDataCommand}" />
-                <Separator />
-                <MenuItem Header="_Quit" InputGestureText="Ctrl+Q" Command="{Binding ExitCommand}" />
-            </MenuItem>
-            <MenuItem Header="_Settings">
-                <MenuItem>
-                    <MenuItem.Header>
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock VerticalAlignment="Center" Margin="0,0,5,0">Service Location:</TextBlock>
-                            <ComboBox Width="120" ItemsSource="{Binding Source={StaticResource serviceLocation}}" SelectedItem="{Binding ServiceLocation, Mode=TwoWay}" />
-                        </StackPanel>
-                    </MenuItem.Header>
+        <Border Grid.Row="0" Margin="0,0,0,5">
+            <Menu Foreground="White" Height="Auto" Padding="0,2,0,2">
+                <Menu.Resources>
+                    <Style x:Key="DarkComboBoxItemStyle" TargetType="ComboBoxItem">
+                        <Setter Property="Background" Value="#2D2D30"/>
+                        <Setter Property="Foreground" Value="White"/>
+                        <Setter Property="Padding" Value="4,2"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="ComboBoxItem">
+                                    <Border x:Name="Bd" Background="{TemplateBinding Background}" SnapsToDevicePixels="true">
+                                        <ContentPresenter
+                                            Margin="2,0,0,0"
+                                            VerticalAlignment="Center"
+                                            HorizontalAlignment="Left"
+                                            RecognizesAccessKey="True" />
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsHighlighted" Value="True">
+                                            <Setter TargetName="Bd" Property="Background" Value="#484848"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                    <Style x:Key="DarkComboBoxStyle" TargetType="{x:Type ComboBox}" BasedOn="{StaticResource MahApps.Styles.ComboBox}">
+                        <Setter Property="Foreground" Value="White"/>
+                        <Setter Property="FontSize" Value="14"/>
+                    </Style>
+                </Menu.Resources>
+
+                <MenuItem Header="_File" Height="20" Width="Auto" Background="#2D2D30">
+                    <MenuItem Header="_Reload Data" InputGestureText="Ctrl+R" Command="{Binding ReloadDataCommand}" />
+                    <Separator />
+                    <MenuItem Header="_Quit" InputGestureText="Ctrl+Q" Command="{Binding ExitCommand}" />
                 </MenuItem>
-                <MenuItem Header="_AntiAFK Enabled" IsCheckable="True" IsChecked="{Binding AntiAFKEnabled, Mode=TwoWay}" />
-                <MenuItem Header="_Price Logger Enabled" IsCheckable="True" IsChecked="{Binding PriceLoggerEnabled, Mode=TwoWay}" />
-                <MenuItem Header="_Auto-Reply" IsCheckable="True" IsChecked="{Binding AutoreplyEnabled, Mode=TwoWay}" Command="{Binding AutoReplyUpdatedCommand}" />
-                <MenuItem Header="_Alerts Enabled" IsCheckable="True" IsChecked="{Binding AlertsEnabled, Mode=TwoWay}" />
-                <MenuItem Header="_Unattended Mode Enabled" IsCheckable="True" IsChecked="{Binding UnattendedModeEnabled, Mode=TwoWay}" />
-                <MenuItem Header="_Running" IsCheckable="True" IsChecked="{Binding Running, Mode=TwoWay}" />
-            </MenuItem>
-        </Menu>
-        <TextBlock Grid.Column="0" Grid.Row="1" FontSize="16">
-            <Run Text="Searches: "/>
-            <Run Text="{Binding EnabledSearchCount, Mode=OneWay}"/>
-        </TextBlock>
-        <TextBlock Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" FontSize="16">New Items</TextBlock>
-        <DataGrid Grid.Column="0" Grid.Row="2" Margin="0,0,5,0" IsReadOnly="True" AutoGenerateColumns="False" CanUserAddRows="False" CanUserResizeColumns="False" CanUserResizeRows="False" RowStyle="{StaticResource CustomDataGridRowStyle}" CurrentItem="{Binding CurrentSearchItem, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding SelectedSearchItem, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" ItemsSource="{Binding SearchList}" FontSize="14" GridLinesVisibility="None" SelectionMode="Single" SelectionUnit="FullRow" RowHeaderWidth="0">
-            <DataGrid.ContextMenu>
-                <ContextMenu>
-                    <MenuItem Header="Clear" Command="{Binding ClearSearchItemCommand}" />
-                </ContextMenu>
-            </DataGrid.ContextMenu>
-            <DataGrid.ColumnHeaderStyle>
-                <Style TargetType="DataGridColumnHeader">
-                    <Setter Property="BorderThickness" Value="0,0,0,1"/>
-                    <Setter Property="BorderBrush" Value="DarkGray"/>
-                </Style>
-            </DataGrid.ColumnHeaderStyle>
-            <DataGrid.CellStyle>
-                <Style TargetType="DataGridCell">
-                    <Setter Property="BorderThickness" Value="0,0,1,0"/>
-                    <Setter Property="BorderBrush" Value="DarkGray"/>
-                    <Setter Property="Foreground" Value="Black" />
-                    <Style.Triggers>
-                        <Trigger Property="IsSelected" Value="True">
-                            <Setter Property="Background" Value="{x:Null}" />
-                            <Setter Property="BorderBrush" Value="DarkGray" />
-                        </Trigger>
-                    </Style.Triggers>
-                </Style>
-            </DataGrid.CellStyle>
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*">
-                    <DataGridTextColumn.CellStyle>
-                        <Style TargetType="DataGridCell">
-                            <Style.Triggers>
-                                <DataTrigger Binding="{Binding Enabled}" Value="True">
-                                    <Setter Property="Foreground" Value="Black" />
-                                    <Setter Property="Background" Value="Green"/>
-                                    <Setter Property="BorderThickness" Value="0,0,0,1" />
-                                    <Setter Property="BorderBrush" Value="DarkGray"/>
-                                </DataTrigger>
-                                <DataTrigger Binding="{Binding Enabled}" Value="False">
-                                    <Setter Property="Foreground" Value="Black" />
-                                    <Setter Property="Background" Value="OrangeRed"/>
-                                    <Setter Property="BorderThickness" Value="0,0,0,1" />
-                                    <Setter Property="BorderBrush" Value="DarkGray"/>
-                                </DataTrigger>
-                            </Style.Triggers>
-                        </Style>
-                    </DataGridTextColumn.CellStyle>
-                </DataGridTextColumn>
-                <DataGridTextColumn Header="Price" Binding="{Binding OfferPrice, StringFormat='{}{0}'}" Width="80" />
-            </DataGrid.Columns>
-        </DataGrid>
-        <Button Grid.Column="0" Grid.Row="3" FontSize="14" Margin="0,5,5,0" Content="Add Search" Command="{Binding AddSearchCommand}" />
-        <DataGrid Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="2" Name="searchItemsGrid" IsReadOnly="True" AutoGenerateColumns="False" CanUserResizeColumns="False" CanUserResizeRows="False" CanUserAddRows="False" SelectedItem="{Binding SelectedStashGuiItem, Mode=TwoWay}" ItemsSource="{Binding StashGuiItems, Mode=TwoWay}" FontSize="14" GridLinesVisibility="None" RowHeaderWidth="0">
-            <DataGrid.Resources>
-                <ContextMenu x:Key="stashItemContextMenu">
-                    <MenuItem Header="Buy" 
-                  Command="{Binding PlacementTarget.Tag.BuyStashGuiItemCommand, RelativeSource={RelativeSource AncestorType=ContextMenu}}" 
-                  CommandParameter="{Binding PlacementTarget.DataContext, RelativeSource={RelativeSource AncestorType=ContextMenu}}"/>
-                    <MenuItem Header="Ignore Account" 
-                  Command="{Binding PlacementTarget.Tag.IgnoreAccountCommand, RelativeSource={RelativeSource AncestorType=ContextMenu}}" 
-                  CommandParameter="{Binding PlacementTarget.DataContext, RelativeSource={RelativeSource AncestorType=ContextMenu}}"/>
-                    <MenuItem Header="Clear" 
-                  Command="{Binding PlacementTarget.Tag.ClearStashGuiItemsCommand, RelativeSource={RelativeSource AncestorType=ContextMenu}}"/>
-                </ContextMenu>
-            </DataGrid.Resources>
-            <DataGrid.ContextMenu>
-                <ContextMenu>
-                    <MenuItem Header="Clear" Command="{Binding ClearStashGuiItemsCommand}" />
-                </ContextMenu>
-            </DataGrid.ContextMenu>
-            <DataGrid.ColumnHeaderStyle>
-                <Style TargetType="DataGridColumnHeader">
-                    <Setter Property="BorderThickness" Value="0,0,0,1"/>
-                    <Setter Property="BorderBrush" Value="DarkGray"/>
-                </Style>
-            </DataGrid.ColumnHeaderStyle>
-            <DataGrid.RowStyle>
-                <Style TargetType="DataGridRow">
-                    <Setter Property="BorderThickness" Value="0,0,0,1" />
-                    <Setter Property="BorderBrush" Value="DarkGray"/>
-                    <Setter Property="Tag" Value="{Binding DataContext, RelativeSource={RelativeSource AncestorType=DataGrid}}"/>
-                    <Setter Property="ContextMenu" Value="{StaticResource stashItemContextMenu}" />
-                </Style>
-            </DataGrid.RowStyle>
-            <DataGrid.CellStyle>
-                <Style TargetType="DataGridCell">
-                    <Setter Property="BorderThickness" Value="0,0,1,0"/>
-                    <Setter Property="BorderBrush" Value="DarkGray"/>
-                    <Setter Property="Foreground" Value="Black" />
-                    <Style.Triggers>
-                        <Trigger Property="IsSelected" Value="True">
-                            <Setter Property="Background" Value="{x:Null}" />
-                            <Setter Property="BorderBrush" Value="DarkGray" />
-                        </Trigger>
-                    </Style.Triggers>
-                </Style>
-            </DataGrid.CellStyle>
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="Timestamp" Width="Auto" MinWidth="160" Binding="{Binding Timestamp}" />
-                <DataGridTextColumn Header="Name" Width="Auto" MinWidth="240" Binding="{Binding Name}" />
-                <DataGridTextColumn Header="Price" Width="Auto" MinWidth="90" Binding="{Binding Price}" />
-                <DataGridTextColumn Header="Rarity" Width="Auto" MinWidth="90" Binding="{Binding Rarity}" />
-                <DataGridTextColumn Header="Sockets" Width="Auto" MinWidth="60" Binding="{Binding NumSockets}" />
-                <DataGridTextColumn Header="iLvl" Width="Auto" MinWidth="50" Binding="{Binding ItemLevel}" />
-                <DataGridTextColumn Header="Mods" Width="*" MinWidth="280" Binding="{Binding ExplicitModsDisplayString}">
-                    <DataGridTextColumn.ElementStyle>
-                        <Style>
-                            <Setter Property="TextBlock.TextWrapping" Value="Wrap" />
-                        </Style>
-                    </DataGridTextColumn.ElementStyle>
-                </DataGridTextColumn>
-                <DataGridTextColumn Header="Character" Width="Auto" MinWidth="130" Binding="{Binding Character}" />
-                <DataGridTextColumn Header="Account" Width="Auto" MinWidth="130" Binding="{Binding Account}" />
-                <DataGridTemplateColumn Header="Buy" MinWidth="80">
-                    <DataGridTemplateColumn.CellTemplate>
-                        <DataTemplate>
-                            <Button Content="Execute" IsEnabled="{Binding ExecuteEnabled}" Command="{Binding DataContext.ExecuteCommandCommand, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type DataGrid}}}" CommandParameter="{Binding}" />
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>
-            </DataGrid.Columns>
-        </DataGrid>
-        <Grid Grid.Column="2" Grid.Row="1" HorizontalAlignment="Left">
-            <DockPanel>
-                <Grid DockPanel.Dock="Left">
-                    <TextBox Background="Green" Width="120" FontSize="14" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalAlignment="Center" Visibility="{Binding Connected, Mode=TwoWay, Converter={StaticResource boolToVis}}">Connected</TextBox>
-                    <TextBox Background="OrangeRed" Width="120" FontSize="14" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalAlignment="Center" Visibility="{Binding Disconnected, Converter={StaticResource boolToVis}}">Disconnected</TextBox>
+
+                <MenuItem Header="_Settings" Height="20" Width="Auto" Background="#2D2D30">
+                    <MenuItem>
+                        <MenuItem.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock VerticalAlignment="Center" Margin="0,0,5,0">League:</TextBlock>
+                                <ComboBox Width="120" 
+                                  ItemsSource="{Binding LeagueList}" 
+                                  SelectedItem="{Binding SelectedLeague, Mode=TwoWay}" 
+                                  Style="{StaticResource DarkComboBoxStyle}"
+                                  ItemContainerStyle="{StaticResource DarkComboBoxItemStyle}"/>
+                            </StackPanel>
+                        </MenuItem.Header>
+                    </MenuItem>
+                    <MenuItem>
+                        <MenuItem.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock VerticalAlignment="Center" Margin="0,0,5,0">Service Location:</TextBlock>
+                                <ComboBox Width="120" 
+                                  ItemsSource="{Binding Source={StaticResource serviceLocation}}" 
+                                  SelectedItem="{Binding ServiceLocation, Mode=TwoWay}" 
+                                  Style="{StaticResource DarkComboBoxStyle}"
+                                  ItemContainerStyle="{StaticResource DarkComboBoxItemStyle}"/>
+                            </StackPanel>
+                        </MenuItem.Header>
+                    </MenuItem>
+
+                    <MenuItem Header="_AntiAFK Enabled" IsCheckable="True" IsChecked="{Binding AntiAFKEnabled, Mode=TwoWay}" />
+                    <MenuItem Header="_Price Logger Enabled" IsCheckable="True" IsChecked="{Binding PriceLoggerEnabled, Mode=TwoWay}" />
+                    <MenuItem Header="_Auto-Reply" IsCheckable="True" IsChecked="{Binding AutoreplyEnabled, Mode=TwoWay}" Command="{Binding AutoReplyUpdatedCommand}" />
+                    <MenuItem Header="_Alerts Enabled" IsCheckable="True" IsChecked="{Binding AlertsEnabled, Mode=TwoWay}" />
+                    <MenuItem Header="_Unattended Mode Enabled" IsCheckable="True" IsChecked="{Binding UnattendedModeEnabled, Mode=TwoWay}" />
+                    <MenuItem Header="_Running" IsCheckable="True" IsChecked="{Binding Running, Mode=TwoWay}" />
+                </MenuItem>
+            </Menu> 
+        </Border>
+        <Border Grid.Row="1" Background="#484848" Padding="5" Margin="0,0,0,5">
+            <StackPanel Orientation="Horizontal">
+                <Grid>
+                    <TextBox Background="Green" BorderThickness="0" Width="120" Foreground="White" FontSize="14" HorizontalContentAlignment="Center"  VerticalContentAlignment="Center" Visibility="{Binding Connected, Mode=TwoWay, Converter={StaticResource boolToVis}}">Connected</TextBox>
+                    <TextBox Background="OrangeRed" BorderThickness="0" Width="120" Foreground="White" FontSize="14" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Visibility="{Binding Disconnected, Converter={StaticResource boolToVis}}">Disconnected</TextBox>
                 </Grid>
-                <StackPanel DockPanel.Dock="Left" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="50,0,0,0">
-                    <TextBlock FontSize="14" Margin="0,0,5,0">Connected Time:</TextBlock>
-                    <TextBlock FontSize="14" Text="{Binding ConnectedDuration}" />
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="60,0,0,0">
+                    <TextBlock FontSize="14" Foreground="White" Margin="0,0,5,0">Currency:</TextBlock>
+                    <TextBlock  HorizontalAlignment="Center" Foreground="White" FontSize="14" Text="{Binding DivineCount, StringFormat={}{0}div}" Margin="0,0,5,0" />
+                    <TextBlock  HorizontalAlignment="Center" Foreground="White" FontSize="14" Text="{Binding BaseCurrencyCount, StringFormat={}({0}ex)}" />
                 </StackPanel>
-                <StackPanel DockPanel.Dock="Left" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="80,0,0,0">
-                    <TextBlock FontSize="14" Margin="0,0,5,0">Currency:</TextBlock>
-                    <TextBlock  HorizontalAlignment="Center" FontSize="14" Text="{Binding DivineCount, StringFormat={}{0}div}" Margin="0,0,5,0" />
-                    <TextBlock  HorizontalAlignment="Center" FontSize="14" Text="{Binding BaseCurrencyCount, StringFormat={}({0}ex)}" />
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="60,0,0,0">
+                    <TextBlock FontSize="14" Foreground="White" Margin="0,0,5,0">Divine Rate:</TextBlock>
+                    <TextBlock  HorizontalAlignment="Center" FontSize="14" Foreground="White" Text="{Binding DivineRate, StringFormat={}{0}:1}"/>
                 </StackPanel>
-                <StackPanel DockPanel.Dock="Left" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="80,0,0,0">
-                    <TextBlock FontSize="14" Margin="0,0,5,0">Divine Rate:</TextBlock>
-                    <TextBlock  HorizontalAlignment="Center" FontSize="14" Text="{Binding DivineRate, StringFormat={}{0}:1}"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="60,0,0,0">
+                    <TextBlock FontSize="14" Foreground="White" Margin="0,0,5,0">ItemsPerHour:</TextBlock>
+                    <TextBlock  HorizontalAlignment="Center" FontSize="14" Foreground="White" Text="{Binding StatisticsManager.TotalProcessedItemsPerHour, FallbackValue=0}"/>
                 </StackPanel>
-                <StackPanel DockPanel.Dock="Left" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="80,0,0,0">
-                    <TextBlock FontSize="14" Margin="0,0,5,0">ItemsPerHour:</TextBlock>
-                    <TextBlock  HorizontalAlignment="Center" FontSize="14" Text="{Binding StatisticsManager.TotalProcessedItemsPerHour, FallbackValue=0}"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="60,0,0,0">
+                    <TextBlock FontSize="14" Foreground="White" Margin="0,0,5,0">ItemCount:</TextBlock>
+                    <TextBlock  HorizontalAlignment="Center" FontSize="14" Foreground="White" Text="{Binding StatisticsManager.TotalProcessedItems}"/>
                 </StackPanel>
-                <StackPanel DockPanel.Dock="Left" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="80,0,0,0">
-                    <TextBlock FontSize="14" Margin="0,0,5,0">ItemCount:</TextBlock>
-                    <TextBlock  HorizontalAlignment="Center" FontSize="14" Text="{Binding StatisticsManager.TotalProcessedItems}"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="60,0,0,0">
+                    <TextBlock FontSize="14" Foreground="White" Margin="0,0,5,0">ItemBacklog:</TextBlock>
+                    <TextBlock  HorizontalAlignment="Center" FontSize="14" Foreground="White" Text="{Binding StatisticsManager.ItemBacklog}"/>
                 </StackPanel>
-                <StackPanel DockPanel.Dock="Left" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="80,0,0,0">
-                    <TextBlock FontSize="14" Margin="0,0,5,0">ItemBacklog:</TextBlock>
-                    <TextBlock  HorizontalAlignment="Center" FontSize="14" Text="{Binding StatisticsManager.ItemBacklog}"/>
-                </StackPanel>
-            </DockPanel>
+            </StackPanel>
+        </Border>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250" />
+                <ColumnDefinition Width="5" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" Padding="10" Background="#3F3F46">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Foreground="White" Text="Search Configuration" FontSize="18" />
+                    <TextBlock Grid.Row="1" Foreground="White" FontSize="16" Margin="0,0,0,2">
+                        <Run Text="Active Searches: " FontSize="12" />
+                        <Run Text="{Binding EnabledSearchCount, Mode=OneWay}"/> 
+                    </TextBlock>
+                    <DataGrid Grid.Row="2" Background="#3F3F46" BorderThickness="1" BorderBrush="#484848" IsReadOnly="True" AutoGenerateColumns="False" CanUserAddRows="False" CanUserResizeColumns="False" CanUserResizeRows="False" RowStyle="{StaticResource CustomDataGridRowStyle}" CurrentItem="{Binding CurrentSearchItem, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding SelectedSearchItem, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" ItemsSource="{Binding SearchList}" FontSize="14" GridLinesVisibility="None" SelectionMode="Single" SelectionUnit="FullRow" RowHeaderWidth="0">
+                        <DataGrid.ContextMenu>
+                            <ContextMenu Foreground="White" Background="#3F3F46">
+                                <MenuItem Header="Clear" Command="{Binding ClearSearchItemCommand}" />
+                            </ContextMenu>
+                        </DataGrid.ContextMenu>
+                        <DataGrid.ColumnHeaderStyle>
+                            <Style TargetType="DataGridColumnHeader">
+                                <Setter Property="Background" Value="#484848" />
+                                <Setter Property="Foreground" Value="White" />
+                                <Setter Property="BorderThickness" Value="0,0,0,1"/>
+                                <Setter Property="BorderBrush" Value="DarkGray"/>
+                            </Style>
+                        </DataGrid.ColumnHeaderStyle>
+                        <DataGrid.CellStyle>
+                            <Style TargetType="DataGridCell">
+                                <Setter Property="BorderThickness" Value="0,0,1,0"/>
+                                <Setter Property="BorderBrush" Value="DarkGray"/>
+                                <Setter Property="Foreground" Value="White" />
+                                <Setter Property="Background" Value="#3F3F46" />
+                                <Style.Triggers>
+                                    <Trigger Property="IsSelected" Value="True">
+                                        <Setter Property="Background" Value="{x:Null}" />
+                                        <Setter Property="BorderBrush" Value="DarkGray" />
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </DataGrid.CellStyle>
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*">
+                                <DataGridTextColumn.CellStyle>
+                                    <Style TargetType="DataGridCell">
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding Enabled}" Value="True">
+                                                <Setter Property="Foreground" Value="White" />
+                                                <Setter Property="Background" Value="{StaticResource MahApps.Brushes.Accent}"/>
+                                                <Setter Property="BorderThickness" Value="0,0,0,1" />
+                                                <Setter Property="BorderBrush" Value="DarkGray"/>
+                                            </DataTrigger>
+                                            <DataTrigger Binding="{Binding Enabled}" Value="False">
+                                                <Setter Property="Foreground" Value="White" />
+                                                <Setter Property="Background" Value="OrangeRed"/>
+                                                <Setter Property="BorderThickness" Value="0,0,0,1" />
+                                                <Setter Property="BorderBrush" Value="DarkGray"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </DataGridTextColumn.CellStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Header="Price" Binding="{Binding OfferPrice, StringFormat='{}{0}'}" Width="80">
+                                <DataGridTextColumn.CellStyle>
+                                    <Style TargetType="DataGridCell">
+                                        <Setter Property="Foreground" Value="White" />
+                                        <Setter Property="Background" Value="#3F3F46" />
+                                        <Setter Property="BorderThickness" Value="0,0,0,1" />
+                                        <Setter Property="BorderBrush" Value="DarkGray"/>
+                                    </Style>
+                                </DataGridTextColumn.CellStyle>
+                            </DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Button Grid.Row="3" FontSize="14" Margin="0,10,0,0" Foreground="White" Background="{StaticResource MahApps.Brushes.Accent}" Content="Add Search" Command="{Binding AddSearchCommand}" />
+                </Grid>
+            </Border>
+            <Border Grid.Column="2" Padding="10" Background="#3F3F46">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" FontSize="18" Foreground="White" Margin="0,0,0,3">Available Items</TextBlock>
+                    <DataGrid Grid.Row="1" Background="#3F3F46" BorderThickness="1" BorderBrush="#484848" Name="searchItemsGrid" IsReadOnly="True" AutoGenerateColumns="False" CanUserResizeColumns="False" CanUserResizeRows="False" CanUserAddRows="False" SelectedItem="{Binding SelectedStashGuiItem, Mode=TwoWay}" ItemsSource="{Binding StashGuiItems, Mode=TwoWay}" FontSize="14" GridLinesVisibility="None" RowHeaderWidth="0">
+                        <DataGrid.Resources>
+                            <ContextMenu x:Key="stashItemContextMenu">
+                                <MenuItem Header="Buy" 
+                          Command="{Binding PlacementTarget.Tag.BuyStashGuiItemCommand, RelativeSource={RelativeSource AncestorType=ContextMenu}}" 
+                          CommandParameter="{Binding PlacementTarget.DataContext, RelativeSource={RelativeSource AncestorType=ContextMenu}}"/>
+                                <MenuItem Header="Ignore Account" 
+                          Command="{Binding PlacementTarget.Tag.IgnoreAccountCommand, RelativeSource={RelativeSource AncestorType=ContextMenu}}" 
+                          CommandParameter="{Binding PlacementTarget.DataContext, RelativeSource={RelativeSource AncestorType=ContextMenu}}"/>
+                                <MenuItem Header="Clear" 
+                          Command="{Binding PlacementTarget.Tag.ClearStashGuiItemsCommand, RelativeSource={RelativeSource AncestorType=ContextMenu}}"/>
+                            </ContextMenu>
+                        </DataGrid.Resources>
+                        <DataGrid.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem Header="Clear" Command="{Binding ClearStashGuiItemsCommand}" />
+                            </ContextMenu>
+                        </DataGrid.ContextMenu>
+                        <DataGrid.ColumnHeaderStyle>
+                            <Style TargetType="DataGridColumnHeader">
+                                <Setter Property="Background" Value="#484848" />
+                                <Setter Property="Foreground" Value="White" />
+                                <Setter Property="BorderThickness" Value="0,0,0,1"/>
+                                <Setter Property="BorderBrush" Value="DarkGray"/>
+                            </Style>
+                        </DataGrid.ColumnHeaderStyle>
+                        <DataGrid.RowStyle>
+                            <Style TargetType="DataGridRow">
+                                <Setter Property="BorderThickness" Value="0,0,0,1" />
+                                <Setter Property="BorderBrush" Value="DarkGray"/>
+                                <Setter Property="Tag" Value="{Binding DataContext, RelativeSource={RelativeSource AncestorType=DataGrid}}"/>
+                                <Setter Property="ContextMenu" Value="{StaticResource stashItemContextMenu}" />
+                            </Style>
+                        </DataGrid.RowStyle>
+                        <DataGrid.CellStyle>
+                            <Style TargetType="DataGridCell">
+                                <Setter Property="BorderThickness" Value="0,0,1,0"/>
+                                <Setter Property="BorderBrush" Value="DarkGray"/>
+                                <Setter Property="Foreground" Value="White" />
+                                <Setter Property="Background" Value="#3F3F46" />
+                                <Style.Triggers>
+                                    <Trigger Property="IsSelected" Value="True">
+                                        <Setter Property="Background" Value="{x:Null}" />
+                                        <Setter Property="BorderBrush" Value="DarkGray" />
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </DataGrid.CellStyle>
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Timestamp" Width="Auto" MinWidth="155" Binding="{Binding Timestamp}" />
+                            <DataGridTextColumn Header="Name" Width="Auto" MinWidth="180" Binding="{Binding Name}" />
+                            <DataGridTextColumn Header="Price" Width="Auto" MinWidth="90" Binding="{Binding Price}" />
+                            <DataGridTextColumn Header="Rarity" Width="Auto" MinWidth="90" Binding="{Binding Rarity}" />
+                            <DataGridTextColumn Header="Sockets" Width="Auto" MinWidth="60" Binding="{Binding NumSockets}" />
+                            <DataGridTextColumn Header="Mods" Width="*" MinWidth="270" Binding="{Binding ExplicitModsDisplayString}">
+                                <DataGridTextColumn.ElementStyle>
+                                    <Style>
+                                        <Setter Property="TextBlock.TextWrapping" Value="Wrap" />
+                                    </Style>
+                                </DataGridTextColumn.ElementStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Header="Character" MinWidth="130" Binding="{Binding Character}" />
+                            <DataGridTextColumn Header="Account" Width="Auto" MinWidth="130" Binding="{Binding Account}" />
+                            <DataGridTemplateColumn Header="Buy" MinWidth="100">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button Content="Execute" 
+                                                IsEnabled="{Binding ExecuteEnabled}" 
+                                                Command="{Binding DataContext.ExecuteCommandCommand, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type DataGrid}}}" 
+                                                CommandParameter="{Binding}" 
+                                                Background="{StaticResource MahApps.Brushes.Accent}" 
+                                                Foreground="White" 
+                                                Height="Auto" Margin="5" />
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </Border>
         </Grid>
     </Grid>
-</Window>
+</mah:MetroWindow>
