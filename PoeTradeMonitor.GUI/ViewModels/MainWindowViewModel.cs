@@ -92,42 +92,6 @@ public partial class MainWindowViewModel : ObservableObject
 
             cookieMonitorService.Start();
 
-            do
-            {
-                var response = await poeHttpClient.GetLeagues();
-                if (response.StatusCode != HttpStatusCode.OK)
-                {
-                    logger.LogError($"Failed to retrieve league list, Status: {response.StatusCode}");
-                }
-
-                var leagueList = await response.Content.ReadFromJsonAsync<List<League>>();
-                if (leagueList != null)
-                    LeagueList = new ObservableCollection<string>(leagueList.Select(league => league.Name));
-            } while (LeagueList.Count == 0);
-
-            if (string.IsNullOrEmpty(SelectedLeague))
-            {
-                if (LeagueList.Count > 8)
-                {
-                    SelectedLeague = LeagueList[9];
-                }
-                else if (LeagueList.Count > 4)
-                {
-                    SelectedLeague = LeagueList[4];
-                }
-                else
-                {
-                    SelectedLeague = LeagueList[0];
-                }
-            }
-            else
-            {
-                if (!LeagueList.Contains(SelectedLeague))
-                {
-                    SelectedLeague = LeagueList[0];
-                }
-            }
-
             IgnoredAccounts = poeSettings.IgnoredAccounts;
 
             tradeRequestScheduler.AlertsEnabled = AlertsEnabled;
@@ -262,15 +226,15 @@ public partial class MainWindowViewModel : ObservableObject
     private async Task OpenSearchInBrowser(SearchGuiItem searchGuiItem)
     {
         ArgumentNullException.ThrowIfNull(searchGuiItem);
-        
+
         if (string.IsNullOrWhiteSpace(searchGuiItem.SearchID))
         {
             logger.LogWarning("Cannot open search in browser: SearchID is null or empty");
             return;
         }
 
-        var url = $"https://www.pathofexile.com/trade/search/{SelectedLeague}/{searchGuiItem.SearchID}";
-        
+        var url = $"https://www.pathofexile.com/trade2/search/poe2/{poeSettings.League}/{searchGuiItem.SearchID}";
+
         try
         {
             await browserService.OpenUrlAsync(url);
@@ -349,8 +313,9 @@ public partial class MainWindowViewModel : ObservableObject
     [RelayCommand]
     private async Task ReloadData()
     {
-        await currencyPriceRetriever.GetCurrencyPrices(SelectedLeague);
-        await currencyCache.UpdateCurrenciesAsync(SelectedLeague);
+        await currencyPriceRetriever.GetCurrencyPrices(poeSettings.League);
+        var currencies = await tradeBotClient.GetCurrencyAsync(ServiceLocation.ToString());
+        currencyCache.UpdateCurrencies(currencies);
         BaseCurrencyCount = currencyCache.GetCurrencyCount();
         if (currencyPriceCache.ContainsPrice(TradeCurrencyType.Divine))
         {
@@ -389,24 +354,6 @@ public partial class MainWindowViewModel : ObservableObject
     [ObservableProperty]
     [NotifyPropertyChangedFor(nameof(Disconnected))]
     private bool connected;
-
-    // Complex properties that need custom logic
-    private ObservableCollection<string> leagueList = new ObservableCollection<string>();
-    public ObservableCollection<string> LeagueList
-    {
-        get => leagueList ?? (leagueList = new ObservableCollection<string>());
-        set
-        {
-            var currentLeague = poeSettings.League;
-            leagueList.Clear();
-            foreach (var item in value)
-                leagueList.Add(item);
-            OnPropertyChanged();
-
-            if (!string.IsNullOrEmpty(currentLeague))
-                SelectedLeague = currentLeague;
-        }
-    }
 
     public ServiceLocation ServiceLocation
     {
@@ -478,12 +425,6 @@ public partial class MainWindowViewModel : ObservableObject
                     poePriceChecker.Stop();
             }
         }
-    }
-
-    public string SelectedLeague
-    {
-        get => poeSettings.League;
-        set => SetProperty(poeSettings.League, value, poeSettings, (settings, val) => settings.League = val);
     }
 
     public int DivineRate => Convert.ToInt32(DivineRateDecimal);
