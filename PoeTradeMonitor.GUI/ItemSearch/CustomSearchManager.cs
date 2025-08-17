@@ -3,6 +3,7 @@ using PoeTrade.Contracts;
 using PoeTradeMonitor.GUI.Clients;
 using PoeTradeMonitor.GUI.Interfaces;
 using PoeTradeMonitor.GUI.Models;
+using PoeTradeMonitor.GUI.Services;
 using PoeTradeMonitor.GUI.Settings;
 using PoeTradeMonitor.GUI.ViewModels;
 using System.Collections.Concurrent;

@@ -375,7 +375,6 @@ public partial class MainWindowViewModel : ObservableObject
     private StashGuiItem? selectedStashGuiItem;
 
     [ObservableProperty]
-    [NotifyPropertyChangedFor(nameof(ConnectedDuration))]
     private DateTime lastDataReceived = DateTime.Now;
 
     [ObservableProperty]
@@ -485,15 +484,6 @@ public partial class MainWindowViewModel : ObservableObject
     {
         get => poeSettings.League;
         set => SetProperty(poeSettings.League, value, poeSettings, (settings, val) => settings.League = val);
-    }
-
-    public string ConnectedDuration
-    {
-        get
-        {
-            var timeConnected = DateTime.Now - LastDataReceived;
-            return Connected ? timeConnected.ToString("m'm's's'") : "0m0s";
-        }
     }
 
     public int DivineRate => Convert.ToInt32(DivineRateDecimal);

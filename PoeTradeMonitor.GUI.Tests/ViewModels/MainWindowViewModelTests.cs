@@ -222,28 +222,6 @@ public class MainWindowViewModelTests
     }
 
     [TestMethod]
-    public void ConnectedDuration_WhenConnected_ShouldReturnFormattedTime()
-    {
-        viewModel.Connected = true;
-        viewModel.LastDataReceived = DateTime.Now.AddMinutes(-5);
-
-        var duration = viewModel.ConnectedDuration;
-
-        Assert.IsTrue(duration.Contains("m"));
-        Assert.IsTrue(duration.Contains("s"));
-    }
-
-    [TestMethod]
-    public void ConnectedDuration_WhenDisconnected_ShouldReturnZero()
-    {
-        viewModel.Connected = false;
-
-        var duration = viewModel.ConnectedDuration;
-
-        Assert.AreEqual("0m0s", duration);
-    }
-
-    [TestMethod]
     public void DivineRate_ShouldReturnIntegerFromDecimal()
     {
         viewModel.DivineRateDecimal = 125.75m;

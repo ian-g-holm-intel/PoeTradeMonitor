@@ -7,13 +7,14 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<UseWPF>true</UseWPF>
 		<ApplicationIcon>exalted.ico</ApplicationIcon>
-		<StartupObject>PoeTradeMonitor.GUI.Program</StartupObject>
 		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Mvvm" />
 		<PackageReference Include="Grpc.AspNetCore" />
+		<PackageReference Include="MahApps.Metro" />
+		<PackageReference Include="MaterialDesignThemes.MahApps" />
 		<PackageReference Include="Nito.AsyncEx" />
 		<PackageReference Include="Serilog.AspNetCore" />
 		<PackageReference Include="TestableIO.System.IO.Abstractions.Wrappers" />
