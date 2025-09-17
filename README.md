@@ -1,6 +1,6 @@
 # PoeTradeMonitor
 
-> **⚠️ Important Notice:** This project depends on a private repository that is not included in this public repository. The application will not run without access to these private dependencies. This repository is provided for reference and educational purposes only.
+> **Important Notice:** This project depends on a private repository that is not included in this public repository. The application will not run without access to these private dependencies. This repository is provided for reference and educational purposes only.
 
 A comprehensive C# .NET 9.0 Windows application suite for Path of Exile trading automation, featuring real-time monitoring, intelligent price validation, and advanced automation capabilities.
 
@@ -8,7 +8,7 @@ A comprehensive C# .NET 9.0 Windows application suite for Path of Exile trading 
 
 PoeTradeMonitor is a sophisticated trading solution designed for Path of Exile players who want to optimize their trading experience through automation and advanced analytics. The system combines a modern WPF desktop interface with a powerful background service to provide seamless trading operations while maintaining game immersion.
 
-## 🚀 Key Features
+## Features
 
 ![PoeTradeMonitor Dashboard](assets/images/PoeTradeMonitor.png)
 
@@ -35,7 +35,7 @@ PoeTradeMonitor is a sophisticated trading solution designed for Path of Exile p
 - **Real-time Updates**: Live data synchronization with minimal latency
 - **Customizable Notifications**: Audio and push notification alerts
 
-## 🏗️ Architecture
+## Architecture
 
 ### Core Components
 
@@ -76,7 +76,7 @@ Core shared library containing essential functionality for POE API interactions 
 - **PoeHudWrapper** - Game overlay integration and memory access
 - **PoeCrafter** - Item crafting simulation and optimization tools
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Core Technologies
 - **.NET 9.0** - Modern cross-platform framework targeting Windows
@@ -98,7 +98,7 @@ Core shared library containing essential functionality for POE API interactions 
 - **PoeWatch API** - Alternative price validation source
 - **Pushover** - Mobile push notification delivery
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - **Windows 10/11** (x64) - Required for game integration
@@ -146,7 +146,7 @@ BRAVE_BROWSER_PATH=C:\Program Files\BraveSoftware\Brave-Browser\Application\brav
    dotnet run --project PoeTradeMonitor.GUI
    ```
 
-## 🎮 Usage
+## Usage
 
 ### Initial Configuration
 1. **Launch Applications**: Start both Service and GUI applications
@@ -168,7 +168,7 @@ BRAVE_BROWSER_PATH=C:\Program Files\BraveSoftware\Brave-Browser\Application\brav
 - **Risk Management**: Configure safety limits and validation rules
 - **Multi-account Support**: Manage multiple POE accounts and characters
 
-## 🔧 Development
+## Development
 
 ### Building from Source
 ```bash
@@ -198,7 +198,7 @@ dotnet test PoeTradeMonitor.Service.Tests/PoeTradeMonitor.Service.Tests.csproj
 - **EditorConfig**: Consistent code style and formatting
 - **Static Analysis**: Automated code quality checks
 
-## 📊 Performance & Scalability
+## Performance & Scalability
 
 ### Optimization Features
 - **Multi-level Caching**: Memory, disk, and network cache layers
@@ -212,7 +212,7 @@ dotnet test PoeTradeMonitor.Service.Tests/PoeTradeMonitor.Service.Tests.csproj
 - **Health Checks**: Service availability monitoring
 - **Error Tracking**: Detailed error reporting and analysis
 
-## 🔒 Security & Privacy
+## Security & Privacy
 
 ### Data Protection
 - **No Data Collection**: No user data transmitted to third parties
@@ -223,11 +223,3 @@ dotnet test PoeTradeMonitor.Service.Tests/PoeTradeMonitor.Service.Tests.csproj
 - **Rate Limiting**: Protection against API abuse and bans
 - **Error Handling**: Graceful degradation during service outages
 - **Audit Logging**: Complete audit trail for security analysis
-
-## 🙏 Acknowledgments
-
-- **Path of Exile** by Grinding Gear Games
-- **PoeNinja** for comprehensive market data
-- **PoeWatch** for alternative price sources
-- **ExileAPI** community for game integration insights
-- **AutoIt** team for Windows automation capabilities
